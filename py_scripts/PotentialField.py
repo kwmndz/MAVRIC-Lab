@@ -111,7 +111,7 @@ if __name__ == '__main__':
     
     # constants for potential field surface graph
     field_size = 10
-    res = 50 # higher res = more detail but more lag
+    res = 100 # higher res = more detail but more lag
     
     ugv_pos, speeds = sim_movement(pos_i, goal_pos, obstacles, num_steps)
     
@@ -119,9 +119,8 @@ if __name__ == '__main__':
     Implementation of plotting functions in Graphs.py
     """
     
-    #plot_speed_time_2d(speeds, len(speeds))
+    #g.plot_speed_time_2d(speeds, len(speeds))
     g.plot_movement_2d(ugv_pos, goal_pos, obstacles)
-    #plot_field_gradient(goal_pos, obstacles, 15, 100)
     g.plot_potential_field_surface(goal_pos, obstacles, field_size, res)
     
     # Allows for all plots to be shown at the same time
