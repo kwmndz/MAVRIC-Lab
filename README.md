@@ -33,6 +33,10 @@
 \mathbf{F} = \mathbf{F}_{att} + \mathbf{F}_{rep}
 ```
 
+## Bayesian Filtering
+[Enhancing_UGV_Path_Planning_using_Dynamic_Bayesian_Filtering_to_Predict_Local_Minima__MECC24_Submitted.pdf](https://github.com/user-attachments/files/17441939/Enhancing_UGV_Path_Planning_using_Dynamic_Bayesian_Filtering_to_Predict_Local_Minima__MECC24_Submitted.pdf)
+
+
 ## Requirements
 - Python == 3.10.15
 - matplotlib == 3.9.2
