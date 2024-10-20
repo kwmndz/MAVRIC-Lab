@@ -7,6 +7,12 @@ class SensorData:
     total_points: int
     recognized_area: float # RA(X_t)
     total_area: float # AOI
+    
+    def __str__(self):
+        return (f"SensorData(occupied_points={self.occupied_points}, "
+                f"total_points={self.total_points}, "
+                f"recognized_area={self.recognized_area}, "
+                f"total_area={self.total_area})")
 
 # Dynamic Bayesian Filter for local minima prediction
 class DBF:
@@ -29,7 +35,7 @@ class DBF:
     # Prediction Step
     def state_transition_probability(self, sensor_data):
         alpha = sensor_data.occupied_points / sensor_data.total_points
-        return alpha / np.pi
+        return alpha + 1
     
     # Calculate observation likelihood P(z_t | X^t_lm = Local Min)
     # sensor_data is of type SensorData
@@ -55,10 +61,11 @@ class DBF:
         correction = self.observation_likelihood(sensor_data)
 
         posterior = prediction * correction * self.belief_prior 
+        print(f"Prediction: {prediction}, Correction: {correction}, Prior: {self.belief_prior}, Posterior: {posterior}")
 
         belief_current = self.normalize(posterior)
         self.belief_prior = belief_current
-
+        print (f"Belief: {belief_current}")
         # returns the current belieft and True if the belief is greater than the threshold, false otherwise
         return belief_current, belief_current >= self.threshold
 

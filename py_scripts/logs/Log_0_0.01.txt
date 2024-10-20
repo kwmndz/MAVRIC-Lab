@@ -1,0 +1,201 @@
+0.058823529411764705
+SensorData(occupied_points=3218, total_points=10000, recognized_area=6.283185307179586, total_area=10.551043530503865)
+Prediction: 1.3218, Correction: 0.5955036853951386, Prior: 0.058823529411764705, Posterior: 0.046302163020899664
+Belief: 0.046302163020899664
+SensorData(occupied_points=3241, total_points=10000, recognized_area=6.283185307179586, total_area=10.414538957915505)
+Prediction: 1.3241, Correction: 0.603309021414154, Prior: 0.046302163020899664, Posterior: 0.036988088215088984
+Belief: 0.036988088215088984
+SensorData(occupied_points=3262, total_points=10000, recognized_area=6.283185307179586, total_area=10.282539569133153)
+Prediction: 1.3262, Correction: 0.611053841800025, Prior: 0.036988088215088984, Posterior: 0.02997439231727117
+Belief: 0.02997439231727117
+SensorData(occupied_points=3281, total_points=10000, recognized_area=6.283185307179586, total_area=10.154939952276223)
+Prediction: 1.3281, Correction: 0.618731901587583, Prior: 0.02997439231727117, Posterior: 0.024631092353099526
+Belief: 0.024631092353099526
+SensorData(occupied_points=3295, total_points=10000, recognized_area=6.283185307179586, total_area=10.031637020480137)
+Prediction: 1.3295, Correction: 0.6263369871090949, Prior: 0.024631092353099526, Posterior: 0.020510680668862653
+Belief: 0.020510680668862653
+SensorData(occupied_points=3308, total_points=10000, recognized_area=6.283185307179586, total_area=9.912529965617184)
+Prediction: 1.3308, Correction: 0.6338629319632404, Prior: 0.020510680668862653, Posterior: 0.017301677814633223
+Belief: 0.017301677814633223
+SensorData(occupied_points=3318, total_points=10000, recognized_area=6.283185307179586, total_area=9.797520213034467)
+Prediction: 1.3317999999999999, Correction: 0.6413036330173154, Prior: 0.017301677814633223, Posterior: 0.014777158488871438
+Belief: 0.014777158488871438
+SensorData(occupied_points=3326, total_points=10000, recognized_area=6.283185307179586, total_area=9.686511377294927)
+Prediction: 1.3326, Correction: 0.6486530663565111, Prior: 0.014777158488871438, Posterior: 0.012773303038401856
+Belief: 0.012773303038401856
+0.07142857142857142
+SensorData(occupied_points=4948, total_points=10000, recognized_area=6.283185307179586, total_area=9.287835280929556)
+Prediction: 1.4948000000000001, Correction: 0.6764962035966194, Prior: 0.07142857142857142, Posterior: 0.07223046608115906
+Belief: 0.07223046608115906
+SensorData(occupied_points=4986, total_points=10000, recognized_area=6.283185307179586, total_area=9.163215414355388)
+Prediction: 1.4986, Correction: 0.6856965620753764, Prior: 0.07223046608115906, Posterior: 0.07422293394825275
+Belief: 0.07422293394825275
+SensorData(occupied_points=5055, total_points=10000, recognized_area=6.283185307179586, total_area=9.042562560169094)
+Prediction: 1.5055, Correction: 0.6948456552411281, Prior: 0.07422293394825275, Posterior: 0.07764387891724153
+Belief: 0.07764387891724153
+SensorData(occupied_points=5146, total_points=10000, recognized_area=6.283185307179586, total_area=8.925785348267135)
+Prediction: 1.5146, Correction: 0.7039364114217034, Prior: 0.07764387891724153, Posterior: 0.08278251300180679
+Belief: 0.08278251300180679
+0.07692307692307693
+SensorData(occupied_points=6701, total_points=10000, recognized_area=6.283185307179586, total_area=8.806610714882062)
+Prediction: 1.6701000000000001, Correction: 0.7134623648757171, Prior: 0.07692307692307693, Posterior: 0.09165796119837964
+Belief: 0.09165796119837964
+SensorData(occupied_points=6757, total_points=10000, recognized_area=6.283185307179586, total_area=8.697526301519398)
+Prediction: 1.6757, Correction: 0.7224106130132607, Prior: 0.09165796119837964, Posterior: 0.1109559458730082
+Belief: 0.1109559458730082
+82 Step
+[ 6.50078607e+00  4.62474526e+00 -1.94035019e-09] Estimated Local Min
+9.32349617011217e-09 Force Magnitude
+188 Iterations
+True Success
+[1.49921393e+00 3.75254740e-01 1.94035019e-09] F_att
+[-1.49921392e+00 -3.75254736e-01 -5.82716118e-09] F_rep
+[[7 3 0]
+ [7 4 0]
+ [7 5 0]] Obstacles in Range
+0.1109559458730082 Belief
+
+
+
+SensorData(occupied_points=6812, total_points=10000, recognized_area=6.283185307179586, total_area=8.59206254847659)
+Prediction: 1.6812, Correction: 0.7312778825491234, Prior: 0.1109559458730082, Posterior: 0.13641194453412273
+Belief: 0.13641194453412273
+83 Step
+[ 6.50078607e+00  4.62474526e+00 -1.94035019e-09] Estimated Local Min
+9.32349617011217e-09 Force Magnitude
+188 Iterations
+True Success
+[1.49921393e+00 3.75254740e-01 1.94035019e-09] F_att
+[-1.49921392e+00 -3.75254736e-01 -5.82716118e-09] F_rep
+[[7 3 0]
+ [7 4 0]
+ [7 5 0]] Obstacles in Range
+0.13641194453412273 Belief
+
+
+
+SensorData(occupied_points=6865, total_points=10000, recognized_area=6.283185307179586, total_area=8.490134112674179)
+Prediction: 1.6865, Correction: 0.7400572504267003, Prior: 0.13641194453412273, Posterior: 0.17025664185931683
+Belief: 0.17025664185931683
+84 Step
+[ 6.50078607e+00  4.62474526e+00 -1.94035019e-09] Estimated Local Min
+9.32349617011217e-09 Force Magnitude
+188 Iterations
+True Success
+[1.49921393e+00 3.75254740e-01 1.94035019e-09] F_att
+[-1.49921392e+00 -3.75254736e-01 -5.82716118e-09] F_rep
+[[7 3 0]
+ [7 4 0]
+ [7 5 0]] Obstacles in Range
+0.17025664185931683 Belief
+
+
+
+SensorData(occupied_points=6916, total_points=10000, recognized_area=6.283185307179586, total_area=8.391657306215407)
+Prediction: 1.6916, Correction: 0.7487418846961077, Prior: 0.17025664185931683, Posterior: 0.21564225660039238
+Belief: 0.21564225660039238
+85 Step
+[ 6.50078607e+00  4.62474526e+00 -1.94035019e-09] Estimated Local Min
+9.32349617011217e-09 Force Magnitude
+188 Iterations
+True Success
+[1.49921393e+00 3.75254740e-01 1.94035019e-09] F_att
+[-1.49921392e+00 -3.75254736e-01 -5.82716118e-09] F_rep
+[[7 3 0]
+ [7 4 0]
+ [7 5 0]] Obstacles in Range
+0.21564225660039238 Belief
+
+
+
+SensorData(occupied_points=6967, total_points=10000, recognized_area=6.283185307179586, total_area=8.29655004688231)
+Prediction: 1.6966999999999999, Correction: 0.7573250654397837, Prior: 0.21564225660039238, Posterior: 0.2770902591114053
+Belief: 0.2770902591114053
+86 Step
+[ 6.50078607e+00  4.62474526e+00 -1.94035019e-09] Estimated Local Min
+9.32349617011217e-09 Force Magnitude
+188 Iterations
+True Success
+[1.49921393e+00 3.75254740e-01 1.94035019e-09] F_att
+[-1.49921392e+00 -3.75254736e-01 -5.82716118e-09] F_rep
+[[7 3 0]
+ [7 4 0]
+ [7 5 0]] Obstacles in Range
+0.2770902591114053 Belief
+
+
+
+SensorData(occupied_points=7039, total_points=10000, recognized_area=6.283185307179586, total_area=8.20473180860616)
+Prediction: 1.7039, Correction: 0.765800205753098, Prior: 0.2770902591114053, Posterior: 0.36156038517949357
+Belief: 0.36156038517949357
+87 Step
+[ 6.50078607e+00  4.62474526e+00 -1.94035019e-09] Estimated Local Min
+9.32349617011217e-09 Force Magnitude
+188 Iterations
+True Success
+[1.49921393e+00 3.75254740e-01 1.94035019e-09] F_att
+[-1.49921392e+00 -3.75254736e-01 -5.82716118e-09] F_rep
+[[7 3 0]
+ [7 4 0]
+ [7 5 0]] Obstacles in Range
+0.36156038517949357 Belief
+
+
+
+SensorData(occupied_points=7132, total_points=10000, recognized_area=6.283185307179586, total_area=8.116123571886463)
+Prediction: 1.7132, Correction: 0.7741608726786746, Prior: 0.36156038517949357, Posterior: 0.4795347935619897
+Belief: 0.4795347935619897
+88 Step
+[ 6.50078607e+00  4.62474526e+00 -1.94035019e-09] Estimated Local Min
+9.32349617011217e-09 Force Magnitude
+188 Iterations
+True Success
+[1.49921393e+00 3.75254740e-01 1.94035019e-09] F_att
+[-1.49921392e+00 -3.75254736e-01 -5.82716118e-09] F_rep
+[[7 3 0]
+ [7 4 0]
+ [7 5 0]] Obstacles in Range
+0.4795347935619897 Belief
+
+
+
+SensorData(occupied_points=7224, total_points=10000, recognized_area=6.283185307179586, total_area=8.030647774144914)
+Prediction: 1.7224, Correction: 0.7824008079906862, Prior: 0.4795347935619897, Posterior: 0.646224517285044
+Belief: 0.646224517285044
+89 Step
+[ 6.50078607e+00  4.62474526e+00 -1.94035019e-09] Estimated Local Min
+9.32349617011217e-09 Force Magnitude
+188 Iterations
+True Success
+[1.49921393e+00 3.75254740e-01 1.94035019e-09] F_att
+[-1.49921392e+00 -3.75254736e-01 -5.82716118e-09] F_rep
+[[7 3 0]
+ [7 4 0]
+ [7 5 0]] Obstacles in Range
+0.646224517285044 Belief
+
+
+
+SensorData(occupied_points=7324, total_points=10000, recognized_area=6.283185307179586, total_area=7.948228260015973)
+Prediction: 1.7324000000000002, Correction: 0.7905139487233297, Prior: 0.646224517285044, Posterior: 0.8849956650008421
+Belief: 0.8849956650008421
+90 Step
+[ 6.50078607e+00  4.62474526e+00 -1.94035019e-09] Estimated Local Min
+9.32349617011217e-09 Force Magnitude
+188 Iterations
+True Success
+[1.49921393e+00 3.75254740e-01 1.94035019e-09] F_att
+[-1.49921392e+00 -3.75254736e-01 -5.82716118e-09] F_rep
+[[7 3 0]
+ [7 4 0]
+ [7 5 0]] Obstacles in Range
+0.8849956650008421 Belief
+
+
+
+Local Min Found
+103 Steps Away
+[ 6.50078607e+00  4.62474526e+00 -1.94035019e-09] Estimated Local Min
+
+
+
