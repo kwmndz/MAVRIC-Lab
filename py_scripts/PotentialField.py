@@ -260,6 +260,7 @@ if __name__ == '__main__':
     ugv_pos, speeds = sim_movement_with_DBF(pos_i, goal_pos, obstacles, num_steps)
     
     sys.stdout.close()
+    sys.stdout = sys.__stdout__
     print('Simulation Done')
     print('Output Logs written to:', log_filename)
     
