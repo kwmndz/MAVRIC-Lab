@@ -6,6 +6,7 @@ from Sensor import Sensor
 from DynamicBayesianFiltering import DBF, SensorData, steps_to_local_min
 import sys
 import os
+import csv
 
 # Constants for Potential Field Algorithm
 K_ATT = 1.0 # Attractive
@@ -221,8 +222,85 @@ def sim_movement_with_DBF(pos_i, goal_pos, obstacles, num_steps):
         
     return np.array(ugv_pos), np.array(speeds)
 
+# Run multiple simulations with randomized starting, goal, and obstacle positions
+# optional parameters to set predefined UGV start and goal positions, and obstacle positions
+# obstacle_csv_path is a path to a CSV file containing obstacle positions
+def run_multiple_simulations(n, grid_size, predef_ugv_pos=None, predef_goal_pos=None, obstacle_csv_path=None):
+    log_dir = './logs/'
+    if not os.path.exists(log_dir):
+        os.makedirs(log_dir)
+    
+    # To track number of runs across all simulations
+    run_index = len([f for f in os.listdir(log_dir) if f.startswith('Log_')])
+
+    for sim_num in range(n):
+        # Set or randomize UGV start and goal positions
+        if predef_ugv_pos is not None:
+            pos_i = np.array(predef_ugv_pos)
+        else:
+            pos_i = np.array([np.random.uniform(0, grid_size), np.random.uniform(0, grid_size), 0])
+        
+        if predef_goal_pos is not None:
+            goal_pos = np.array(predef_goal_pos)
+        else:
+            goal_pos = np.array([np.random.uniform(0, grid_size), np.random.uniform(0, grid_size), 0])
+
+        # Set or randomize obstacle positions
+        if obstacle_csv_path:
+            with open(obstacle_csv_path, 'r') as f:
+                reader = csv.reader(f)
+                obstacles = [np.array([float(x), float(y), 0]) for x, y in reader]
+        else:
+            num_obstacles = np.random.randint(5, 15)  # Random number of obstacles
+            obstacles = [np.array([np.random.uniform(0, grid_size), np.random.uniform(0, grid_size), 0]) for _ in range(num_obstacles)]
+
+        # Generate filenames for logs and CSVs
+        sim_id = f'sim{sim_num}_{run_index}'
+        log_dir = f'./logs/{run_index}/{sim_num}/'
+        if not os.path.exists(log_dir):
+            os.makedirs(log_dir)
+        log_filename = f'{log_dir}Log_{sim_id}.txt'
+        obstacle_csv_filename = f'{log_dir}obstacles_{sim_id}.csv'
+        ugv_goal_csv_filename = f'{log_dir}ugv_goal_{sim_id}.csv'
+        
+        # Save obstacle positions to CSV
+        with open(obstacle_csv_filename, 'w', newline='') as f:
+            writer = csv.writer(f)
+            writer.writerows([[obs[0], obs[1]] for obs in obstacles])
+        
+        # Save UGV start and goal positions to CSV
+        with open(ugv_goal_csv_filename, 'w', newline='') as f:
+            writer = csv.writer(f)
+            writer.writerow(['ugv_start_x', 'ugv_start_y', 'ugv_start_z', 'goal_x', 'goal_y', 'goal_z'])
+            writer.writerow([pos_i[0], pos_i[1], pos_i[2], goal_pos[0], goal_pos[1], goal_pos[2]])
+        
+        # Redirect output to log file
+        sys.stdout = open(log_filename, 'w')
+        
+        # Run the simulation
+        ugv_pos, speeds = sim_movement_with_DBF(pos_i, goal_pos, obstacles, num_steps=10000)
+        
+        # Close log file and reset stdout
+        sys.stdout.close()
+        sys.stdout = sys.__stdout__
+        
+        # Plot and save plots to log directory
+        g.plot_movement_2d(ugv_pos, goal_pos, obstacles, log_dir, sim_id)
+        #plt.savefig(f'{log_dir}movement_{sim_id}.png')
+        #plt.close()  # Close the plot after saving to avoid displaying
+        
+        g.plot_potential_field_surface(goal_pos, obstacles, field_size=grid_size, res=100, log_dir=log_dir, sim_id=sim_id)
+        #plt.savefig(f'{log_dir}potential_field_{sim_id}.png')
+        #plt.close()
+        
+    log_dir = f'./logs/{run_index}/'
+    print(f'All {n} simulations completed. Results saved to {log_dir}')
+
 
 # Testing the simulation
+if __name__ == '__main__':
+    run_multiple_simulations(5, 10, predef_ugv_pos=[2, 3, 0], predef_goal_pos=[8, 5, 0])
+"""
 if __name__ == '__main__':
     # testing constants
     pos_i = np.array([2, 3, 0])
@@ -264,9 +342,9 @@ if __name__ == '__main__':
     print('Simulation Done')
     print('Output Logs written to:', log_filename)
     
-    """
-    Implementation of plotting functions in Graphs.py
-    """
+   
+    #Implementation of plotting functions in Graphs.py
+ 
     
     #g.plot_speed_time_2d(speeds, len(speeds))
     g.plot_movement_2d(ugv_pos, goal_pos, obstacles)
@@ -275,3 +353,5 @@ if __name__ == '__main__':
     # Allows for all plots to be shown at the same time
     plt.pause(0.001)
     plt.show(block = True)
+    
+"""

@@ -30,7 +30,7 @@ def calc_potential_vectors(X, Y, goal_pos, obs_pos):
     return F_att + F_rep
 
 # Plot the pontential field surface (like they did in the video)
-def plot_potential_field_surface(goal_pos, obs_pos, field_size, res = 50):
+def plot_potential_field_surface(goal_pos, obs_pos, field_size, res, log_dir, sim_id):
     x = np.linspace(0, field_size, res)
     y = np.linspace(0, field_size, res)
     X, Y = np.meshgrid(x, y)
@@ -57,7 +57,7 @@ def plot_potential_field_surface(goal_pos, obs_pos, field_size, res = 50):
     ax.set_zlabel('Potential')
     ax.legend()
     
-    plt.show(block = False)
+    plt.savefig(f'{log_dir}potential_field_{sim_id}.png')
 
 # Plots the movement of UGV in 3D
 def plot_movement_3d(ugv_pos, goal_pos, obstacles):
@@ -83,12 +83,13 @@ def plot_movement_3d(ugv_pos, goal_pos, obstacles):
     plt.show(block = False)
 
 # Plots teh movement of UGV (X, Y) in 2D
-def plot_movement_2d(ugv_pos, goal_pos, obstacles):
+def plot_movement_2d(ugv_pos, goal_pos, obstacles, log_dir, sim_id):
     plt.figure(figsize=(6,6))
     plt.plot(ugv_pos[:,0], ugv_pos[:,1], '-o', label='UGV Path')
     
     # Mark the goal and obsticles on the plot
     plt.scatter(goal_pos[0], goal_pos[1], color='black', label='Goal', s=100)
+    plt.scatter(ugv_pos[0,0], ugv_pos[0,1], color='green', label='Start', s=100)
     for obs in obstacles:
         plt.scatter(obs[0], obs[1], color='red', label='Obstacle', s=100)
         
@@ -96,10 +97,10 @@ def plot_movement_2d(ugv_pos, goal_pos, obstacles):
     plt.title('UGV Path')
     plt.xlabel('X')
     plt.ylabel('Y')
-    plt.legend()
+    plt.legend(loc='center left', bbox_to_anchor=(1, 0.5))
     plt.grid(True)
     
-    plt.show(block = False)
+    plt.savefig(f'{log_dir}movement_{sim_id}.png')
     
 # Plots the speed vs time of the UGV
 def plot_speed_time_2d(speeds, num_steps):
