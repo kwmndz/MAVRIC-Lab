@@ -3,17 +3,19 @@ import Graphs as g
 import matplotlib.pyplot as plt
 from scipy.optimize import minimize
 from Sensor import Sensor
+from Sensor import get_obstacles_in_recognized_area_optimized
 from DynamicBayesianFiltering import DBF, SensorData, steps_to_local_min
 import sys
 import os
 import csv
 import concurrent.futures
 import time
+from numba import njit
 
 # Constants for Potential Field Algorithm
 K_ATT = 1.0 # Attractive
 K_REP = 0.5 # Repulsive
-D_SAFE = 2 # Safe distance / Scanner Radius
+D_SAFE = 5 # Safe distance / Scanner Radius
 
 # Constants for testing simulation (keep low or potential field algorithm gives weird results)
 STEP_SIZE = 0.01
@@ -53,6 +55,44 @@ def rep_force(ugv_pos, obs_pos):
     direction = (np.array(ugv_pos) - np.array(obs_pos)) / distance
     return K_REP * (1/distance - 1/D_SAFE) * (1/(distance**2)) * direction
 
+# Optimized version of rep_force using numpy for vectorized operations
+@njit
+def rep_force_optimized(ugv_pos, obstacles):
+    # Convert to numpy arrays for vectorized operations
+    #ugv_pos = np.array(ugv_pos)
+    #obstacles = np.array(obstacles)
+    # Calculate displacement vectors and distances
+    displacement_vectors = obstacles - ugv_pos
+    #print(displacement_vectors)
+    distances = np.sqrt(np.sum(displacement_vectors**2, axis=1))
+    #print(len(distances))
+    #print(len(displacement_vectors))
+    #print(ugv_pos)
+    # --- obstacles we are looking at are all within range alr ---
+    # Filter obstacles within D_SAFE distance
+    # within_safe_dist = distances < D_SAFE --- obstacles we are looking at are all within range alr
+    #displacement_vectors = displacement_vectors[distances]
+    #distances = distances[within_safe_dist]
+    
+    # If there are no obstacles within the safe distance, return zero force
+    """
+    if distances.size == 0:
+        print(ugv_pos)
+        return np.zeros_like(ugv_pos)"""
+
+    # Calculate unit direction vectors
+    epsilon = 1e-25
+    directions = -1 * displacement_vectors / (distances[:, np.newaxis] + epsilon)
+
+    # Compute repulsive forces for each obstacle
+    forces = K_REP * ( (1/(distances[:, np.newaxis] + epsilon) - 1/D_SAFE) * (1/(distances[:, np.newaxis] + epsilon)**2) ) * directions
+   # print(forces[1])
+
+    # Sum up all repulsive forces
+    total_force = np.sum(forces, axis=0)
+    #print(total_force)
+    return total_force
+
 # Checks if the ugv is at a local min
 def is_local_min(force_net, threshold=1e-3):
     force_mag = np.linalg.norm(force_net)
@@ -64,9 +104,8 @@ def is_local_min(force_net, threshold=1e-3):
 def force_difference(ugv_pos, goal_pos, obstacles):
     F_att = att_force(ugv_pos, goal_pos)    
     
-    F_rep = np.zeros(len(ugv_pos))
-    for obs in obstacles:
-        F_rep += rep_force(ugv_pos, obs)
+    #F_rep =np.sum([rep_force(ugv_pos, obs) for obs in obstacles], axis=0) 
+    F_rep = rep_force_optimized(ugv_pos, obstacles) if obstacles.size > 0 else np.zeros(len(ugv_pos))
     
     return np.linalg.norm(F_att + F_rep)
 
@@ -85,17 +124,19 @@ def find_potential_local_min(ugv_pos, goal_pos, obstacles, guess_i = None, max_i
     result = minimize(objective_func, guess_i, method='Nelder-Mead', options={'maxiter': max_iter, 'xatol': threshold})
     
     # Get forces to check that the minizmation worked
+    """
+    removed due to performance reseaons
     F_att = att_force(result.x, goal_pos)
     F_rep = np.zeros(len(result.x))
     for obs in obstacles:
         F_rep += rep_force(result.x, obs)
-
+    """
     
     return {
         'local_min': result.x,
-        'F_att': F_att,
-        'F_rep': F_rep,
-        'F_net': F_att + F_rep,
+        'F_att': 0,
+        'F_rep': 0,
+        'F_net': 0 + 0,
         'force_mag': result.fun,
         'success': result.success,
         'iterations': result.nit
@@ -108,6 +149,29 @@ def find_potential_local_min(ugv_pos, goal_pos, obstacles, guess_i = None, max_i
     For testing purposes
     
 """
+# Helper function to generate clustered obstacles
+# Clusters the points together so obstacles are more realistic and not just points
+def generate_obstacles(num_obstacles, step_size=0.001, length_range=(5, 20), area_size=(100, 100)):
+    obstacles = []
+    for _ in range(num_obstacles):
+        # Randomly decide the position of the starting point of the obstacle
+        start_x = np.random.uniform(0, area_size[0])
+        start_y = np.random.uniform(0, area_size[1])
+        
+        # Randomly decide the orientation and length of the obstacle
+        angle = np.random.uniform(0, 2 * np.pi)  # Random angle in radians
+        length = np.random.uniform(length_range[0], length_range[1])  # Length of the obstacle line
+        
+        # Generate points along the line based on the starting point, angle, and step size
+        num_points = int(length / step_size) + 1  # Calculate the number of points based on length and step size
+        for i in range(num_points):
+            offset = step_size * i  # Distance between points along the line
+            x = start_x + offset * np.cos(angle)
+            y = start_y + offset * np.sin(angle)
+            obstacles.append(np.array([x, y, 0]))
+    
+    return np.array(obstacles)
+
 # Simulates the movement of the UGV in 2D or 3D
 def sim_movement(pos_i, goal_pos, obstacles, num_steps):
     ugv_pos = [pos_i]
@@ -154,20 +218,31 @@ def sim_movement_with_DBF(pos_i, goal_pos, obstacles, num_steps):
     for _ in range(num_steps):
         pos_c = ugv_pos[-1] # Always get last added position
         
-        obstacles_in_range = sensor.get_obstacles_in_recognized_area(pos_c, obstacles)
+        #obstacles_in_range = #sensor.get_obstacles_in_recognized_area(pos_c, obstacles)
+        obstacles_in_range = get_obstacles_in_recognized_area_optimized(pos_c, obstacles, sensor.sensor_radius)
+        obstacles_in_range = np.array(obstacles_in_range)
         
         # Potential Field Algorithm for force calcs
         F_att = att_force(pos_c, goal_pos)
         
-        F_rep = np.zeros(len(pos_c))
+        #print(len(pos_c))
+        F_resultant = F_att
             
-        for obs in obstacles_in_range:
-            F_rep += rep_force(pos_c, obs)
+        #F_rep = np.sum([rep_force(pos_c, obs) for obs in obstacles_in_range], axis=0)
+        if not obstacles_in_range.size == 0:
+            #print("prre", len(pos_c), len(obstacles_in_range[0]))
+            F_rep = rep_force_optimized(pos_c, obstacles_in_range) # optimized version
+            #F_rep = np.sum([rep_force(pos_c, obs) for obs in obstacles_in_range], axis=0)
+            #print("normal func:")
+            #print(np.sum([rep_force(pos_c, obs) for obs in obstacles_in_range], axis=0))
+            #print(len(F_rep))
+            F_resultant += F_rep
+        else:
+            F_rep = np.zeros(len(pos_c))
         
-        F_resultant = F_att + F_rep
-        
-        if len(obstacles_in_range) != previus_num_obs:
+        if abs(len(obstacles_in_range) - previus_num_obs) > 5:
             first_check = True
+            #print(len(obstacles_in_range))
             previus_num_obs = len(obstacles_in_range)
         
         if sensor.check_for_parrallel_forces(pos_c, F_att, F_rep) and np.linalg.norm(F_rep) > 1e-8:
@@ -178,27 +253,29 @@ def sim_movement_with_DBF(pos_i, goal_pos, obstacles, num_steps):
                 log_string += f"Initial belief: {dbf.initialize_belief(group_a_points)}\n"
                 first_check = False
                 
-            sensorData = sensor.get_sensor_data(pos_c, estimated_local_min['local_min'], obstacles_in_range)
+            sensorData, log_str1 = sensor.get_sensor_data(pos_c, estimated_local_min['local_min'], obstacles_in_range)
             #print(sensorData)
             #print(pos_c)
             #print(obstacles_in_range)
-            belief, reached_threshold, log_str = dbf.update_belief(sensorData)
+            belief, reached_threshold, log_str2 = dbf.update_belief(sensorData)
             
             log_entries = []
             if belief > 0.1:
                 log_entries.append(f"{_} Step")
-                log_entries.append(log_str)
+                log_entries.append(log_str2)
+                log_entries.append(log_str1)
                 log_entries.append(f"{estimated_local_min['local_min']} Estimated Local Min")
                 log_entries.append(f"{estimated_local_min['force_mag']} Force Magnitude")
                 log_entries.append(f"{estimated_local_min['iterations']} Iterations")
                 log_entries.append(f"{estimated_local_min['success']} Success")
-                log_entries.append(f"{estimated_local_min['F_att']} F_att")
-                log_entries.append(f"{estimated_local_min['F_rep']} F_rep")
-                log_entries.append(f"{obstacles_in_range} Obstacles in Range")
+                #log_entries.append(f"{estimated_local_min['F_att']} F_att")
+                #log_entries.append(f"{estimated_local_min['F_rep']} F_rep")
+                log_entries.append(f"{len(obstacles_in_range)} Obstacles in Range")
                 log_entries.append(f"{belief} Belief\n")
             else:
                 log_entries.append(f"{_} Step")
-                log_entries.append(log_str)
+                log_entries.append(log_str2)
+                log_entries.append(log_str1)
                 log_entries.append(f"belief too low moving on....\n")
             
             if reached_threshold:
@@ -253,8 +330,9 @@ def run_single_simulation(sim_num, grid_size, run_index, predef_ugv_pos=None, pr
             reader = csv.reader(f)
             obstacles = [np.array([float(x), float(y), 0]) for x, y in reader]
     else:
-        num_obstacles = np.random.randint(5, 15)
-        obstacles = [np.array([np.random.uniform(0, grid_size), np.random.uniform(0, grid_size), 0]) for _ in range(num_obstacles)]
+        num_obstacles = np.random.randint(grid_size**2 // 100, grid_size**2 // 50)
+        #obstacles = [np.array([np.random.uniform(0, grid_size), np.random.uniform(0, grid_size), 0]) for _ in range(num_obstacles)]
+        obstacles = generate_obstacles(20, step_size=0.05, length_range=(5, 10), area_size=(grid_size, grid_size))
 
     
     log_dir = f'./logs/{run_index}-({grid_size}x{grid_size})/{sim_num}/'
@@ -290,7 +368,9 @@ def run_single_simulation(sim_num, grid_size, run_index, predef_ugv_pos=None, pr
     # sys.stdout = sys.__stdout__
     
     # Plot and save plots to log directory
-    g.plot_movement_2d(ugv_pos, goal_pos, obstacles, log_dir, sim_id)
+    #g.plot_movement_2d(ugv_pos, goal_pos, obstacles, log_dir, sim_id)
+    g.plot_movement_interactive_2d(ugv_pos, goal_pos, obstacles, log_dir, sim_id)
+    
     #plt.savefig(f'{log_dir}movement_{sim_id}.png')
     #plt.close()  # Close the plot after saving to avoid displaying
     
@@ -348,7 +428,7 @@ def run_multiple_simulations(n, grid_size, predef_ugv_pos=None, predef_goal_pos=
 
 # Testing the simulation
 if __name__ == '__main__':
-    run_multiple_simulations(5, 10, predef_ugv_pos=[2, 3, 0], predef_goal_pos=[8, 5, 0])
+    run_multiple_simulations(1, 60, predef_ugv_pos=[2, np.random.uniform(30, 65), 0], predef_goal_pos=[87, np.random.uniform(10, 95), 0])
 """
 if __name__ == '__main__':
     # testing constants

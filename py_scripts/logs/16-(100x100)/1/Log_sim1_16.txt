@@ -1,0 +1,24 @@
+Initial belief: 0.07142857142857142
+0 Step
+Prediction: 1.7650000000000001, Correction: 0.686196492525436, Prior: 0.07142857142857142, Posterior: 0.08650977209338533 Belief after normalization: 0.08650977209338533
+belief too low moving on....
+
+Initial belief: 1.0
+1 Step
+Prediction: 1.593, Correction: 0.9991607069588955, Prior: 1.0, Posterior: 1.5916630061855204 Belief after normalization: 1.0
+[2.90054897e+00 3.20606931e+01 5.06375047e-09] Estimated Local Min
+3.932367075357152e-06 Force Magnitude
+145 Iterations
+True Success
+[ 8.40994510e+01  5.52571670e+00 -5.06375047e-09] F_att
+[-8.40994539e+01 -5.52571541e+00  2.42298005e-06] F_rep
+[[ 1.87062249 31.25207034  0.        ]
+ [ 3.7966504  32.24846349  0.        ]
+ [ 3.07591423 32.07233465  0.        ]
+ [ 2.67324544 30.72506031  0.        ]] Obstacles in Range
+1.0 Belief
+
+Local Min Predicted!, Current Step: 1
+6 Steps Away
+[2.90054897e+00 3.20606931e+01 5.06375047e-09] Estimated Local Min
+

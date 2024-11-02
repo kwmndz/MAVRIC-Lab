@@ -5,6 +5,7 @@ use('Agg') # so we can run on threads and force it to only write files and not t
 import numpy as np 
 from mpl_toolkits.mplot3d import Axes3D
 from PotentialField import att_force, rep_force, K_ATT, K_REP, D_SAFE, OBSTACLE_HEIGHT
+import plotly.graph_objects as go
 
 """
 
@@ -113,6 +114,70 @@ def plot_movement_2d(ugv_pos, goal_pos, obstacles, log_dir, sim_id):
     plt.savefig(f'{log_dir}movement_{sim_id}.png', bbox_inches='tight')
     plt.close(fig)  # Close the figure to free up memory
     
+# Plots the movement of UGV (X, Y) in 2D with an interactive plot
+def plot_movement_interactive_2d(ugv_pos, goal_pos, obstacles, log_dir, sim_id):
+    # Create the plot
+    fig = go.Figure()
+
+    # Add the UGV path
+    fig.add_trace(go.Scatter(x=ugv_pos[:,0], y=ugv_pos[:,1],
+                             mode='lines+markers',
+                             name='UGV Path',
+                             marker=dict(size=5, color='blue'),
+                             line=dict(width=2, color='blue')))
+    
+    # Add the goal position
+    fig.add_trace(go.Scatter(x=[goal_pos[0]], y=[goal_pos[1]],
+                             mode='markers',
+                             name='Goal',
+                             marker=dict(size=10, color='black')))
+
+    # Add the starting position
+    fig.add_trace(go.Scatter(x=[ugv_pos[0,0]], y=[ugv_pos[0,1]],
+                             mode='markers',
+                             name='Start',
+                             marker=dict(size=10, color='green')))
+
+    # Add obstacles
+    obs_x = [obs[0] for obs in obstacles]
+    obs_y = [obs[1] for obs in obstacles]
+    fig.add_trace(go.Scatter(x=obs_x, y=obs_y,
+                             mode='markers',
+                             name='Obstacles',
+                             marker=dict(size=5, color='red')))
+
+    # Set plot layout for better readability
+    """fig.update_layout(title='UGV Path',
+                      xaxis_title='X',
+                      yaxis_title='Y',
+                      width=800,
+                      height=800,
+                      showlegend=True)"""
+
+    # Save the plot as an interactive HTML file
+    #fig.write_html(f'{log_dir}/movement_{sim_id}.html')
+    # Plot scanner trace
+    for pos in ugv_pos:
+        theta = np.linspace(-np.pi/2, np.pi/2, 100)  # 180 degrees in front of UGV
+        x_scan = pos[0] + 5 * np.cos(theta)
+        y_scan = pos[1] + 5 * np.sin(theta)
+        fig.add_trace(go.Scatter(x=x_scan, y=y_scan,
+                                 mode='lines',
+                                 name='Scanner Trace',
+                                 line=dict(color='orange', width=1, dash='dash'),
+                                 opacity=0.5))
+
+    # Set plot layout for better readability
+    fig.update_layout(title='UGV Path with Scanner Trace',
+                      xaxis_title='X',
+                      yaxis_title='Y',
+                      width=800,
+                      height=800,
+                      showlegend=True)
+
+    # Save the plot as an interactive HTML file
+    fig.write_html(f'{log_dir}/movement_{sim_id}.html')
+
 # Plots the speed vs time of the UGV
 def plot_speed_time_2d(speeds, num_steps):
     plt.figure(figsize=(6,6))

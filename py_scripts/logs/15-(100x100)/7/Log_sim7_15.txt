@@ -1,0 +1,2386 @@
+Initial belief: 0.1
+5 Step
+Prediction: 1.375, Correction: 0.8200292565945841, Prior: 0.1, Posterior: 0.11275402278175534 Belief after normalization: 0.11275402278175534
+[6.78738389e+00 8.06300259e+00 1.52826759e-10] Estimated Local Min
+2.6320244554237835e-06 Force Magnitude
+145 Iterations
+True Success
+[ 8.02126161e+01  8.39369974e+01 -1.52826759e-10] F_att
+[-8.02126181e+01 -8.39369957e+01  1.12097041e-07] F_rep
+[[6.89674123 8.17743754 0.        ]] Obstacles in Range
+0.11275402278175534 Belief
+
+6 Step
+Prediction: 1.067, Correction: 0.9863883194580491, Prior: 0.11275402278175534, Posterior: 0.11867094086376684 Belief after normalization: 0.11867094086376684
+[6.78738389e+00 8.06300259e+00 1.52826759e-10] Estimated Local Min
+2.6320244554237835e-06 Force Magnitude
+145 Iterations
+True Success
+[ 8.02126161e+01  8.39369974e+01 -1.52826759e-10] F_att
+[-8.02126181e+01 -8.39369957e+01  1.12097041e-07] F_rep
+[[6.89674123 8.17743754 0.        ]] Obstacles in Range
+0.11867094086376684 Belief
+
+Initial belief: 0.0009354536950420954
+7 Step
+Prediction: 1.0, Correction: 0.00035023934055878204, Prior: 0.0009354536950420954, Posterior: 3.276326852748195e-07 Belief after normalization: 3.276326852748195e-07
+belief too low moving on....
+
+Initial belief: 0.0009541984732824427
+9 Step
+Prediction: 1.181, Correction: 0.00036460376015470515, Prior: 0.0009541984732824427, Posterior: 4.1087503887662863e-07 Belief after normalization: 4.1087503887662863e-07
+belief too low moving on....
+
+Initial belief: 0.07692307692307693
+10 Step
+Prediction: 1.065, Correction: 0.7103053933906511, Prior: 0.07692307692307693, Posterior: 0.058190403381618724 Belief after normalization: 0.058190403381618724
+belief too low moving on....
+
+11 Step
+Prediction: 1.347, Correction: 0.6666383478403576, Prior: 0.058190403381618724, Posterior: 0.052252762537045 Belief after normalization: 0.052252762537045
+belief too low moving on....
+
+Initial belief: 0.3333333333333333
+12 Step
+Prediction: 1.499, Correction: 0.981828600961633, Prior: 0.3333333333333333, Posterior: 0.490587024280496 Belief after normalization: 0.490587024280496
+[1.91852638e+01 1.62490962e+01 4.87124308e-09] Estimated Local Min
+5.09333529240889e-06 Force Magnitude
+142 Iterations
+True Success
+[ 6.78147362e+01  7.57509038e+01 -4.87124308e-09] F_att
+[-6.78147370e+01 -7.57509078e+01  2.99764436e-06] F_rep
+[[21.30326739 16.18267785  0.        ]
+ [17.46811549 15.77102446  0.        ]
+ [19.29548038 16.37219851  0.        ]] Obstacles in Range
+0.490587024280496 Belief
+
+13 Step
+Prediction: 1.502, Correction: 0.7693939760444688, Prior: 0.490587024280496, Posterior: 0.5669369612129067 Belief after normalization: 0.5669369612129067
+[1.91852638e+01 1.62490962e+01 4.87124308e-09] Estimated Local Min
+5.09333529240889e-06 Force Magnitude
+142 Iterations
+True Success
+[ 6.78147362e+01  7.57509038e+01 -4.87124308e-09] F_att
+[-6.78147370e+01 -7.57509078e+01  2.99764436e-06] F_rep
+[[21.30326739 16.18267785  0.        ]
+ [19.29548038 16.37219851  0.        ]
+ [19.5895388  18.10981165  0.        ]] Obstacles in Range
+0.5669369612129067 Belief
+
+Initial belief: 0.07692307692307693
+14 Step
+Prediction: 1.5779999999999998, Correction: 0.7279776802075244, Prior: 0.07692307692307693, Posterior: 0.08836529072057488 Belief after normalization: 0.08836529072057488
+belief too low moving on....
+
+Initial belief: 0.1111111111111111
+15 Step
+Prediction: 1.137, Correction: 0.85400882210283, Prior: 0.1111111111111111, Posterior: 0.10788978119232419 Belief after normalization: 0.10788978119232419
+[ 2.08351619e+01  1.86872612e+01 -4.40574392e-10] Estimated Local Min
+3.224502828208875e-06 Force Magnitude
+177 Iterations
+True Success
+[6.61648381e+01 7.33127388e+01 4.40574392e-10] F_att
+[-6.61648411e+01 -7.33127401e+01 -2.57332164e-07] F_rep
+[[20.94746159 18.81154528  0.        ]
+ [21.24842756 19.169175    0.        ]
+ [19.5895388  18.10981165  0.        ]] Obstacles in Range
+0.10788978119232419 Belief
+
+Initial belief: 0.0010235414534288639
+16 Step
+Prediction: 1.0, Correction: 0.00041908647294386603, Prior: 0.0010235414534288639, Posterior: 4.2895237762934085e-07 Belief after normalization: 4.2895237762934085e-07
+belief too low moving on....
+
+Initial belief: 0.001034126163391934
+17 Step
+Prediction: 1.0, Correction: 0.0004276114144415555, Prior: 0.001034126163391934, Posterior: 4.4220415143904396e-07 Belief after normalization: 4.4220415143904396e-07
+belief too low moving on....
+
+Initial belief: 0.058823529411764705
+19 Step
+Prediction: 1.333, Correction: 0.6088147212982435, Prior: 0.058823529411764705, Posterior: 0.04773823667591521 Belief after normalization: 0.04773823667591521
+belief too low moving on....
+
+20 Step
+Prediction: 1.375, Correction: 0.8932695164177277, Prior: 0.04773823667591521, Posterior: 0.058634278436428496 Belief after normalization: 0.058634278436428496
+belief too low moving on....
+
+21 Step
+Prediction: 1.314, Correction: 0.9583115385784637, Prior: 0.058634278436428496, Posterior: 0.0738335359345533 Belief after normalization: 0.0738335359345533
+belief too low moving on....
+
+Initial belief: 0.05263157894736842
+22 Step
+Prediction: 1.412, Correction: 0.5331657893517817, Prior: 0.05263157894736842, Posterior: 0.03962263655603767 Belief after normalization: 0.03962263655603767
+belief too low moving on....
+
+23 Step
+Prediction: 1.558, Correction: 0.6780382320475165, Prior: 0.03962263655603767, Posterior: 0.04185670208076761 Belief after normalization: 0.04185670208076761
+belief too low moving on....
+
+24 Step
+Prediction: 1.413, Correction: 0.6690282362359461, Prior: 0.04185670208076761, Posterior: 0.039568684897229915 Belief after normalization: 0.039568684897229915
+belief too low moving on....
+
+Initial belief: 0.0011210762331838565
+25 Step
+Prediction: 1.267, Correction: 0.0005027570913961909, Prior: 0.0011210762331838565, Posterior: 7.141179762320335e-07 Belief after normalization: 7.141179762320335e-07
+belief too low moving on....
+
+Initial belief: 0.0011325028312570782
+26 Step
+Prediction: 1.0, Correction: 0.000512962340342533, Prior: 0.0011325028312570782, Posterior: 5.809313027661756e-07 Belief after normalization: 5.809313027661756e-07
+belief too low moving on....
+
+Initial belief: 0.0011441647597254005
+27 Step
+Prediction: 1.0, Correction: 0.0005233729282466384, Prior: 0.0011441647597254005, Posterior: 5.988248606940943e-07 Belief after normalization: 5.988248606940943e-07
+belief too low moving on....
+
+Initial belief: 0.0011547344110854503
+28 Step
+Prediction: 1.339, Correction: 0.0005339947356196043, Prior: 0.0011547344110854503, Posterior: 8.256569872917438e-07 Belief after normalization: 8.256569872917438e-07
+belief too low moving on....
+
+Initial belief: 0.0011668611435239206
+29 Step
+Prediction: 1.666, Correction: 0.000544830832372158, Prior: 0.0011668611435239206, Posterior: 1.0591460521960504e-06 Belief after normalization: 1.0591460521960504e-06
+belief too low moving on....
+
+Initial belief: 0.1111111111111111
+30 Step
+Prediction: 1.565, Correction: 0.836008365070577, Prior: 0.1111111111111111, Posterior: 0.1453725657039392 Belief after normalization: 0.1453725657039392
+[3.15135536e+01 2.85682873e+01 1.58708832e-09] Estimated Local Min
+2.426683189661386e-06 Force Magnitude
+159 Iterations
+True Success
+[ 5.54864464e+01  6.34317127e+01 -1.58708832e-09] F_att
+[-5.54864464e+01 -6.34317104e+01  7.58789124e-07] F_rep
+[[31.69277822 29.46827633  0.        ]
+ [31.62955896 28.7003486   0.        ]] Obstacles in Range
+0.1453725657039392 Belief
+
+Initial belief: 0.25
+31 Step
+Prediction: 1.6760000000000002, Correction: 0.9631350861328811, Prior: 0.25, Posterior: 0.40355360108967725 Belief after normalization: 0.40355360108967725
+[ 3.15780517e+01  2.93356105e+01 -4.14326333e-09] Estimated Local Min
+3.219558042894747e-06 Force Magnitude
+134 Iterations
+True Success
+[5.54219483e+01 6.26643895e+01 4.14326333e-09] F_att
+[-5.54219465e+01 -6.26643913e+01 -2.00579319e-06] F_rep
+[[32.29677293 30.69905805  0.        ]
+ [31.69277822 29.46827633  0.        ]
+ [31.62955896 28.7003486   0.        ]] Obstacles in Range
+0.40355360108967725 Belief
+
+32 Step
+Prediction: 1.5430000000000001, Correction: 0.9216942587627488, Prior: 0.40355360108967725, Posterior: 0.5739235364418599 Belief after normalization: 0.5739235364418599
+[ 3.15780517e+01  2.93356105e+01 -4.14326333e-09] Estimated Local Min
+3.219558042894747e-06 Force Magnitude
+134 Iterations
+True Success
+[5.54219483e+01 6.26643895e+01 4.14326333e-09] F_att
+[-5.54219465e+01 -6.26643913e+01 -2.00579319e-06] F_rep
+[[32.29677293 30.69905805  0.        ]
+ [31.69277822 29.46827633  0.        ]
+ [31.62955896 28.7003486   0.        ]] Obstacles in Range
+0.5739235364418599 Belief
+
+33 Step
+Prediction: 1.363, Correction: 0.665728404648854, Prior: 0.5739235364418599, Posterior: 0.5207712240168978 Belief after normalization: 0.5207712240168978
+[ 3.15780517e+01  2.93356105e+01 -4.14326333e-09] Estimated Local Min
+3.219558042894747e-06 Force Magnitude
+134 Iterations
+True Success
+[5.54219483e+01 6.26643895e+01 4.14326333e-09] F_att
+[-5.54219465e+01 -6.26643913e+01 -2.00579319e-06] F_rep
+[[32.29677293 30.69905805  0.        ]
+ [31.69277822 29.46827633  0.        ]
+ [31.62955896 28.7003486   0.        ]] Obstacles in Range
+0.5207712240168978 Belief
+
+34 Step
+Prediction: 1.149, Correction: 0.8140343078829628, Prior: 0.5207712240168978, Posterior: 0.48709056370124465 Belief after normalization: 0.48709056370124465
+[ 3.15780517e+01  2.93356105e+01 -4.14326333e-09] Estimated Local Min
+3.219558042894747e-06 Force Magnitude
+134 Iterations
+True Success
+[5.54219483e+01 6.26643895e+01 4.14326333e-09] F_att
+[-5.54219465e+01 -6.26643913e+01 -2.00579319e-06] F_rep
+[[32.29677293 30.69905805  0.        ]
+ [31.69277822 29.46827633  0.        ]
+ [31.62955896 28.7003486   0.        ]] Obstacles in Range
+0.48709056370124465 Belief
+
+35 Step
+Prediction: 1.036, Correction: 0.6197025524277989, Prior: 0.48709056370124465, Posterior: 0.31271791115036635 Belief after normalization: 0.31271791115036635
+[ 3.15780517e+01  2.93356105e+01 -4.14326333e-09] Estimated Local Min
+3.219558042894747e-06 Force Magnitude
+134 Iterations
+True Success
+[5.54219483e+01 6.26643895e+01 4.14326333e-09] F_att
+[-5.54219465e+01 -6.26643913e+01 -2.00579319e-06] F_rep
+[[32.29677293 30.69905805  0.        ]
+ [31.69277822 29.46827633  0.        ]
+ [31.62955896 28.7003486   0.        ]] Obstacles in Range
+0.31271791115036635 Belief
+
+36 Step
+Prediction: 1.46, Correction: 0.4285181902957259, Prior: 0.31271791115036635, Posterior: 0.19564775750445332 Belief after normalization: 0.19564775750445332
+[ 3.15780517e+01  2.93356105e+01 -4.14326333e-09] Estimated Local Min
+3.219558042894747e-06 Force Magnitude
+134 Iterations
+True Success
+[5.54219483e+01 6.26643895e+01 4.14326333e-09] F_att
+[-5.54219465e+01 -6.26643913e+01 -2.00579319e-06] F_rep
+[[32.29677293 30.69905805  0.        ]
+ [35.07252973 30.36328597  0.        ]
+ [35.44766592 29.75360695  0.        ]] Obstacles in Range
+0.19564775750445332 Belief
+
+37 Step
+Prediction: 1.474, Correction: 0.29590577914711214, Prior: 0.19564775750445332, Posterior: 0.08533472732891952 Belief after normalization: 0.08533472732891952
+belief too low moving on....
+
+Initial belief: 0.0012515644555694619
+38 Step
+Prediction: 1.306, Correction: 0.0006266107315157812, Prior: 0.0012515644555694619, Posterior: 1.0242222970708515e-06 Belief after normalization: 1.0242222970708515e-06
+belief too low moving on....
+
+39 Step
+Prediction: 1.144, Correction: 0.0006393309479776559, Prior: 1.0242222970708515e-06, Posterior: 7.491106618723268e-10 Belief after normalization: 7.491106618723268e-10
+belief too low moving on....
+
+40 Step
+Prediction: 1.325, Correction: 0.0006523039745086818, Prior: 7.491106618723268e-10, Posterior: 6.474584172641461e-13 Belief after normalization: 6.474584172641461e-13
+belief too low moving on....
+
+Initial belief: 0.0012903225806451613
+41 Step
+Prediction: 1.514, Correction: 0.0006655393223446463, Prior: 0.0012903225806451613, Posterior: 1.3001632697158639e-06 Belief after normalization: 1.3001632697158639e-06
+belief too low moving on....
+
+Initial belief: 0.0013020833333333333
+42 Step
+Prediction: 1.416, Correction: 0.0006790392215636391, Prior: 0.0013020833333333333, Posterior: 1.2519785647579594e-06 Belief after normalization: 1.2519785647579594e-06
+belief too low moving on....
+
+Initial belief: 0.06666666666666667
+43 Step
+Prediction: 1.742, Correction: 0.6511640922471261, Prior: 0.06666666666666667, Posterior: 0.07562185657963291 Belief after normalization: 0.07562185657963291
+belief too low moving on....
+
+Initial belief: 0.125
+44 Step
+Prediction: 1.459, Correction: 0.8848475021413185, Prior: 0.125, Posterior: 0.16137406320302297 Belief after normalization: 0.16137406320302297
+[ 3.80215813e+01  3.58496343e+01 -3.50399157e-09] Estimated Local Min
+1.5629966361431562e-06 Force Magnitude
+169 Iterations
+True Success
+[4.89784187e+01 5.61503657e+01 3.50399157e-09] F_att
+[-4.89784186e+01 -5.61503651e+01 -1.42415951e-06] F_rep
+[[38.8204202  35.71352081  0.        ]
+ [38.14093437 35.9882524   0.        ]] Obstacles in Range
+0.16137406320302297 Belief
+
+45 Step
+Prediction: 1.482, Correction: 0.9874590415258755, Prior: 0.16137406320302297, Posterior: 0.236157111666393 Belief after normalization: 0.236157111666393
+[ 3.80215813e+01  3.58496343e+01 -3.50399157e-09] Estimated Local Min
+1.5629966361431562e-06 Force Magnitude
+169 Iterations
+True Success
+[4.89784187e+01 5.61503657e+01 3.50399157e-09] F_att
+[-4.89784186e+01 -5.61503651e+01 -1.42415951e-06] F_rep
+[[38.8204202  35.71352081  0.        ]
+ [38.14093437 35.9882524   0.        ]] Obstacles in Range
+0.236157111666393 Belief
+
+46 Step
+Prediction: 1.2530000000000001, Correction: 0.8639394282243683, Prior: 0.236157111666393, Posterior: 0.2556438763502999 Belief after normalization: 0.2556438763502999
+[ 3.80215813e+01  3.58496343e+01 -3.50399157e-09] Estimated Local Min
+1.5629966361431562e-06 Force Magnitude
+169 Iterations
+True Success
+[4.89784187e+01 5.61503657e+01 3.50399157e-09] F_att
+[-4.89784186e+01 -5.61503651e+01 -1.42415951e-06] F_rep
+[[38.8204202  35.71352081  0.        ]
+ [38.14093437 35.9882524   0.        ]] Obstacles in Range
+0.2556438763502999 Belief
+
+Initial belief: 0.0013679890560875513
+47 Step
+Prediction: 1.385, Correction: 0.0007493489772918118, Prior: 0.0013679890560875513, Posterior: 1.4197651621739524e-06 Belief after normalization: 1.4197651621739524e-06
+belief too low moving on....
+
+48 Step
+Prediction: 1.5979999999999999, Correction: 0.0007645929782385114, Prior: 1.4197651621739524e-06, Posterior: 1.7346968730458926e-09 Belief after normalization: 1.7346968730458926e-09
+belief too low moving on....
+
+Initial belief: 0.0013966480446927375
+49 Step
+Prediction: 1.5350000000000001, Correction: 0.0007800396958545242, Prior: 0.0013966480446927375, Posterior: 1.6722918060568363e-06 Belief after normalization: 1.6722918060568363e-06
+belief too low moving on....
+
+Initial belief: 0.0014104372355430183
+50 Step
+Prediction: 1.5899999999999999, Correction: 0.0007957713600060212, Prior: 0.0014104372355430183, Posterior: 1.7845930358386086e-06 Belief after normalization: 1.7845930358386086e-06
+belief too low moving on....
+
+51 Step
+Prediction: 1.318, Correction: 0.0008116988061741119, Prior: 1.7845930358386086e-06, Posterior: 1.9091915843664256e-09 Belief after normalization: 1.9091915843664256e-09
+belief too low moving on....
+
+Initial belief: 0.0014388489208633094
+52 Step
+Prediction: 1.106, Correction: 0.0008283172381316512, Prior: 0.0014388489208633094, Posterior: 1.3181566408253328e-06 Belief after normalization: 1.3181566408253328e-06
+belief too low moving on....
+
+Initial belief: 0.0014534883720930232
+53 Step
+Prediction: 1.423, Correction: 0.0008451360918930085, Prior: 0.0014534883720930232, Posterior: 1.7480067714589406e-06 Belief after normalization: 1.7480067714589406e-06
+belief too low moving on....
+
+54 Step
+Prediction: 1.375, Correction: 0.0008622618370763577, Prior: 1.7480067714589406e-06, Posterior: 2.072454353722636e-09 Belief after normalization: 2.072454353722636e-09
+belief too low moving on....
+
+55 Step
+Prediction: 1.346, Correction: 0.0008794337500373571, Prior: 2.072454353722636e-09, Posterior: 2.453201165285684e-12 Belief after normalization: 2.453201165285684e-12
+belief too low moving on....
+
+56 Step
+Prediction: 1.196, Correction: 0.0009007103797900244, Prior: 2.453201165285684e-12, Posterior: 2.6427100089298154e-15 Belief after normalization: 2.6427100089298154e-15
+belief too low moving on....
+
+Initial belief: 0.0015151515151515152
+57 Step
+Prediction: 1.405, Correction: 0.0009190226609870162, Prior: 0.0015151515151515152, Posterior: 1.9564043010405422e-06 Belief after normalization: 1.9564043010405422e-06
+belief too low moving on....
+
+Initial belief: 0.0015313935681470138
+58 Step
+Prediction: 1.419, Correction: 0.0009376695010309469, Prior: 0.0015313935681470138, Posterior: 2.0376003399125783e-06 Belief after normalization: 2.0376003399125783e-06
+belief too low moving on....
+
+59 Step
+Prediction: 1.385, Correction: 0.0009566711234809709, Prior: 2.0376003399125783e-06, Posterior: 2.6997990678492836e-09 Belief after normalization: 2.6997990678492836e-09
+belief too low moving on....
+
+60 Step
+Prediction: 1.333, Correction: 0.0009759526357228854, Prior: 2.6997990678492836e-09, Posterior: 3.5122897295808665e-12 Belief after normalization: 3.5122897295808665e-12
+belief too low moving on....
+
+61 Step
+Prediction: 1.183, Correction: 0.000995832292401616, Prior: 3.5122897295808665e-12, Posterior: 4.137721763523818e-15 Belief after normalization: 4.137721763523818e-15
+belief too low moving on....
+
+62 Step
+Prediction: 1.102, Correction: 0.0010161085266954153, Prior: 4.137721763523818e-15, Posterior: 4.633220550240737e-18 Belief after normalization: 4.633220550240737e-18
+belief too low moving on....
+
+Initial belief: 0.0016260162601626016
+64 Step
+Prediction: 1.308, Correction: 0.0010577572857559967, Prior: 0.0016260162601626016, Posterior: 2.249669154095681e-06 Belief after normalization: 2.249669154095681e-06
+belief too low moving on....
+
+65 Step
+Prediction: 1.31, Correction: 0.0010792100524208968, Prior: 2.249669154095681e-06, Posterior: 3.180503891094869e-09 Belief after normalization: 3.180503891094869e-09
+belief too low moving on....
+
+66 Step
+Prediction: 1.2, Correction: 0.0011010757107015436, Prior: 3.180503891094869e-09, Posterior: 4.2023706987315694e-12 Belief after normalization: 4.2023706987315694e-12
+belief too low moving on....
+
+67 Step
+Prediction: 1.095, Correction: 0.0011232461702600938, Prior: 4.2023706987315694e-12, Posterior: 5.1687249887329994e-15 Belief after normalization: 5.1687249887329994e-15
+belief too low moving on....
+
+68 Step
+Prediction: 1.0, Correction: 0.0011459323355579342, Prior: 5.1687249887329994e-15, Posterior: 5.923009098195463e-18 Belief after normalization: 5.923009098195463e-18
+belief too low moving on....
+
+69 Step
+Prediction: 1.0, Correction: 0.001169366682029867, Prior: 5.923009098195463e-18, Posterior: 6.926169496789543e-21 Belief after normalization: 6.926169496789543e-21
+belief too low moving on....
+
+70 Step
+Prediction: 1.0, Correction: 0.0011931148483099352, Prior: 6.926169496789543e-21, Posterior: 8.263715668530956e-24 Belief after normalization: 8.263715668530956e-24
+belief too low moving on....
+
+Initial belief: 0.0018148820326678765
+75 Step
+Prediction: 1.331, Correction: 0.001319096767726477, Prior: 0.0018148820326678765, Posterior: 3.1864206857421797e-06 Belief after normalization: 3.1864206857421797e-06
+belief too low moving on....
+
+76 Step
+Prediction: 1.419, Correction: 0.00134584046973146, Prior: 3.1864206857421797e-06, Posterior: 6.085259341782579e-09 Belief after normalization: 6.085259341782579e-09
+belief too low moving on....
+
+77 Step
+Prediction: 1.357, Correction: 0.0013730986377087934, Prior: 6.085259341782579e-09, Posterior: 1.1338632400799742e-11 Belief after normalization: 1.1338632400799742e-11
+belief too low moving on....
+
+Initial belief: 0.0018726591760299626
+78 Step
+Prediction: 1.52, Correction: 0.0014008201493521933, Prior: 0.0018726591760299626, Posterior: 3.987353234111112e-06 Belief after normalization: 3.987353234111112e-06
+belief too low moving on....
+
+79 Step
+Prediction: 1.438, Correction: 0.0014291813764179203, Prior: 3.987353234111112e-06, Posterior: 8.194660114116783e-09 Belief after normalization: 8.194660114116783e-09
+belief too low moving on....
+
+80 Step
+Prediction: 1.421, Correction: 0.0014582956362190192, Prior: 8.194660114116783e-09, Posterior: 1.698128689737938e-11 Belief after normalization: 1.698128689737938e-11
+belief too low moving on....
+
+Initial belief: 0.0019267822736030828
+81 Step
+Prediction: 1.641, Correction: 0.001487909146448248, Prior: 0.0019267822736030828, Posterior: 4.704545104665847e-06 Belief after normalization: 4.704545104665847e-06
+belief too low moving on....
+
+Initial belief: 0.001949317738791423
+82 Step
+Prediction: 1.554, Correction: 0.001518079569250025, Prior: 0.001949317738791423, Posterior: 4.598626999248614e-06 Belief after normalization: 4.598626999248614e-06
+belief too low moving on....
+
+Initial belief: 0.001968503937007874
+83 Step
+Prediction: 1.587, Correction: 0.0015488000386116696, Prior: 0.001968503937007874, Posterior: 4.838475711174645e-06 Belief after normalization: 4.838475711174645e-06
+belief too low moving on....
+
+84 Step
+Prediction: 1.679, Correction: 0.0015798706895905354, Prior: 4.838475711174645e-06, Posterior: 1.2834554644120931e-08 Belief after normalization: 1.2834554644120931e-08
+belief too low moving on....
+
+Initial belief: 0.002008032128514056
+85 Step
+Prediction: 1.689, Correction: 0.0016106487060729255, Prior: 0.002008032128514056, Posterior: 5.462621816379861e-06 Belief after normalization: 5.462621816379861e-06
+belief too low moving on....
+
+86 Step
+Prediction: 1.686, Correction: 0.0016419765866239335, Prior: 5.462621816379861e-06, Posterior: 1.5122572151193546e-08 Belief after normalization: 1.5122572151193546e-08
+belief too low moving on....
+
+87 Step
+Prediction: 1.571, Correction: 0.0016732610782543822, Prior: 1.5122572151193546e-08, Posterior: 3.97526018837704e-11 Belief after normalization: 3.97526018837704e-11
+belief too low moving on....
+
+Initial belief: 0.002145922746781116
+88 Step
+Prediction: 1.351, Correction: 0.0018409559572865762, Prior: 0.002145922746781116, Posterior: 5.337192056425245e-06 Belief after normalization: 5.337192056425245e-06
+belief too low moving on....
+
+Initial belief: 0.0021691973969631237
+89 Step
+Prediction: 1.423, Correction: 0.0018806730279379137, Prior: 0.0021691973969631237, Posterior: 5.805201125283408e-06 Belief after normalization: 5.805201125283408e-06
+belief too low moving on....
+
+Initial belief: 0.002188183807439825
+90 Step
+Prediction: 1.422, Correction: 0.0019191308672880205, Prior: 0.002188183807439825, Posterior: 5.971562567360098e-06 Belief after normalization: 5.971562567360098e-06
+belief too low moving on....
+
+Initial belief: 0.0022123893805309734
+91 Step
+Prediction: 1.467, Correction: 0.0019580560843731917, Prior: 0.0022123893805309734, Posterior: 6.35501830923777e-06 Belief after normalization: 6.35501830923777e-06
+belief too low moving on....
+
+Initial belief: 0.002232142857142857
+92 Step
+Prediction: 1.349, Correction: 0.001997768016917837, Prior: 0.002232142857142857, Posterior: 6.015600568799469e-06 Belief after normalization: 6.015600568799469e-06
+belief too low moving on....
+
+93 Step
+Prediction: 1.263, Correction: 0.00203829728633471, Prior: 6.015600568799469e-06, Posterior: 1.5486378463917614e-08 Belief after normalization: 1.5486378463917614e-08
+belief too low moving on....
+
+94 Step
+Prediction: 1.171, Correction: 0.002079623254439512, Prior: 1.5486378463917614e-08, Posterior: 3.771303018609937e-11 Belief after normalization: 3.771303018609937e-11
+belief too low moving on....
+
+Initial belief: 0.002421307506053269
+100 Step
+Prediction: 1.165, Correction: 0.002345566796671832, Prior: 0.002421307506053269, Posterior: 6.616429341701416e-06 Belief after normalization: 6.616429341701416e-06
+belief too low moving on....
+
+101 Step
+Prediction: 1.137, Correction: 0.0023930759299653176, Prior: 6.616429341701416e-06, Posterior: 1.8002823438533973e-08 Belief after normalization: 1.8002823438533973e-08
+belief too low moving on....
+
+102 Step
+Prediction: 1.105, Correction: 0.0024415277278635526, Prior: 1.8002823438533973e-08, Posterior: 4.856960382853887e-11 Belief after normalization: 4.856960382853887e-11
+belief too low moving on....
+
+103 Step
+Prediction: 1.063, Correction: 0.002490931224993302, Prior: 4.856960382853887e-11, Posterior: 1.286055059560716e-13 Belief after normalization: 1.286055059560716e-13
+belief too low moving on....
+
+Initial belief: 0.0025188916876574307
+104 Step
+Prediction: 1.332, Correction: 0.0025413241255554096, Prior: 0.0025188916876574307, Posterior: 8.526558527052407e-06 Belief after normalization: 8.526558527052407e-06
+belief too low moving on....
+
+105 Step
+Prediction: 1.3940000000000001, Correction: 0.002592783832609744, Prior: 8.526558527052407e-06, Posterior: 3.0817887196858675e-08 Belief after normalization: 3.0817887196858675e-08
+belief too low moving on....
+
+106 Step
+Prediction: 1.417, Correction: 0.0026453000420955035, Prior: 3.0817887196858675e-08, Posterior: 1.1551746510988808e-10 Belief after normalization: 1.1551746510988808e-10
+belief too low moving on....
+
+107 Step
+Prediction: 1.3599999999999999, Correction: 0.002698766919406926, Prior: 1.1551746510988808e-10, Posterior: 4.2398641029514123e-13 Belief after normalization: 4.2398641029514123e-13
+belief too low moving on....
+
+Initial belief: 0.0026246719160104987
+108 Step
+Prediction: 1.792, Correction: 0.002753099021217261, Prior: 0.0026246719160104987, Posterior: 1.2948959175909008e-05 Belief after normalization: 1.2948959175909008e-05
+belief too low moving on....
+
+109 Step
+Prediction: 1.825, Correction: 0.00280860934773366, Prior: 1.2948959175909008e-05, Posterior: 6.637263620740525e-08 Belief after normalization: 6.637263620740525e-08
+belief too low moving on....
+
+110 Step
+Prediction: 1.814, Correction: 0.002865690321606, Prior: 6.637263620740525e-08, Posterior: 3.450290060550535e-10 Belief after normalization: 3.450290060550535e-10
+belief too low moving on....
+
+111 Step
+Prediction: 1.837, Correction: 0.002923559000700406, Prior: 3.450290060550535e-10, Posterior: 1.8530051493566732e-12 Belief after normalization: 1.8530051493566732e-12
+belief too low moving on....
+
+112 Step
+Prediction: 1.733, Correction: 0.0029806918911201193, Prior: 1.8530051493566732e-12, Posterior: 9.571770453870558e-15 Belief after normalization: 9.571770453870558e-15
+belief too low moving on....
+
+Initial belief: 0.0027472527472527475
+113 Step
+Prediction: 1.83, Correction: 0.003014143851705224, Prior: 0.0027472527472527475, Posterior: 1.5153525408298243e-05 Belief after normalization: 1.5153525408298243e-05
+belief too low moving on....
+
+Initial belief: 0.002638522427440633
+114 Step
+Prediction: 1.287, Correction: 0.002789085775265373, Prior: 0.002638522427440633, Posterior: 9.471117131310117e-06 Belief after normalization: 9.471117131310117e-06
+belief too low moving on....
+
+Initial belief: 0.14285714285714285
+115 Step
+Prediction: 1.272, Correction: 0.9005058078525858, Prior: 0.14285714285714285, Posterior: 0.16363476965549847 Belief after normalization: 0.16363476965549847
+[6.70462977e+01 6.09678837e+01 4.27094032e-11] Estimated Local Min
+7.959286480801556e-07 Force Magnitude
+164 Iterations
+True Success
+[ 1.99537023e+01  3.10321163e+01 -4.27094032e-11] F_att
+[-1.99537018e+01 -3.10321170e+01  6.88436592e-09] F_rep
+[[65.91841227 60.4624598   0.        ]
+ [66.96527987 62.11468926  0.        ]
+ [67.17087825 61.16003507  0.        ]] Obstacles in Range
+0.16363476965549847 Belief
+
+Initial belief: 0.2
+116 Step
+Prediction: 1.218, Correction: 0.9580330251382672, Prior: 0.2, Posterior: 0.2333768449236819 Belief after normalization: 0.2333768449236819
+[6.70461387e+01 6.09679578e+01 1.68985183e-09] Estimated Local Min
+3.3546940931052895e-07 Force Magnitude
+126 Iterations
+True Success
+[ 1.99538613e+01  3.10320422e+01 -1.68985183e-09] F_att
+[-1.99538612e+01 -3.10320421e+01  2.72302224e-07] F_rep
+[[65.91841227 60.4624598   0.        ]
+ [66.96527987 62.11468926  0.        ]
+ [67.17087825 61.16003507  0.        ]
+ [66.20053563 62.26543208  0.        ]] Obstacles in Range
+0.2333768449236819 Belief
+
+117 Step
+Prediction: 1.095, Correction: 0.9553369422569138, Prior: 0.2333768449236819, Posterior: 0.24413410595813706 Belief after normalization: 0.24413410595813706
+[6.70461387e+01 6.09679578e+01 1.68985183e-09] Estimated Local Min
+3.3546940931052895e-07 Force Magnitude
+126 Iterations
+True Success
+[ 1.99538613e+01  3.10320422e+01 -1.68985183e-09] F_att
+[-1.99538612e+01 -3.10320421e+01  2.72302224e-07] F_rep
+[[65.91841227 60.4624598   0.        ]
+ [66.96527987 62.11468926  0.        ]
+ [67.17087825 61.16003507  0.        ]
+ [66.20053563 62.26543208  0.        ]] Obstacles in Range
+0.24413410595813706 Belief
+
+118 Step
+Prediction: 1.052, Correction: 0.8891335088253328, Prior: 0.24413410595813706, Posterior: 0.2283553405957277 Belief after normalization: 0.2283553405957277
+[6.70461387e+01 6.09679578e+01 1.68985183e-09] Estimated Local Min
+3.3546940931052895e-07 Force Magnitude
+126 Iterations
+True Success
+[ 1.99538613e+01  3.10320422e+01 -1.68985183e-09] F_att
+[-1.99538612e+01 -3.10320421e+01  2.72302224e-07] F_rep
+[[65.91841227 60.4624598   0.        ]
+ [66.96527987 62.11468926  0.        ]
+ [67.17087825 61.16003507  0.        ]
+ [66.20053563 62.26543208  0.        ]] Obstacles in Range
+0.2283553405957277 Belief
+
+Initial belief: 0.002777777777777778
+119 Step
+Prediction: 1.0, Correction: 0.0030802363841677585, Prior: 0.002777777777777778, Posterior: 8.556212178243775e-06 Belief after normalization: 8.556212178243775e-06
+belief too low moving on....
+
+120 Step
+Prediction: 1.0, Correction: 0.0031433107294121954, Prior: 8.556212178243775e-06, Posterior: 2.689483354300095e-08 Belief after normalization: 2.689483354300095e-08
+belief too low moving on....
+
+Initial belief: 0.0028328611898017
+121 Step
+Prediction: 1.0, Correction: 0.003207215137287634, Prior: 0.0028328611898017, Posterior: 9.085595289766669e-06 Belief after normalization: 9.085595289766669e-06
+belief too low moving on....
+
+Initial belief: 0.002857142857142857
+122 Step
+Prediction: 1.331, Correction: 0.003272253210770912, Prior: 0.002857142857142857, Posterior: 1.2443911495817383e-05 Belief after normalization: 1.2443911495817383e-05
+belief too low moving on....
+
+Initial belief: 0.002890173410404624
+123 Step
+Prediction: 1.347, Correction: 0.0033385137649383323, Prior: 0.002890173410404624, Posterior: 1.2997046362346628e-05 Belief after normalization: 1.2997046362346628e-05
+belief too low moving on....
+
+Initial belief: 0.0029154518950437317
+124 Step
+Prediction: 1.3820000000000001, Correction: 0.0034060636453205743, Prior: 0.0029154518950437317, Posterior: 1.3723556728376193e-05 Belief after normalization: 1.3723556728376193e-05
+belief too low moving on....
+
+125 Step
+Prediction: 1.403, Correction: 0.0034749652406735696, Prior: 1.3723556728376193e-05, Posterior: 6.690750230115539e-08 Belief after normalization: 6.690750230115539e-08
+belief too low moving on....
+
+Initial belief: 0.002976190476190476
+126 Step
+Prediction: 1.6440000000000001, Correction: 0.00354526962577797, Prior: 0.002976190476190476, Posterior: 1.734649781184221e-05 Belief after normalization: 1.734649781184221e-05
+belief too low moving on....
+
+127 Step
+Prediction: 1.6440000000000001, Correction: 0.0036170029783460828, Prior: 1.734649781184221e-05, Posterior: 1.0314839750586085e-07 Belief after normalization: 1.0314839750586085e-07
+belief too low moving on....
+
+128 Step
+Prediction: 1.619, Correction: 0.003690175570742211, Prior: 1.0314839750586085e-07, Posterior: 6.162491928558445e-10 Belief after normalization: 6.162491928558445e-10
+belief too low moving on....
+
+129 Step
+Prediction: 1.56, Correction: 0.003764810542398439, Prior: 6.162491928558445e-10, Posterior: 3.6192958744928112e-12 Belief after normalization: 3.6192958744928112e-12
+belief too low moving on....
+
+Initial belief: 0.0030959752321981426
+130 Step
+Prediction: 1.403, Correction: 0.0038409468846884905, Prior: 0.0030959752321981426, Posterior: 1.6683741421727408e-05 Belief after normalization: 1.6683741421727408e-05
+belief too low moving on....
+
+131 Step
+Prediction: 1.381, Correction: 0.003918635255375617, Prior: 1.6683741421727408e-05, Posterior: 9.028632380824387e-08 Belief after normalization: 9.028632380824387e-08
+belief too low moving on....
+
+132 Step
+Prediction: 1.3439999999999999, Correction: 0.003997901777074692, Prior: 9.028632380824387e-08, Posterior: 4.851246683116098e-10 Belief after normalization: 4.851246683116098e-10
+belief too low moving on....
+
+133 Step
+Prediction: 1.29, Correction: 0.00407876397584922, Prior: 4.851246683116098e-10, Posterior: 2.5525346369677025e-12 Belief after normalization: 2.5525346369677025e-12
+belief too low moving on....
+
+Initial belief: 0.0033222591362126247
+137 Step
+Prediction: 1.249, Correction: 0.004418753039542952, Prior: 0.0033222591362126247, Posterior: 1.833562307770481e-05 Belief after normalization: 1.833562307770481e-05
+belief too low moving on....
+
+138 Step
+Prediction: 1.2429999999999999, Correction: 0.004508044979982088, Prior: 1.833562307770481e-05, Posterior: 1.0274366226787156e-07 Belief after normalization: 1.0274366226787156e-07
+belief too low moving on....
+
+139 Step
+Prediction: 1.252, Correction: 0.004599029685840807, Prior: 1.0274366226787156e-07, Posterior: 5.91596483308033e-10 Belief after normalization: 5.91596483308033e-10
+belief too low moving on....
+
+140 Step
+Prediction: 1.224, Correction: 0.004691619787867325, Prior: 5.91596483308033e-10, Posterior: 3.3972680194453245e-12 Belief after normalization: 3.3972680194453245e-12
+belief too low moving on....
+
+141 Step
+Prediction: 1.161, Correction: 0.004785611991159149, Prior: 3.3972680194453245e-12, Posterior: 1.8875545628976323e-14 Belief after normalization: 1.8875545628976323e-14
+belief too low moving on....
+
+Initial belief: 0.0034965034965034965
+142 Step
+Prediction: 1.145, Correction: 0.004880692620155289, Prior: 0.0034965034965034965, Posterior: 1.9539835839432888e-05 Belief after normalization: 1.9539835839432888e-05
+belief too low moving on....
+
+143 Step
+Prediction: 1.081, Correction: 0.0049769044539146766, Prior: 1.9539835839432888e-05, Posterior: 1.0512497559549602e-07 Belief after normalization: 1.0512497559549602e-07
+belief too low moving on....
+
+Initial belief: 0.0035714285714285713
+144 Step
+Prediction: 1.002, Correction: 0.005076270738803456, Prior: 0.0035714285714285713, Posterior: 1.8165797429575222e-05 Belief after normalization: 1.8165797429575222e-05
+belief too low moving on....
+
+145 Step
+Prediction: 1.0, Correction: 0.005180625378254453, Prior: 1.8165797429575222e-05, Posterior: 9.41101911798869e-08 Belief after normalization: 9.41101911798869e-08
+belief too low moving on....
+
+146 Step
+Prediction: 1.0, Correction: 0.005287292120154958, Prior: 9.41101911798869e-08, Posterior: 4.975880722516927e-10 Belief after normalization: 4.975880722516927e-10
+belief too low moving on....
+
+147 Step
+Prediction: 1.0, Correction: 0.005395241214414821, Prior: 4.975880722516927e-10, Posterior: 2.684607675213552e-12 Belief after normalization: 2.684607675213552e-12
+belief too low moving on....
+
+Initial belief: 0.0037174721189591076
+148 Step
+Prediction: 1.16, Correction: 0.005504754342569245, Prior: 0.0037174721189591076, Posterior: 2.373797411665548e-05 Belief after normalization: 2.373797411665548e-05
+belief too low moving on....
+
+Initial belief: 0.003745318352059925
+149 Step
+Prediction: 1.199, Correction: 0.0056161188107058495, Prior: 0.003745318352059925, Posterior: 2.5219949266053607e-05 Belief after normalization: 2.5219949266053607e-05
+belief too low moving on....
+
+Initial belief: 0.003787878787878788
+150 Step
+Prediction: 1.192, Correction: 0.00572948156190382, Prior: 0.003787878787878788, Posterior: 2.5869477355262702e-05 Belief after normalization: 2.5869477355262702e-05
+belief too low moving on....
+
+Initial belief: 0.0038314176245210726
+151 Step
+Prediction: 1.193, Correction: 0.005844907631955306, Prior: 0.0038314176245210726, Posterior: 2.6716378562922146e-05 Belief after normalization: 2.6716378562922146e-05
+belief too low moving on....
+
+152 Step
+Prediction: 1.159, Correction: 0.005962419124216607, Prior: 2.6716378562922146e-05, Posterior: 1.8462203166264463e-07 Belief after normalization: 1.8462203166264463e-07
+belief too low moving on....
+
+153 Step
+Prediction: 1.115, Correction: 0.006082037979248271, Prior: 1.8462203166264463e-07, Posterior: 1.2520092023416723e-09 Belief after normalization: 1.2520092023416723e-09
+belief too low moving on....
+
+154 Step
+Prediction: 1.09, Correction: 0.006203902446522791, Prior: 1.2520092023416723e-09, Posterior: 8.46640381928944e-12 Belief after normalization: 8.46640381928944e-12
+belief too low moving on....
+
+155 Step
+Prediction: 1.055, Correction: 0.006328340823916343, Prior: 8.46640381928944e-12, Posterior: 5.652509481204599e-14 Belief after normalization: 5.652509481204599e-14
+belief too low moving on....
+
+Initial belief: 0.004016064257028112
+156 Step
+Prediction: 1.171, Correction: 0.006455847807327225, Prior: 0.004016064257028112, Posterior: 3.036063366417743e-05 Belief after normalization: 3.036063366417743e-05
+belief too low moving on....
+
+157 Step
+Prediction: 1.155, Correction: 0.00658670265755784, Prior: 3.036063366417743e-05, Posterior: 2.30972818739329e-07 Belief after normalization: 2.30972818739329e-07
+belief too low moving on....
+
+158 Step
+Prediction: 1.151, Correction: 0.006720503478125135, Prior: 2.30972818739329e-07, Posterior: 1.786643930075221e-09 Belief after normalization: 1.786643930075221e-09
+belief too low moving on....
+
+Initial belief: 0.004149377593360996
+159 Step
+Prediction: 1.328, Correction: 0.006856754778983588, Prior: 0.004149377593360996, Posterior: 3.778327944601745e-05 Belief after normalization: 3.778327944601745e-05
+belief too low moving on....
+
+160 Step
+Prediction: 1.351, Correction: 0.00699526298215047, Prior: 3.778327944601745e-05, Posterior: 3.570746716475659e-07 Belief after normalization: 3.570746716475659e-07
+belief too low moving on....
+
+Initial belief: 0.00423728813559322
+161 Step
+Prediction: 1.361, Correction: 0.007136032737424654, Prior: 0.00423728813559322, Posterior: 4.1153137947605735e-05 Belief after normalization: 4.1153137947605735e-05
+belief too low moving on....
+
+162 Step
+Prediction: 1.333, Correction: 0.007279128865154109, Prior: 4.1153137947605735e-05, Posterior: 3.993121394366724e-07 Belief after normalization: 3.993121394366724e-07
+belief too low moving on....
+
+163 Step
+Prediction: 1.262, Correction: 0.007424524920007744, Prior: 3.993121394366724e-07, Posterior: 3.741455097797787e-09 Belief after normalization: 3.741455097797787e-09
+belief too low moving on....
+
+Initial belief: 0.004366812227074236
+164 Step
+Prediction: 1.279, Correction: 0.007571441108198781, Prior: 0.004366812227074236, Posterior: 4.228765579644646e-05 Belief after normalization: 4.228765579644646e-05
+belief too low moving on....
+
+Initial belief: 0.004405286343612335
+165 Step
+Prediction: 1.365, Correction: 0.007716123414578737, Prior: 0.004405286343612335, Posterior: 4.639871568678404e-05 Belief after normalization: 4.639871568678404e-05
+belief too low moving on....
+
+166 Step
+Prediction: 1.334, Correction: 0.00784027121809053, Prior: 4.639871568678404e-05, Posterior: 4.852805392173816e-07 Belief after normalization: 4.852805392173816e-07
+belief too low moving on....
+
+167 Step
+Prediction: 1.275, Correction: 0.00785380940254976, Prior: 4.852805392173816e-07, Posterior: 4.859408598769359e-09 Belief after normalization: 4.859408598769359e-09
+belief too low moving on....
+
+Initial belief: 0.004464285714285714
+168 Step
+Prediction: 1.411, Correction: 0.007933111841651701, Prior: 0.004464285714285714, Posterior: 4.997152146683281e-05 Belief after normalization: 4.997152146683281e-05
+belief too low moving on....
+
+169 Step
+Prediction: 1.403, Correction: 0.008063053328347366, Prior: 4.997152146683281e-05, Posterior: 5.653010286074765e-07 Belief after normalization: 5.653010286074765e-07
+belief too low moving on....
+
+170 Step
+Prediction: 1.41, Correction: 0.00823137662222272, Prior: 5.653010286074765e-07, Posterior: 6.561019996671235e-09 Belief after normalization: 6.561019996671235e-09
+belief too low moving on....
+
+171 Step
+Prediction: 1.41, Correction: 0.008405244562882969, Prior: 6.561019996671235e-09, Posterior: 7.775723849212213e-11 Belief after normalization: 7.775723849212213e-11
+belief too low moving on....
+
+172 Step
+Prediction: 1.396, Correction: 0.008578559431204913, Prior: 7.775723849212213e-11, Posterior: 9.311949478890173e-13 Belief after normalization: 9.311949478890173e-13
+belief too low moving on....
+
+173 Step
+Prediction: 1.35, Correction: 0.008751963021954464, Prior: 9.311949478890173e-13, Posterior: 1.1002208062709916e-14 Belief after normalization: 1.1002208062709916e-14
+belief too low moving on....
+
+174 Step
+Prediction: 1.374, Correction: 0.008925288405633384, Prior: 1.1002208062709916e-14, Posterior: 1.349238872003391e-16 Belief after normalization: 1.349238872003391e-16
+belief too low moving on....
+
+175 Step
+Prediction: 1.416, Correction: 0.009095345333096567, Prior: 1.349238872003391e-16, Posterior: 1.737685956443526e-18 Belief after normalization: 1.737685956443526e-18
+belief too low moving on....
+
+176 Step
+Prediction: 1.458, Correction: 0.009251977517989484, Prior: 1.737685956443526e-18, Posterior: 2.344031178461399e-20 Belief after normalization: 2.344031178461399e-20
+belief too low moving on....
+
+177 Step
+Prediction: 1.424, Correction: 0.009391071150748977, Prior: 2.344031178461399e-20, Posterior: 3.1346460132943077e-22 Belief after normalization: 3.1346460132943077e-22
+belief too low moving on....
+
+178 Step
+Prediction: 1.342, Correction: 0.00956982285788469, Prior: 3.1346460132943077e-22, Posterior: 4.0257325487136125e-24 Belief after normalization: 4.0257325487136125e-24
+belief too low moving on....
+
+Initial belief: 0.0049504950495049506
+179 Step
+Prediction: 1.2770000000000001, Correction: 0.009773621130172638, Prior: 0.0049504950495049506, Posterior: 6.178670387737851e-05 Belief after normalization: 6.178670387737851e-05
+belief too low moving on....
+
+180 Step
+Prediction: 1.219, Correction: 0.009980238899511624, Prior: 6.178670387737851e-05, Posterior: 7.516915538562253e-07 Belief after normalization: 7.516915538562253e-07
+belief too low moving on....
+
+181 Step
+Prediction: 1.184, Correction: 0.010186948581486362, Prior: 7.516915538562253e-07, Posterior: 9.066412758592808e-09 Belief after normalization: 9.066412758592808e-09
+belief too low moving on....
+
+182 Step
+Prediction: 1.5110000000000001, Correction: 0.010395097096956674, Prior: 9.066412758592808e-09, Posterior: 1.4240607007040183e-10 Belief after normalization: 1.4240607007040183e-10
+belief too low moving on....
+
+Initial belief: 0.005154639175257732
+183 Step
+Prediction: 1.514, Correction: 0.01060581782065859, Prior: 0.005154639175257732, Posterior: 8.276911433235621e-05 Belief after normalization: 8.276911433235621e-05
+belief too low moving on....
+
+184 Step
+Prediction: 1.5230000000000001, Correction: 0.010819770701174177, Prior: 8.276911433235621e-05, Posterior: 1.3639117426019986e-06 Belief after normalization: 1.3639117426019986e-06
+belief too low moving on....
+
+185 Step
+Prediction: 1.504, Correction: 0.011037374354830994, Prior: 1.3639117426019986e-06, Posterior: 2.264122275303242e-08 Belief after normalization: 2.264122275303242e-08
+belief too low moving on....
+
+Initial belief: 0.005319148936170213
+186 Step
+Prediction: 1.494, Correction: 0.011258863336179318, Prior: 0.005319148936170213, Posterior: 8.94720309800633e-05 Belief after normalization: 8.94720309800633e-05
+belief too low moving on....
+
+Initial belief: 0.005376344086021506
+187 Step
+Prediction: 1.693, Correction: 0.011484427476220421, Prior: 0.005376344086021506, Posterior: 0.00010453298772710309 Belief after normalization: 0.00010453298772710309
+belief too low moving on....
+
+Initial belief: 0.005434782608695652
+188 Step
+Prediction: 1.6099999999999999, Correction: 0.011714283833471508, Prior: 0.005434782608695652, Posterior: 0.00010249998354287568 Belief after normalization: 0.00010249998354287568
+belief too low moving on....
+
+189 Step
+Prediction: 1.626, Correction: 0.011948659515873622, Prior: 0.00010249998354287568, Posterior: 1.9914230184755022e-06 Belief after normalization: 1.9914230184755022e-06
+belief too low moving on....
+
+190 Step
+Prediction: 1.631, Correction: 0.012187750646430908, Prior: 1.9914230184755022e-06, Posterior: 3.9585947471790517e-08 Belief after normalization: 3.9585947471790517e-08
+belief too low moving on....
+
+191 Step
+Prediction: 1.5979999999999999, Correction: 0.012431673855766052, Prior: 3.9585947471790517e-08, Posterior: 7.864071020087767e-10 Belief after normalization: 7.864071020087767e-10
+belief too low moving on....
+
+192 Step
+Prediction: 1.546, Correction: 0.012680378089040165, Prior: 7.864071020087767e-10, Posterior: 1.5416618289793874e-11 Belief after normalization: 1.5416618289793874e-11
+belief too low moving on....
+
+Initial belief: 0.005714285714285714
+193 Step
+Prediction: 1.705, Correction: 0.01293365949352237, Prior: 0.005714285714285714, Posterior: 0.00012601079677974653 Belief after normalization: 0.00012601079677974653
+belief too low moving on....
+
+194 Step
+Prediction: 1.678, Correction: 0.013191280800533393, Prior: 0.00012601079677974653, Posterior: 2.7892451034821423e-06 Belief after normalization: 2.7892451034821423e-06
+belief too low moving on....
+
+195 Step
+Prediction: 1.653, Correction: 0.013453123635133554, Prior: 2.7892451034821423e-06, Posterior: 6.202726990030715e-08 Belief after normalization: 6.202726990030715e-08
+belief too low moving on....
+
+196 Step
+Prediction: 1.6320000000000001, Correction: 0.013719615349146485, Prior: 6.202726990030715e-08, Posterior: 1.3888161437979263e-09 Belief after normalization: 1.3888161437979263e-09
+belief too low moving on....
+
+197 Step
+Prediction: 1.597, Correction: 0.013991776390247773, Prior: 1.3888161437979263e-09, Posterior: 3.103291187510529e-11 Belief after normalization: 3.103291187510529e-11
+belief too low moving on....
+
+198 Step
+Prediction: 1.5430000000000001, Correction: 0.014270515837708225, Prior: 3.103291187510529e-11, Posterior: 6.83326284003208e-13 Belief after normalization: 6.83326284003208e-13
+belief too low moving on....
+
+199 Step
+Prediction: 1.44, Correction: 0.014555411467090072, Prior: 6.83326284003208e-13, Posterior: 1.432237713111985e-14 Belief after normalization: 1.432237713111985e-14
+belief too low moving on....
+
+Initial belief: 0.006134969325153374
+200 Step
+Prediction: 1.272, Correction: 0.014844314481136765, Prior: 0.006134969325153374, Posterior: 0.00011584029460126359 Belief after normalization: 0.00011584029460126359
+belief too low moving on....
+
+201 Step
+Prediction: 1.287, Correction: 0.01513323508653237, Prior: 0.00011584029460126359, Posterior: 2.2561604345632917e-06 Belief after normalization: 2.2561604345632917e-06
+belief too low moving on....
+
+202 Step
+Prediction: 1.296, Correction: 0.0154136316275451, Prior: 2.2561604345632917e-06, Posterior: 4.506921107697685e-08 Belief after normalization: 4.506921107697685e-08
+belief too low moving on....
+
+203 Step
+Prediction: 1.293, Correction: 0.01566188486760071, Prior: 4.506921107697685e-08, Posterior: 9.126883518848394e-10 Belief after normalization: 9.126883518848394e-10
+belief too low moving on....
+
+204 Step
+Prediction: 1.2730000000000001, Correction: 0.015811977492311995, Prior: 9.126883518848394e-10, Posterior: 1.8371181973455478e-11 Belief after normalization: 1.8371181973455478e-11
+belief too low moving on....
+
+205 Step
+Prediction: 1.238, Correction: 0.015817111417847526, Prior: 1.8371181973455478e-11, Posterior: 3.597368418038012e-13 Belief after normalization: 3.597368418038012e-13
+belief too low moving on....
+
+206 Step
+Prediction: 1.203, Correction: 0.015898176122826513, Prior: 3.597368418038012e-13, Posterior: 6.880149081646052e-15 Belief after normalization: 6.880149081646052e-15
+belief too low moving on....
+
+207 Step
+Prediction: 1.151, Correction: 0.01602442506791476, Prior: 6.880149081646052e-15, Posterior: 1.2689824886057258e-16 Belief after normalization: 1.2689824886057258e-16
+belief too low moving on....
+
+208 Step
+Prediction: 1.085, Correction: 0.01624355249019295, Prior: 1.2689824886057258e-16, Posterior: 2.2364870274141022e-18 Belief after normalization: 2.2364870274141022e-18
+belief too low moving on....
+
+209 Step
+Prediction: 1.027, Correction: 0.016543038507345086, Prior: 2.2364870274141022e-18, Posterior: 3.799724487311284e-20 Belief after normalization: 3.799724487311284e-20
+belief too low moving on....
+
+210 Step
+Prediction: 1.0, Correction: 0.016887237350682444, Prior: 3.799724487311284e-20, Posterior: 6.416684928442581e-22 Belief after normalization: 6.416684928442581e-22
+belief too low moving on....
+
+211 Step
+Prediction: 1.068, Correction: 0.01724581184927809, Prior: 6.416684928442581e-22, Posterior: 1.181858849581165e-23 Belief after normalization: 1.181858849581165e-23
+belief too low moving on....
+
+212 Step
+Prediction: 1.05, Correction: 0.017607380959061752, Prior: 1.181858849581165e-23, Posterior: 2.1849910954634736e-25 Belief after normalization: 2.1849910954634736e-25
+belief too low moving on....
+
+213 Step
+Prediction: 1.03, Correction: 0.0179705541137157, Prior: 2.1849910954634736e-25, Posterior: 4.04434657405837e-27 Belief after normalization: 4.04434657405837e-27
+belief too low moving on....
+
+214 Step
+Prediction: 1.012, Correction: 0.01833660288651261, Prior: 4.04434657405837e-27, Posterior: 7.504949198870332e-29 Belief after normalization: 7.504949198870332e-29
+belief too low moving on....
+
+215 Step
+Prediction: 1.009, Correction: 0.01870693720216562, Prior: 7.504949198870332e-29, Posterior: 1.4165816488902885e-30 Belief after normalization: 1.4165816488902885e-30
+belief too low moving on....
+
+Initial belief: 0.006944444444444444
+216 Step
+Prediction: 1.319, Correction: 0.01908262392307975, Prior: 0.006944444444444444, Posterior: 0.00017479153440654299 Belief after normalization: 0.00017479153440654299
+belief too low moving on....
+
+217 Step
+Prediction: 1.32, Correction: 0.019464303505368114, Prior: 0.00017479153440654299, Posterior: 4.490898028132489e-06 Belief after normalization: 4.490898028132489e-06
+belief too low moving on....
+
+218 Step
+Prediction: 1.342, Correction: 0.01985242064765566, Prior: 4.490898028132489e-06, Posterior: 1.1964627402536655e-07 Belief after normalization: 1.1964627402536655e-07
+belief too low moving on....
+
+219 Step
+Prediction: 1.355, Correction: 0.020247260306781357, Prior: 1.1964627402536655e-07, Posterior: 3.2825000404275613e-09 Belief after normalization: 3.2825000404275613e-09
+belief too low moving on....
+
+220 Step
+Prediction: 1.357, Correction: 0.020648933075302387, Prior: 3.2825000404275613e-09, Posterior: 9.197762779911049e-11 Belief after normalization: 9.197762779911049e-11
+belief too low moving on....
+
+221 Step
+Prediction: 1.341, Correction: 0.02105732928493129, Prior: 9.197762779911049e-11, Posterior: 2.597253085048457e-12 Belief after normalization: 2.597253085048457e-12
+belief too low moving on....
+
+Initial belief: 0.007352941176470588
+222 Step
+Prediction: 1.309, Correction: 0.021472000671467026, Prior: 0.007352941176470588, Posterior: 0.0002066680064628701 Belief after normalization: 0.0002066680064628701
+belief too low moving on....
+
+223 Step
+Prediction: 1.2570000000000001, Correction: 0.021891962349568653, Prior: 0.0002066680064628701, Posterior: 5.687130847946374e-06 Belief after normalization: 5.687130847946374e-06
+belief too low moving on....
+
+224 Step
+Prediction: 1.271, Correction: 0.02231507651541716, Prior: 5.687130847946374e-06, Posterior: 1.613010339919181e-07 Belief after normalization: 1.613010339919181e-07
+belief too low moving on....
+
+225 Step
+Prediction: 1.28, Correction: 0.022736754080944974, Prior: 1.613010339919181e-07, Posterior: 4.694351286881777e-09 Belief after normalization: 4.694351286881777e-09
+belief too low moving on....
+
+226 Step
+Prediction: 1.289, Correction: 0.023147006690481996, Prior: 4.694351286881777e-09, Posterior: 1.4006297285130863e-10 Belief after normalization: 1.4006297285130863e-10
+belief too low moving on....
+
+227 Step
+Prediction: 1.293, Correction: 0.023523147187985965, Prior: 1.4006297285130863e-10, Posterior: 4.260075450276902e-12 Belief after normalization: 4.260075450276902e-12
+belief too low moving on....
+
+228 Step
+Prediction: 1.289, Correction: 0.02381550176538547, Prior: 4.260075450276902e-12, Posterior: 1.3077657055029412e-13 Belief after normalization: 1.3077657055029412e-13
+belief too low moving on....
+
+229 Step
+Prediction: 1.276, Correction: 0.023952869822799008, Prior: 1.3077657055029412e-13, Posterior: 3.997037041255952e-15 Belief after normalization: 3.997037041255952e-15
+belief too low moving on....
+
+230 Step
+Prediction: 1.254, Correction: 0.023981904263191918, Prior: 3.997037041255952e-15, Posterior: 1.202041258134295e-16 Belief after normalization: 1.202041258134295e-16
+belief too low moving on....
+
+231 Step
+Prediction: 1.225, Correction: 0.024045894973222025, Prior: 1.202041258134295e-16, Posterior: 3.5407593362056735e-18 Belief after normalization: 3.5407593362056735e-18
+belief too low moving on....
+
+232 Step
+Prediction: 1.194, Correction: 0.02415814302598618, Prior: 3.5407593362056735e-18, Posterior: 1.0213257553479513e-19 Belief after normalization: 1.0213257553479513e-19
+belief too low moving on....
+
+Initial belief: 0.007874015748031496
+233 Step
+Prediction: 1.157, Correction: 0.0243473915205057, Prior: 0.007874015748031496, Posterior: 0.0002218104881041346 Belief after normalization: 0.0002218104881041346
+belief too low moving on....
+
+234 Step
+Prediction: 1.107, Correction: 0.024638310426001203, Prior: 0.0002218104881041346, Posterior: 6.049794477449334e-06 Belief after normalization: 6.049794477449334e-06
+belief too low moving on....
+
+235 Step
+Prediction: 1.057, Correction: 0.02503600584568891, Prior: 6.049794477449334e-06, Posterior: 1.600960632270884e-07 Belief after normalization: 1.600960632270884e-07
+belief too low moving on....
+
+236 Step
+Prediction: 1.011, Correction: 0.025517318402608742, Prior: 1.600960632270884e-07, Posterior: 4.130159664793862e-09 Belief after normalization: 4.130159664793862e-09
+belief too low moving on....
+
+237 Step
+Prediction: 1.0, Correction: 0.026046417851486887, Prior: 4.130159664793862e-09, Posterior: 1.0757586442257796e-10 Belief after normalization: 1.0757586442257796e-10
+belief too low moving on....
+
+Initial belief: 0.008264462809917356
+238 Step
+Prediction: 1.322, Correction: 0.026596093990417166, Prior: 0.008264462809917356, Posterior: 0.00029057881202753305 Belief after normalization: 0.00029057881202753305
+belief too low moving on....
+
+239 Step
+Prediction: 1.326, Correction: 0.027153459746873485, Prior: 0.00029057881202753305, Posterior: 1.04624318203569e-05 Belief after normalization: 1.04624318203569e-05
+belief too low moving on....
+
+240 Step
+Prediction: 1.328, Correction: 0.027714874665126857, Prior: 1.04624318203569e-05, Posterior: 3.85073502196336e-07 Belief after normalization: 3.85073502196336e-07
+belief too low moving on....
+
+241 Step
+Prediction: 1.329, Correction: 0.028280616842863794, Prior: 3.85073502196336e-07, Posterior: 1.4472964392527194e-08 Belief after normalization: 1.4472964392527194e-08
+belief too low moving on....
+
+242 Step
+Prediction: 1.33, Correction: 0.028852049981637738, Prior: 1.4472964392527194e-08, Posterior: 5.553743404074249e-10 Belief after normalization: 5.553743404074249e-10
+belief too low moving on....
+
+243 Step
+Prediction: 1.33, Correction: 0.029430581280779827, Prior: 5.553743404074249e-10, Posterior: 2.1738836256604872e-11 Belief after normalization: 2.1738836256604872e-11
+belief too low moving on....
+
+244 Step
+Prediction: 1.33, Correction: 0.030017382182328, Prior: 2.1738836256604872e-11, Posterior: 8.678821316310307e-13 Belief after normalization: 8.678821316310307e-13
+belief too low moving on....
+
+Initial belief: 0.008849557522123894
+245 Step
+Prediction: 1.529, Correction: 0.030613369951531414, Prior: 0.008849557522123894, Posterior: 0.00041422869606983653 Belief after normalization: 0.00041422869606983653
+belief too low moving on....
+
+246 Step
+Prediction: 1.534, Correction: 0.031219230338027797, Prior: 0.00041422869606983653, Posterior: 1.983753624939536e-05 Belief after normalization: 1.983753624939536e-05
+belief too low moving on....
+
+247 Step
+Prediction: 1.537, Correction: 0.031835496094903014, Prior: 1.983753624939536e-05, Posterior: 9.70673610588789e-07 Belief after normalization: 9.70673610588789e-07
+belief too low moving on....
+
+248 Step
+Prediction: 1.538, Correction: 0.032462627944023374, Prior: 9.70673610588789e-07, Posterior: 4.84633278319123e-08 Belief after normalization: 4.84633278319123e-08
+belief too low moving on....
+
+249 Step
+Prediction: 1.537, Correction: 0.03310101799531758, Prior: 4.84633278319123e-08, Posterior: 2.4656330930227097e-09 Belief after normalization: 2.4656330930227097e-09
+belief too low moving on....
+
+250 Step
+Prediction: 1.533, Correction: 0.03375101309717701, Prior: 2.4656330930227097e-09, Posterior: 1.275726035120734e-10 Belief after normalization: 1.275726035120734e-10
+belief too low moving on....
+
+Initial belief: 0.009433962264150943
+251 Step
+Prediction: 1.336, Correction: 0.034412930595048796, Prior: 0.009433962264150943, Posterior: 0.00043373278561306786 Belief after normalization: 0.00043373278561306786
+belief too low moving on....
+
+Initial belief: 0.009523809523809525
+252 Step
+Prediction: 1.347, Correction: 0.035087082865297825, Prior: 0.009523809523809525, Posterior: 0.0004501171487576779 Belief after normalization: 0.0004501171487576779
+belief too low moving on....
+
+253 Step
+Prediction: 1.346, Correction: 0.03577384633720961, Prior: 0.0004501171487576779, Posterior: 2.167385962623652e-05 Belief after normalization: 2.167385962623652e-05
+belief too low moving on....
+
+Initial belief: 0.009708737864077669
+254 Step
+Prediction: 1.6019999999999999, Correction: 0.03647359898489932, Prior: 0.009708737864077669, Posterior: 0.0005672884036292107 Belief after normalization: 0.0005672884036292107
+belief too low moving on....
+
+255 Step
+Prediction: 1.612, Correction: 0.03718651211378544, Prior: 0.0005672884036292107, Posterior: 3.400590907483105e-05 Belief after normalization: 3.400590907483105e-05
+belief too low moving on....
+
+256 Step
+Prediction: 1.6219999999999999, Correction: 0.03791272530413397, Prior: 3.400590907483105e-05, Posterior: 2.091174350322653e-06 Belief after normalization: 2.091174350322653e-06
+belief too low moving on....
+
+257 Step
+Prediction: 1.624, Correction: 0.03865243715394084, Prior: 2.091174350322653e-06, Posterior: 1.3126627188973776e-07 Belief after normalization: 1.3126627188973776e-07
+belief too low moving on....
+
+258 Step
+Prediction: 1.634, Correction: 0.03940584209777048, Prior: 1.3126627188973776e-07, Posterior: 8.452123143976923e-09 Belief after normalization: 8.452123143976923e-09
+belief too low moving on....
+
+Initial belief: 0.01020408163265306
+259 Step
+Prediction: 1.88, Correction: 0.040173134161790185, Prior: 0.01020408163265306, Posterior: 0.0007706682880016892 Belief after normalization: 0.0007706682880016892
+belief too low moving on....
+
+260 Step
+Prediction: 1.884, Correction: 0.040954278329430736, Prior: 0.0007706682880016892, Posterior: 5.946311615926163e-05 Belief after normalization: 5.946311615926163e-05
+belief too low moving on....
+
+Initial belief: 0.010416666666666666
+261 Step
+Prediction: 1.933, Correction: 0.041749354858045575, Prior: 0.010416666666666666, Posterior: 0.0008406406556312718 Belief after normalization: 0.0008406406556312718
+belief too low moving on....
+
+262 Step
+Prediction: 1.948, Correction: 0.04255822871826127, Prior: 0.0008406406556312718, Posterior: 6.969199336525386e-05 Belief after normalization: 6.969199336525386e-05
+belief too low moving on....
+
+263 Step
+Prediction: 1.962, Correction: 0.0433808766029773, Prior: 6.969199336525386e-05, Posterior: 5.931714137740224e-06 Belief after normalization: 5.931714137740224e-06
+belief too low moving on....
+
+264 Step
+Prediction: 1.974, Correction: 0.044217238874908714, Prior: 5.931714137740224e-06, Posterior: 5.177486573871459e-07 Belief after normalization: 5.177486573871459e-07
+belief too low moving on....
+
+265 Step
+Prediction: 1.986, Correction: 0.045067179333096445, Prior: 5.177486573871459e-07, Posterior: 4.634027458158571e-08 Belief after normalization: 4.634027458158571e-08
+belief too low moving on....
+
+Initial belief: 0.010869565217391304
+266 Step
+Prediction: 1.78, Correction: 0.045930446219413876, Prior: 0.010869565217391304, Posterior: 0.0008886542855495293 Belief after normalization: 0.0008886542855495293
+belief too low moving on....
+
+267 Step
+Prediction: 1.795, Correction: 0.046806636540237666, Prior: 0.0008886542855495293, Posterior: 7.46628780857863e-05 Belief after normalization: 7.46628780857863e-05
+belief too low moving on....
+
+268 Step
+Prediction: 1.791, Correction: 0.047695142674713024, Prior: 7.46628780857863e-05, Posterior: 6.377852411446051e-06 Belief after normalization: 6.377852411446051e-06
+belief too low moving on....
+
+269 Step
+Prediction: 1.7690000000000001, Correction: 0.048594949219404784, Prior: 6.377852411446051e-06, Posterior: 5.482686714775871e-07 Belief after normalization: 5.482686714775871e-07
+belief too low moving on....
+
+270 Step
+Prediction: 1.746, Correction: 0.049504578657764434, Prior: 5.482686714775871e-07, Posterior: 4.738959951402188e-08 Belief after normalization: 4.738959951402188e-08
+belief too low moving on....
+
+271 Step
+Prediction: 1.746, Correction: 0.050421975231388146, Prior: 4.738959951402188e-08, Posterior: 4.172027213760791e-09 Belief after normalization: 4.172027213760791e-09
+belief too low moving on....
+
+272 Step
+Prediction: 1.737, Correction: 0.051344417169700535, Prior: 4.172027213760791e-09, Posterior: 3.7208330101249873e-10 Belief after normalization: 3.7208330101249873e-10
+belief too low moving on....
+
+273 Step
+Prediction: 1.716, Correction: 0.05226852722408024, Prior: 3.7208330101249873e-10, Posterior: 3.3373190390993196e-11 Belief after normalization: 3.3373190390993196e-11
+belief too low moving on....
+
+274 Step
+Prediction: 1.667, Correction: 0.053190523565635556, Prior: 3.3373190390993196e-11, Posterior: 2.959154162410927e-12 Belief after normalization: 2.959154162410927e-12
+belief too low moving on....
+
+275 Step
+Prediction: 1.673, Correction: 0.05410695852479679, Prior: 2.959154162410927e-12, Posterior: 2.67865421156462e-13 Belief after normalization: 2.67865421156462e-13
+belief too low moving on....
+
+276 Step
+Prediction: 1.674, Correction: 0.05501626059789905, Prior: 2.67865421156462e-13, Posterior: 2.4669660687163562e-14 Belief after normalization: 2.4669660687163562e-14
+belief too low moving on....
+
+277 Step
+Prediction: 1.677, Correction: 0.055921182476609675, Prior: 2.4669660687163562e-14, Posterior: 2.3135164130397327e-15 Belief after normalization: 2.3135164130397327e-15
+belief too low moving on....
+
+278 Step
+Prediction: 1.678, Correction: 0.0568313841292825, Prior: 2.3135164130397327e-15, Posterior: 2.206240104509685e-16 Belief after normalization: 2.206240104509685e-16
+belief too low moving on....
+
+279 Step
+Prediction: 1.671, Correction: 0.057764029758420515, Prior: 2.206240104509685e-16, Posterior: 2.1295444413441857e-17 Belief after normalization: 2.1295444413441857e-17
+belief too low moving on....
+
+280 Step
+Prediction: 1.638, Correction: 0.058740325171454916, Prior: 2.1295444413441857e-17, Posterior: 2.0489763777475642e-18 Belief after normalization: 2.0489763777475642e-18
+belief too low moving on....
+
+281 Step
+Prediction: 1.603, Correction: 0.059779190046328555, Prior: 2.0489763777475642e-18, Posterior: 1.9634529570215267e-19 Belief after normalization: 1.9634529570215267e-19
+belief too low moving on....
+
+Initial belief: 0.012658227848101266
+282 Step
+Prediction: 1.8279999999999998, Correction: 0.060892429004948755, Prior: 0.012658227848101266, Posterior: 0.00140900455976008 Belief after normalization: 0.00140900455976008
+belief too low moving on....
+
+283 Step
+Prediction: 1.812, Correction: 0.06208330597317205, Prior: 0.00140900455976008, Posterior: 0.0001585058980965375 Belief after normalization: 0.0001585058980965375
+belief too low moving on....
+
+284 Step
+Prediction: 1.8050000000000002, Correction: 0.06334709647127057, Prior: 0.0001585058980965375, Posterior: 1.812380359446607e-05 Belief after normalization: 1.812380359446607e-05
+belief too low moving on....
+
+285 Step
+Prediction: 1.7970000000000002, Correction: 0.06467183568279526, Prior: 1.812380359446607e-05, Posterior: 2.1062630674713895e-06 Belief after normalization: 2.1062630674713895e-06
+belief too low moving on....
+
+286 Step
+Prediction: 1.786, Correction: 0.06604086461647173, Prior: 2.1062630674713895e-06, Posterior: 2.4843158927679676e-07 Belief after normalization: 2.4843158927679676e-07
+belief too low moving on....
+
+287 Step
+Prediction: 1.7730000000000001, Correction: 0.06743775698295067, Prior: 2.4843158927679676e-07, Posterior: 2.970425539326381e-08 Belief after normalization: 2.970425539326381e-08
+belief too low moving on....
+
+288 Step
+Prediction: 1.748, Correction: 0.06885029700035182, Prior: 2.970425539326381e-08, Posterior: 3.5749166168889015e-09 Belief after normalization: 3.5749166168889015e-09
+belief too low moving on....
+
+289 Step
+Prediction: 1.7349999999999999, Correction: 0.07027140427721962, Prior: 3.5749166168889015e-09, Posterior: 4.358570028121716e-10 Belief after normalization: 4.358570028121716e-10
+belief too low moving on....
+
+290 Step
+Prediction: 1.714, Correction: 0.07169791897625118, Prior: 4.358570028121716e-10, Posterior: 5.3562568684879914e-11 Belief after normalization: 5.3562568684879914e-11
+belief too low moving on....
+
+Initial belief: 0.013888888888888888
+291 Step
+Prediction: 1.5979999999999999, Correction: 0.07312890483373713, Prior: 0.013888888888888888, Posterior: 0.001623055415615443 Belief after normalization: 0.001623055415615443
+belief too low moving on....
+
+292 Step
+Prediction: 1.633, Correction: 0.07456447140059007, Prior: 0.001623055415615443, Posterior: 0.00019762936547170347 Belief after normalization: 0.00019762936547170347
+belief too low moving on....
+
+Initial belief: 0.014285714285714285
+293 Step
+Prediction: 1.697, Correction: 0.07600463575840155, Prior: 0.014285714285714285, Posterior: 0.0018425695268858204 Belief after normalization: 0.0018425695268858204
+belief too low moving on....
+
+Initial belief: 0.014285714285714285
+294 Step
+Prediction: 1.822, Correction: 0.07744858719857714, Prior: 0.014285714285714285, Posterior: 0.0020158760839401077 Belief after normalization: 0.0020158760839401077
+belief too low moving on....
+
+295 Step
+Prediction: 1.822, Correction: 0.0788940194034048, Prior: 0.0020158760839401077, Posterior: 0.00028977191285760204 Belief after normalization: 0.00028977191285760204
+belief too low moving on....
+
+296 Step
+Prediction: 1.8159999999999998, Correction: 0.08033745977644895, Prior: 0.00028977191285760204, Posterior: 4.227564353867276e-05 Belief after normalization: 4.227564353867276e-05
+belief too low moving on....
+
+Initial belief: 0.014705882352941176
+297 Step
+Prediction: 1.849, Correction: 0.08177343324596746, Prior: 0.014705882352941176, Posterior: 0.0022235158539969683 Belief after normalization: 0.0022235158539969683
+belief too low moving on....
+
+298 Step
+Prediction: 1.85, Correction: 0.08319365468508297, Prior: 0.0022235158539969683, Posterior: 0.0003422174587668276 Belief after normalization: 0.0003422174587668276
+belief too low moving on....
+
+299 Step
+Prediction: 1.845, Correction: 0.08458632434052807, Prior: 0.0003422174587668276, Posterior: 5.3407061795336804e-05 Belief after normalization: 5.3407061795336804e-05
+belief too low moving on....
+
+300 Step
+Prediction: 1.843, Correction: 0.0859351836545547, Prior: 5.3407061795336804e-05, Posterior: 8.45853265844315e-06 Belief after normalization: 8.45853265844315e-06
+belief too low moving on....
+
+301 Step
+Prediction: 1.837, Correction: 0.08721890600269448, Prior: 8.45853265844315e-06, Posterior: 1.3552356634431808e-06 Belief after normalization: 1.3552356634431808e-06
+belief too low moving on....
+
+302 Step
+Prediction: 1.831, Correction: 0.08841168863762547, Prior: 1.3552356634431808e-06, Posterior: 2.19387991191215e-07 Belief after normalization: 2.19387991191215e-07
+belief too low moving on....
+
+303 Step
+Prediction: 1.8279999999999998, Correction: 0.08948657402898393, Prior: 2.19387991191215e-07, Posterior: 3.58878073186594e-08 Belief after normalization: 3.58878073186594e-08
+belief too low moving on....
+
+304 Step
+Prediction: 1.827, Correction: 0.09042312997315553, Prior: 3.58878073186594e-08, Posterior: 5.928775530499982e-09 Belief after normalization: 5.928775530499982e-09
+belief too low moving on....
+
+305 Step
+Prediction: 1.822, Correction: 0.09121883053469956, Prior: 5.928775530499982e-09, Posterior: 9.853666980596014e-10 Belief after normalization: 9.853666980596014e-10
+belief too low moving on....
+
+306 Step
+Prediction: 1.829, Correction: 0.09189811614248596, Prior: 9.853666980596014e-10, Posterior: 1.6562206482476982e-10 Belief after normalization: 1.6562206482476982e-10
+belief too low moving on....
+
+307 Step
+Prediction: 1.837, Correction: 0.09251033585312501, Prior: 1.6562206482476982e-10, Posterior: 2.8146059970069712e-11 Belief after normalization: 2.8146059970069712e-11
+belief too low moving on....
+
+308 Step
+Prediction: 1.853, Correction: 0.09311586706783453, Prior: 2.8146059970069712e-11, Posterior: 4.8564253748501425e-12 Belief after normalization: 4.8564253748501425e-12
+belief too low moving on....
+
+309 Step
+Prediction: 1.8679999999999999, Correction: 0.09377107082858926, Prior: 4.8564253748501425e-12, Posterior: 8.506726441682161e-13 Belief after normalization: 8.506726441682161e-13
+belief too low moving on....
+
+310 Step
+Prediction: 1.867, Correction: 0.09452089170091622, Prior: 8.506726441682161e-13, Posterior: 1.5011863094068864e-13 Belief after normalization: 1.5011863094068864e-13
+belief too low moving on....
+
+Initial belief: 0.2
+311 Step
+Prediction: 1.8359999999999999, Correction: 0.9577139171077207, Prior: 0.2, Posterior: 0.35167255036195505 Belief after normalization: 0.35167255036195505
+[8.43446553e+01 8.62736261e+01 5.16215257e-09] Estimated Local Min
+9.151640628050225e-08 Force Magnitude
+130 Iterations
+True Success
+[ 2.65534467e+00  5.72637385e+00 -5.16215257e-09] F_att
+[-2.65534462e+00 -5.72637384e+00  8.13752410e-08] F_rep
+[[84.1058212  84.68585458  0.        ]
+ [84.50907092 86.63803571  0.        ]
+ [82.96079595 85.17449291  0.        ]
+ [85.86529848 86.17054407  0.        ]
+ [85.32352008 87.136304    0.        ]] Obstacles in Range
+0.35167255036195505 Belief
+
+312 Step
+Prediction: 1.814, Correction: 0.9483771400632236, Prior: 0.35167255036195505, Posterior: 0.6050020284975338 Belief after normalization: 0.6050020284975338
+[8.43446553e+01 8.62736261e+01 5.16215257e-09] Estimated Local Min
+9.151640628050225e-08 Force Magnitude
+130 Iterations
+True Success
+[ 2.65534467e+00  5.72637385e+00 -5.16215257e-09] F_att
+[-2.65534462e+00 -5.72637384e+00  8.13752410e-08] F_rep
+[[84.1058212  84.68585458  0.        ]
+ [84.50907092 86.63803571  0.        ]
+ [82.96079595 85.17449291  0.        ]
+ [85.86529848 86.17054407  0.        ]
+ [85.32352008 87.136304    0.        ]] Obstacles in Range
+0.6050020284975338 Belief
+
+Initial belief: 0.01639344262295082
+313 Step
+Prediction: 1.686, Correction: 0.09761191645106394, Prior: 0.01639344262295082, Posterior: 0.002697929362893341 Belief after normalization: 0.002697929362893341
+belief too low moving on....
+
+314 Step
+Prediction: 1.689, Correction: 0.09896283186187493, Prior: 0.002697929362893341, Posterior: 0.00045095409882682194 Belief after normalization: 0.00045095409882682194
+belief too low moving on....
+
+315 Step
+Prediction: 1.687, Correction: 0.10047128608600045, Prior: 0.00045095409882682194, Posterior: 7.643449186972956e-05 Belief after normalization: 7.643449186972956e-05
+belief too low moving on....
+
+Initial belief: 0.016666666666666666
+316 Step
+Prediction: 1.674, Correction: 0.10212387639570464, Prior: 0.016666666666666666, Posterior: 0.0028492561514401596 Belief after normalization: 0.0028492561514401596
+belief too low moving on....
+
+317 Step
+Prediction: 1.657, Correction: 0.10390249866136786, Prior: 0.0028492561514401596, Posterior: 0.0004905462890447201 Belief after normalization: 0.0004905462890447201
+belief too low moving on....
+
+318 Step
+Prediction: 1.646, Correction: 0.10578751366484579, Prior: 0.0004905462890447201, Posterior: 8.5416984532648e-05 Belief after normalization: 8.5416984532648e-05
+belief too low moving on....
+
+Initial belief: 0.017241379310344827
+319 Step
+Prediction: 1.546, Correction: 0.10775920122726132, Prior: 0.017241379310344827, Posterior: 0.0028723400878852756 Belief after normalization: 0.0028723400878852756
+belief too low moving on....
+
+320 Step
+Prediction: 1.536, Correction: 0.10980001995711719, Prior: 0.0028723400878852756, Posterior: 0.00048442828642319003 Belief after normalization: 0.00048442828642319003
+belief too low moving on....
+
+321 Step
+Prediction: 1.526, Correction: 0.11189557558151289, Prior: 0.00048442828642319003, Posterior: 8.271741283630277e-05 Belief after normalization: 8.271741283630277e-05
+belief too low moving on....
+
+322 Step
+Prediction: 1.52, Correction: 0.11403487522698709, Prior: 8.271741283630277e-05, Posterior: 1.433765817486819e-05 Belief after normalization: 1.433765817486819e-05
+belief too low moving on....
+
+323 Step
+Prediction: 1.5030000000000001, Correction: 0.11621008775012735, Prior: 1.433765817486819e-05, Posterior: 2.5042693134930433e-06 Belief after normalization: 2.5042693134930433e-06
+belief too low moving on....
+
+324 Step
+Prediction: 1.494, Correction: 0.11841605491283104, Prior: 2.5042693134930433e-06, Posterior: 4.4303926465940616e-07 Belief after normalization: 4.4303926465940616e-07
+belief too low moving on....
+
+325 Step
+Prediction: 1.478, Correction: 0.1206497236384296, Prior: 4.4303926465940616e-07, Posterior: 7.900289083666877e-08 Belief after normalization: 7.900289083666877e-08
+belief too low moving on....
+
+326 Step
+Prediction: 1.472, Correction: 0.12290960669273761, Prior: 7.900289083666877e-08, Posterior: 1.4293435361757284e-08 Belief after normalization: 1.4293435361757284e-08
+belief too low moving on....
+
+327 Step
+Prediction: 1.471, Correction: 0.12519532213109932, Prior: 1.4293435361757284e-08, Posterior: 2.6323122006230923e-09 Belief after normalization: 2.6323122006230923e-09
+belief too low moving on....
+
+328 Step
+Prediction: 1.472, Correction: 0.12750722507030002, Prior: 2.6323122006230923e-09, Posterior: 4.940603492520539e-10 Belief after normalization: 4.940603492520539e-10
+belief too low moving on....
+
+329 Step
+Prediction: 1.464, Correction: 0.12984612607080062, Prior: 4.940603492520539e-10, Posterior: 9.39182679871086e-11 Belief after normalization: 9.39182679871086e-11
+belief too low moving on....
+
+330 Step
+Prediction: 1.488, Correction: 0.13221308283984273, Prior: 9.39182679871086e-11, Posterior: 1.847682893338456e-11 Belief after normalization: 1.847682893338456e-11
+belief too low moving on....
+
+331 Step
+Prediction: 1.51, Correction: 0.1346092508130526, Prior: 1.847682893338456e-11, Posterior: 3.755599671186982e-12 Belief after normalization: 3.755599671186982e-12
+belief too low moving on....
+
+332 Step
+Prediction: 1.504, Correction: 0.13703577981317522, Prior: 3.755599671186982e-12, Posterior: 7.740359005292476e-13 Belief after normalization: 7.740359005292476e-13
+belief too low moving on....
+
+333 Step
+Prediction: 1.4969999999999999, Correction: 0.13949374635617356, Prior: 7.740359005292476e-13, Posterior: 1.6163583186576187e-13 Belief after normalization: 1.6163583186576187e-13
+belief too low moving on....
+
+334 Step
+Prediction: 1.492, Correction: 0.14198411332776387, Prior: 1.6163583186576187e-13, Posterior: 3.4240982642027935e-14 Belief after normalization: 3.4240982642027935e-14
+belief too low moving on....
+
+335 Step
+Prediction: 1.488, Correction: 0.14450771040283483, Prior: 3.4240982642027935e-14, Posterior: 7.362751973271488e-15 Belief after normalization: 7.362751973271488e-15
+belief too low moving on....
+
+336 Step
+Prediction: 1.487, Correction: 0.1470652297703275, Prior: 7.362751973271488e-15, Posterior: 1.610130753497671e-15 Belief after normalization: 1.610130753497671e-15
+belief too low moving on....
+
+337 Step
+Prediction: 1.4769999999999999, Correction: 0.1496572326145005, Prior: 1.610130753497671e-15, Posterior: 3.5590931168147573e-16 Belief after normalization: 3.5590931168147573e-16
+belief too low moving on....
+
+338 Step
+Prediction: 1.464, Correction: 0.15228416254199975, Prior: 3.5590931168147573e-16, Posterior: 7.934785055253838e-17 Belief after normalization: 7.934785055253838e-17
+belief too low moving on....
+
+339 Step
+Prediction: 1.448, Correction: 0.154946362829838, Prior: 7.934785055253838e-17, Posterior: 1.780266889846503e-17 Belief after normalization: 1.780266889846503e-17
+belief too low moving on....
+
+340 Step
+Prediction: 1.435, Correction: 0.1576440950387187, Prior: 1.780266889846503e-17, Posterior: 4.027306875853484e-18 Belief after normalization: 4.027306875853484e-18
+belief too low moving on....
+
+341 Step
+Prediction: 1.423, Correction: 0.1603775571816389, Prior: 4.027306875853484e-18, Posterior: 9.19100955969994e-19 Belief after normalization: 9.19100955969994e-19
+belief too low moving on....
+
+342 Step
+Prediction: 1.411, Correction: 0.1631469002310862, Prior: 9.19100955969994e-19, Posterior: 2.1157729394393086e-19 Belief after normalization: 2.1157729394393086e-19
+belief too low moving on....
+
+343 Step
+Prediction: 1.3980000000000001, Correction: 0.16595224225940003, Prior: 2.1157729394393086e-19, Posterior: 4.908619342495777e-20 Belief after normalization: 4.908619342495777e-20
+belief too low moving on....
+
+344 Step
+Prediction: 1.3860000000000001, Correction: 0.1687936799162138, Prior: 4.908619342495777e-20, Posterior: 1.1483618760690865e-20 Belief after normalization: 1.1483618760690865e-20
+belief too low moving on....
+
+345 Step
+Prediction: 1.377, Correction: 0.1716712972484321, Prior: 1.1483618760690865e-20, Posterior: 2.7146284438715787e-21 Belief after normalization: 2.7146284438715787e-21
+belief too low moving on....
+
+Initial belief: 0.022727272727272728
+346 Step
+Prediction: 1.661, Correction: 0.17458517222467845, Prior: 0.022727272727272728, Posterior: 0.006590590251481612 Belief after normalization: 0.006590590251481612
+belief too low moving on....
+
+347 Step
+Prediction: 1.6520000000000001, Correction: 0.17753442148747292, Prior: 0.006590590251481612, Posterior: 0.0019329335487254305 Belief after normalization: 0.0019329335487254305
+belief too low moving on....
+
+348 Step
+Prediction: 1.643, Correction: 0.1805189062722275, Prior: 0.0019329335487254305, Posterior: 0.000573293715335347 Belief after normalization: 0.000573293715335347
+belief too low moving on....
+
+349 Step
+Prediction: 1.63, Correction: 0.18353849103271705, Prior: 0.000573293715335347, Posterior: 0.00017151098539283907 Belief after normalization: 0.00017151098539283907
+belief too low moving on....
+
+350 Step
+Prediction: 1.617, Correction: 0.1865930111371281, Prior: 0.00017151098539283907, Posterior: 5.174844870260161e-05 Belief after normalization: 5.174844870260161e-05
+belief too low moving on....
+
+351 Step
+Prediction: 1.608, Correction: 0.18968226787821854, Prior: 5.174844870260161e-05, Posterior: 1.5783747079415324e-05 Belief after normalization: 1.5783747079415324e-05
+belief too low moving on....
+
+Initial belief: 0.024390243902439025
+352 Step
+Prediction: 1.6219999999999999, Correction: 0.19280602236199823, Prior: 0.024390243902439025, Posterior: 0.007627594348077101 Belief after normalization: 0.007627594348077101
+belief too low moving on....
+
+353 Step
+Prediction: 1.612, Correction: 0.19596339850725267, Prior: 0.007627594348077101, Posterior: 0.002409503649144849 Belief after normalization: 0.002409503649144849
+belief too low moving on....
+
+354 Step
+Prediction: 1.605, Correction: 0.19915346457436403, Prior: 0.002409503649144849, Posterior: 0.00077017690440899 Belief after normalization: 0.00077017690440899
+belief too low moving on....
+
+Initial belief: 0.025
+355 Step
+Prediction: 1.604, Correction: 0.20237561262266393, Prior: 0.025, Posterior: 0.008115262066168824 Belief after normalization: 0.008115262066168824
+belief too low moving on....
+
+356 Step
+Prediction: 1.605, Correction: 0.2056298614826302, Prior: 0.008115262066168824, Posterior: 0.0026783280443712695 Belief after normalization: 0.0026783280443712695
+belief too low moving on....
+
+357 Step
+Prediction: 1.6019999999999999, Correction: 0.20891548019845296, Prior: 0.0026783280443712695, Posterior: 0.000896389791609129 Belief after normalization: 0.000896389791609129
+belief too low moving on....
+
+358 Step
+Prediction: 1.596, Correction: 0.21223146940628437, Prior: 0.000896389791609129, Posterior: 0.0003036264277238616 Belief after normalization: 0.0003036264277238616
+belief too low moving on....
+
+359 Step
+Prediction: 1.5899999999999999, Correction: 0.21557668662288557, Prior: 0.0003036264277238616, Posterior: 0.00010407309902316645 Belief after normalization: 0.00010407309902316645
+belief too low moving on....
+
+360 Step
+Prediction: 1.584, Correction: 0.21894982672152125, Prior: 0.00010407309902316645, Posterior: 3.609427060403053e-05 Belief after normalization: 3.609427060403053e-05
+belief too low moving on....
+
+361 Step
+Prediction: 1.58, Correction: 0.22234940045743032, Prior: 3.609427060403053e-05, Posterior: 1.2680352297432015e-05 Belief after normalization: 1.2680352297432015e-05
+belief too low moving on....
+
+362 Step
+Prediction: 1.5739999999999998, Correction: 0.2257737108510131, Prior: 1.2680352297432015e-05, Posterior: 4.506189163922708e-06 Belief after normalization: 4.506189163922708e-06
+belief too low moving on....
+
+363 Step
+Prediction: 1.573, Correction: 0.22922082725420442, Prior: 4.506189163922708e-06, Posterior: 1.6247712176554777e-06 Belief after normalization: 1.6247712176554777e-06
+belief too low moving on....
+
+364 Step
+Prediction: 1.569, Correction: 0.23268855696194474, Prior: 1.6247712176554777e-06, Posterior: 5.931850362763716e-07 Belief after normalization: 5.931850362763716e-07
+belief too low moving on....
+
+365 Step
+Prediction: 1.568, Correction: 0.23617441429291586, Prior: 5.931850362763716e-07, Posterior: 2.1966916150351398e-07 Belief after normalization: 2.1966916150351398e-07
+belief too low moving on....
+
+366 Step
+Prediction: 1.564, Correction: 0.23967558716046006, Prior: 2.1966916150351398e-07, Posterior: 8.234356035352261e-08 Belief after normalization: 8.234356035352261e-08
+belief too low moving on....
+
+367 Step
+Prediction: 1.56, Correction: 0.24318890129708587, Prior: 8.234356035352261e-08, Posterior: 3.123906235517097e-08 Belief after normalization: 3.123906235517097e-08
+belief too low moving on....
+
+368 Step
+Prediction: 1.553, Correction: 0.24671078249792233, Prior: 3.123906235517097e-08, Posterior: 1.1968991993680145e-08 Belief after normalization: 1.1968991993680145e-08
+belief too low moving on....
+
+369 Step
+Prediction: 1.548, Correction: 0.25023721752634026, Prior: 1.1968991993680145e-08, Posterior: 4.636395067788836e-09 Belief after normalization: 4.636395067788836e-09
+belief too low moving on....
+
+370 Step
+Prediction: 1.5390000000000001, Correction: 0.25376371469684783, Prior: 4.636395067788836e-09, Posterior: 1.8107086573793236e-09 Belief after normalization: 1.8107086573793236e-09
+belief too low moving on....
+
+371 Step
+Prediction: 1.534, Correction: 0.25728526563526116, Prior: 1.8107086573793236e-09, Posterior: 7.146425212215243e-10 Belief after normalization: 7.146425212215243e-10
+belief too low moving on....
+
+Initial belief: 0.029411764705882353
+372 Step
+Prediction: 1.347, Correction: 0.26079631056365266, Prior: 0.029411764705882353, Posterior: 0.010332136186154122 Belief after normalization: 0.010332136186154122
+belief too low moving on....
+
+373 Step
+Prediction: 1.345, Correction: 0.26429096590621226, Prior: 0.010332136186154122, Posterior: 0.0036727783896302554 Belief after normalization: 0.0036727783896302554
+belief too low moving on....
+
+374 Step
+Prediction: 1.341, Correction: 0.26776294037097587, Prior: 0.0036727783896302554, Posterior: 0.0013187849147983605 Belief after normalization: 0.0013187849147983605
+belief too low moving on....
+
+375 Step
+Prediction: 1.336, Correction: 0.27120484785810445, Prior: 0.0013187849147983605, Posterior: 0.0004778349118664047 Belief after normalization: 0.0004778349118664047
+belief too low moving on....
+
+376 Step
+Prediction: 1.334, Correction: 0.2746087092099359, Prior: 0.0004778349118664047, Posterior: 0.00017504431623634458 Belief after normalization: 0.00017504431623634458
+belief too low moving on....
+
+377 Step
+Prediction: 1.326, Correction: 0.27796599476675465, Prior: 0.00017504431623634458, Posterior: 6.451834329293593e-05 Belief after normalization: 6.451834329293593e-05
+belief too low moving on....
+
+378 Step
+Prediction: 1.321, Correction: 0.2812677015551949, Prior: 6.451834329293593e-05, Posterior: 2.3972089412648265e-05 Belief after normalization: 2.3972089412648265e-05
+belief too low moving on....
+
+379 Step
+Prediction: 1.313, Correction: 0.2845044726937982, Prior: 2.3972089412648265e-05, Posterior: 8.954878821578583e-06 Belief after normalization: 8.954878821578583e-06
+belief too low moving on....
+
+380 Step
+Prediction: 1.298, Correction: 0.28766676580212297, Prior: 8.954878821578583e-06, Posterior: 3.3436752953219616e-06 Belief after normalization: 3.3436752953219616e-06
+belief too low moving on....
+
+381 Step
+Prediction: 1.276, Correction: 0.29074507508284053, Prior: 3.3436752953219616e-06, Posterior: 1.240472491233345e-06 Belief after normalization: 1.240472491233345e-06
+belief too low moving on....
+
+382 Step
+Prediction: 1.242, Correction: 0.29373020795144056, Prior: 1.240472491233345e-06, Posterior: 4.525403895675508e-07 Belief after normalization: 4.525403895675508e-07
+belief too low moving on....
+
+383 Step
+Prediction: 1.242, Correction: 0.2966136114324726, Prior: 4.525403895675508e-07, Posterior: 1.667132119717121e-07 Belief after normalization: 1.667132119717121e-07
+belief too low moving on....
+
+384 Step
+Prediction: 1.246, Correction: 0.299387736194913, Prior: 1.667132119717121e-07, Posterior: 6.219021634298797e-08 Belief after normalization: 6.219021634298797e-08
+belief too low moving on....
+
+385 Step
+Prediction: 1.244, Correction: 0.302046417763885, Prior: 6.219021634298797e-08, Posterior: 2.3367709090552505e-08 Belief after normalization: 2.3367709090552505e-08
+belief too low moving on....
+
+386 Step
+Prediction: 1.2469999999999999, Correction: 0.30458524644779655, Prior: 2.3367709090552505e-08, Posterior: 8.875471912036138e-09 Belief after normalization: 8.875471912036138e-09
+belief too low moving on....
+
+387 Step
+Prediction: 1.2469999999999999, Correction: 0.30700189171498116, Prior: 8.875471912036138e-09, Posterior: 3.397808973572269e-09 Belief after normalization: 3.397808973572269e-09
+belief too low moving on....
+
+388 Step
+Prediction: 1.244, Correction: 0.3092963451613789, Prior: 3.397808973572269e-09, Posterior: 1.307356791970554e-09 Belief after normalization: 1.307356791970554e-09
+belief too low moving on....
+
+389 Step
+Prediction: 1.246, Correction: 0.31147105039263523, Prior: 1.307356791970554e-09, Posterior: 5.073759263683358e-10 Belief after normalization: 5.073759263683358e-10
+belief too low moving on....
+
+390 Step
+Prediction: 1.2429999999999999, Correction: 0.31353089850292026, Prior: 5.073759263683358e-10, Posterior: 1.9773399138075866e-10 Belief after normalization: 1.9773399138075866e-10
+belief too low moving on....
+
+391 Step
+Prediction: 1.2429999999999999, Correction: 0.31548308313565127, Prior: 1.9773399138075866e-10, Posterior: 7.75404894472094e-11 Belief after normalization: 7.75404894472094e-11
+belief too low moving on....
+
+392 Step
+Prediction: 1.244, Correction: 0.3173368265505378, Prior: 7.75404894472094e-11, Posterior: 3.0610427345839e-11 Belief after normalization: 3.0610427345839e-11
+belief too low moving on....
+
+393 Step
+Prediction: 1.24, Correction: 0.3191030040245908, Prior: 3.0610427345839e-11, Posterior: 1.2112170357461796e-11 Belief after normalization: 1.2112170357461796e-11
+belief too low moving on....
+
+394 Step
+Prediction: 1.2389999999999999, Correction: 0.3207937048875145, Prior: 1.2112170357461796e-11, Posterior: 4.814144415963437e-12 Belief after normalization: 4.814144415963437e-12
+belief too low moving on....
+
+395 Step
+Prediction: 1.236, Correction: 0.3224217725110688, Prior: 4.814144415963437e-12, Posterior: 1.9185006299889253e-12 Belief after normalization: 1.9185006299889253e-12
+belief too low moving on....
+
+396 Step
+Prediction: 1.234, Correction: 0.32400036254282355, Prior: 1.9185006299889253e-12, Posterior: 7.670481061743283e-13 Belief after normalization: 7.670481061743283e-13
+belief too low moving on....
+
+397 Step
+Prediction: 1.232, Correction: 0.3255425502418611, Prior: 7.670481061743283e-13, Posterior: 3.0763877346316657e-13 Belief after normalization: 3.0763877346316657e-13
+belief too low moving on....
+
+398 Step
+Prediction: 1.228, Correction: 0.3270610065552086, Prior: 3.0763877346316657e-13, Posterior: 1.235572423984473e-13 Belief after normalization: 1.235572423984473e-13
+belief too low moving on....
+
+399 Step
+Prediction: 1.226, Correction: 0.3285677512243336, Prior: 1.235572423984473e-13, Posterior: 4.977183039614604e-14 Belief after normalization: 4.977183039614604e-14
+belief too low moving on....
+
+400 Step
+Prediction: 1.226, Correction: 0.330073981712628, Prior: 4.977183039614604e-14, Posterior: 2.0141201525313355e-14 Belief after normalization: 2.0141201525313355e-14
+belief too low moving on....
+
+401 Step
+Prediction: 1.225, Correction: 0.3315899701089676, Prior: 2.0141201525313355e-14, Posterior: 8.181310004378253e-15 Belief after normalization: 8.181310004378253e-15
+belief too low moving on....
+
+402 Step
+Prediction: 1.218, Correction: 0.33312501651152177, Prior: 8.181310004378253e-15, Posterior: 3.319536018898559e-15 Belief after normalization: 3.319536018898559e-15
+belief too low moving on....
+
+403 Step
+Prediction: 1.218, Correction: 0.3346874462570705, Prior: 3.319536018898559e-15, Posterior: 1.3532065661008489e-15 Belief after normalization: 1.3532065661008489e-15
+belief too low moving on....
+
+404 Step
+Prediction: 1.216, Correction: 0.33628463899609307, Prior: 1.3532065661008489e-15, Posterior: 5.53356099187134e-16 Belief after normalization: 5.53356099187134e-16
+belief too low moving on....
+
+405 Step
+Prediction: 1.212, Correction: 0.33792307927653337, Prior: 5.53356099187134e-16, Posterior: 2.2663405793220575e-16 Belief after normalization: 2.2663405793220575e-16
+belief too low moving on....
+
+406 Step
+Prediction: 1.212, Correction: 0.3396084203804674, Prior: 2.2663405793220575e-16, Posterior: 9.328380331555134e-17 Belief after normalization: 9.328380331555134e-17
+belief too low moving on....
+
+407 Step
+Prediction: 1.206, Correction: 0.34134555523632903, Prior: 9.328380331555134e-17, Posterior: 3.840146603458788e-17 Belief after normalization: 3.840146603458788e-17
+belief too low moving on....
+
+408 Step
+Prediction: 1.204, Correction: 0.3431386900590838, Prior: 3.840146603458788e-17, Posterior: 1.586514261675409e-17 Belief after normalization: 1.586514261675409e-17
+belief too low moving on....
+
+409 Step
+Prediction: 1.2, Correction: 0.3449914178420603, Prior: 1.586514261675409e-17, Posterior: 6.568005654744586e-18 Belief after normalization: 6.568005654744586e-18
+belief too low moving on....
+
+410 Step
+Prediction: 1.193, Correction: 0.346906789918523, Prior: 6.568005654744586e-18, Posterior: 2.718233509120002e-18 Belief after normalization: 2.718233509120002e-18
+belief too low moving on....
+
+411 Step
+Prediction: 1.193, Correction: 0.3488873845627916, Prior: 2.718233509120002e-18, Posterior: 1.1313903538959854e-18 Belief after normalization: 1.1313903538959854e-18
+belief too low moving on....
+
+412 Step
+Prediction: 1.188, Correction: 0.3509353720691026, Prior: 1.1313903538959854e-18, Posterior: 4.7168933502225895e-19 Belief after normalization: 4.7168933502225895e-19
+belief too low moving on....
+
+413 Step
+Prediction: 1.185, Correction: 0.35305257599826506, Prior: 4.7168933502225895e-19, Posterior: 1.973393947386129e-19 Belief after normalization: 1.973393947386129e-19
+belief too low moving on....
+
+414 Step
+Prediction: 1.181, Correction: 0.35524053038103043, Prior: 1.973393947386129e-19, Posterior: 8.279158542863133e-20 Belief after normalization: 8.279158542863133e-20
+belief too low moving on....
+
+415 Step
+Prediction: 1.176, Correction: 0.3575005326692805, Prior: 8.279158542863133e-20, Posterior: 3.480729020813345e-20 Belief after normalization: 3.480729020813345e-20
+belief too low moving on....
+
+416 Step
+Prediction: 1.167, Correction: 0.359833692177823, Prior: 3.480729020813345e-20, Posterior: 1.461648332059735e-20 Belief after normalization: 1.461648332059735e-20
+belief too low moving on....
+
+417 Step
+Prediction: 1.162, Correction: 0.36224097369728747, Prior: 1.461648332059735e-20, Posterior: 6.1524287923968476e-21 Belief after normalization: 6.1524287923968476e-21
+belief too low moving on....
+
+418 Step
+Prediction: 1.157, Correction: 0.36472323590945965, Prior: 6.1524287923968476e-21, Posterior: 2.596231334710392e-21 Belief after normalization: 2.596231334710392e-21
+belief too low moving on....
+
+419 Step
+Prediction: 1.156, Correction: 0.3672812642186995, Prior: 2.596231334710392e-21, Posterior: 1.1023004786000291e-21 Belief after normalization: 1.1023004786000291e-21
+belief too low moving on....
+
+420 Step
+Prediction: 1.152, Correction: 0.3699157976374688, Prior: 1.1023004786000291e-21, Posterior: 4.697376316156723e-22 Belief after normalization: 4.697376316156723e-22
+belief too low moving on....
+
+421 Step
+Prediction: 1.15, Correction: 0.3726275494341904, Prior: 4.697376316156723e-22, Posterior: 2.012927599278637e-22 Belief after normalization: 2.012927599278637e-22
+belief too low moving on....
+
+422 Step
+Prediction: 1.148, Correction: 0.3754172213652969, Prior: 2.012927599278637e-22, Posterior: 8.67529463678048e-23 Belief after normalization: 8.67529463678048e-23
+belief too low moving on....
+
+423 Step
+Prediction: 1.139, Correction: 0.37828551146340106, Prior: 8.67529463678048e-23, Posterior: 3.737899888129262e-23 Belief after normalization: 3.737899888129262e-23
+belief too low moving on....
+
+424 Step
+Prediction: 1.1360000000000001, Correction: 0.3812331155293691, Prior: 3.737899888129262e-23, Posterior: 1.6188127457932213e-23 Belief after normalization: 1.6188127457932213e-23
+belief too low moving on....
+
+Initial belief: 0.038461538461538464
+425 Step
+Prediction: 1.451, Correction: 0.3842607226874712, Prior: 0.038461538461538464, Posterior: 0.021444704177673874 Belief after normalization: 0.021444704177673874
+belief too low moving on....
+
+426 Step
+Prediction: 1.448, Correction: 0.38736886331430803, Prior: 0.021444704177673874, Posterior: 0.012028551466691993 Belief after normalization: 0.012028551466691993
+belief too low moving on....
+
+427 Step
+Prediction: 1.442, Correction: 0.39055759395293127, Prior: 0.012028551466691993, Posterior: 0.006774288336420267 Belief after normalization: 0.006774288336420267
+belief too low moving on....
+
+428 Step
+Prediction: 1.437, Correction: 0.39382742932837106, Prior: 0.006774288336420267, Posterior: 0.0038337731062454638 Belief after normalization: 0.0038337731062454638
+belief too low moving on....
+
+429 Step
+Prediction: 1.435, Correction: 0.3971788122926134, Prior: 0.0038337731062454638, Posterior: 0.002185065099225939 Belief after normalization: 0.002185065099225939
+belief too low moving on....
+
+430 Step
+Prediction: 1.43, Correction: 0.4006120912518837, Prior: 0.002185065099225939, Posterior: 0.0012517698034590435 Belief after normalization: 0.0012517698034590435
+belief too low moving on....
+
+431 Step
+Prediction: 1.425, Correction: 0.40412749692364747, Prior: 0.0012517698034590435, Posterior: 0.0007208713012900259 Belief after normalization: 0.0007208713012900259
+belief too low moving on....
+
+432 Step
+Prediction: 1.42, Correction: 0.4077251194449692, Prior: 0.0007208713012900259, Posterior: 0.0004173626191405552 Belief after normalization: 0.0004173626191405552
+belief too low moving on....
+
+433 Step
+Prediction: 1.415, Correction: 0.41140488678012876, Prior: 0.0004173626191405552, Posterior: 0.00024296260481939603 Belief after normalization: 0.00024296260481939603
+belief too low moving on....
+
+434 Step
+Prediction: 1.409, Correction: 0.4151665452660379, Prior: 0.00024296260481939603, Posterior: 0.00014212575288783413 Belief after normalization: 0.00014212575288783413
+belief too low moving on....
+
+435 Step
+Prediction: 1.404, Correction: 0.4190096429966906, Prior: 0.00014212575288783413, Posterior: 8.361109361334681e-05 Belief after normalization: 8.361109361334681e-05
+belief too low moving on....
+
+436 Step
+Prediction: 1.399, Correction: 0.422933516591624, Prior: 8.361109361334681e-05, Posterior: 4.947134545330197e-05 Belief after normalization: 4.947134545330197e-05
+belief too low moving on....
+
+437 Step
+Prediction: 1.392, Correction: 0.42693728172729717, Prior: 4.947134545330197e-05, Posterior: 2.9400657157704955e-05 Belief after normalization: 2.9400657157704955e-05
+belief too low moving on....
+
+438 Step
+Prediction: 1.391, Correction: 0.4310198276430581, Prior: 2.9400657157704955e-05, Posterior: 1.7627122257362924e-05 Belief after normalization: 1.7627122257362924e-05
+belief too low moving on....
+
+439 Step
+Prediction: 1.395, Correction: 0.4351798156727875, Prior: 1.7627122257362924e-05, Posterior: 1.0701000101647238e-05 Belief after normalization: 1.0701000101647238e-05
+belief too low moving on....
+
+440 Step
+Prediction: 1.392, Correction: 0.4394156817059924, Prior: 1.0701000101647238e-05, Posterior: 6.54544465840489e-06 Belief after normalization: 6.54544465840489e-06
+belief too low moving on....
+
+441 Step
+Prediction: 1.3900000000000001, Correction: 0.44372564235315637, Prior: 6.54544465840489e-06, Posterior: 4.037090473397468e-06 Belief after normalization: 4.037090473397468e-06
+belief too low moving on....
+
+442 Step
+Prediction: 1.387, Correction: 0.4481077044830384, Prior: 4.037090473397468e-06, Posterior: 2.5091542152715567e-06 Belief after normalization: 2.5091542152715567e-06
+belief too low moving on....
+
+443 Step
+Prediction: 1.388, Correction: 0.4525596777164667, Prior: 2.5091542152715567e-06, Posterior: 1.5761323279298428e-06 Belief after normalization: 1.5761323279298428e-06
+belief too low moving on....
+
+444 Step
+Prediction: 1.387, Correction: 0.4570791894025302, Prior: 1.5761323279298428e-06, Posterior: 9.992187768488768e-07 Belief after normalization: 9.992187768488768e-07
+belief too low moving on....
+
+445 Step
+Prediction: 1.389, Correction: 0.4616637015684253, Prior: 9.992187768488768e-07, Posterior: 6.407499214442534e-07 Belief after normalization: 6.407499214442534e-07
+belief too low moving on....
+
+446 Step
+Prediction: 1.381, Correction: 0.4663105293218302, Prior: 6.407499214442534e-07, Posterior: 4.126268287786271e-07 Belief after normalization: 4.126268287786271e-07
+belief too low moving on....
+
+447 Step
+Prediction: 1.381, Correction: 0.4710168601923336, Prior: 4.126268287786271e-07, Posterior: 2.684031409782738e-07 Belief after normalization: 2.684031409782738e-07
+belief too low moving on....
+
+448 Step
+Prediction: 1.38, Correction: 0.47577977392305937, Prior: 2.684031409782738e-07, Posterior: 1.7622708431413736e-07 Belief after normalization: 1.7622708431413736e-07
+belief too low moving on....
+
+449 Step
+Prediction: 1.38, Correction: 0.4805962622621399, Prior: 1.7622708431413736e-07, Posterior: 1.1687782768240657e-07 Belief after normalization: 1.1687782768240657e-07
+belief too low moving on....
+
+450 Step
+Prediction: 1.379, Correction: 0.48546324835263127, Prior: 1.1687782768240657e-07, Posterior: 7.824430815431115e-08 Belief after normalization: 7.824430815431115e-08
+belief too low moving on....
+
+451 Step
+Prediction: 1.381, Correction: 0.4903776053757163, Prior: 7.824430815431115e-08, Posterior: 5.29879431809142e-08 Belief after normalization: 5.29879431809142e-08
+belief too low moving on....
+
+452 Step
+Prediction: 1.384, Correction: 0.4953361741624329, Prior: 5.29879431809142e-08, Posterior: 3.6325633551927055e-08 Belief after normalization: 3.6325633551927055e-08
+belief too low moving on....
+
+453 Step
+Prediction: 1.384, Correction: 0.5003357795510036, Prior: 3.6325633551927055e-08, Posterior: 2.515421962634832e-08 Belief after normalization: 2.515421962634832e-08
+belief too low moving on....
+
+454 Step
+Prediction: 1.389, Correction: 0.5053732453276781, Prior: 2.515421962634832e-08, Posterior: 1.7657342483085174e-08 Belief after normalization: 1.7657342483085174e-08
+belief too low moving on....
+
+455 Step
+Prediction: 1.392, Correction: 0.5104454076468962, Prior: 1.7657342483085174e-08, Posterior: 1.2546248259381063e-08 Belief after normalization: 1.2546248259381063e-08
+belief too low moving on....
+
+456 Step
+Prediction: 1.396, Correction: 0.5155491268799353, Prior: 1.2546248259381063e-08, Posterior: 9.029617440696968e-09 Belief after normalization: 9.029617440696968e-09
+belief too low moving on....
+
+457 Step
+Prediction: 1.393, Correction: 0.5206812978887181, Prior: 9.029617440696968e-09, Posterior: 6.549263229345758e-09 Belief after normalization: 6.549263229345758e-09
+belief too low moving on....
+
+458 Step
+Prediction: 1.391, Correction: 0.5258388587626568, Prior: 6.549263229345758e-09, Posterior: 4.79040522923727e-09 Belief after normalization: 4.79040522923727e-09
+belief too low moving on....
+
+459 Step
+Prediction: 1.393, Correction: 0.5310187980904197, Prior: 4.79040522923727e-09, Posterior: 3.543506751483522e-09 Belief after normalization: 3.543506751483522e-09
+belief too low moving on....
+
+460 Step
+Prediction: 1.3980000000000001, Correction: 0.536218160865495, Prior: 3.543506751483522e-09, Posterior: 2.6563295572663527e-09 Belief after normalization: 2.6563295572663527e-09
+belief too low moving on....
+
+461 Step
+Prediction: 1.399, Correction: 0.5414340531445142, Prior: 2.6563295572663527e-09, Posterior: 2.012079962870934e-09 Belief after normalization: 2.012079962870934e-09
+belief too low moving on....
+
+462 Step
+Prediction: 1.4, Correction: 0.5466636455905912, Prior: 2.012079962870934e-09, Posterior: 1.5399033548119285e-09 Belief after normalization: 1.5399033548119285e-09
+belief too low moving on....
+
+463 Step
+Prediction: 1.403, Correction: 0.5519041760412863, Prior: 1.5399033548119285e-09, Posterior: 1.192380366385628e-09 Belief after normalization: 1.192380366385628e-09
+belief too low moving on....
+
+464 Step
+Prediction: 1.405, Correction: 0.5571529512425504, Prior: 1.192380366385628e-09, Posterior: 9.333952273902739e-10 Belief after normalization: 9.333952273902739e-10
+belief too low moving on....
+
+465 Step
+Prediction: 1.407, Correction: 0.562407347887278, Prior: 9.333952273902739e-10, Posterior: 7.386023064546598e-10 Belief after normalization: 7.386023064546598e-10
+belief too low moving on....
+
+466 Step
+Prediction: 1.4060000000000001, Correction: 0.5676648130902436, Prior: 7.386023064546598e-10, Posterior: 5.895056275797e-10 Belief after normalization: 5.895056275797e-10
+belief too low moving on....
+
+467 Step
+Prediction: 1.411, Correction: 0.5729228644214983, Prior: 5.895056275797e-10, Posterior: 4.765529076239777e-10 Belief after normalization: 4.765529076239777e-10
+belief too low moving on....
+
+468 Step
+Prediction: 1.414, Correction: 0.5781790896082449, Prior: 4.765529076239777e-10, Posterior: 3.8960355776019354e-10 Belief after normalization: 3.8960355776019354e-10
+belief too low moving on....
+
+469 Step
+Prediction: 1.415, Correction: 0.5834311460016992, Prior: 3.8960355776019354e-10, Posterior: 3.2163919301937203e-10 Belief after normalization: 3.2163919301937203e-10
+belief too low moving on....
+
+470 Step
+Prediction: 1.418, Correction: 0.5886767598912411, Prior: 3.2163919301937203e-10, Posterior: 2.6848627252496055e-10 Belief after normalization: 2.6848627252496055e-10
+belief too low moving on....
+
+471 Step
+Prediction: 1.416, Correction: 0.5939137257337112, Prior: 2.6848627252496055e-10, Posterior: 2.2579207831189667e-10 Belief after normalization: 2.2579207831189667e-10
+belief too low moving on....
+
+472 Step
+Prediction: 1.416, Correction: 0.5991399053517175, Prior: 2.2579207831189667e-10, Posterior: 1.915579589114036e-10 Belief after normalization: 1.915579589114036e-10
+belief too low moving on....
+
+473 Step
+Prediction: 1.421, Correction: 0.6043532271417053, Prior: 1.915579589114036e-10, Posterior: 1.6450728099760742e-10 Belief after normalization: 1.6450728099760742e-10
+belief too low moving on....
+
+474 Step
+Prediction: 1.421, Correction: 0.6095516853204551, Prior: 1.6450728099760742e-10, Posterior: 1.4249175602937933e-10 Belief after normalization: 1.4249175602937933e-10
+belief too low moving on....
+
+475 Step
+Prediction: 1.421, Correction: 0.6147333392281129, Prior: 1.4249175602937933e-10, Posterior: 1.244716892879099e-10 Belief after normalization: 1.244716892879099e-10
+belief too low moving on....
+
+476 Step
+Prediction: 1.42, Correction: 0.6198963126967443, Prior: 1.244716892879099e-10, Posterior: 1.0956654853908847e-10 Belief after normalization: 1.0956654853908847e-10
+belief too low moving on....
+
+477 Step
+Prediction: 1.419, Correction: 0.625038793485883, Prior: 1.0956654853908847e-10, Posterior: 9.717786415019841e-11 Belief after normalization: 9.717786415019841e-11
+belief too low moving on....
+
+478 Step
+Prediction: 1.416, Correction: 0.6301590327805995, Prior: 9.717786415019841e-11, Posterior: 8.671231257489211e-11 Belief after normalization: 8.671231257489211e-11
+belief too low moving on....
+
+479 Step
+Prediction: 1.416, Correction: 0.635255344743163, Prior: 8.671231257489211e-11, Posterior: 7.799959538582783e-11 Belief after normalization: 7.799959538582783e-11
+belief too low moving on....
+
+480 Step
+Prediction: 1.416, Correction: 0.6403261061062426, Prior: 7.799959538582783e-11, Posterior: 7.072237090283773e-11 Belief after normalization: 7.072237090283773e-11
+belief too low moving on....
+
+481 Step
+Prediction: 1.419, Correction: 0.6453697557937403, Prior: 7.072237090283773e-11, Posterior: 6.476611043974186e-11 Belief after normalization: 6.476611043974186e-11
+belief too low moving on....
+
+482 Step
+Prediction: 1.42, Correction: 0.6503847945544609, Prior: 6.476611043974186e-11, Posterior: 5.98145086740691e-11 Belief after normalization: 5.98145086740691e-11
+belief too low moving on....
+
+483 Step
+Prediction: 1.417, Correction: 0.6553697845939044, Prior: 5.98145086740691e-11, Posterior: 5.55472808997512e-11 Belief after normalization: 5.55472808997512e-11
+belief too low moving on....
+
+484 Step
+Prediction: 1.418, Correction: 0.6603233491901317, Prior: 5.55472808997512e-11, Posterior: 5.2011058185098555e-11 Belief after normalization: 5.2011058185098555e-11
+belief too low moving on....
+
+485 Step
+Prediction: 1.415, Correction: 0.6652441722808993, Prior: 5.2011058185098555e-11, Posterior: 4.8959075492796405e-11 Belief after normalization: 4.8959075492796405e-11
+belief too low moving on....
+
+486 Step
+Prediction: 1.417, Correction: 0.6701309980108578, Prior: 4.8959075492796405e-11, Posterior: 4.6490344670415725e-11 Belief after normalization: 4.6490344670415725e-11
+belief too low moving on....
+
+487 Step
+Prediction: 1.416, Correction: 0.6749826302294475, Prior: 4.6490344670415725e-11, Posterior: 4.443432797828967e-11 Belief after normalization: 4.443432797828967e-11
+belief too low moving on....
+
+488 Step
+Prediction: 1.413, Correction: 0.6797979319320083, Prior: 4.443432797828967e-11, Posterior: 4.268159270846544e-11 Belief after normalization: 4.268159270846544e-11
+belief too low moving on....
+
+489 Step
+Prediction: 1.411, Correction: 0.6845758246386386, Prior: 4.268159270846544e-11, Posterior: 4.12277077871817e-11 Belief after normalization: 4.12277077871817e-11
+belief too low moving on....
+
+490 Step
+Prediction: 1.412, Correction: 0.6893152877071651, Prior: 4.12277077871817e-11, Posterior: 4.012747162781725e-11 Belief after normalization: 4.012747162781725e-11
+belief too low moving on....
+
+491 Step
+Prediction: 1.41, Correction: 0.6940153575783672, Prior: 4.012747162781725e-11, Posterior: 3.9267205014398474e-11 Belief after normalization: 3.9267205014398474e-11
+belief too low moving on....
+
+492 Step
+Prediction: 1.412, Correction: 0.698675126953236, Prior: 3.9267205014398474e-11, Posterior: 3.873824746132944e-11 Belief after normalization: 3.873824746132944e-11
+belief too low moving on....
+
+493 Step
+Prediction: 1.412, Correction: 0.703293743903376, Prior: 3.873824746132944e-11, Posterior: 3.8469046330139365e-11 Belief after normalization: 3.8469046330139365e-11
+belief too low moving on....
+
+494 Step
+Prediction: 1.411, Correction: 0.7078704109169766, Prior: 3.8469046330139365e-11, Posterior: 3.842308158258625e-11 Belief after normalization: 3.842308158258625e-11
+belief too low moving on....
+
+495 Step
+Prediction: 1.414, Correction: 0.7124043838836785, Prior: 3.842308158258625e-11, Posterior: 3.87050992711211e-11 Belief after normalization: 3.87050992711211e-11
+belief too low moving on....
+
+496 Step
+Prediction: 1.413, Correction: 0.7168949710225314, Prior: 3.87050992711211e-11, Posterior: 3.920720481181752e-11 Belief after normalization: 3.920720481181752e-11
+belief too low moving on....
+
+497 Step
+Prediction: 1.412, Correction: 0.7213415317578138, Prior: 3.920720481181752e-11, Posterior: 3.993388066695707e-11 Belief after normalization: 3.993388066695707e-11
+belief too low moving on....
+
+498 Step
+Prediction: 1.411, Correction: 0.7257434755479626, Prior: 3.993388066695707e-11, Posterior: 4.089325397311792e-11 Belief after normalization: 4.089325397311792e-11
+belief too low moving on....
+
+499 Step
+Prediction: 1.415, Correction: 0.7301002606730844, Prior: 4.089325397311792e-11, Posterior: 4.2246488170544814e-11 Belief after normalization: 4.2246488170544814e-11
+belief too low moving on....
+
+500 Step
+Prediction: 1.415, Correction: 0.734411392986697, Prior: 4.2246488170544814e-11, Posterior: 4.3902217649968054e-11 Belief after normalization: 4.3902217649968054e-11
+belief too low moving on....
+
+501 Step
+Prediction: 1.414, Correction: 0.738676424637355, Prior: 4.3902217649968054e-11, Posterior: 4.585535989860374e-11 Belief after normalization: 4.585535989860374e-11
+belief too low moving on....
+
+502 Step
+Prediction: 1.412, Correction: 0.7428949527657701, Prior: 4.585535989860374e-11, Posterior: 4.8100790181414025e-11 Belief after normalization: 4.8100790181414025e-11
+belief too low moving on....
+
+503 Step
+Prediction: 1.411, Correction: 0.7470666181827955, Prior: 4.8100790181414025e-11, Posterior: 5.070357195502911e-11 Belief after normalization: 5.070357195502911e-11
+belief too low moving on....
+
+504 Step
+Prediction: 1.411, Correction: 0.7511911040335318, Prior: 5.070357195502911e-11, Posterior: 5.374226986762748e-11 Belief after normalization: 5.374226986762748e-11
+belief too low moving on....
+
+505 Step
+Prediction: 1.413, Correction: 0.755268134452433, Prior: 5.374226986762748e-11, Posterior: 5.7353421176581203e-11 Belief after normalization: 5.7353421176581203e-11
+belief too low moving on....
+
+506 Step
+Prediction: 1.41, Correction: 0.7592974732140767, Prior: 5.7353421176581203e-11, Posterior: 6.140311396918075e-11 Belief after normalization: 6.140311396918075e-11
+belief too low moving on....
+
+507 Step
+Prediction: 1.409, Correction: 0.7632789223838304, Prior: 6.140311396918075e-11, Posterior: 6.603659304992361e-11 Belief after normalization: 6.603659304992361e-11
+belief too low moving on....
+
+508 Step
+Prediction: 1.407, Correction: 0.7672123209724322, Prior: 6.603659304992361e-11, Posterior: 7.128437156688203e-11 Belief after normalization: 7.128437156688203e-11
+belief too low moving on....
+
+509 Step
+Prediction: 1.4060000000000001, Correction: 0.7710975435980271, Prior: 7.128437156688203e-11, Posterior: 7.72838885598854e-11 Belief after normalization: 7.72838885598854e-11
+belief too low moving on....
+
+510 Step
+Prediction: 1.405, Correction: 0.7749344991589396, Prior: 7.72838885598854e-11, Posterior: 8.414538182126519e-11 Belief after normalization: 8.414538182126519e-11
+belief too low moving on....
+
+511 Step
+Prediction: 1.405, Correction: 0.7787231295200921, Prior: 8.414538182126519e-11, Posterior: 9.206396686845877e-11 Belief after normalization: 9.206396686845877e-11
+belief too low moving on....
+
+512 Step
+Prediction: 1.405, Correction: 0.7824634082156485, Prior: 9.206396686845877e-11, Posterior: 1.0121154283209425e-10 Belief after normalization: 1.0121154283209425e-10
+belief too low moving on....
+
+513 Step
+Prediction: 1.404, Correction: 0.7861553391702045, Prior: 1.0121154283209425e-10, Posterior: 1.1171346467547904e-10 Belief after normalization: 1.1171346467547904e-10
+belief too low moving on....
+
+514 Step
+Prediction: 1.403, Correction: 0.7897989554404466, Prior: 1.1171346467547904e-10, Posterior: 1.2378834232618519e-10 Belief after normalization: 1.2378834232618519e-10
+belief too low moving on....
+
+515 Step
+Prediction: 1.4, Correction: 0.7933943179790508, Prior: 1.2378834232618519e-10, Posterior: 1.3749815440709732e-10 Belief after normalization: 1.3749815440709732e-10
+belief too low moving on....
+
+516 Step
+Prediction: 1.4, Correction: 0.7969415144222476, Prior: 1.3749815440709732e-10, Posterior: 1.5340918236483863e-10 Belief after normalization: 1.5340918236483863e-10
+belief too low moving on....
+
+517 Step
+Prediction: 1.3980000000000001, Correction: 0.8004406579022955, Prior: 1.5340918236483863e-10, Posterior: 1.716673357107898e-10 Belief after normalization: 1.716673357107898e-10
+belief too low moving on....
+
+518 Step
+Prediction: 1.399, Correction: 0.8038918858858676, Prior: 1.716673357107898e-10, Posterior: 1.9306476757111925e-10 Belief after normalization: 1.9306476757111925e-10
+belief too low moving on....
+
+519 Step
+Prediction: 1.397, Correction: 0.8072953590391516, Prior: 1.9306476757111925e-10, Posterior: 2.1773682632322952e-10 Belief after normalization: 2.1773682632322952e-10
+belief too low moving on....
+
+520 Step
+Prediction: 1.392, Correction: 0.8106512601203336, Prior: 2.1773682632322952e-10, Posterior: 2.4570001662587127e-10 Belief after normalization: 2.4570001662587127e-10
+belief too low moving on....
+
+521 Step
+Prediction: 1.391, Correction: 0.8139597928999278, Prior: 2.4570001662587127e-10, Posterior: 2.7818599909578945e-10 Belief after normalization: 2.7818599909578945e-10
+belief too low moving on....
+
+522 Step
+Prediction: 1.389, Correction: 0.8172211811092847, Prior: 2.7818599909578945e-10, Posterior: 3.1577455265053803e-10 Belief after normalization: 3.1577455265053803e-10
+belief too low moving on....
+
+523 Step
+Prediction: 1.389, Correction: 0.8204356674175063, Prior: 3.1577455265053803e-10, Posterior: 3.598519884358017e-10 Belief after normalization: 3.598519884358017e-10
+belief too low moving on....
+
+524 Step
+Prediction: 1.3860000000000001, Correction: 0.82360351243685, Prior: 3.598519884358017e-10, Posterior: 4.107762512234919e-10 Belief after normalization: 4.107762512234919e-10
+belief too low moving on....
+
+525 Step
+Prediction: 1.3860000000000001, Correction: 0.8267249937566591, Prior: 4.107762512234919e-10, Posterior: 4.706842053071815e-10 Belief after normalization: 4.706842053071815e-10
+belief too low moving on....
+
+526 Step
+Prediction: 1.387, Correction: 0.8298004050056774, Prior: 4.706842053071815e-10, Posterior: 5.417260605966267e-10 Belief after normalization: 5.417260605966267e-10
+belief too low moving on....
+
+527 Step
+Prediction: 1.387, Correction: 0.8328300549426395, Prior: 5.417260605966267e-10, Posterior: 6.257668880522305e-10 Belief after normalization: 6.257668880522305e-10
+belief too low moving on....
+
+528 Step
+Prediction: 1.3860000000000001, Correction: 0.8358142665748831, Prior: 6.257668880522305e-10, Posterior: 7.249125011217317e-10 Belief after normalization: 7.249125011217317e-10
+belief too low moving on....
+
+529 Step
+Prediction: 1.384, Correction: 0.8387533763047125, Prior: 7.249125011217317e-10, Posterior: 8.415035660524229e-10 Belief after normalization: 8.415035660524229e-10
+belief too low moving on....
+
+530 Step
+Prediction: 1.383, Correction: 0.8416477331031746, Prior: 8.415035660524229e-10, Posterior: 9.795091536037366e-10 Belief after normalization: 9.795091536037366e-10
+belief too low moving on....
+
+531 Step
+Prediction: 1.381, Correction: 0.8444976977108685, Prior: 9.795091536037366e-10, Posterior: 1.1423538438701114e-09 Belief after normalization: 1.1423538438701114e-09
+belief too low moving on....
+
+532 Step
+Prediction: 1.381, Correction: 0.847303641865407, Prior: 1.1423538438701114e-09, Posterior: 1.336698310222137e-09 Belief after normalization: 1.336698310222137e-09
+belief too low moving on....
+
+533 Step
+Prediction: 1.3780000000000001, Correction: 0.8500659475550526, Prior: 1.336698310222137e-09, Posterior: 1.5657962041990733e-09 Belief after normalization: 1.5657962041990733e-09
+belief too low moving on....
+
+534 Step
+Prediction: 1.376, Correction: 0.8527850062981036, Prior: 1.5657962041990733e-09, Posterior: 1.8373556355826078e-09 Belief after normalization: 1.8373556355826078e-09
+belief too low moving on....
+
+535 Step
+Prediction: 1.374, Correction: 0.8554612184475324, Prior: 1.8373556355826078e-09, Posterior: 2.1596346382725527e-09 Belief after normalization: 2.1596346382725527e-09
+belief too low moving on....
+
+536 Step
+Prediction: 1.371, Correction: 0.8580949925203795, Prior: 2.1596346382725527e-09, Posterior: 2.540698357890852e-09 Belief after normalization: 2.540698357890852e-09
+belief too low moving on....
+
+537 Step
+Prediction: 1.369, Correction: 0.8606867445513918, Prior: 2.540698357890852e-09, Posterior: 2.993654450601457e-09 Belief after normalization: 2.993654450601457e-09
+belief too low moving on....
+
+538 Step
+Prediction: 1.367, Correction: 0.8632368974703807, Prior: 2.993654450601457e-09, Posterior: 3.5326464837086637e-09 Belief after normalization: 3.5326464837086637e-09
+belief too low moving on....
+
+539 Step
+Prediction: 1.365, Correction: 0.8657458805028033, Prior: 3.5326464837086637e-09, Posterior: 4.1746807018418625e-09 Belief after normalization: 4.1746807018418625e-09
+belief too low moving on....
+
+540 Step
+Prediction: 1.362, Correction: 0.8682141285929981, Prior: 4.1746807018418625e-09, Posterior: 4.936591837612355e-09 Belief after normalization: 4.936591837612355e-09
+belief too low moving on....
+
+541 Step
+Prediction: 1.361, Correction: 0.8706420818495502, Prior: 4.936591837612355e-09, Posterior: 5.849584253441572e-09 Belief after normalization: 5.849584253441572e-09
+belief too low moving on....
+
+542 Step
+Prediction: 1.3599999999999999, Correction: 0.8730301850122774, Prior: 5.849584253441572e-09, Posterior: 6.94533452731672e-09 Belief after normalization: 6.94533452731672e-09
+belief too low moving on....
+
+543 Step
+Prediction: 1.3599999999999999, Correction: 0.8753788869402689, Prior: 6.94533452731672e-09, Posterior: 8.268526922812446e-09 Belief after normalization: 8.268526922812446e-09
+belief too low moving on....
+
+Goal Reached, step: 543

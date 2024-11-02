@@ -1,5 +1,6 @@
 import numpy as np
 from DynamicBayesianFiltering import SensorData
+from numba import njit
 
 class Sensor:
     sensor_radius: float # Length of each ray
@@ -26,6 +27,7 @@ class Sensor:
                 if pos_c[0] - 5.1302186 <= 1e-2 and np.linalg.norm(point_c - obs[:-1]) < 1.7 and False:
                     print(np.linalg.norm(pos_c[:-1] - obs[:-1]))
                     #print("endpoint", np.linalg.norm(end_point - pos_c[:-1]))
+                #print("HERHEHR",len(obs))
                 if np.linalg.norm(point_c - obs[:-1]) < collision_threshold:
                     return True
             
@@ -64,15 +66,13 @@ class Sensor:
 
         return current_area + area_from_local_min
     
-    # Returns  the obstacles in the recognized/scanned area
+    # Returns the obstacles in the recognized/scanned area
     def get_obstacles_in_recognized_area(self, pos_c: np.ndarray, obstacles: np.ndarray):
+        distances = np.linalg.norm(obstacles - pos_c, axis=1)
         
-        seen_obstacles = []
-        for obs in obstacles:
-            if np.linalg.norm(obs - pos_c) < self.sensor_radius:
-                seen_obstacles.append(obs)
+        seen_obstacles = obstacles[distances < self.sensor_radius]
         
-        return np.array(seen_obstacles)
+        return seen_obstacles
             
     # Returns the number of points in group A
     # "Group A comprises points between the initial local minimum and the UGV, including the local minimum itself" (from research paper)
@@ -98,5 +98,25 @@ class Sensor:
         recognized_area = self.calc_scanned_area()
         total_area = self.calc_area_of_interest(pos_c, local_min)
         
-        return SensorData(num_collisions, len(rays), recognized_area, total_area)
+        log_str = f"Num Collisions: {num_collisions}, Recognized Area: {recognized_area}, Total Area: {total_area}"
         
+        return SensorData(num_collisions, len(rays), recognized_area, total_area), log_str
+        
+        
+# optimized version of get_obstacles_in_recognized_area
+@njit
+def get_obstacles_in_recognized_area_optimized(pos_c, obstacles, sensor_radius):
+    seen_obstacles = []
+    for obs in obstacles:
+        distance = np.sqrt(np.sum((obs - pos_c)**2))
+        if distance < sensor_radius:
+            blocked = False
+            for other_obs in obstacles:
+                if not np.array_equal(obs, other_obs):
+                    other_distance = np.sqrt(np.sum((other_obs - pos_c)**2))
+                    if other_distance < distance and np.allclose((other_obs - pos_c) / other_distance, (obs - pos_c) / distance):
+                        blocked = True
+                        break
+            if not blocked:
+                seen_obstacles.append(obs)
+    return seen_obstacles

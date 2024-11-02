@@ -1,0 +1,49 @@
+Initial belief: 0.05
+0 Step
+Prediction: 1.589, Correction: 0.5186489597745848, Prior: 0.05, Posterior: 0.04120665985409076 Belief after normalization: 0.04120665985409076
+Num Collisions: 589, Recognized Area: 6.283185307179586, Total Area: 12.114524070211928
+belief too low moving on....
+
+Initial belief: 0.0011723329425556857
+1 Step
+Prediction: 1.704, Correction: 0.0005504940931975175, Prior: 0.0011723329425556857, Posterior: 1.0996974616747594e-06 Belief after normalization: 1.0996974616747594e-06
+Num Collisions: 704, Recognized Area: 6.283185307179586, Total Area: 11413.719756163082
+belief too low moving on....
+
+Initial belief: 0.3333333333333333
+2 Step
+Prediction: 1.6640000000000001, Correction: 0.9810645997218183, Prior: 0.3333333333333333, Posterior: 0.5441638313123686 Belief after normalization: 0.5441638313123686
+Num Collisions: 664, Recognized Area: 6.283185307179586, Total Area: 6.404456249834301
+[3.76581574e+00 4.95727131e+01 4.96367117e-09] Estimated Local Min
+68.02587638410128 Force Magnitude
+147 Iterations
+True Success
+[[ 2.91089136 47.49434426  0.        ]
+ [ 2.91794892 47.50142881  0.        ]
+ [ 2.92500648 47.50851336  0.        ]
+ ...
+ [ 5.43749819 50.03061276  0.        ]
+ [ 5.44455575 50.03769731  0.        ]
+ [ 5.45161331 50.04478186  0.        ]] Obstacles in Range
+0.5441638313123686 Belief
+
+3 Step
+Prediction: 1.6600000000000001, Correction: 0.9607994568418611, Prior: 0.5441638313123686, Posterior: 0.8679016405061304 Belief after normalization: 0.8679016405061304
+Num Collisions: 660, Recognized Area: 6.283185307179586, Total Area: 6.539538779333159
+[3.76581574e+00 4.95727131e+01 4.96367117e-09] Estimated Local Min
+68.02587638410128 Force Magnitude
+147 Iterations
+True Success
+[[ 3.39080551 47.97609358  0.        ]
+ [ 3.39786307 47.98317813  0.        ]
+ [ 3.40492063 47.99026268  0.        ]
+ ...
+ [ 5.91741234 50.51236209  0.        ]
+ [ 5.9244699  50.51944664  0.        ]
+ [ 5.93152746 50.52653118  0.        ]] Obstacles in Range
+0.8679016405061304 Belief
+
+Local Min Predicted!, Current Step: 3
+41 Steps Away
+[3.76581574e+00 4.95727131e+01 4.96367117e-09] Estimated Local Min
+

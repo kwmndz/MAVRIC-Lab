@@ -1,0 +1,263 @@
+Initial belief: 0.16666666666666666
+0 Step
+Prediction: 1.726, Correction: 0.9384011438716469, Prior: 0.16666666666666666, Posterior: 0.26994672905374373 Belief after normalization: 0.26994672905374373
+Num Collisions: 726, Recognized Area: 6.283185307179586, Total Area: 6.695628354902124
+[ 2.49820926e+00  3.25147646e+01 -3.23157209e-09] Estimated Local Min
+2.498057502424989e-06 Force Magnitude
+163 Iterations
+True Success
+[8.45017907e+01 5.31968155e+00 3.23157209e-09] F_att
+[-8.45017917e+01 -5.31968315e+00 -1.65016750e-06] F_rep
+[[ 1.51548609 30.9038404   0.        ]
+ [ 1.8044537  31.31188172  0.        ]
+ [ 2.09342131 31.71992304  0.        ]
+ [ 2.38238892 32.12796436  0.        ]
+ [ 2.67135653 32.53600569  0.        ]
+ [ 2.96032414 32.94404701  0.        ]
+ [ 3.24929175 33.35208833  0.        ]
+ [ 3.53825936 33.76012965  0.        ]] Obstacles in Range
+0.26994672905374373 Belief
+
+1 Step
+Prediction: 1.615, Correction: 0.9652093361132077, Prior: 0.26994672905374373, Posterior: 0.4207964915644719 Belief after normalization: 0.4207964915644719
+Num Collisions: 615, Recognized Area: 6.283185307179586, Total Area: 6.50966072549742
+[ 2.49820926e+00  3.25147646e+01 -3.23157209e-09] Estimated Local Min
+2.498057502424989e-06 Force Magnitude
+163 Iterations
+True Success
+[8.45017907e+01 5.31968155e+00 3.23157209e-09] F_att
+[-8.45017917e+01 -5.31968315e+00 -1.65016750e-06] F_rep
+[[ 1.8044537  31.31188172  0.        ]
+ [ 2.09342131 31.71992304  0.        ]
+ [ 2.38238892 32.12796436  0.        ]
+ [ 2.67135653 32.53600569  0.        ]
+ [ 2.96032414 32.94404701  0.        ]
+ [ 3.24929175 33.35208833  0.        ]
+ [ 3.53825936 33.76012965  0.        ]
+ [ 3.82722697 34.16817097  0.        ]] Obstacles in Range
+0.4207964915644719 Belief
+
+Initial belief: 0.07142857142857142
+2 Step
+Prediction: 1.242, Correction: 0.6969439741251365, Prior: 0.07142857142857142, Posterior: 0.061828886847387104 Belief after normalization: 0.061828886847387104
+Num Collisions: 242, Recognized Area: 6.283185307179586, Total Area: 9.015337732228442
+belief too low moving on....
+
+Initial belief: 0.0012121212121212121
+3 Step
+Prediction: 1.066, Correction: 0.000587673492757156, Prior: 0.0012121212121212121, Posterior: 7.593453857928828e-07 Belief after normalization: 7.593453857928828e-07
+Num Collisions: 66, Recognized Area: 6.283185307179586, Total Area: 10691.626191443662
+belief too low moving on....
+
+Initial belief: 0.05555555555555555
+4 Step
+Prediction: 1.5779999999999998, Correction: 0.5641011625837182, Prior: 0.05555555555555555, Posterior: 0.04945286858650596 Belief after normalization: 0.04945286858650596
+Num Collisions: 578, Recognized Area: 6.283185307179586, Total Area: 11.138401627114355
+belief too low moving on....
+
+Initial belief: 0.1
+5 Step
+Prediction: 1.893, Correction: 0.8017993639982589, Prior: 0.1, Posterior: 0.15178061960487044 Belief after normalization: 0.15178061960487044
+Num Collisions: 893, Recognized Area: 6.283185307179586, Total Area: 7.836356062753413
+[ 7.26300400e+00  3.32681810e+01 -7.37488886e-05] Estimated Local Min
+0.033116036114955304 Force Magnitude
+103 Iterations
+True Success
+[7.97369960e+01 4.56626517e+00 7.37488886e-05] F_att
+[-7.97369742e+01 -4.56626910e+00 -3.31897776e-02] F_rep
+[[ 7.70806575 34.24799699  0.        ]
+ [ 7.57492194 33.76605019  0.        ]
+ [ 7.44177812 33.28410338  0.        ]
+ [ 7.30863431 32.80215657  0.        ]
+ [ 7.1754905  32.32020976  0.        ]
+ [ 7.04234668 31.83826296  0.        ]
+ [ 6.90920287 31.35631615  0.        ]] Obstacles in Range
+0.15178061960487044 Belief
+
+Initial belief: 0.3333333333333333
+6 Step
+Prediction: 1.737, Correction: 0.9807566665068131, Prior: 0.3333333333333333, Posterior: 0.5678581099074448 Belief after normalization: 0.5678581099074448
+Num Collisions: 737, Recognized Area: 6.283185307179586, Total Area: 6.40646708990373
+[ 7.26298921e+00  3.32682408e+01 -1.60118243e-09] Estimated Local Min
+2.2988548831616665e-06 Force Magnitude
+143 Iterations
+True Success
+[7.97370108e+01 4.56620543e+00 1.60118243e-09] F_att
+[-7.97370086e+01 -4.56620571e+00 -7.20463585e-07] F_rep
+[[ 7.84120956 34.7299438   0.        ]
+ [ 7.70806575 34.24799699  0.        ]
+ [ 7.57492194 33.76605019  0.        ]
+ [ 7.44177812 33.28410338  0.        ]
+ [ 7.30863431 32.80215657  0.        ]
+ [ 7.1754905  32.32020976  0.        ]
+ [ 7.04234668 31.83826296  0.        ]
+ [ 6.90920287 31.35631615  0.        ]] Obstacles in Range
+0.5678581099074448 Belief
+
+Initial belief: 0.0625
+7 Step
+Prediction: 1.308, Correction: 0.6252318400065694, Prior: 0.0625, Posterior: 0.05111270292053705 Belief after normalization: 0.05111270292053705
+Num Collisions: 308, Recognized Area: 6.283185307179586, Total Area: 10.049368738344432
+belief too low moving on....
+
+Initial belief: 0.0012738853503184713
+8 Step
+Prediction: 1.01, Correction: 0.0006492690083325234, Prior: 0.0012738853503184713, Posterior: 8.35365220911909e-07 Belief after normalization: 8.35365220911909e-07
+Num Collisions: 10, Recognized Area: 6.283185307179586, Total Area: 9677.322075354088
+belief too low moving on....
+
+Initial belief: 0.001287001287001287
+9 Step
+Prediction: 1.0, Correction: 0.0006624906906956254, Prior: 0.001287001287001287, Posterior: 8.526263715516415e-07 Belief after normalization: 8.526263715516415e-07
+Num Collisions: 0, Recognized Area: 6.283185307179586, Total Area: 9484.186563560832
+belief too low moving on....
+
+Initial belief: 0.058823529411764705
+21 Step
+Prediction: 1.495, Correction: 0.590632848254614, Prior: 0.058823529411764705, Posterior: 0.05194094753768518 Belief after normalization: 0.05194094753768518
+Num Collisions: 495, Recognized Area: 6.283185307179586, Total Area: 10.638055986467904
+belief too low moving on....
+
+Initial belief: 0.05555555555555555
+22 Step
+Prediction: 1.901, Correction: 0.5693530724333781, Prior: 0.05555555555555555, Posterior: 0.060130010594213974 Belief after normalization: 0.060130010594213974
+Num Collisions: 901, Recognized Area: 6.283185307179586, Total Area: 11.035657154400976
+belief too low moving on....
+
+Initial belief: 0.07142857142857142
+23 Step
+Prediction: 1.8519999999999999, Correction: 0.6750559839345951, Prior: 0.07142857142857142, Posterior: 0.08930026301763357 Belief after normalization: 0.08930026301763357
+Num Collisions: 852, Recognized Area: 6.283185307179586, Total Area: 9.307650708549755
+belief too low moving on....
+
+Initial belief: 0.07692307692307693
+24 Step
+Prediction: 1.766, Correction: 0.7247399901222955, Prior: 0.07692307692307693, Posterior: 0.09845314019661339 Belief after normalization: 0.09845314019661339
+Num Collisions: 766, Recognized Area: 6.283185307179586, Total Area: 8.669571698560937
+belief too low moving on....
+
+25 Step
+Prediction: 1.732, Correction: 0.5798221157249096, Prior: 0.09845314019661339, Posterior: 0.09887175354010853 Belief after normalization: 0.09887175354010853
+Num Collisions: 732, Recognized Area: 6.283185307179586, Total Area: 10.836401607972775
+belief too low moving on....
+
+Initial belief: 0.16666666666666666
+26 Step
+Prediction: 1.548, Correction: 0.9336907878447214, Prior: 0.16666666666666666, Posterior: 0.2408922232639381 Belief after normalization: 0.2408922232639381
+Num Collisions: 548, Recognized Area: 6.283185307179586, Total Area: 6.72940698245865
+[4.30732662e+01 6.91166430e+00 1.82941965e-09] Estimated Local Min
+2.053473633248547e-06 Force Magnitude
+126 Iterations
+True Success
+[ 4.39267338e+01  3.09227819e+01 -1.82941965e-09] F_att
+[-4.39267357e+01 -3.09227814e+01  6.54374033e-07] F_rep
+[[43.42310974  7.49760779  0.        ]
+ [43.21621126  7.04242319  0.        ]
+ [43.00931279  6.58723858  0.        ]
+ [42.80241431  6.13205398  0.        ]
+ [42.59551584  5.67686938  0.        ]] Obstacles in Range
+0.2408922232639381 Belief
+
+Initial belief: 0.0018832391713747645
+27 Step
+Prediction: 1.328, Correction: 0.0014205877186959281, Prior: 0.0018832391713747645, Posterior: 3.5528069499589317e-06 Belief after normalization: 3.5528069499589317e-06
+Num Collisions: 328, Recognized Area: 6.283185307179586, Total Area: 4422.947787375938
+belief too low moving on....
+
+Initial belief: 0.0019047619047619048
+28 Step
+Prediction: 1.161, Correction: 0.001452406220442901, Prior: 0.0019047619047619048, Posterior: 3.2118926132080155e-06 Belief after normalization: 3.2118926132080155e-06
+Num Collisions: 161, Recognized Area: 6.283185307179586, Total Area: 4326.05232526722
+belief too low moving on....
+
+Initial belief: 0.0019230769230769232
+29 Step
+Prediction: 1.056, Correction: 0.0014821594267899663, Prior: 0.0019230769230769232, Posterior: 3.009923759019624e-06 Belief after normalization: 3.009923759019624e-06
+Num Collisions: 56, Recognized Area: 6.283185307179586, Total Area: 4239.2101643124815
+belief too low moving on....
+
+Initial belief: 0.0019455252918287938
+30 Step
+Prediction: 1.0, Correction: 0.0015122611425711936, Prior: 0.0019455252918287938, Posterior: 2.9421423007221666e-06 Belief after normalization: 2.9421423007221666e-06
+Num Collisions: 0, Recognized Area: 6.283185307179586, Total Area: 4154.828243815561
+belief too low moving on....
+
+Initial belief: 0.05555555555555555
+33 Step
+Prediction: 1.3519999999999999, Correction: 0.5681320513495716, Prior: 0.05555555555555555, Posterior: 0.04267302963470115 Belief after normalization: 0.04267302963470115
+Num Collisions: 352, Recognized Area: 6.283185307179586, Total Area: 11.059374827127193
+belief too low moving on....
+
+Initial belief: 0.06666666666666667
+34 Step
+Prediction: 1.491, Correction: 0.6678562315967116, Prior: 0.06666666666666667, Posterior: 0.06638490942071314 Belief after normalization: 0.06638490942071314
+Num Collisions: 491, Recognized Area: 6.283185307179586, Total Area: 9.407990836826869
+belief too low moving on....
+
+Initial belief: 0.08333333333333333
+35 Step
+Prediction: 1.58, Correction: 0.7441553804258321, Prior: 0.08333333333333333, Posterior: 0.09798045842273456 Belief after normalization: 0.09798045842273456
+Num Collisions: 580, Recognized Area: 6.283185307179586, Total Area: 8.44337818747494
+belief too low moving on....
+
+36 Step
+Prediction: 1.541, Correction: 0.8938363301286448, Prior: 0.09798045842273456, Posterior: 0.13495845829996586 Belief after normalization: 0.13495845829996586
+Num Collisions: 541, Recognized Area: 6.283185307179586, Total Area: 7.029458409097427
+[ 4.76490519e+01  1.08702257e+01 -2.46984907e-09] Estimated Local Min
+7.160589117176902e-07 Force Magnitude
+152 Iterations
+True Success
+[3.93509481e+01 2.69642205e+01 2.46984907e-09] F_att
+[-3.93509479e+01 -2.69642208e+01 -6.29319098e-07] F_rep
+[[48.77725362 10.62809676  0.        ]
+ [48.3064104  10.79634259  0.        ]
+ [47.83556718 10.96458843  0.        ]
+ [47.36472396 11.13283427  0.        ]
+ [46.89388074 11.30108011  0.        ]
+ [46.42303752 11.46932595  0.        ]
+ [45.9521943  11.63757179  0.        ]] Obstacles in Range
+0.13495845829996586 Belief
+
+Initial belief: 0.3333333333333333
+37 Step
+Prediction: 1.6, Correction: 0.9874245127223368, Prior: 0.3333333333333333, Posterior: 0.5266264067852463 Belief after normalization: 0.5266264067852463
+Num Collisions: 600, Recognized Area: 6.283185307179586, Total Area: 6.3632057197535
+[ 4.76491168e+01  1.08696809e+01 -5.26460523e-09] Estimated Local Min
+1.5175469905058833e-06 Force Magnitude
+165 Iterations
+True Success
+[3.93508832e+01 2.69647653e+01 5.26460523e-09] F_att
+[-3.93508839e+01 -2.69647652e+01 -1.33711008e-06] F_rep
+[[49.24809684 10.45985092  0.        ]
+ [48.77725362 10.62809676  0.        ]
+ [48.3064104  10.79634259  0.        ]
+ [47.83556718 10.96458843  0.        ]
+ [47.36472396 11.13283427  0.        ]
+ [46.89388074 11.30108011  0.        ]
+ [46.42303752 11.46932595  0.        ]
+ [45.9521943  11.63757179  0.        ]] Obstacles in Range
+0.5266264067852463 Belief
+
+38 Step
+Prediction: 1.6800000000000002, Correction: 0.9922265989864071, Prior: 0.5266264067852463, Posterior: 0.877854983948808 Belief after normalization: 0.877854983948808
+Num Collisions: 680, Recognized Area: 6.283185307179586, Total Area: 6.332409666902774
+[ 4.76491168e+01  1.08696809e+01 -5.26460523e-09] Estimated Local Min
+1.5175469905058833e-06 Force Magnitude
+165 Iterations
+True Success
+[3.93508832e+01 2.69647653e+01 5.26460523e-09] F_att
+[-3.93508839e+01 -2.69647652e+01 -1.33711008e-06] F_rep
+[[49.24809684 10.45985092  0.        ]
+ [48.77725362 10.62809676  0.        ]
+ [48.3064104  10.79634259  0.        ]
+ [47.83556718 10.96458843  0.        ]
+ [47.36472396 11.13283427  0.        ]
+ [46.89388074 11.30108011  0.        ]
+ [46.42303752 11.46932595  0.        ]
+ [45.9521943  11.63757179  0.        ]] Obstacles in Range
+0.877854983948808 Belief
+
+Local Min Predicted!, Current Step: 38
+18 Steps Away
+[ 4.76491168e+01  1.08696809e+01 -5.26460523e-09] Estimated Local Min
+
