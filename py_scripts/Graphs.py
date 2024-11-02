@@ -1,4 +1,7 @@
+import matplotlib
 import matplotlib.pyplot as plt
+from matplotlib import use
+use('Agg') # so we can run on threads and force it to only write files and not try to display them (mostly for performance)
 import numpy as np 
 from mpl_toolkits.mplot3d import Axes3D
 from PotentialField import att_force, rep_force, K_ATT, K_REP, D_SAFE, OBSTACLE_HEIGHT
@@ -82,25 +85,33 @@ def plot_movement_3d(ugv_pos, goal_pos, obstacles):
     
     plt.show(block = False)
 
-# Plots teh movement of UGV (X, Y) in 2D
+# Plots the movement of UGV (X, Y) in 2D
 def plot_movement_2d(ugv_pos, goal_pos, obstacles, log_dir, sim_id):
-    plt.figure(figsize=(6,6))
-    plt.plot(ugv_pos[:,0], ugv_pos[:,1], '-o', label='UGV Path')
+    fig, ax = plt.subplots(figsize=(6, 6))
     
-    # Mark the goal and obsticles on the plot
-    plt.scatter(goal_pos[0], goal_pos[1], color='black', label='Goal', s=100)
-    plt.scatter(ugv_pos[0,0], ugv_pos[0,1], color='green', label='Start', s=100)
-    for obs in obstacles:
-        plt.scatter(obs[0], obs[1], color='red', label='Obstacle', s=100)
-        
+    # Plot UGV path
+    ax.plot(ugv_pos[:, 0], ugv_pos[:, 1], '-o', label='UGV Path', color='blue')
+    
+    # Mark goal, start, and obstacles
+    ax.scatter(goal_pos[0], goal_pos[1], color='black', label='Goal', s=100, marker='X')
+    ax.scatter(ugv_pos[0, 0], ugv_pos[0, 1], color='green', label='Start', s=100, marker='o')
+    
+    # Ensure each obstacle is labeled once by using `label=''` after the first plot
+    for idx, obs in enumerate(obstacles):
+        label = 'Obstacle' if idx == 0 else ''  # Label only the first obstacle
+        ax.scatter(obs[0], obs[1], color='red', s=60, label=label, marker='s')
+    
     # Labeling
-    plt.title('UGV Path')
-    plt.xlabel('X')
-    plt.ylabel('Y')
-    plt.legend(loc='center left', bbox_to_anchor=(1, 0.5))
-    plt.grid(True)
+    ax.set_title('UGV Path')
+    ax.set_xlabel('X')
+    ax.set_ylabel('Y')
+    ax.legend(loc='center left', bbox_to_anchor=(1, 0.5))
+    ax.grid(True)
     
-    plt.savefig(f'{log_dir}movement_{sim_id}.png')
+    # Adjust layout and save directly to file
+    plt.tight_layout()
+    plt.savefig(f'{log_dir}movement_{sim_id}.png', bbox_inches='tight')
+    plt.close(fig)  # Close the figure to free up memory
     
 # Plots the speed vs time of the UGV
 def plot_speed_time_2d(speeds, num_steps):

@@ -7,6 +7,8 @@ from DynamicBayesianFiltering import DBF, SensorData, steps_to_local_min
 import sys
 import os
 import csv
+import concurrent.futures
+import time
 
 # Constants for Potential Field Algorithm
 K_ATT = 1.0 # Attractive
@@ -143,10 +145,11 @@ def sim_movement(pos_i, goal_pos, obstacles, num_steps):
 def sim_movement_with_DBF(pos_i, goal_pos, obstacles, num_steps):
     ugv_pos = [pos_i]
     speeds = []
-    sensor = Sensor(D_SAFE, 180, 10000)
+    sensor = Sensor(D_SAFE, 180, 1000)
     dbf = DBF()
     first_check = True
     previus_num_obs = 0
+    log_string = ""
     
     for _ in range(num_steps):
         pos_c = ugv_pos[-1] # Always get last added position
@@ -171,34 +174,42 @@ def sim_movement_with_DBF(pos_i, goal_pos, obstacles, num_steps):
             if first_check:
                 estimated_local_min = find_potential_local_min(pos_c, goal_pos, obstacles_in_range)
                 group_a_points = sensor.get_group_a_points(pos_c, estimated_local_min['local_min'], step_size = 0.1)
-                print(dbf.initialize_belief(group_a_points))
+                #print(dbf.initialize_belief(group_a_points))
+                log_string += f"Initial belief: {dbf.initialize_belief(group_a_points)}\n"
                 first_check = False
                 
             sensorData = sensor.get_sensor_data(pos_c, estimated_local_min['local_min'], obstacles_in_range)
-            print(sensorData)
+            #print(sensorData)
             #print(pos_c)
             #print(obstacles_in_range)
-            belief, reached_threshold = dbf.update_belief(sensorData)
+            belief, reached_threshold, log_str = dbf.update_belief(sensorData)
             
+            log_entries = []
             if belief > 0.1:
-                print(_, "Step")
-                print(estimated_local_min['local_min'], "Estimated Local Min")
-                print(estimated_local_min['force_mag'], "Force Magnitude")
-                print(estimated_local_min['iterations'], "Iterations")
-                print(estimated_local_min['success'], "Success")
-                print(estimated_local_min['F_att'], "F_att")
-                print(estimated_local_min['F_rep'], "F_rep")
-                print(obstacles_in_range, "Obstacles in Range")
-                print(belief, "Belief")
-                print("\n\n")
+                log_entries.append(f"{_} Step")
+                log_entries.append(log_str)
+                log_entries.append(f"{estimated_local_min['local_min']} Estimated Local Min")
+                log_entries.append(f"{estimated_local_min['force_mag']} Force Magnitude")
+                log_entries.append(f"{estimated_local_min['iterations']} Iterations")
+                log_entries.append(f"{estimated_local_min['success']} Success")
+                log_entries.append(f"{estimated_local_min['F_att']} F_att")
+                log_entries.append(f"{estimated_local_min['F_rep']} F_rep")
+                log_entries.append(f"{obstacles_in_range} Obstacles in Range")
+                log_entries.append(f"{belief} Belief\n")
+            else:
+                log_entries.append(f"{_} Step")
+                log_entries.append(log_str)
+                log_entries.append(f"belief too low moving on....\n")
             
             if reached_threshold:
-                print('Local Min Found')
+                log_entries.append(f'Local Min Predicted!, Current Step: {_}')
                 steps_away = steps_to_local_min(pos_c, estimated_local_min['local_min'], step_size=STEP_SIZE)
-                print(steps_away, "Steps Away")
-                print(estimated_local_min['local_min'], "Estimated Local Min")
-                print("\n\n")
+                log_entries.append(f"{steps_away} Steps Away")
+                log_entries.append(f"{estimated_local_min['local_min']} Estimated Local Min\n")
+                log_string += "\n".join(log_entries) + "\n"
                 break
+            
+            log_string += "\n".join(log_entries) + "\n"
         
         else:
             first_check = True
@@ -212,90 +223,128 @@ def sim_movement_with_DBF(pos_i, goal_pos, obstacles, num_steps):
         ugv_pos.append(pos_n)
         
         if np.linalg.norm(pos_n - goal_pos) < 0.75:
-            print('Goal Reached')
+            log_string += f'Goal Reached, step: {_}\n'
             break
         
         if is_local_min(F_resultant):
-            print('Local Min Found')
-            print(pos_n)
+            log_string += f'Local Min Found, step: {_}\n'
+            log_string += f"{pos_n} UGV Position\n"
+            log_string += f"Wasnt predicted :( (bad) \n)"
             break
         
-    return np.array(ugv_pos), np.array(speeds)
+    return np.array(ugv_pos), np.array(speeds), log_string
+
+# Helper function to run a single simulation so I can multi-thread it
+def run_single_simulation(sim_num, grid_size, run_index, predef_ugv_pos=None, predef_goal_pos=None, obstacle_csv_path=None):
+    log_dir = './logs/'
+    sim_id = f'sim{sim_num}_{run_index}'
+    
+    # Set or randomize UGV start and goal positions
+    pos_i = np.array(predef_ugv_pos) if predef_ugv_pos is not None else np.array(
+        [np.random.uniform(0, grid_size), np.random.uniform(0, grid_size), 0]
+    )
+    goal_pos = np.array(predef_goal_pos) if predef_goal_pos is not None else np.array(
+        [np.random.uniform(0, grid_size), np.random.uniform(0, grid_size), 0]
+    )
+    
+     # Set or randomize obstacle positions
+    if obstacle_csv_path:
+        with open(obstacle_csv_path, 'r') as f:
+            reader = csv.reader(f)
+            obstacles = [np.array([float(x), float(y), 0]) for x, y in reader]
+    else:
+        num_obstacles = np.random.randint(5, 15)
+        obstacles = [np.array([np.random.uniform(0, grid_size), np.random.uniform(0, grid_size), 0]) for _ in range(num_obstacles)]
+
+    
+    log_dir = f'./logs/{run_index}-({grid_size}x{grid_size})/{sim_num}/'
+    if not os.path.exists(log_dir):
+        os.makedirs(log_dir)
+    log_filename = f'{log_dir}Log_{sim_id}.txt'
+    obstacle_csv_filename = f'{log_dir}obstacles_{sim_id}.csv'
+    ugv_goal_csv_filename = f'{log_dir}ugv_goal_{sim_id}.csv'
+    time_taken_filename = f'{log_dir}time_taken_{sim_id}.txt'
+    
+    # Save obstacle positions to CSV
+    with open(obstacle_csv_filename, 'w', newline='') as f:
+        writer = csv.writer(f)
+        writer.writerows([[obs[0], obs[1]] for obs in obstacles])
+    
+    # Save UGV start and goal positions to CSV
+    with open(ugv_goal_csv_filename, 'w', newline='') as f:
+        writer = csv.writer(f)
+        writer.writerow(['ugv_start_x', 'ugv_start_y', 'ugv_start_z', 'goal_x', 'goal_y', 'goal_z', 'grid_size'])
+        writer.writerow([pos_i[0], pos_i[1], pos_i[2], goal_pos[0], goal_pos[1], goal_pos[2], grid_size])
+    
+    #time_start = time.time()
+    print(f'\nSimulation {sim_num} started.\n')
+    
+    # Redirect output to log file
+    #sys.stdout = open(log_filename, 'w')
+    
+    # Run the simulation
+    ugv_pos, speeds, log_string = sim_movement_with_DBF(pos_i, goal_pos, obstacles, num_steps=10000)
+    
+    # Close log file and reset stdout
+    # sys.stdout.close()
+    # sys.stdout = sys.__stdout__
+    
+    # Plot and save plots to log directory
+    g.plot_movement_2d(ugv_pos, goal_pos, obstacles, log_dir, sim_id)
+    #plt.savefig(f'{log_dir}movement_{sim_id}.png')
+    #plt.close()  # Close the plot after saving to avoid displaying
+    
+    #g.plot_potential_field_surface(goal_pos, obstacles, field_size=grid_size, res=100, log_dir=log_dir, sim_id=sim_id)
+    #plt.savefig(f'{log_dir}potential_field_{sim_id}.png')
+    #plt.close()
+    
+    log_dir = f'./logs/{run_index}-({grid_size}x{grid_size})/{sim_num}/'
+    print(f'\nSimulation {sim_num} completed.\n')
+    #print(f'Time taken: {time.time() - time_start} seconds')
+    #with open(time_taken_filename, 'w') as f:
+    #    f.write(f'Time taken for simulation: {time.time() - time_start} seconds')
+        
+    with open(log_filename, 'w') as f:
+        f.write(log_string)
 
 # Run multiple simulations with randomized starting, goal, and obstacle positions
 # optional parameters to set predefined UGV start and goal positions, and obstacle positions
 # obstacle_csv_path is a path to a CSV file containing obstacle positions
+# Threading to increase performance 
 def run_multiple_simulations(n, grid_size, predef_ugv_pos=None, predef_goal_pos=None, obstacle_csv_path=None):
+    time_start = time.time()
     log_dir = './logs/'
     if not os.path.exists(log_dir):
         os.makedirs(log_dir)
     
     # To track number of runs across all simulations
-    run_index = len([f for f in os.listdir(log_dir) if f.startswith('Log_')])
+    #run_index = len([f for f in os.listdir(log_dir) if f.startswith('Log_')])
+    file_nums = [int(f.split('-')[0]) for f in os.listdir(log_dir) if f.split('-')[0].isdigit()]
+    if file_nums:
+        run_index = max(file_nums) + 1
+    else:
+        run_index = 0
 
-    for sim_num in range(n):
-        # Set or randomize UGV start and goal positions
-        if predef_ugv_pos is not None:
-            pos_i = np.array(predef_ugv_pos)
-        else:
-            pos_i = np.array([np.random.uniform(0, grid_size), np.random.uniform(0, grid_size), 0])
+    simulation_args = [
+        (sim_num, grid_size, run_index, predef_ugv_pos, predef_goal_pos, obstacle_csv_path) 
+        for sim_num in range(n)
+    ]
+    
+    with concurrent.futures.ThreadPoolExecutor() as executor:
+        futures = [executor.submit(run_single_simulation, *args) for args in simulation_args]
         
-        if predef_goal_pos is not None:
-            goal_pos = np.array(predef_goal_pos)
-        else:
-            goal_pos = np.array([np.random.uniform(0, grid_size), np.random.uniform(0, grid_size), 0])
-
-        # Set or randomize obstacle positions
-        if obstacle_csv_path:
-            with open(obstacle_csv_path, 'r') as f:
-                reader = csv.reader(f)
-                obstacles = [np.array([float(x), float(y), 0]) for x, y in reader]
-        else:
-            num_obstacles = np.random.randint(5, 15)  # Random number of obstacles
-            obstacles = [np.array([np.random.uniform(0, grid_size), np.random.uniform(0, grid_size), 0]) for _ in range(num_obstacles)]
-
-        # Generate filenames for logs and CSVs
-        sim_id = f'sim{sim_num}_{run_index}'
-        log_dir = f'./logs/{run_index}/{sim_num}/'
-        if not os.path.exists(log_dir):
-            os.makedirs(log_dir)
-        log_filename = f'{log_dir}Log_{sim_id}.txt'
-        obstacle_csv_filename = f'{log_dir}obstacles_{sim_id}.csv'
-        ugv_goal_csv_filename = f'{log_dir}ugv_goal_{sim_id}.csv'
+        for future in concurrent.futures.as_completed(futures):
+            try:
+                future.result()
+            except Exception as e:
+                print(f'\n\nError in simulation: {e}\n\n')
         
-        # Save obstacle positions to CSV
-        with open(obstacle_csv_filename, 'w', newline='') as f:
-            writer = csv.writer(f)
-            writer.writerows([[obs[0], obs[1]] for obs in obstacles])
-        
-        # Save UGV start and goal positions to CSV
-        with open(ugv_goal_csv_filename, 'w', newline='') as f:
-            writer = csv.writer(f)
-            writer.writerow(['ugv_start_x', 'ugv_start_y', 'ugv_start_z', 'goal_x', 'goal_y', 'goal_z'])
-            writer.writerow([pos_i[0], pos_i[1], pos_i[2], goal_pos[0], goal_pos[1], goal_pos[2]])
-        
-        # Redirect output to log file
-        sys.stdout = open(log_filename, 'w')
-        
-        # Run the simulation
-        ugv_pos, speeds = sim_movement_with_DBF(pos_i, goal_pos, obstacles, num_steps=10000)
-        
-        # Close log file and reset stdout
-        sys.stdout.close()
-        sys.stdout = sys.__stdout__
-        
-        # Plot and save plots to log directory
-        g.plot_movement_2d(ugv_pos, goal_pos, obstacles, log_dir, sim_id)
-        #plt.savefig(f'{log_dir}movement_{sim_id}.png')
-        #plt.close()  # Close the plot after saving to avoid displaying
-        
-        g.plot_potential_field_surface(goal_pos, obstacles, field_size=grid_size, res=100, log_dir=log_dir, sim_id=sim_id)
-        #plt.savefig(f'{log_dir}potential_field_{sim_id}.png')
-        #plt.close()
-        
-    log_dir = f'./logs/{run_index}/'
-    print(f'All {n} simulations completed. Results saved to {log_dir}')
-
+    log_dir = f'./logs/{run_index}-({grid_size}x{grid_size})/'
+    print(f'\n\nAll {n} simulations completed. Results saved to {log_dir}')
+    time_taken = time.time() - time_start
+    minutes = int(time_taken // 60)
+    seconds = round(time_taken % 60, 2)
+    print(f'Time taken: {minutes} min, {seconds} seconds')
 
 # Testing the simulation
 if __name__ == '__main__':

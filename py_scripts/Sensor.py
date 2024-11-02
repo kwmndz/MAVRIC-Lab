@@ -34,24 +34,18 @@ class Sensor:
     # Scan the area around the current position to detect either occupied points or free space
     # returns a list of rays with the end point and whether a collision happened
     def scan_area(self, pos_c: np.ndarray, obstacles: np.ndarray):
-        # Calc the angle between each ray
         angle_increment = self.sensor_angle / self.num_rays
         rays = []
 
-        for i in range(self.num_rays):
-            # Calc the angle of the ray
-            ray_angle = -self.sensor_angle / 2 + i * angle_increment
+        cos_vals = np.cos(np.radians(np.linspace(-self.sensor_angle / 2, self.sensor_angle / 2, self.num_rays)))
+        sin_vals = np.sin(np.radians(np.linspace(-self.sensor_angle / 2, self.sensor_angle / 2, self.num_rays)))
 
-            x = np.cos(np.radians(ray_angle))
-            y = np.sin(np.radians(ray_angle))
-
+        for x, y in zip(cos_vals, sin_vals):
             direction = np.array([x, y])
-            direction = direction / np.linalg.norm(direction)  # Normalize the direction vector
+            direction = direction / np.linalg.norm(direction)
             end_point = direction * self.sensor_radius + pos_c[:-1]
-            
-            
-            collision = self.__check_collision(obstacles, end_point, pos_c) # Check for collision
 
+            collision = self.__check_collision(obstacles, end_point, pos_c)
             rays.append([end_point, collision])
 
         return rays

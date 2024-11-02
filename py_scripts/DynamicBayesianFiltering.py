@@ -53,7 +53,7 @@ class DBF:
     # sensor_data is of type SensorData
     # steps in this function found through the psuedocode in the research paper
     def update_belief(self, sensor_data):
-
+        log_str = ""
         if self.belief_prior is None:
             raise ValueError("Remeber to initialize the belief first (initialize_belief function)")
         
@@ -61,13 +61,15 @@ class DBF:
         correction = self.observation_likelihood(sensor_data)
 
         posterior = prediction * correction * self.belief_prior 
-        print(f"Prediction: {prediction}, Correction: {correction}, Prior: {self.belief_prior}, Posterior: {posterior}")
-
+        #print(f"Prediction: {prediction}, Correction: {correction}, Prior: {self.belief_prior}, Posterior: {posterior}")
+        log_str += f"Prediction: {prediction}, Correction: {correction}, Prior: {self.belief_prior}, Posterior: {posterior}"
+        
         belief_current = self.normalize(posterior)
         self.belief_prior = belief_current
-        print (f"Belief: {belief_current}")
+        #print (f"Belief: {belief_current}")
+        log_str += f" Belief after normalization: {belief_current}"
         # returns the current belieft and True if the belief is greater than the threshold, false otherwise
-        return belief_current, belief_current >= self.threshold
+        return belief_current, belief_current >= self.threshold, log_str
 
 # Calculate the number of steps to reach the local minimum
 # pos_c & min_predicted are vectors stored in numpy arrays
