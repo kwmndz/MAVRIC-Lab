@@ -1,0 +1,2948 @@
+Initial belief: 0.022727272727272728
+2 Step
+Prediction: 1.319, Correction: 0.5675374707855954, Prior: 0.022727272727272728, Posterior: 0.01701322554468637 Belief after normalization: 0.01701322554468637
+Num Collisions: 319, Recognized Area: 39.269908169872416, Total Area: 69.1935073740846
+belief too low moving on....
+
+3 Step
+Prediction: 1.482, Correction: 0.6142364874146361, Prior: 0.01701322554468637, Posterior: 0.01548711325707477 Belief after normalization: 0.01548711325707477
+Num Collisions: 482, Recognized Area: 39.269908169872416, Total Area: 63.93288086020773
+belief too low moving on....
+
+4 Step
+Prediction: 1.6219999999999999, Correction: 0.6352080142313343, Prior: 0.01548711325707477, Posterior: 0.015956487379204024 Belief after normalization: 0.015956487379204024
+Num Collisions: 622, Recognized Area: 39.269908169872416, Total Area: 61.82212328884572
+belief too low moving on....
+
+Initial belief: 0.037037037037037035
+5 Step
+Prediction: 1.733, Correction: 0.7790381372428196, Prior: 0.037037037037037035, Posterior: 0.050002707105252085 Belief after normalization: 0.050002707105252085
+Num Collisions: 733, Recognized Area: 39.269908169872416, Total Area: 50.408197355853346
+belief too low moving on....
+
+6 Step
+Prediction: 1.8050000000000002, Correction: 0.8980299589027602, Prior: 0.050002707105252085, Posterior: 0.0810515918571951 Belief after normalization: 0.0810515918571951
+Num Collisions: 805, Recognized Area: 39.269908169872416, Total Area: 43.72895111189115
+belief too low moving on....
+
+7 Step
+Prediction: 1.869, Correction: 0.9763784895665, Prior: 0.0810515918571951, Posterior: 0.14790711062965914 Belief after normalization: 0.14790711062965914
+Num Collisions: 869, Recognized Area: 39.269908169872416, Total Area: 40.21996448048315
+[ 8.72501385e+00  3.05245827e+01 -1.81569948e-10] Estimated Local Min
+73.91114231064309 Force Magnitude
+181 Iterations
+True Success
+130 Obstacles in Range
+0.14790711062965914 Belief
+
+8 Step
+Prediction: 2.0, Correction: 0.9886206827964731, Prior: 0.14790711062965914, Posterior: 0.2924480574022942 Belief after normalization: 0.2924480574022942
+Num Collisions: 1000, Recognized Area: 39.269908169872416, Total Area: 39.72191645717056
+[ 8.72501385e+00  3.05245827e+01 -1.81569948e-10] Estimated Local Min
+73.91114231064309 Force Magnitude
+181 Iterations
+True Success
+124 Obstacles in Range
+0.2924480574022942 Belief
+
+9 Step
+Prediction: 2.0, Correction: 0.940256588868112, Prior: 0.2924480574022942, Posterior: 0.5499524257483739 Belief after normalization: 0.5499524257483739
+Num Collisions: 1000, Recognized Area: 39.269908169872416, Total Area: 41.76509756464012
+[ 8.72501385e+00  3.05245827e+01 -1.81569948e-10] Estimated Local Min
+73.91114231064309 Force Magnitude
+181 Iterations
+True Success
+110 Obstacles in Range
+0.5499524257483739 Belief
+
+10 Step
+Prediction: 1.653, Correction: 0.857015335385619, Prior: 0.5499524257483739, Posterior: 0.7790880962759443 Belief after normalization: 0.7790880962759443
+Num Collisions: 653, Recognized Area: 39.269908169872416, Total Area: 45.821710007327574
+[ 8.72501385e+00  3.05245827e+01 -1.81569948e-10] Estimated Local Min
+73.91114231064309 Force Magnitude
+181 Iterations
+True Success
+94 Obstacles in Range
+0.7790880962759443 Belief
+
+Initial belief: 0.0010460251046025104
+11 Step
+Prediction: 1.343, Correction: 0.0027314304407682352, Prior: 0.0010460251046025104, Posterior: 3.837145483213117e-06 Belief after normalization: 3.837145483213117e-06
+Num Collisions: 343, Recognized Area: 39.269908169872416, Total Area: 14377.04859100401
+belief too low moving on....
+
+Initial belief: 0.0010570824524312897
+12 Step
+Prediction: 1.041, Correction: 0.002787679113875405, Prior: 0.0010570824524312897, Posterior: 3.0676257479326603e-06 Belief after normalization: 3.0676257479326603e-06
+Num Collisions: 41, Recognized Area: 39.269908169872416, Total Area: 14086.954260413338
+belief too low moving on....
+
+Initial belief: 0.0010672358591248667
+13 Step
+Prediction: 1.0, Correction: 0.002844487318947502, Prior: 0.0010672358591248667, Posterior: 3.0357388676067255e-06 Belief after normalization: 3.0357388676067255e-06
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 13805.618997943997
+belief too low moving on....
+
+Initial belief: 0.0010787486515641855
+14 Step
+Prediction: 1.0, Correction: 0.0029021751585049413, Prior: 0.0010787486515641855, Posterior: 3.1307175388402815e-06 Belief after normalization: 3.1307175388402815e-06
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 13531.1985063308
+belief too low moving on....
+
+Initial belief: 0.0010893246187363835
+15 Step
+Prediction: 1.0, Correction: 0.0029609425824507906, Prior: 0.0010893246187363835, Posterior: 3.2254276497285304e-06 Belief after normalization: 3.2254276497285304e-06
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 13262.63751368271
+belief too low moving on....
+
+Initial belief: 0.001122334455667789
+18 Step
+Prediction: 1.057, Correction: 0.0031444433753547107, Prior: 0.001122334455667789, Posterior: 3.7302768212681585e-06 Belief after normalization: 3.7302768212681585e-06
+Num Collisions: 57, Recognized Area: 39.269908169872416, Total Area: 12488.667621639888
+belief too low moving on....
+
+19 Step
+Prediction: 1.103, Correction: 0.003208083118700241, Prior: 3.7302768212681585e-06, Posterior: 1.319964302252326e-08 Belief after normalization: 1.319964302252326e-08
+Num Collisions: 103, Recognized Area: 39.269908169872416, Total Area: 12240.926034916038
+belief too low moving on....
+
+20 Step
+Prediction: 1.138, Correction: 0.003273003818910182, Prior: 1.319964302252326e-08, Posterior: 4.916442453986359e-11 Belief after normalization: 4.916442453986359e-11
+Num Collisions: 138, Recognized Area: 39.269908169872416, Total Area: 11998.124763248272
+belief too low moving on....
+
+21 Step
+Prediction: 1.165, Correction: 0.0033392293036670034, Prior: 4.916442453986359e-11, Posterior: 1.9125954949647486e-13 Belief after normalization: 1.9125954949647486e-13
+Num Collisions: 165, Recognized Area: 39.269908169872416, Total Area: 11760.171164869638
+belief too low moving on....
+
+22 Step
+Prediction: 1.19, Correction: 0.0034067835452183787, Prior: 1.9125954949647486e-13, Posterior: 7.753800644476599e-16 Belief after normalization: 7.753800644476599e-16
+Num Collisions: 190, Recognized Area: 39.269908169872416, Total Area: 11526.974827910639
+belief too low moving on....
+
+23 Step
+Prediction: 1.353, Correction: 0.0034756904613109647, Prior: 7.753800644476599e-16, Posterior: 3.646309420035082e-18 Belief after normalization: 3.646309420035082e-18
+Num Collisions: 353, Recognized Area: 39.269908169872416, Total Area: 11298.448065786775
+belief too low moving on....
+
+Initial belief: 0.0011918951132300357
+24 Step
+Prediction: 1.373, Correction: 0.0035460838920458562, Prior: 0.0011918951132300357, Posterior: 5.803066965171586e-06 Belief after normalization: 5.803066965171586e-06
+Num Collisions: 373, Recognized Area: 39.269908169872416, Total Area: 11074.162192822876
+belief too low moving on....
+
+25 Step
+Prediction: 1.3599999999999999, Correction: 0.003617747885655772, Prior: 5.803066965171586e-06, Posterior: 2.855188521125297e-08 Belief after normalization: 2.855188521125297e-08
+Num Collisions: 360, Recognized Area: 39.269908169872416, Total Area: 10854.794035144367
+belief too low moving on....
+
+26 Step
+Prediction: 1.329, Correction: 0.0036907927103029133, Prior: 2.855188521125297e-08, Posterior: 1.4004881034831727e-10 Belief after normalization: 1.4004881034831727e-10
+Num Collisions: 329, Recognized Area: 39.269908169872416, Total Area: 10639.965788446956
+belief too low moving on....
+
+27 Step
+Prediction: 1.409, Correction: 0.003765200277772891, Prior: 1.4004881034831727e-10, Posterior: 7.429823538519732e-13 Belief after normalization: 7.429823538519732e-13
+Num Collisions: 409, Recognized Area: 39.269908169872416, Total Area: 10429.699689999092
+belief too low moving on....
+
+Initial belief: 0.0012406947890818859
+28 Step
+Prediction: 1.353, Correction: 0.0038410540301130965, Prior: 0.0012406947890818859, Posterior: 6.447823948812679e-06 Belief after normalization: 6.447823948812679e-06
+Num Collisions: 353, Recognized Area: 39.269908169872416, Total Area: 10223.732304207173
+belief too low moving on....
+
+Initial belief: 0.0012531328320802004
+29 Step
+Prediction: 1.2610000000000001, Correction: 0.003918800543123738, Prior: 0.0012531328320802004, Posterior: 6.1924905825551805e-06 Belief after normalization: 6.1924905825551805e-06
+Num Collisions: 261, Recognized Area: 39.269908169872416, Total Area: 10020.899950822644
+belief too low moving on....
+
+Initial belief: 0.0012658227848101266
+30 Step
+Prediction: 1.21, Correction: 0.003998389204963818, Prior: 0.0012658227848101266, Posterior: 6.124115111400278e-06 Belief after normalization: 6.124115111400278e-06
+Num Collisions: 210, Recognized Area: 39.269908169872416, Total Area: 9821.432120995278
+belief too low moving on....
+
+Initial belief: 0.0012787723785166241
+31 Step
+Prediction: 1.155, Correction: 0.004079510782231904, Prior: 0.0012787723785166241, Posterior: 6.0253643906366365e-06 Belief after normalization: 6.0253643906366365e-06
+Num Collisions: 155, Recognized Area: 39.269908169872416, Total Area: 9626.131726605663
+belief too low moving on....
+
+Initial belief: 0.0012919896640826874
+32 Step
+Prediction: 1.092, Correction: 0.004162131041481293, Prior: 0.0012919896640826874, Posterior: 5.872153872477483e-06 Belief after normalization: 5.872153872477483e-06
+Num Collisions: 92, Recognized Area: 39.269908169872416, Total Area: 9435.048483215547
+belief too low moving on....
+
+Initial belief: 0.0013054830287206266
+33 Step
+Prediction: 1.011, Correction: 0.004246326474051685, Prior: 0.0013054830287206266, Posterior: 5.60448572489067e-06 Belief after normalization: 5.60448572489067e-06
+Num Collisions: 11, Recognized Area: 39.269908169872416, Total Area: 9247.971961139046
+belief too low moving on....
+
+Initial belief: 0.022727272727272728
+35 Step
+Prediction: 1.142, Correction: 0.5681571926518215, Prior: 0.022727272727272728, Posterior: 0.01474626168200864 Belief after normalization: 0.01474626168200864
+Num Collisions: 142, Recognized Area: 39.269908169872416, Total Area: 69.11803401904274
+belief too low moving on....
+
+36 Step
+Prediction: 1.2, Correction: 0.6446676770050485, Prior: 0.01474626168200864, Posterior: 0.011407725915658883 Belief after normalization: 0.011407725915658883
+Num Collisions: 200, Recognized Area: 39.269908169872416, Total Area: 60.91496374117868
+belief too low moving on....
+
+37 Step
+Prediction: 1.258, Correction: 0.720043596649193, Prior: 0.011407725915658883, Posterior: 0.010333287477357232 Belief after normalization: 0.010333287477357232
+Num Collisions: 258, Recognized Area: 39.269908169872416, Total Area: 54.53823678541066
+belief too low moving on....
+
+38 Step
+Prediction: 1.338, Correction: 0.7863961643237461, Prior: 0.010333287477357232, Posterior: 0.01087266511837066 Belief after normalization: 0.01087266511837066
+Num Collisions: 338, Recognized Area: 39.269908169872416, Total Area: 49.93654591848397
+belief too low moving on....
+
+39 Step
+Prediction: 1.445, Correction: 0.8344649506202508, Prior: 0.01087266511837066, Posterior: 0.013110279753806402 Belief after normalization: 0.013110279753806402
+Num Collisions: 445, Recognized Area: 39.269908169872416, Total Area: 47.05998513260913
+belief too low moving on....
+
+40 Step
+Prediction: 1.568, Correction: 0.8562974116657809, Prior: 0.013110279753806402, Posterior: 0.017602836235217183 Belief after normalization: 0.017602836235217183
+Num Collisions: 568, Recognized Area: 39.269908169872416, Total Area: 45.86012714143266
+belief too low moving on....
+
+Initial belief: 0.030303030303030304
+41 Step
+Prediction: 1.662, Correction: 0.6981668557950879, Prior: 0.030303030303030304, Posterior: 0.03516222164640715 Belief after normalization: 0.03516222164640715
+Num Collisions: 662, Recognized Area: 39.269908169872416, Total Area: 56.24716762750214
+belief too low moving on....
+
+Initial belief: 0.0014285714285714286
+42 Step
+Prediction: 1.671, Correction: 0.005081845941693767, Prior: 0.0014285714285714286, Posterior: 1.2131092240814694e-05 Belief after normalization: 1.2131092240814694e-05
+Num Collisions: 671, Recognized Area: 39.269908169872416, Total Area: 7727.488912578851
+belief too low moving on....
+
+Initial belief: 0.001443001443001443
+43 Step
+Prediction: 1.679, Correction: 0.005183518704799066, Prior: 0.001443001443001443, Posterior: 1.255862612605719e-05 Belief after normalization: 1.255862612605719e-05
+Num Collisions: 679, Recognized Area: 39.269908169872416, Total Area: 7575.917133956725
+belief too low moving on....
+
+Initial belief: 0.0014577259475218659
+44 Step
+Prediction: 1.685, Correction: 0.005287220857365275, Prior: 0.0014577259475218659, Posterior: 1.2986832572391382e-05 Belief after normalization: 1.2986832572391382e-05
+Num Collisions: 685, Recognized Area: 39.269908169872416, Total Area: 7427.325097488244
+belief too low moving on....
+
+Initial belief: 0.0014705882352941176
+45 Step
+Prediction: 1.692, Correction: 0.005392932526461805, Prior: 0.0014705882352941176, Posterior: 1.3418885051137314e-05 Belief after normalization: 1.3418885051137314e-05
+Num Collisions: 692, Recognized Area: 39.269908169872416, Total Area: 7281.735489399237
+belief too low moving on....
+
+Initial belief: 0.0014858841010401188
+46 Step
+Prediction: 1.694, Correction: 0.005500599842355968, Prior: 0.0014858841010401188, Posterior: 1.3845492025187236e-05 Belief after normalization: 1.3845492025187236e-05
+Num Collisions: 694, Recognized Area: 39.269908169872416, Total Area: 7139.204685911614
+belief too low moving on....
+
+Initial belief: 0.0015015015015015015
+47 Step
+Prediction: 1.698, Correction: 0.005610168765096078, Prior: 0.0015015015015015015, Posterior: 1.4303403247947658e-05 Belief after normalization: 1.4303403247947658e-05
+Num Collisions: 698, Recognized Area: 39.269908169872416, Total Area: 6999.773057486604
+belief too low moving on....
+
+Initial belief: 0.0015151515151515152
+48 Step
+Prediction: 1.694, Correction: 0.005721636095674209, Prior: 0.0015151515151515152, Posterior: 1.4685532645563802e-05 Belief after normalization: 1.4685532645563802e-05
+Num Collisions: 694, Recognized Area: 39.269908169872416, Total Area: 6863.405416426619
+belief too low moving on....
+
+Initial belief: 0.0015313935681470138
+49 Step
+Prediction: 1.6949999999999998, Correction: 0.005835060962917948, Prior: 0.0015313935681470138, Posterior: 1.5146138334067261e-05 Belief after normalization: 1.5146138334067261e-05
+Num Collisions: 695, Recognized Area: 39.269908169872416, Total Area: 6729.991069405151
+belief too low moving on....
+
+Initial belief: 0.0015455950540958269
+50 Step
+Prediction: 1.815, Correction: 0.00595083424588622, Prior: 0.0015455950540958269, Posterior: 1.6693607660407247e-05 Belief after normalization: 1.6693607660407247e-05
+Num Collisions: 815, Recognized Area: 39.269908169872416, Total Area: 6599.05931626637
+belief too low moving on....
+
+51 Step
+Prediction: 1.887, Correction: 0.006068580250169908, Prior: 1.6693607660407247e-05, Posterior: 1.9116536125808532e-07 Belief after normalization: 1.9116536125808532e-07
+Num Collisions: 887, Recognized Area: 39.269908169872416, Total Area: 6471.020659036838
+belief too low moving on....
+
+52 Step
+Prediction: 1.9409999999999998, Correction: 0.00618899740542137, Prior: 1.9116536125808532e-07, Posterior: 2.2964396561003266e-09 Belief after normalization: 2.2964396561003266e-09
+Num Collisions: 941, Recognized Area: 39.269908169872416, Total Area: 6345.116276098806
+belief too low moving on....
+
+53 Step
+Prediction: 1.9889999999999999, Correction: 0.006313236354353467, Prior: 2.2964396561003266e-09, Posterior: 2.883645501539592e-11 Belief after normalization: 2.883645501539592e-11
+Num Collisions: 989, Recognized Area: 39.269908169872416, Total Area: 6220.249958294807
+belief too low moving on....
+
+54 Step
+Prediction: 2.0, Correction: 0.006442390128620943, Prior: 2.883645501539592e-11, Posterior: 3.7155138627121715e-13 Belief after normalization: 3.7155138627121715e-13
+Num Collisions: 1000, Recognized Area: 39.269908169872416, Total Area: 6095.5495376493955
+belief too low moving on....
+
+55 Step
+Prediction: 1.9929999999999999, Correction: 0.006572489926448826, Prior: 3.7155138627121715e-13, Posterior: 4.866941362647363e-15 Belief after normalization: 4.866941362647363e-15
+Num Collisions: 993, Recognized Area: 39.269908169872416, Total Area: 5974.890583223806
+belief too low moving on....
+
+56 Step
+Prediction: 1.959, Correction: 0.006696790191256333, Prior: 4.866941362647363e-15, Posterior: 6.384946206526252e-17 Belief after normalization: 6.384946206526252e-17
+Num Collisions: 959, Recognized Area: 39.269908169872416, Total Area: 5863.989620153427
+belief too low moving on....
+
+57 Step
+Prediction: 2.0, Correction: 0.006796683295817009, Prior: 6.384946206526252e-17, Posterior: 8.67929144531743e-19 Belief after normalization: 8.67929144531743e-19
+Num Collisions: 1000, Recognized Area: 39.269908169872416, Total Area: 5777.804623328693
+belief too low moving on....
+
+58 Step
+Prediction: 2.0, Correction: 0.006762140022948206, Prior: 8.67929144531743e-19, Posterior: 1.1738116810642595e-20 Belief after normalization: 1.1738116810642595e-20
+Num Collisions: 1000, Recognized Area: 39.269908169872416, Total Area: 5807.319581760338
+belief too low moving on....
+
+59 Step
+Prediction: 2.0, Correction: 0.006818525056008791, Prior: 1.1738116810642595e-20, Posterior: 1.6007328716744907e-22 Belief after normalization: 1.6007328716744907e-22
+Num Collisions: 1000, Recognized Area: 39.269908169872416, Total Area: 5759.296599675322
+belief too low moving on....
+
+60 Step
+Prediction: 1.995, Correction: 0.006726522806777515, Prior: 1.6007328716744907e-22, Posterior: 2.1480895506909472e-24 Belief after normalization: 2.1480895506909472e-24
+Num Collisions: 995, Recognized Area: 39.269908169872416, Total Area: 5838.069578877338
+belief too low moving on....
+
+61 Step
+Prediction: 2.0, Correction: 0.006820999913128234, Prior: 2.1480895506909472e-24, Posterior: 2.9304237277309235e-26 Belief after normalization: 2.9304237277309235e-26
+Num Collisions: 1000, Recognized Area: 39.269908169872416, Total Area: 5757.206959391754
+belief too low moving on....
+
+62 Step
+Prediction: 2.0, Correction: 0.006765051443940374, Prior: 2.9304237277309235e-26, Posterior: 3.9648934541286438e-28 Belief after normalization: 3.9648934541286438e-28
+Num Collisions: 1000, Recognized Area: 39.269908169872416, Total Area: 5804.820332156891
+belief too low moving on....
+
+63 Step
+Prediction: 2.0, Correction: 0.0068388113017195246, Prior: 3.9648934541286438e-28, Posterior: 5.4230316328417466e-30 Belief after normalization: 5.4230316328417466e-30
+Num Collisions: 1000, Recognized Area: 39.269908169872416, Total Area: 5742.21256258358
+belief too low moving on....
+
+64 Step
+Prediction: 1.991, Correction: 0.006737110823239557, Prior: 5.4230316328417466e-30, Posterior: 7.274231013080174e-32 Belief after normalization: 7.274231013080174e-32
+Num Collisions: 991, Recognized Area: 39.269908169872416, Total Area: 5828.894492044199
+belief too low moving on....
+
+65 Step
+Prediction: 2.0, Correction: 0.006835084623139777, Prior: 7.274231013080174e-32, Posterior: 9.943996908534155e-34 Belief after normalization: 9.943996908534155e-34
+Num Collisions: 1000, Recognized Area: 39.269908169872416, Total Area: 5745.343376865658
+belief too low moving on....
+
+66 Step
+Prediction: 2.0, Correction: 0.006795544954322212, Prior: 9.943996908534155e-34, Posterior: 1.351497560351699e-35 Belief after normalization: 1.351497560351699e-35
+Num Collisions: 1000, Recognized Area: 39.269908169872416, Total Area: 5778.772480181348
+belief too low moving on....
+
+67 Step
+Prediction: 2.0, Correction: 0.006855236899404643, Prior: 1.351497560351699e-35, Posterior: 1.852967189035664e-37 Belief after normalization: 1.852967189035664e-37
+Num Collisions: 1000, Recognized Area: 39.269908169872416, Total Area: 5728.453844284053
+belief too low moving on....
+
+68 Step
+Prediction: 1.999, Correction: 0.0067591417869344765, Prior: 1.852967189035664e-37, Posterior: 2.5036411446501717e-39 Belief after normalization: 2.5036411446501717e-39
+Num Collisions: 999, Recognized Area: 39.269908169872416, Total Area: 5809.895606241275
+belief too low moving on....
+
+69 Step
+Prediction: 2.0, Correction: 0.0068545322282009, Prior: 2.5036411446501717e-39, Posterior: 3.4322577827708786e-41 Belief after normalization: 3.4322577827708786e-41
+Num Collisions: 1000, Recognized Area: 39.269908169872416, Total Area: 5729.042750475117
+belief too low moving on....
+
+70 Step
+Prediction: 2.0, Correction: 0.006803425311401281, Prior: 3.4322577827708786e-41, Posterior: 4.6702218949114866e-43 Belief after normalization: 4.6702218949114866e-43
+Num Collisions: 1000, Recognized Area: 39.269908169872416, Total Area: 5772.078970877114
+belief too low moving on....
+
+71 Step
+Prediction: 2.0, Correction: 0.006872427175950189, Prior: 4.6702218949114866e-43, Posterior: 6.419151973661458e-45 Belief after normalization: 6.419151973661458e-45
+Num Collisions: 1000, Recognized Area: 39.269908169872416, Total Area: 5714.125033917572
+belief too low moving on....
+
+72 Step
+Prediction: 1.999, Correction: 0.006769816328149311, Prior: 6.419151973661458e-45, Posterior: 8.686950320848626e-47 Belief after normalization: 8.686950320848626e-47
+Num Collisions: 999, Recognized Area: 39.269908169872416, Total Area: 5800.734653108051
+belief too low moving on....
+
+73 Step
+Prediction: 2.0, Correction: 0.006867569936105015, Prior: 8.686950320848626e-47, Posterior: 1.1931647771979567e-48 Belief after normalization: 1.1931647771979567e-48
+Num Collisions: 1000, Recognized Area: 39.269908169872416, Total Area: 5718.1664744930995
+belief too low moving on....
+
+74 Step
+Prediction: 2.0, Correction: 0.006826489511292163, Prior: 1.1931647771979567e-48, Posterior: 1.6290253673570204e-50 Belief after normalization: 1.6290253673570204e-50
+Num Collisions: 1000, Recognized Area: 39.269908169872416, Total Area: 5752.577236794018
+belief too low moving on....
+
+75 Step
+Prediction: 2.0, Correction: 0.006886486520118487, Prior: 1.6290253673570204e-50, Posterior: 2.2436522466470374e-52 Belief after normalization: 2.2436522466470374e-52
+Num Collisions: 1000, Recognized Area: 39.269908169872416, Total Area: 5702.459164792897
+belief too low moving on....
+
+76 Step
+Prediction: 2.0, Correction: 0.006789030920352481, Prior: 2.2436522466470374e-52, Posterior: 3.046444895401009e-54 Belief after normalization: 3.046444895401009e-54
+Num Collisions: 1000, Recognized Area: 39.269908169872416, Total Area: 5784.317177308357
+belief too low moving on....
+
+77 Step
+Prediction: 2.0, Correction: 0.006884497766007265, Prior: 3.046444895401009e-54, Posterior: 4.194648615330497e-56 Belief after normalization: 4.194648615330497e-56
+Num Collisions: 1000, Recognized Area: 39.269908169872416, Total Area: 5704.106458392737
+belief too low moving on....
+
+78 Step
+Prediction: 2.0, Correction: 0.006832573149660486, Prior: 4.194648615330497e-56, Posterior: 5.732048700273538e-58 Belief after normalization: 5.732048700273538e-58
+Num Collisions: 1000, Recognized Area: 39.269908169872416, Total Area: 5747.455213388203
+belief too low moving on....
+
+Initial belief: 0.0016666666666666668
+79 Step
+Prediction: 2.0, Correction: 0.006901406481982315, Prior: 0.0016666666666666668, Posterior: 2.3004688273274385e-05 Belief after normalization: 2.3004688273274385e-05
+Num Collisions: 1000, Recognized Area: 39.269908169872416, Total Area: 5690.131174333146
+belief too low moving on....
+
+80 Step
+Prediction: 2.0, Correction: 0.006797764452459935, Prior: 2.3004688273274385e-05, Posterior: 3.127609043679731e-07 Belief after normalization: 3.127609043679731e-07
+Num Collisions: 1000, Recognized Area: 39.269908169872416, Total Area: 5776.885687126398
+belief too low moving on....
+
+Initial belief: 0.0016638935108153079
+81 Step
+Prediction: 2.0, Correction: 0.006895531655050783, Prior: 0.0016638935108153079, Posterior: 2.2946860748921073e-05 Belief after normalization: 2.2946860748921073e-05
+Num Collisions: 1000, Recognized Area: 39.269908169872416, Total Area: 5694.979029080131
+belief too low moving on....
+
+82 Step
+Prediction: 2.0, Correction: 0.0068530578716527, Prior: 2.2946860748921073e-05, Posterior: 3.1451232937022387e-07 Belief after normalization: 3.1451232937022387e-07
+Num Collisions: 1000, Recognized Area: 39.269908169872416, Total Area: 5730.2752881031765
+belief too low moving on....
+
+Initial belief: 0.0016666666666666668
+83 Step
+Prediction: 2.0, Correction: 0.006913415018228769, Prior: 0.0016666666666666668, Posterior: 2.3044716727429232e-05 Belief after normalization: 2.3044716727429232e-05
+Num Collisions: 1000, Recognized Area: 39.269908169872416, Total Area: 5680.24747050893
+belief too low moving on....
+
+84 Step
+Prediction: 2.0, Correction: 0.006814335427558518, Prior: 2.3044716727429232e-05, Posterior: 3.140688592275428e-07 Belief after normalization: 3.140688592275428e-07
+Num Collisions: 1000, Recognized Area: 39.269908169872416, Total Area: 5762.837563155044
+belief too low moving on....
+
+Initial belief: 0.0016666666666666668
+85 Step
+Prediction: 2.0, Correction: 0.006910112118975073, Prior: 0.0016666666666666668, Posterior: 2.3033707063250246e-05 Belief after normalization: 2.3033707063250246e-05
+Num Collisions: 1000, Recognized Area: 39.269908169872416, Total Area: 5682.962518370402
+belief too low moving on....
+
+86 Step
+Prediction: 2.0, Correction: 0.006857984567404479, Prior: 2.3033707063250246e-05, Posterior: 3.159296151397715e-07 Belief after normalization: 3.159296151397715e-07
+Num Collisions: 1000, Recognized Area: 39.269908169872416, Total Area: 5726.158725483218
+belief too low moving on....
+
+Initial belief: 0.001669449081803005
+87 Step
+Prediction: 2.0, Correction: 0.006926170034921837, Prior: 0.001669449081803005, Posterior: 2.3125776410423495e-05 Belief after normalization: 2.3125776410423495e-05
+Num Collisions: 1000, Recognized Area: 39.269908169872416, Total Area: 5669.78690558751
+belief too low moving on....
+
+88 Step
+Prediction: 2.0, Correction: 0.006821429670799917, Prior: 2.3125776410423495e-05, Posterior: 3.1550171473269526e-07 Belief after normalization: 3.1550171473269526e-07
+Num Collisions: 1000, Recognized Area: 39.269908169872416, Total Area: 5756.844248936956
+belief too low moving on....
+
+Initial belief: 0.0016666666666666668
+89 Step
+Prediction: 2.0, Correction: 0.006919359228759006, Prior: 0.0016666666666666668, Posterior: 2.306453076253002e-05 Belief after normalization: 2.306453076253002e-05
+Num Collisions: 1000, Recognized Area: 39.269908169872416, Total Area: 5675.367743107553
+belief too low moving on....
+
+Initial belief: 0.0016638935108153079
+90 Step
+Prediction: 1.998, Correction: 0.0068758834371979915, Prior: 0.0016638935108153079, Posterior: 2.285859418888783e-05 Belief after normalization: 2.285859418888783e-05
+Num Collisions: 998, Recognized Area: 39.269908169872416, Total Area: 5711.252747163409
+belief too low moving on....
+
+Initial belief: 0.001669449081803005
+91 Step
+Prediction: 2.0, Correction: 0.006936444604489536, Prior: 0.001669449081803005, Posterior: 2.3160082151884926e-05 Belief after normalization: 2.3160082151884926e-05
+Num Collisions: 1000, Recognized Area: 39.269908169872416, Total Area: 5661.388565614063
+belief too low moving on....
+
+92 Step
+Prediction: 1.9489999999999998, Correction: 0.006835965037097042, Prior: 2.3160082151884926e-05, Posterior: 3.085686265889855e-07 Belief after normalization: 3.085686265889855e-07
+Num Collisions: 949, Recognized Area: 39.269908169872416, Total Area: 5744.603425670643
+belief too low moving on....
+
+Initial belief: 0.001669449081803005
+93 Step
+Prediction: 2.0, Correction: 0.006932100038822186, Prior: 0.001669449081803005, Posterior: 2.3145576089556548e-05 Belief after normalization: 2.3145576089556548e-05
+Num Collisions: 1000, Recognized Area: 39.269908169872416, Total Area: 5664.936736334904
+belief too low moving on....
+
+Initial belief: 0.0016638935108153079
+94 Step
+Prediction: 1.996, Correction: 0.006879640770791575, Prior: 0.0016638935108153079, Posterior: 2.2848191311980007e-05 Belief after normalization: 2.2848191311980007e-05
+Num Collisions: 996, Recognized Area: 39.269908169872416, Total Area: 5708.13353170968
+belief too low moving on....
+
+Initial belief: 0.0016722408026755853
+95 Step
+Prediction: 2.0, Correction: 0.006947585111025895, Prior: 0.0016722408026755853, Posterior: 2.3236070605437776e-05 Belief after normalization: 2.3236070605437776e-05
+Num Collisions: 1000, Recognized Area: 39.269908169872416, Total Area: 5652.310485200193
+belief too low moving on....
+
+96 Step
+Prediction: 1.9449999999999998, Correction: 0.006841666096884998, Prior: 2.3236070605437776e-05, Posterior: 3.0920333396536664e-07 Belief after normalization: 3.0920333396536664e-07
+Num Collisions: 945, Recognized Area: 39.269908169872416, Total Area: 5739.816532080096
+belief too low moving on....
+
+Initial belief: 0.001669449081803005
+97 Step
+Prediction: 2.0, Correction: 0.006939936331713276, Prior: 0.001669449081803005, Posterior: 2.3171740673500087e-05 Belief after normalization: 2.3171740673500087e-05
+Num Collisions: 1000, Recognized Area: 39.269908169872416, Total Area: 5658.540120954939
+belief too low moving on....
+
+Initial belief: 0.0016638935108153079
+98 Step
+Prediction: 1.998, Correction: 0.006895859819094631, Prior: 0.0016638935108153079, Posterior: 2.2925004856158195e-05 Belief after normalization: 2.2925004856158195e-05
+Num Collisions: 998, Recognized Area: 39.269908169872416, Total Area: 5694.708013224698
+belief too low moving on....
+
+Initial belief: 0.0016722408026755853
+99 Step
+Prediction: 2.0, Correction: 0.0069564399399502826, Prior: 0.0016722408026755853, Posterior: 2.3265685417893922e-05 Belief after normalization: 2.3265685417893922e-05
+Num Collisions: 1000, Recognized Area: 39.269908169872416, Total Area: 5645.115678257847
+belief too low moving on....
+
+100 Step
+Prediction: 1.95, Correction: 0.006854688521951325, Prior: 2.3265685417893922e-05, Posterior: 3.109841022392672e-07 Belief after normalization: 3.109841022392672e-07
+Num Collisions: 950, Recognized Area: 39.269908169872416, Total Area: 5728.912122573506
+belief too low moving on....
+
+Initial belief: 0.0016722408026755853
+101 Step
+Prediction: 2.0, Correction: 0.006951284521097683, Prior: 0.0016722408026755853, Posterior: 2.324844321437352e-05 Belief after normalization: 2.324844321437352e-05
+Num Collisions: 1000, Recognized Area: 39.269908169872416, Total Area: 5649.302377234772
+belief too low moving on....
+
+Initial belief: 0.0016666666666666668
+102 Step
+Prediction: 1.996, Correction: 0.0068983960243101635, Prior: 0.0016666666666666668, Posterior: 2.294866410753848e-05 Belief after normalization: 2.294866410753848e-05
+Num Collisions: 996, Recognized Area: 39.269908169872416, Total Area: 5692.6143456368745
+belief too low moving on....
+
+Initial belief: 0.0016750418760469012
+103 Step
+Prediction: 2.0, Correction: 0.006966365208577674, Prior: 0.0016750418760469012, Posterior: 2.3337906896407618e-05 Belief after normalization: 2.3337906896407618e-05
+Num Collisions: 1000, Recognized Area: 39.269908169872416, Total Area: 5637.072848480502
+belief too low moving on....
+
+104 Step
+Prediction: 1.9449999999999998, Correction: 0.006858874434033594, Prior: 2.3337906896407618e-05, Posterior: 3.1133959839869354e-07 Belief after normalization: 3.1133959839869354e-07
+Num Collisions: 945, Recognized Area: 39.269908169872416, Total Area: 5725.415816772493
+belief too low moving on....
+
+Initial belief: 0.0016722408026755853
+105 Step
+Prediction: 2.0, Correction: 0.006957845768596043, Prior: 0.0016722408026755853, Posterior: 2.3270387185939945e-05 Belief after normalization: 2.3270387185939945e-05
+Num Collisions: 1000, Recognized Area: 39.269908169872416, Total Area: 5643.975085954846
+belief too low moving on....
+
+Initial belief: 0.0016666666666666668
+106 Step
+Prediction: 1.998, Correction: 0.0069138159237695325, Prior: 0.0016666666666666668, Posterior: 2.3023007026152544e-05 Belief after normalization: 2.3023007026152544e-05
+Num Collisions: 998, Recognized Area: 39.269908169872416, Total Area: 5679.918094848811
+belief too low moving on....
+
+Initial belief: 0.0016750418760469012
+107 Step
+Prediction: 2.0, Correction: 0.006974167329323862, Prior: 0.0016750418760469012, Posterior: 2.3364044654351297e-05 Belief after normalization: 2.3364044654351297e-05
+Num Collisions: 1000, Recognized Area: 39.269908169872416, Total Area: 5630.76655828956
+belief too low moving on....
+
+108 Step
+Prediction: 1.9489999999999998, Correction: 0.006870906369064961, Prior: 2.3364044654351297e-05, Posterior: 3.128771861210432e-07 Belief after normalization: 3.128771861210432e-07
+Num Collisions: 949, Recognized Area: 39.269908169872416, Total Area: 5715.389798743034
+belief too low moving on....
+
+Initial belief: 0.0016750418760469012
+109 Step
+Prediction: 2.0, Correction: 0.006968438743407946, Prior: 0.0016750418760469012, Posterior: 2.3344853411751913e-05 Belief after normalization: 2.3344853411751913e-05
+Num Collisions: 1000, Recognized Area: 39.269908169872416, Total Area: 5635.395476070052
+belief too low moving on....
+
+Initial belief: 0.0016666666666666668
+110 Step
+Prediction: 1.996, Correction: 0.006915019284286592, Prior: 0.0016666666666666668, Posterior: 2.3003964152393398e-05 Belief after normalization: 2.3003964152393398e-05
+Num Collisions: 996, Recognized Area: 39.269908169872416, Total Area: 5678.92966822345
+belief too low moving on....
+
+Initial belief: 0.0016750418760469012
+111 Step
+Prediction: 2.0, Correction: 0.006983648901804228, Prior: 0.0016750418760469012, Posterior: 2.339580871626207e-05 Belief after normalization: 2.339580871626207e-05
+Num Collisions: 1000, Recognized Area: 39.269908169872416, Total Area: 5623.12176944162
+belief too low moving on....
+
+112 Step
+Prediction: 1.94, Correction: 0.006872684204887623, Prior: 2.339580871626207e-05, Posterior: 3.119364897481634e-07 Belief after normalization: 3.119364897481634e-07
+Num Collisions: 940, Recognized Area: 39.269908169872416, Total Area: 5713.911333499795
+belief too low moving on....
+
+Initial belief: 0.0016750418760469012
+113 Step
+Prediction: 2.0, Correction: 0.0069737885671544726, Prior: 0.0016750418760469012, Posterior: 2.3362775769361718e-05 Belief after normalization: 2.3362775769361718e-05
+Num Collisions: 1000, Recognized Area: 39.269908169872416, Total Area: 5631.07237790775
+belief too low moving on....
+
+Initial belief: 0.001669449081803005
+114 Step
+Prediction: 1.999, Correction: 0.006932098035044076, Prior: 0.001669449081803005, Posterior: 2.3133996614445928e-05 Belief after normalization: 2.3133996614445928e-05
+Num Collisions: 999, Recognized Area: 39.269908169872416, Total Area: 5664.938373829955
+belief too low moving on....
+
+Initial belief: 0.0016778523489932886
+115 Step
+Prediction: 2.0, Correction: 0.006991173049872189, Prior: 0.0016778523489932886, Posterior: 2.346031224789325e-05 Belief after normalization: 2.346031224789325e-05
+Num Collisions: 1000, Recognized Area: 39.269908169872416, Total Area: 5617.069966618884
+belief too low moving on....
+
+116 Step
+Prediction: 1.946, Correction: 0.006884775513925999, Prior: 2.346031224789325e-05, Posterior: 3.143159415277862e-07 Belief after normalization: 3.143159415277862e-07
+Num Collisions: 946, Recognized Area: 39.269908169872416, Total Area: 5703.876341420318
+belief too low moving on....
+
+Initial belief: 0.0016750418760469012
+117 Step
+Prediction: 2.0, Correction: 0.006985498014230344, Prior: 0.0016750418760469012, Posterior: 2.3402003397756598e-05 Belief after normalization: 2.3402003397756598e-05
+Num Collisions: 1000, Recognized Area: 39.269908169872416, Total Area: 5621.633287973834
+belief too low moving on....
+
+Initial belief: 0.001669449081803005
+118 Step
+Prediction: 1.996, Correction: 0.006931190297349587, Prior: 0.001669449081803005, Posterior: 2.3096253478313484e-05 Belief after normalization: 2.3096253478313484e-05
+Num Collisions: 996, Recognized Area: 39.269908169872416, Total Area: 5665.6802778721585
+belief too low moving on....
+
+Initial belief: 0.0016778523489932886
+119 Step
+Prediction: 2.0, Correction: 0.00700377956680581, Prior: 0.0016778523489932886, Posterior: 2.3502615995992648e-05 Belief after normalization: 2.3502615995992648e-05
+Num Collisions: 1000, Recognized Area: 39.269908169872416, Total Area: 5606.959470282431
+belief too low moving on....
+
+120 Step
+Prediction: 1.921, Correction: 0.006875551089964973, Prior: 2.3502615995992648e-05, Posterior: 3.1042099253131713e-07 Belief after normalization: 3.1042099253131713e-07
+Num Collisions: 921, Recognized Area: 39.269908169872416, Total Area: 5711.528815077494
+belief too low moving on....
+
+Initial belief: 0.0016750418760469012
+121 Step
+Prediction: 2.0, Correction: 0.006987209128400309, Prior: 0.0016750418760469012, Posterior: 2.3407735773535375e-05 Belief after normalization: 2.3407735773535375e-05
+Num Collisions: 1000, Recognized Area: 39.269908169872416, Total Area: 5620.256592901362
+belief too low moving on....
+
+Initial belief: 0.0016750418760469012
+122 Step
+Prediction: 2.0, Correction: 0.006972950336633223, Prior: 0.0016750418760469012, Posterior: 2.335996762691197e-05 Belief after normalization: 2.335996762691197e-05
+Num Collisions: 1000, Recognized Area: 39.269908169872416, Total Area: 5631.749298939258
+belief too low moving on....
+
+Initial belief: 0.0016806722689075631
+123 Step
+Prediction: 1.984, Correction: 0.007015462764679082, Prior: 0.0016806722689075631, Posterior: 2.339273634474504e-05 Belief after normalization: 2.339273634474504e-05
+Num Collisions: 984, Recognized Area: 39.269908169872416, Total Area: 5597.6219227597585
+belief too low moving on....
+
+Initial belief: 0.0016722408026755853
+124 Step
+Prediction: 1.8519999999999999, Correction: 0.006949627842527518, Prior: 0.0016722408026755853, Posterior: 2.152292769960027e-05 Belief after normalization: 2.152292769960027e-05
+Num Collisions: 852, Recognized Area: 39.269908169872416, Total Area: 5650.649079302396
+belief too low moving on....
+
+Initial belief: 0.0016863406408094434
+125 Step
+Prediction: 1.623, Correction: 0.0070684933475943, Prior: 0.0016863406408094434, Posterior: 1.9345977576973942e-05 Belief after normalization: 1.9345977576973942e-05
+Num Collisions: 623, Recognized Area: 39.269908169872416, Total Area: 5555.626388647248
+belief too low moving on....
+
+Initial belief: 0.0017006802721088435
+126 Step
+Prediction: 1.321, Correction: 0.0071894987188811975, Prior: 0.0017006802721088435, Posterior: 1.6151918040207586e-05 Belief after normalization: 1.6151918040207586e-05
+Num Collisions: 321, Recognized Area: 39.269908169872416, Total Area: 5462.1204767365825
+belief too low moving on....
+
+Initial belief: 0.001718213058419244
+127 Step
+Prediction: 1.13, Correction: 0.007340119292948955, Prior: 0.001718213058419244, Posterior: 1.4251434366034912e-05 Belief after normalization: 1.4251434366034912e-05
+Num Collisions: 130, Recognized Area: 39.269908169872416, Total Area: 5350.036777685039
+belief too low moving on....
+
+Initial belief: 0.001736111111111111
+128 Step
+Prediction: 1.07, Correction: 0.0074918886014654395, Prior: 0.001736111111111111, Posterior: 1.3917223617305592e-05 Belief after normalization: 1.3917223617305592e-05
+Num Collisions: 70, Recognized Area: 39.269908169872416, Total Area: 5241.65671152546
+belief too low moving on....
+
+Initial belief: 0.0017543859649122807
+129 Step
+Prediction: 1.029, Correction: 0.007644809514525106, Prior: 0.0017543859649122807, Posterior: 1.3800892965695323e-05 Belief after normalization: 1.3800892965695323e-05
+Num Collisions: 29, Recognized Area: 39.269908169872416, Total Area: 5136.806626150691
+belief too low moving on....
+
+Initial belief: 0.0017730496453900709
+130 Step
+Prediction: 1.0, Correction: 0.007799807275941872, Prior: 0.0017730496453900709, Posterior: 1.3829445524719631e-05 Belief after normalization: 1.3829445524719631e-05
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 5034.728010652077
+belief too low moving on....
+
+Initial belief: 0.0017889087656529517
+131 Step
+Prediction: 1.0, Correction: 0.007957379117777249, Prior: 0.0017889087656529517, Posterior: 1.4235025255415472e-05 Belief after normalization: 1.4235025255415472e-05
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 4935.030440128353
+belief too low moving on....
+
+Initial belief: 0.0018083182640144665
+132 Step
+Prediction: 1.0, Correction: 0.008117798930513594, Prior: 0.0018083182640144665, Posterior: 1.4679564069644835e-05 Belief after normalization: 1.4679564069644835e-05
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 4837.506879144628
+belief too low moving on....
+
+Initial belief: 0.0018248175182481751
+133 Step
+Prediction: 1.0, Correction: 0.008281237507042002, Prior: 0.0018248175182481751, Posterior: 1.5111747275624092e-05 Belief after normalization: 1.5111747275624092e-05
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 4742.033800682447
+belief too low moving on....
+
+134 Step
+Prediction: 1.127, Correction: 0.008447986504155229, Prior: 1.5111747275624092e-05, Posterior: 1.4387714434258883e-07 Belief after normalization: 1.4387714434258883e-07
+Num Collisions: 127, Recognized Area: 39.269908169872416, Total Area: 4648.434055920557
+belief too low moving on....
+
+Initial belief: 0.00186219739292365
+135 Step
+Prediction: 1.15, Correction: 0.008617958332625538, Prior: 0.00186219739292365, Posterior: 1.845559047024091e-05 Belief after normalization: 1.845559047024091e-05
+Num Collisions: 150, Recognized Area: 39.269908169872416, Total Area: 4556.753079346635
+belief too low moving on....
+
+136 Step
+Prediction: 1.182, Correction: 0.008791390825132521, Prior: 1.845559047024091e-05, Posterior: 1.9177986492179033e-07 Belief after normalization: 1.9177986492179033e-07
+Num Collisions: 182, Recognized Area: 39.269908169872416, Total Area: 4466.8595619260805
+belief too low moving on....
+
+Initial belief: 0.0019011406844106464
+137 Step
+Prediction: 1.197, Correction: 0.008968499791673934, Prior: 0.0019011406844106464, Posterior: 2.040930465899943e-05 Belief after normalization: 2.040930465899943e-05
+Num Collisions: 197, Recognized Area: 39.269908169872416, Total Area: 4378.64850109372
+belief too low moving on....
+
+138 Step
+Prediction: 1.213, Correction: 0.009148818755025358, Prior: 2.040930465899943e-05, Posterior: 2.2649260846967317e-07 Belief after normalization: 2.2649260846967317e-07
+Num Collisions: 213, Recognized Area: 39.269908169872416, Total Area: 4292.347375261078
+belief too low moving on....
+
+139 Step
+Prediction: 1.23, Correction: 0.009332609501458746, Prior: 2.2649260846967317e-07, Posterior: 2.5999334958715246e-09 Belief after normalization: 2.5999334958715246e-09
+Num Collisions: 230, Recognized Area: 39.269908169872416, Total Area: 4207.816491596941
+belief too low moving on....
+
+140 Step
+Prediction: 1.2730000000000001, Correction: 0.009519878340701362, Prior: 2.5999334958715246e-09, Posterior: 3.150808738148019e-11 Belief after normalization: 3.150808738148019e-11
+Num Collisions: 273, Recognized Area: 39.269908169872416, Total Area: 4125.043069298223
+belief too low moving on....
+
+Initial belief: 0.0019801980198019802
+141 Step
+Prediction: 1.3, Correction: 0.009711038279402635, Prior: 0.0019801980198019802, Posterior: 2.4998712402422624e-05 Belief after normalization: 2.4998712402422624e-05
+Num Collisions: 300, Recognized Area: 39.269908169872416, Total Area: 4043.842382247109
+belief too low moving on....
+
+Initial belief: 0.002
+142 Step
+Prediction: 1.332, Correction: 0.00990549393013103, Prior: 0.002, Posterior: 2.638823582986907e-05 Belief after normalization: 2.638823582986907e-05
+Num Collisions: 332, Recognized Area: 39.269908169872416, Total Area: 3964.4573452737404
+belief too low moving on....
+
+Initial belief: 0.00202020202020202
+143 Step
+Prediction: 1.307, Correction: 0.01010388656911622, Prior: 0.00202020202020202, Posterior: 2.6678342920878584e-05 Belief after normalization: 2.6678342920878584e-05
+Num Collisions: 307, Recognized Area: 39.269908169872416, Total Area: 3886.614116384258
+belief too low moving on....
+
+Initial belief: 0.0020408163265306124
+144 Step
+Prediction: 1.2730000000000001, Correction: 0.010306664621828691, Prior: 0.0020408163265306124, Posterior: 2.6776294007322298e-05 Belief after normalization: 2.6776294007322298e-05
+Num Collisions: 273, Recognized Area: 39.269908169872416, Total Area: 3810.147085479224
+belief too low moving on....
+
+Initial belief: 0.00205761316872428
+145 Step
+Prediction: 1.244, Correction: 0.010514078576109566, Prior: 0.00205761316872428, Posterior: 2.6912579729794856e-05 Belief after normalization: 2.6912579729794856e-05
+Num Collisions: 244, Recognized Area: 39.269908169872416, Total Area: 3734.983325985673
+belief too low moving on....
+
+Initial belief: 0.002079002079002079
+146 Step
+Prediction: 1.215, Correction: 0.010726015178795267, Prior: 0.002079002079002079, Posterior: 2.709378054518971e-05 Belief after normalization: 2.709378054518971e-05
+Num Collisions: 215, Recognized Area: 39.269908169872416, Total Area: 3661.18334864068
+belief too low moving on....
+
+Initial belief: 0.0021008403361344537
+147 Step
+Prediction: 1.385, Correction: 0.01094274845963129, Prior: 0.0021008403361344537, Posterior: 3.183971978275071e-05 Belief after normalization: 3.183971978275071e-05
+Num Collisions: 385, Recognized Area: 39.269908169872416, Total Area: 3588.6695481251695
+belief too low moving on....
+
+Initial belief: 0.0021231422505307855
+148 Step
+Prediction: 1.405, Correction: 0.011163531319239634, Prior: 0.0021231422505307855, Posterior: 3.3300979837646895e-05 Belief after normalization: 3.3300979837646895e-05
+Num Collisions: 405, Recognized Area: 39.269908169872416, Total Area: 3517.6958837561765
+belief too low moving on....
+
+Initial belief: 0.002145922746781116
+149 Step
+Prediction: 1.3940000000000001, Correction: 0.011388284116003306, Prior: 0.002145922746781116, Posterior: 3.406709883628457e-05 Belief after normalization: 3.406709883628457e-05
+Num Collisions: 394, Recognized Area: 39.269908169872416, Total Area: 3448.2726080471293
+belief too low moving on....
+
+Initial belief: 0.0021645021645021645
+150 Step
+Prediction: 1.371, Correction: 0.011617206993025559, Prior: 0.0021645021645021645, Posterior: 3.447443893384858e-05 Belief after normalization: 3.447443893384858e-05
+Num Collisions: 371, Recognized Area: 39.269908169872416, Total Area: 3380.322670797574
+belief too low moving on....
+
+Initial belief: 0.002188183807439825
+151 Step
+Prediction: 1.33, Correction: 0.011850417788752888, Prior: 0.002188183807439825, Posterior: 3.448808678127208e-05 Belief after normalization: 3.448808678127208e-05
+Num Collisions: 330, Recognized Area: 39.269908169872416, Total Area: 3313.7994685000126
+belief too low moving on....
+
+Initial belief: 0.002207505518763797
+152 Step
+Prediction: 1.286, Correction: 0.012087993262254874, Prior: 0.002207505518763797, Posterior: 3.43160250226485e-05 Belief after normalization: 3.43160250226485e-05
+Num Collisions: 286, Recognized Area: 39.269908169872416, Total Area: 3248.6705872424577
+belief too low moving on....
+
+Initial belief: 0.002232142857142857
+153 Step
+Prediction: 1.2730000000000001, Correction: 0.012329368388763758, Prior: 0.002232142857142857, Posterior: 3.503412044396487e-05 Belief after normalization: 3.503412044396487e-05
+Num Collisions: 273, Recognized Area: 39.269908169872416, Total Area: 3185.070551193899
+belief too low moving on....
+
+Initial belief: 0.0022522522522522522
+154 Step
+Prediction: 1.2389999999999999, Correction: 0.012576495889431596, Prior: 0.0022522522522522522, Posterior: 3.509522163740033e-05 Belief after normalization: 3.509522163740033e-05
+Num Collisions: 239, Recognized Area: 39.269908169872416, Total Area: 3122.4840778481143
+belief too low moving on....
+
+Initial belief: 0.002277904328018223
+155 Step
+Prediction: 1.201, Correction: 0.012828520232027789, Prior: 0.002277904328018223, Posterior: 3.509579225208514e-05 Belief after normalization: 3.509579225208514e-05
+Num Collisions: 201, Recognized Area: 39.269908169872416, Total Area: 3061.140915678711
+belief too low moving on....
+
+Initial belief: 0.0022988505747126436
+156 Step
+Prediction: 1.16, Correction: 0.013085531923754555, Prior: 0.0022988505747126436, Posterior: 3.489475179667881e-05 Belief after normalization: 3.489475179667881e-05
+Num Collisions: 160, Recognized Area: 39.269908169872416, Total Area: 3001.017337215355
+belief too low moving on....
+
+Initial belief: 0.002325581395348837
+157 Step
+Prediction: 1.1179999999999999, Correction: 0.01334764104114975, Prior: 0.002325581395348837, Posterior: 3.470386670698935e-05 Belief after normalization: 3.470386670698935e-05
+Num Collisions: 118, Recognized Area: 39.269908169872416, Total Area: 2942.086024699519
+belief too low moving on....
+
+Initial belief: 0.002347417840375587
+158 Step
+Prediction: 1.084, Correction: 0.01361493146322422, Prior: 0.002347417840375587, Posterior: 3.4644567385293556e-05 Belief after normalization: 3.4644567385293556e-05
+Num Collisions: 84, Recognized Area: 39.269908169872416, Total Area: 2884.3265407501885
+belief too low moving on....
+
+Initial belief: 0.002369668246445498
+159 Step
+Prediction: 1.181, Correction: 0.013887529066837883, Prior: 0.002369668246445498, Posterior: 3.886533608515532e-05 Belief after normalization: 3.886533608515532e-05
+Num Collisions: 181, Recognized Area: 39.269908169872416, Total Area: 2827.7102413881007
+belief too low moving on....
+
+Initial belief: 0.0023923444976076554
+160 Step
+Prediction: 1.148, Correction: 0.014165487895293396, Prior: 0.0023923444976076554, Posterior: 3.890425862152349e-05 Belief after normalization: 3.890425862152349e-05
+Num Collisions: 148, Recognized Area: 39.269908169872416, Total Area: 2772.2241874153997
+belief too low moving on....
+
+Initial belief: 0.002421307506053269
+161 Step
+Prediction: 1.129, Correction: 0.014448906708132684, Prior: 0.002421307506053269, Posterior: 3.949834303506489e-05 Belief after normalization: 3.949834303506489e-05
+Num Collisions: 129, Recognized Area: 39.269908169872416, Total Area: 2717.8463369667293
+belief too low moving on....
+
+Initial belief: 0.0024449877750611247
+162 Step
+Prediction: 1.129, Correction: 0.014737854307232187, Prior: 0.0024449877750611247, Posterior: 4.0682243307738724e-05 Belief after normalization: 4.0682243307738724e-05
+Num Collisions: 129, Recognized Area: 39.269908169872416, Total Area: 2664.5607529585777
+belief too low moving on....
+
+Initial belief: 0.0024691358024691358
+163 Step
+Prediction: 1.1280000000000001, Correction: 0.015032405559450073, Prior: 0.0024691358024691358, Posterior: 4.186803326187576e-05 Belief after normalization: 4.186803326187576e-05
+Num Collisions: 128, Recognized Area: 39.269908169872416, Total Area: 2612.3502332722464
+belief too low moving on....
+
+Initial belief: 0.0024937655860349127
+164 Step
+Prediction: 1.129, Correction: 0.015332913539122492, Prior: 0.0024937655860349127, Posterior: 4.316922540067155e-05 Belief after normalization: 4.316922540067155e-05
+Num Collisions: 129, Recognized Area: 39.269908169872416, Total Area: 2561.151086495975
+belief too low moving on....
+
+Initial belief: 0.0025188916876574307
+165 Step
+Prediction: 1.13, Correction: 0.015639328056468907, Prior: 0.0025188916876574307, Posterior: 4.451496398944549e-05 Belief after normalization: 4.451496398944549e-05
+Num Collisions: 130, Recognized Area: 39.269908169872416, Total Area: 2510.9715729525333
+belief too low moving on....
+
+Initial belief: 0.002544529262086514
+166 Step
+Prediction: 1.109, Correction: 0.015951724403056526, Prior: 0.002544529262086514, Posterior: 4.50138991424674e-05 Belief after normalization: 4.50138991424674e-05
+Num Collisions: 109, Recognized Area: 39.269908169872416, Total Area: 2461.7970557683325
+belief too low moving on....
+
+Initial belief: 0.002570694087403599
+167 Step
+Prediction: 1.083, Correction: 0.016270212534529642, Prior: 0.002570694087403599, Posterior: 4.5297275513870436e-05 Belief after normalization: 4.5297275513870436e-05
+Num Collisions: 83, Recognized Area: 39.269908169872416, Total Area: 2413.607571906723
+belief too low moving on....
+
+Initial belief: 0.007352941176470588
+272 Step
+Prediction: 1.129, Correction: 0.1201212590879693, Prior: 0.007352941176470588, Posterior: 0.0009971830993405688 Belief after normalization: 0.0009971830993405688
+Num Collisions: 129, Recognized Area: 39.269908169872416, Total Area: 326.9188856996045
+belief too low moving on....
+
+Initial belief: 0.007462686567164179
+273 Step
+Prediction: 1.135, Correction: 0.12228928186945114, Prior: 0.007462686567164179, Posterior: 0.0010358084695658734 Belief after normalization: 0.0010358084695658734
+Num Collisions: 135, Recognized Area: 39.269908169872416, Total Area: 321.123058125361
+belief too low moving on....
+
+Initial belief: 0.007518796992481203
+274 Step
+Prediction: 1.138, Correction: 0.12449169133682486, Prior: 0.007518796992481203, Posterior: 0.001065199584521103 Belief after normalization: 0.001065199584521103
+Num Collisions: 138, Recognized Area: 39.269908169872416, Total Area: 315.44200057193945
+belief too low moving on....
+
+Initial belief: 0.007575757575757576
+275 Step
+Prediction: 1.142, Correction: 0.12672876809623967, Prior: 0.007575757575757576, Posterior: 0.0010963958573174675 Belief after normalization: 0.0010963958573174675
+Num Collisions: 142, Recognized Area: 39.269908169872416, Total Area: 309.8736676746536
+belief too low moving on....
+
+Initial belief: 0.007692307692307693
+276 Step
+Prediction: 1.15, Correction: 0.12900076731806556, Prior: 0.007692307692307693, Posterior: 0.0011411606339675028 Belief after normalization: 0.0011411606339675028
+Num Collisions: 150, Recognized Area: 39.269908169872416, Total Area: 304.41608206134265
+belief too low moving on....
+
+Initial belief: 0.007751937984496124
+277 Step
+Prediction: 1.161, Correction: 0.13130791375462664, Prior: 0.007751937984496124, Posterior: 0.0011817712237916396 Belief after normalization: 0.0011817712237916396
+Num Collisions: 161, Recognized Area: 39.269908169872416, Total Area: 299.0673375807004
+belief too low moving on....
+
+Initial belief: 0.0078125
+278 Step
+Prediction: 1.172, Correction: 0.13365039743341825, Prior: 0.0078125, Posterior: 0.0012237364514997358 Belief after normalization: 0.0012237364514997358
+Num Collisions: 172, Recognized Area: 39.269908169872416, Total Area: 293.8255996540215
+belief too low moving on....
+
+Initial belief: 0.007874015748031496
+279 Step
+Prediction: 1.182, Correction: 0.13602836617768135, Prior: 0.007874015748031496, Posterior: 0.0012660277860001524 Belief after normalization: 0.0012660277860001524
+Num Collisions: 182, Recognized Area: 39.269908169872416, Total Area: 288.6891114944198
+belief too low moving on....
+
+Initial belief: 0.008
+280 Step
+Prediction: 1.189, Correction: 0.13843060525792703, Prior: 0.008, Posterior: 0.001316751917213402 Belief after normalization: 0.001316751917213402
+Num Collisions: 189, Recognized Area: 39.269908169872416, Total Area: 283.6793792579599
+belief too low moving on....
+
+Initial belief: 0.03125
+281 Step
+Prediction: 1.198, Correction: 0.7117748650310779, Prior: 0.03125, Posterior: 0.026647071509600977 Belief after normalization: 0.026647071509600977
+Num Collisions: 198, Recognized Area: 39.269908169872416, Total Area: 55.17181077777703
+belief too low moving on....
+
+Initial belief: 0.03225806451612903
+282 Step
+Prediction: 1.204, Correction: 0.7273501858806243, Prior: 0.03225806451612903, Posterior: 0.028249342703234568 Belief after normalization: 0.028249342703234568
+Num Collisions: 204, Recognized Area: 39.269908169872416, Total Area: 53.990373457218794
+belief too low moving on....
+
+Initial belief: 0.03333333333333333
+283 Step
+Prediction: 1.209, Correction: 0.7426671239868047, Prior: 0.03333333333333333, Posterior: 0.029929485096668228 Belief after normalization: 0.029929485096668228
+Num Collisions: 209, Recognized Area: 39.269908169872416, Total Area: 52.87686353889302
+belief too low moving on....
+
+Initial belief: 0.008333333333333333
+284 Step
+Prediction: 1.22, Correction: 0.14842722645937537, Prior: 0.008333333333333333, Posterior: 0.0015090101356703162 Belief after normalization: 0.0015090101356703162
+Num Collisions: 220, Recognized Area: 39.269908169872416, Total Area: 264.57348228238044
+belief too low moving on....
+
+Initial belief: 0.008403361344537815
+285 Step
+Prediction: 1.228, Correction: 0.15101755038695808, Prior: 0.008403361344537815, Posterior: 0.0015583995955897858 Belief after normalization: 0.0015583995955897858
+Num Collisions: 228, Recognized Area: 39.269908169872416, Total Area: 260.03539369596194
+belief too low moving on....
+
+Initial belief: 0.00847457627118644
+286 Step
+Prediction: 1.238, Correction: 0.1536425768361368, Prior: 0.00847457627118644, Posterior: 0.001611945001043537 Belief after normalization: 0.001611945001043537
+Num Collisions: 238, Recognized Area: 39.269908169872416, Total Area: 255.59261617796636
+belief too low moving on....
+
+Initial belief: 0.008547008547008548
+287 Step
+Prediction: 1.251, Correction: 0.15628912634114836, Prior: 0.008547008547008548, Posterior: 0.0016710914278015095 Belief after normalization: 0.0016710914278015095
+Num Collisions: 251, Recognized Area: 39.269908169872416, Total Area: 251.26449350131978
+belief too low moving on....
+
+Initial belief: 0.008620689655172414
+288 Step
+Prediction: 1.263, Correction: 0.15898180329952072, Prior: 0.008620689655172414, Posterior: 0.001730982910062885 Belief after normalization: 0.001730982910062885
+Num Collisions: 263, Recognized Area: 39.269908169872416, Total Area: 247.00882336759105
+belief too low moving on....
+
+Initial belief: 0.043478260869565216
+289 Step
+Prediction: 1.2730000000000001, Correction: 0.8275344416501137, Prior: 0.043478260869565216, Posterior: 0.045802232357417164 Belief after normalization: 0.045802232357417164
+Num Collisions: 273, Recognized Area: 39.269908169872416, Total Area: 47.45410727747807
+belief too low moving on....
+
+Initial belief: 0.045454545454545456
+290 Step
+Prediction: 1.283, Correction: 0.840235979104736, Prior: 0.045454545454545456, Posterior: 0.04900103459960801 Belief after normalization: 0.04900103459960801
+Num Collisions: 283, Recognized Area: 39.269908169872416, Total Area: 46.73676103671989
+belief too low moving on....
+
+Initial belief: 0.047619047619047616
+291 Step
+Prediction: 1.296, Correction: 0.8523988714127887, Prior: 0.047619047619047616, Posterior: 0.05260518749290353 Belief after normalization: 0.05260518749290353
+Num Collisions: 296, Recognized Area: 39.269908169872416, Total Area: 46.0698734910165
+belief too low moving on....
+
+Initial belief: 0.05
+292 Step
+Prediction: 1.31, Correction: 0.8640167243329133, Prior: 0.05, Posterior: 0.056593095443805835 Belief after normalization: 0.056593095443805835
+Num Collisions: 310, Recognized Area: 39.269908169872416, Total Area: 45.45040282662558
+belief too low moving on....
+
+Initial belief: 0.05263157894736842
+293 Step
+Prediction: 1.322, Correction: 0.875070247952367, Prior: 0.05263157894736842, Posterior: 0.0608864667259489 Belief after normalization: 0.0608864667259489
+Num Collisions: 322, Recognized Area: 39.269908169872416, Total Area: 44.876292231123834
+belief too low moving on....
+
+Initial belief: 0.05555555555555555
+294 Step
+Prediction: 1.338, Correction: 0.8854977811033674, Prior: 0.05555555555555555, Posterior: 0.06582200172868365 Belief after normalization: 0.06582200172868365
+Num Collisions: 338, Recognized Area: 39.269908169872416, Total Area: 44.3478335100292
+belief too low moving on....
+
+Initial belief: 0.009259259259259259
+295 Step
+Prediction: 1.3479999999999999, Correction: 0.17861361812995863, Prior: 0.009259259259259259, Posterior: 0.002229362567029483 Belief after normalization: 0.002229362567029483
+Num Collisions: 348, Recognized Area: 39.269908169872416, Total Area: 219.8595414001399
+belief too low moving on....
+
+Initial belief: 0.009345794392523364
+296 Step
+Prediction: 1.541, Correction: 0.18174916475773062, Prior: 0.009345794392523364, Posterior: 0.002617527690576288 Belief after normalization: 0.002617527690576288
+Num Collisions: 541, Recognized Area: 39.269908169872416, Total Area: 216.06651244983004
+belief too low moving on....
+
+Initial belief: 0.009523809523809525
+297 Step
+Prediction: 1.607, Correction: 0.18488990813674536, Prior: 0.009523809523809525, Posterior: 0.0028296960226261887 Belief after normalization: 0.0028296960226261887
+Num Collisions: 607, Recognized Area: 39.269908169872416, Total Area: 212.3961689722309
+belief too low moving on....
+
+Initial belief: 0.009615384615384616
+298 Step
+Prediction: 1.65, Correction: 0.18796641592607838, Prior: 0.009615384615384616, Posterior: 0.0029821594834425896 Belief after normalization: 0.0029821594834425896
+Num Collisions: 650, Recognized Area: 39.269908169872416, Total Area: 208.91981142693123
+belief too low moving on....
+
+Initial belief: 0.009708737864077669
+299 Step
+Prediction: 1.6989999999999998, Correction: 0.19103659383718224, Prior: 0.009708737864077669, Posterior: 0.0031511764362075006 Belief after normalization: 0.0031511764362075006
+Num Collisions: 699, Recognized Area: 39.269908169872416, Total Area: 205.5622296288511
+belief too low moving on....
+
+Initial belief: 0.00980392156862745
+300 Step
+Prediction: 1.742, Correction: 0.1940998406841332, Prior: 0.00980392156862745, Posterior: 0.003314920808546667 Belief after normalization: 0.003314920808546667
+Num Collisions: 742, Recognized Area: 39.269908169872416, Total Area: 202.31808553505195
+belief too low moving on....
+
+Initial belief: 0.009900990099009901
+301 Step
+Prediction: 1.7730000000000001, Correction: 0.19713550867450963, Prior: 0.009900990099009901, Posterior: 0.0034606065037614416 Belief after normalization: 0.0034606065037614416
+Num Collisions: 773, Recognized Area: 39.269908169872416, Total Area: 199.20261161428277
+belief too low moving on....
+
+Initial belief: 0.01
+302 Step
+Prediction: 1.7970000000000002, Correction: 0.20009849075841624, Prior: 0.01, Posterior: 0.00359576987892874 Belief after normalization: 0.00359576987892874
+Num Collisions: 797, Recognized Area: 39.269908169872416, Total Area: 196.25289536683178
+belief too low moving on....
+
+Initial belief: 0.01
+303 Step
+Prediction: 1.804, Correction: 0.2030448849311616, Prior: 0.01, Posterior: 0.0036629297241581554 Belief after normalization: 0.0036629297241581554
+Num Collisions: 804, Recognized Area: 39.269908169872416, Total Area: 193.4050600840603
+belief too low moving on....
+
+Initial belief: 0.010101010101010102
+304 Step
+Prediction: 1.806, Correction: 0.20595680503311836, Prior: 0.010101010101010102, Posterior: 0.003757151413028402 Belief after normalization: 0.003757151413028402
+Num Collisions: 806, Recognized Area: 39.269908169872416, Total Area: 190.67060281673002
+belief too low moving on....
+
+Initial belief: 0.01020408163265306
+305 Step
+Prediction: 1.812, Correction: 0.20884732100996845, Prior: 0.01020408163265306, Posterior: 0.0038615443435720694 Belief after normalization: 0.0038615443435720694
+Num Collisions: 812, Recognized Area: 39.269908169872416, Total Area: 188.03165862969357
+belief too low moving on....
+
+Initial belief: 0.010309278350515464
+306 Step
+Prediction: 1.815, Correction: 0.2116812088459469, Prior: 0.010309278350515464, Posterior: 0.00396083911397313 Belief after normalization: 0.00396083911397313
+Num Collisions: 815, Recognized Area: 39.269908169872416, Total Area: 185.5143797787525
+belief too low moving on....
+
+Initial belief: 0.010416666666666666
+307 Step
+Prediction: 1.818, Correction: 0.21447703700418458, Prior: 0.010416666666666666, Posterior: 0.004061658888266746 Belief after normalization: 0.004061658888266746
+Num Collisions: 818, Recognized Area: 39.269908169872416, Total Area: 183.09609605948742
+belief too low moving on....
+
+Initial belief: 0.010526315789473684
+308 Step
+Prediction: 1.8199999999999998, Correction: 0.21721448654837286, Prior: 0.010526315789473684, Posterior: 0.004161372268610932 Belief after normalization: 0.004161372268610932
+Num Collisions: 820, Recognized Area: 39.269908169872416, Total Area: 180.78862415618468
+belief too low moving on....
+
+Initial belief: 0.010526315789473684
+309 Step
+Prediction: 1.826, Correction: 0.21988624260487105, Prior: 0.010526315789473684, Posterior: 0.004226445042068363 Belief after normalization: 0.004226445042068363
+Num Collisions: 826, Recognized Area: 39.269908169872416, Total Area: 178.59192873853075
+belief too low moving on....
+
+Initial belief: 0.010638297872340425
+310 Step
+Prediction: 1.829, Correction: 0.22249390626615068, Prior: 0.010638297872340425, Posterior: 0.004329163346391378 Belief after normalization: 0.004329163346391378
+Num Collisions: 829, Recognized Area: 39.269908169872416, Total Area: 176.49880317574693
+belief too low moving on....
+
+Initial belief: 0.010752688172043012
+311 Step
+Prediction: 1.837, Correction: 0.22502148772980163, Prior: 0.010752688172043012, Posterior: 0.004444779279135974 Belief after normalization: 0.004444779279135974
+Num Collisions: 837, Recognized Area: 39.269908169872416, Total Area: 174.5162587184848
+belief too low moving on....
+
+Initial belief: 0.010752688172043012
+312 Step
+Prediction: 1.842, Correction: 0.22749041650466142, Prior: 0.010752688172043012, Posterior: 0.004505777926898778 Belief after normalization: 0.004505777926898778
+Num Collisions: 842, Recognized Area: 39.269908169872416, Total Area: 172.6222527227548
+belief too low moving on....
+
+Initial belief: 0.010869565217391304
+313 Step
+Prediction: 1.849, Correction: 0.22991081274177605, Prior: 0.010869565217391304, Posterior: 0.004620707529995043 Belief after normalization: 0.004620707529995043
+Num Collisions: 849, Recognized Area: 39.269908169872416, Total Area: 170.8049643318792
+belief too low moving on....
+
+Initial belief: 0.01098901098901099
+314 Step
+Prediction: 1.853, Correction: 0.23222003911502845, Prior: 0.01098901098901099, Posterior: 0.004728612444836788 Belief after normalization: 0.004728612444836788
+Num Collisions: 853, Recognized Area: 39.269908169872416, Total Area: 169.10645747682594
+belief too low moving on....
+
+Initial belief: 0.01098901098901099
+315 Step
+Prediction: 1.859, Correction: 0.23453276477087637, Prior: 0.01098901098901099, Posterior: 0.004791169337462189 Belief after normalization: 0.004791169337462189
+Num Collisions: 859, Recognized Area: 39.269908169872416, Total Area: 167.4389000966949
+belief too low moving on....
+
+Initial belief: 0.011111111111111112
+316 Step
+Prediction: 1.861, Correction: 0.2367932743763248, Prior: 0.011111111111111112, Posterior: 0.004896358706826006 Belief after normalization: 0.004896358706826006
+Num Collisions: 861, Recognized Area: 39.269908169872416, Total Area: 165.84047107462408
+belief too low moving on....
+
+Initial belief: 0.011111111111111112
+317 Step
+Prediction: 1.867, Correction: 0.23898909929221787, Prior: 0.011111111111111112, Posterior: 0.0049576960930952305 Belief after normalization: 0.0049576960930952305
+Num Collisions: 867, Recognized Area: 39.269908169872416, Total Area: 164.3167336341819
+belief too low moving on....
+
+Initial belief: 0.011235955056179775
+318 Step
+Prediction: 1.8719999999999999, Correction: 0.24122137453032505, Prior: 0.011235955056179775, Posterior: 0.005073779922705263 Belief after normalization: 0.005073779922705263
+Num Collisions: 872, Recognized Area: 39.269908169872416, Total Area: 162.79613797215808
+belief too low moving on....
+
+Initial belief: 0.011235955056179775
+319 Step
+Prediction: 1.874, Correction: 0.24343385637451181, Prior: 0.011235955056179775, Posterior: 0.005125787043211631 Belief after normalization: 0.005125787043211631
+Num Collisions: 874, Recognized Area: 39.269908169872416, Total Area: 161.3165430426303
+belief too low moving on....
+
+Initial belief: 0.011363636363636364
+320 Step
+Prediction: 1.874, Correction: 0.24566726090545224, Prior: 0.011363636363636364, Posterior: 0.005231595987918381 Belief after normalization: 0.005231595987918381
+Num Collisions: 874, Recognized Area: 39.269908169872416, Total Area: 159.8499858106281
+belief too low moving on....
+
+Initial belief: 0.011363636363636364
+321 Step
+Prediction: 1.8719999999999999, Correction: 0.24791308294131578, Prior: 0.011363636363636364, Posterior: 0.005273787400751627 Belief after normalization: 0.005273787400751627
+Num Collisions: 872, Recognized Area: 39.269908169872416, Total Area: 158.40191934996875
+belief too low moving on....
+
+Initial belief: 0.011494252873563218
+322 Step
+Prediction: 1.869, Correction: 0.2500748840748313, Prior: 0.011494252873563218, Posterior: 0.005372298371676548 Belief after normalization: 0.005372298371676548
+Num Collisions: 869, Recognized Area: 39.269908169872416, Total Area: 157.0325957168952
+belief too low moving on....
+
+Initial belief: 0.011494252873563218
+323 Step
+Prediction: 1.866, Correction: 0.252354745902936, Prior: 0.011494252873563218, Posterior: 0.0054125742052284894 Belief after normalization: 0.0054125742052284894
+Num Collisions: 866, Recognized Area: 39.269908169872416, Total Area: 155.61390783186192
+belief too low moving on....
+
+Initial belief: 0.011627906976744186
+324 Step
+Prediction: 1.862, Correction: 0.25465941577659995, Prior: 0.011627906976744186, Posterior: 0.005513672467163129 Belief after normalization: 0.005513672467163129
+Num Collisions: 862, Recognized Area: 39.269908169872416, Total Area: 154.20560064553808
+belief too low moving on....
+
+Initial belief: 0.011627906976744186
+325 Step
+Prediction: 1.8599999999999999, Correction: 0.2569739813438614, Prior: 0.011627906976744186, Posterior: 0.005557809363948629 Belief after normalization: 0.005557809363948629
+Num Collisions: 860, Recognized Area: 39.269908169872416, Total Area: 152.81667025006965
+belief too low moving on....
+
+Initial belief: 0.011764705882352941
+326 Step
+Prediction: 1.859, Correction: 0.25921340150168787, Prior: 0.011764705882352941, Posterior: 0.0056691495693133856 Belief after normalization: 0.0056691495693133856
+Num Collisions: 859, Recognized Area: 39.269908169872416, Total Area: 151.49644247701718
+belief too low moving on....
+
+Initial belief: 0.011764705882352941
+327 Step
+Prediction: 1.857, Correction: 0.26157423884609926, Prior: 0.011764705882352941, Posterior: 0.005714627782790663 Belief after normalization: 0.005714627782790663
+Num Collisions: 857, Recognized Area: 39.269908169872416, Total Area: 150.12911188466612
+belief too low moving on....
+
+Initial belief: 0.011904761904761904
+328 Step
+Prediction: 1.854, Correction: 0.26396107357426973, Prior: 0.011904761904761904, Posterior: 0.005825997981032096 Belief after normalization: 0.005825997981032096
+Num Collisions: 854, Recognized Area: 39.269908169872416, Total Area: 148.77158831839344
+belief too low moving on....
+
+Initial belief: 0.012048192771084338
+329 Step
+Prediction: 1.8519999999999999, Correction: 0.26638992660494554, Prior: 0.012048192771084338, Posterior: 0.005944025832197098 Belief after normalization: 0.005944025832197098
+Num Collisions: 852, Recognized Area: 39.269908169872416, Total Area: 147.41513941745035
+belief too low moving on....
+
+Initial belief: 0.012048192771084338
+330 Step
+Prediction: 1.8479999999999999, Correction: 0.2686664472853476, Prior: 0.012048192771084338, Posterior: 0.005981874633534004 Belief after normalization: 0.005981874633534004
+Num Collisions: 848, Recognized Area: 39.269908169872416, Total Area: 146.16603065497154
+belief too low moving on....
+
+Initial belief: 0.012195121951219513
+331 Step
+Prediction: 1.843, Correction: 0.27111471348943117, Prior: 0.012195121951219513, Posterior: 0.006093468499524655 Belief after normalization: 0.006093468499524655
+Num Collisions: 843, Recognized Area: 39.269908169872416, Total Area: 144.84609730118268
+belief too low moving on....
+
+Initial belief: 0.012195121951219513
+332 Step
+Prediction: 1.8439999999999999, Correction: 0.27376115867020606, Prior: 0.012195121951219513, Posterior: 0.006156287519364145 Belief after normalization: 0.006156287519364145
+Num Collisions: 844, Recognized Area: 39.269908169872416, Total Area: 143.44587216326036
+belief too low moving on....
+
+Initial belief: 0.012345679012345678
+333 Step
+Prediction: 1.842, Correction: 0.27645608415843254, Prior: 0.012345679012345678, Posterior: 0.006286816136047318 Belief after normalization: 0.006286816136047318
+Num Collisions: 842, Recognized Area: 39.269908169872416, Total Area: 142.04754541545
+belief too low moving on....
+
+Initial belief: 0.012345679012345678
+334 Step
+Prediction: 1.8399999999999999, Correction: 0.27916310732788263, Prior: 0.012345679012345678, Posterior: 0.006341482931892641 Belief after normalization: 0.006341482931892641
+Num Collisions: 840, Recognized Area: 39.269908169872416, Total Area: 140.6701212984749
+belief too low moving on....
+
+Initial belief: 0.0125
+335 Step
+Prediction: 1.837, Correction: 0.2818983204026532, Prior: 0.0125, Posterior: 0.006473090182245925 Belief after normalization: 0.006473090182245925
+Num Collisions: 837, Recognized Area: 39.269908169872416, Total Area: 139.3052222297058
+belief too low moving on....
+
+Initial belief: 0.0125
+336 Step
+Prediction: 1.833, Correction: 0.28466041361822364, Prior: 0.0125, Posterior: 0.006522281727027549 Belief after normalization: 0.006522281727027549
+Num Collisions: 833, Recognized Area: 39.269908169872416, Total Area: 137.95352740033536
+belief too low moving on....
+
+Initial belief: 0.012658227848101266
+337 Step
+Prediction: 1.8319999999999999, Correction: 0.28744810426225065, Prior: 0.012658227848101266, Posterior: 0.00666588515200561 Belief after normalization: 0.00666588515200561
+Num Collisions: 832, Recognized Area: 39.269908169872416, Total Area: 136.61564500715883
+belief too low moving on....
+
+Initial belief: 0.012658227848101266
+338 Step
+Prediction: 1.826, Correction: 0.29026014939817285, Prior: 0.012658227848101266, Posterior: 0.00670905104811473 Belief after normalization: 0.00670905104811473
+Num Collisions: 826, Recognized Area: 39.269908169872416, Total Area: 135.2921103751062
+belief too low moving on....
+
+Initial belief: 0.01282051282051282
+339 Step
+Prediction: 1.826, Correction: 0.29309535290794825, Prior: 0.01282051282051282, Posterior: 0.006861437364229661 Belief after normalization: 0.006861437364229661
+Num Collisions: 826, Recognized Area: 39.269908169872416, Total Area: 133.98338725010703
+belief too low moving on....
+
+Initial belief: 0.01282051282051282
+340 Step
+Prediction: 1.8199999999999998, Correction: 0.29595257130961217, Prior: 0.01282051282051282, Posterior: 0.006905559997224283 Belief after normalization: 0.006905559997224283
+Num Collisions: 820, Recognized Area: 39.269908169872416, Total Area: 132.6898698534706
+belief too low moving on....
+
+Initial belief: 0.012987012987012988
+341 Step
+Prediction: 1.818, Correction: 0.2988307161590159, Prior: 0.012987012987012988, Posterior: 0.007055509636066117 Belief after normalization: 0.007055509636066117
+Num Collisions: 818, Recognized Area: 39.269908169872416, Total Area: 131.4118865510995
+belief too low moving on....
+
+Initial belief: 0.012987012987012988
+342 Step
+Prediction: 1.812, Correction: 0.30170861823511336, Prior: 0.012987012987012988, Posterior: 0.007099948262883448 Belief after normalization: 0.007099948262883448
+Num Collisions: 812, Recognized Area: 39.269908169872416, Total Area: 130.15839056765174
+belief too low moving on....
+
+Initial belief: 0.013157894736842105
+343 Step
+Prediction: 1.81, Correction: 0.30462529416333023, Prior: 0.013157894736842105, Posterior: 0.007254891874152995 Belief after normalization: 0.007254891874152995
+Num Collisions: 810, Recognized Area: 39.269908169872416, Total Area: 128.9121715178949
+belief too low moving on....
+
+Initial belief: 0.013157894736842105
+344 Step
+Prediction: 1.807, Correction: 0.30755997347262815, Prior: 0.013157894736842105, Posterior: 0.007312643053487355 Belief after normalization: 0.007312643053487355
+Num Collisions: 807, Recognized Area: 39.269908169872416, Total Area: 127.68211586989005
+belief too low moving on....
+
+Initial belief: 0.013333333333333334
+345 Step
+Prediction: 1.803, Correction: 0.3105117914749846, Prior: 0.013333333333333334, Posterior: 0.00746470346705863 Belief after normalization: 0.00746470346705863
+Num Collisions: 803, Recognized Area: 39.269908169872416, Total Area: 126.46833147087128
+belief too low moving on....
+
+Initial belief: 0.013513513513513514
+346 Step
+Prediction: 1.799, Correction: 0.3134799340082072, Prior: 0.013513513513513514, Posterior: 0.007620951368658983 Belief after normalization: 0.007620951368658983
+Num Collisions: 799, Recognized Area: 39.269908169872416, Total Area: 125.27088310808531
+belief too low moving on....
+
+Initial belief: 0.013513513513513514
+347 Step
+Prediction: 1.795, Correction: 0.3164419341896352, Prior: 0.013513513513513514, Posterior: 0.007675855025275609 Belief after normalization: 0.007675855025275609
+Num Collisions: 795, Recognized Area: 39.269908169872416, Total Area: 124.09830659908371
+belief too low moving on....
+
+Initial belief: 0.0136986301369863
+348 Step
+Prediction: 1.792, Correction: 0.3194401762098042, Prior: 0.0136986301369863, Posterior: 0.007841599942026973 Belief after normalization: 0.007841599942026973
+Num Collisions: 792, Recognized Area: 39.269908169872416, Total Area: 122.93352901258245
+belief too low moving on....
+
+Initial belief: 0.0136986301369863
+349 Step
+Prediction: 1.7850000000000001, Correction: 0.32245257396106825, Prior: 0.0136986301369863, Posterior: 0.00788462800713023 Belief after normalization: 0.00788462800713023
+Num Collisions: 785, Recognized Area: 39.269908169872416, Total Area: 121.78506652148394
+belief too low moving on....
+
+Initial belief: 0.013888888888888888
+350 Step
+Prediction: 1.779, Correction: 0.3254784786685457, Prior: 0.013888888888888888, Posterior: 0.00804203074376865 Belief after normalization: 0.00804203074376865
+Num Collisions: 779, Recognized Area: 39.269908169872416, Total Area: 120.65285646693502
+belief too low moving on....
+
+Initial belief: 0.013888888888888888
+351 Step
+Prediction: 1.772, Correction: 0.32849425469231996, Prior: 0.013888888888888888, Posterior: 0.00808460860159432 Belief after normalization: 0.00808460860159432
+Num Collisions: 772, Recognized Area: 39.269908169872416, Total Area: 119.54519023979304
+belief too low moving on....
+
+Initial belief: 0.014084507042253521
+352 Step
+Prediction: 1.7690000000000001, Correction: 0.3315450418749998, Prior: 0.014084507042253521, Posterior: 0.008260608156012319 Belief after normalization: 0.008260608156012319
+Num Collisions: 769, Recognized Area: 39.269908169872416, Total Area: 118.44516795602718
+belief too low moving on....
+
+Initial belief: 0.014084507042253521
+353 Step
+Prediction: 1.7610000000000001, Correction: 0.33460755229547345, Prior: 0.014084507042253521, Posterior: 0.008299209853413082 Belief after normalization: 0.008299209853413082
+Num Collisions: 761, Recognized Area: 39.269908169872416, Total Area: 117.36109331804718
+belief too low moving on....
+
+Initial belief: 0.014084507042253521
+354 Step
+Prediction: 1.755, Correction: 0.33765716389631434, Prior: 0.014084507042253521, Posterior: 0.008346314403352558 Belief after normalization: 0.008346314403352558
+Num Collisions: 755, Recognized Area: 39.269908169872416, Total Area: 116.3011254277169
+belief too low moving on....
+
+Initial belief: 0.014285714285714285
+355 Step
+Prediction: 1.7429999999999999, Correction: 0.34074113610095985, Prior: 0.014285714285714285, Posterior: 0.008484454288913899 Belief after normalization: 0.008484454288913899
+Num Collisions: 743, Recognized Area: 39.269908169872416, Total Area: 115.2485098195979
+belief too low moving on....
+
+Initial belief: 0.014285714285714285
+356 Step
+Prediction: 1.734, Correction: 0.3438351691159509, Prior: 0.014285714285714285, Posterior: 0.008517288332100841 Belief after normalization: 0.008517288332100841
+Num Collisions: 734, Recognized Area: 39.269908169872416, Total Area: 114.21143529569977
+belief too low moving on....
+
+Initial belief: 0.014492753623188406
+357 Step
+Prediction: 1.729, Correction: 0.34691358313169224, Prior: 0.014492753623188406, Posterior: 0.008692950510647767 Belief after normalization: 0.008692950510647767
+Num Collisions: 729, Recognized Area: 39.269908169872416, Total Area: 113.19795499320395
+belief too low moving on....
+
+Initial belief: 0.014492753623188406
+358 Step
+Prediction: 1.717, Correction: 0.3500257522669776, Prior: 0.014492753623188406, Posterior: 0.008710061110759428 Belief after normalization: 0.008710061110759428
+Num Collisions: 717, Recognized Area: 39.269908169872416, Total Area: 112.19148281386967
+belief too low moving on....
+
+Initial belief: 0.014705882352941176
+359 Step
+Prediction: 1.71, Correction: 0.35312040362643005, Prior: 0.014705882352941176, Posterior: 0.008879939561782284 Belief after normalization: 0.008879939561782284
+Num Collisions: 710, Recognized Area: 39.269908169872416, Total Area: 111.20826711394588
+belief too low moving on....
+
+Initial belief: 0.014705882352941176
+360 Step
+Prediction: 1.704, Correction: 0.3562484007033752, Prior: 0.014705882352941176, Posterior: 0.008927165805861049 Belief after normalization: 0.008927165805861049
+Num Collisions: 704, Recognized Area: 39.269908169872416, Total Area: 110.23181603717543
+belief too low moving on....
+
+Initial belief: 0.014925373134328358
+361 Step
+Prediction: 1.693, Correction: 0.35938356362125323, Prior: 0.014925373134328358, Posterior: 0.009081139898668383 Belief after normalization: 0.009081139898668383
+Num Collisions: 693, Recognized Area: 39.269908169872416, Total Area: 109.27018412911656
+belief too low moving on....
+
+Initial belief: 0.014925373134328358
+362 Step
+Prediction: 1.685, Correction: 0.3624982679952329, Prior: 0.014925373134328358, Posterior: 0.009116560918984587 Belief after normalization: 0.009116560918984587
+Num Collisions: 685, Recognized Area: 39.269908169872416, Total Area: 108.33129875916771
+belief too low moving on....
+
+Initial belief: 0.015151515151515152
+363 Step
+Prediction: 1.6800000000000002, Correction: 0.3656454978907382, Prior: 0.015151515151515152, Posterior: 0.009307339946309702 Belief after normalization: 0.009307339946309702
+Num Collisions: 680, Recognized Area: 39.269908169872416, Total Area: 107.3988559859337
+belief too low moving on....
+
+Initial belief: 0.015151515151515152
+364 Step
+Prediction: 1.669, Correction: 0.36877012747337995, Prior: 0.015151515151515152, Posterior: 0.009325414284137443 Belief after normalization: 0.009325414284137443
+Num Collisions: 669, Recognized Area: 39.269908169872416, Total Area: 106.48885374455162
+belief too low moving on....
+
+Initial belief: 0.015384615384615385
+365 Step
+Prediction: 1.663, Correction: 0.37192665319094925, Prior: 0.015384615384615385, Posterior: 0.009515600373177672 Belief after normalization: 0.009515600373177672
+Num Collisions: 663, Recognized Area: 39.269908169872416, Total Area: 105.58508736320928
+belief too low moving on....
+
+Initial belief: 0.015384615384615385
+366 Step
+Prediction: 1.6560000000000001, Correction: 0.37508688345870306, Prior: 0.015384615384615385, Posterior: 0.00955605967704019 Belief after normalization: 0.00955605967704019
+Num Collisions: 656, Recognized Area: 39.269908169872416, Total Area: 104.69549830098504
+belief too low moving on....
+
+Initial belief: 0.015384615384615385
+367 Step
+Prediction: 1.649, Correction: 0.37822114806348056, Prior: 0.015384615384615385, Posterior: 0.009595179587025838 Belief after normalization: 0.009595179587025838
+Num Collisions: 649, Recognized Area: 39.269908169872416, Total Area: 103.82790166794524
+belief too low moving on....
+
+Initial belief: 0.015625
+368 Step
+Prediction: 1.6400000000000001, Correction: 0.38138611741798395, Prior: 0.015625, Posterior: 0.009773019258835839 Belief after normalization: 0.009773019258835839
+Num Collisions: 640, Recognized Area: 39.269908169872416, Total Area: 102.96627584594057
+belief too low moving on....
+
+Initial belief: 0.015625
+369 Step
+Prediction: 1.634, Correction: 0.38452270645489667, Prior: 0.015625, Posterior: 0.00981734534917658 Belief after normalization: 0.00981734534917658
+Num Collisions: 634, Recognized Area: 39.269908169872416, Total Area: 102.12636994033707
+belief too low moving on....
+
+Initial belief: 0.015873015873015872
+370 Step
+Prediction: 1.623, Correction: 0.3876891599847248, Prior: 0.015873015873015872, Posterior: 0.009987611216749338 Belief after normalization: 0.009987611216749338
+Num Collisions: 623, Recognized Area: 39.269908169872416, Total Area: 101.29225220385237
+belief too low moving on....
+
+Initial belief: 0.015873015873015872
+371 Step
+Prediction: 1.6139999999999999, Correction: 0.3908247557225025, Prior: 0.015873015873015872, Posterior: 0.010012558027557444 Belief after normalization: 0.010012558027557444
+Num Collisions: 614, Recognized Area: 39.269908169872416, Total Area: 100.47958220373134
+belief too low moving on....
+
+Initial belief: 0.015873015873015872
+372 Step
+Prediction: 1.6059999999999999, Correction: 0.3939893485610586, Prior: 0.015873015873015872, Posterior: 0.010043601488715238 Belief after normalization: 0.010043601488715238
+Num Collisions: 606, Recognized Area: 39.269908169872416, Total Area: 99.67251224759075
+belief too low moving on....
+
+Initial belief: 0.016129032258064516
+373 Step
+Prediction: 1.5939999999999999, Correction: 0.39712059353243295, Prior: 0.016129032258064516, Posterior: 0.010209842356301582 Belief after normalization: 0.010209842356301582
+Num Collisions: 594, Recognized Area: 39.269908169872416, Total Area: 98.88660726597456
+belief too low moving on....
+
+Initial belief: 0.016129032258064516
+374 Step
+Prediction: 1.5819999999999999, Correction: 0.4002799942936383, Prior: 0.016129032258064516, Posterior: 0.010213595983427994 Belief after normalization: 0.010213595983427994
+Num Collisions: 582, Recognized Area: 39.269908169872416, Total Area: 98.10609755596406
+belief too low moving on....
+
+Initial belief: 0.01639344262295082
+375 Step
+Prediction: 1.573, Correction: 0.4034036009883667, Prior: 0.01639344262295082, Posterior: 0.010402522366470506 Belief after normalization: 0.010402522366470506
+Num Collisions: 573, Recognized Area: 39.269908169872416, Total Area: 97.3464492474991
+belief too low moving on....
+
+Initial belief: 0.01639344262295082
+376 Step
+Prediction: 1.563, Correction: 0.40655460810361976, Prior: 0.01639344262295082, Posterior: 0.010417128728950127 Belief after normalization: 0.010417128728950127
+Num Collisions: 563, Recognized Area: 39.269908169872416, Total Area: 96.59196424570737
+belief too low moving on....
+
+Initial belief: 0.01639344262295082
+377 Step
+Prediction: 1.55, Correction: 0.4096674844529787, Prior: 0.01639344262295082, Posterior: 0.01040958362134618 Belief after normalization: 0.01040958362134618
+Num Collisions: 550, Recognized Area: 39.269908169872416, Total Area: 95.85800596869139
+belief too low moving on....
+
+Initial belief: 0.016666666666666666
+378 Step
+Prediction: 1.5430000000000001, Correction: 0.41280715358725656, Prior: 0.016666666666666666, Posterior: 0.010616023966418949 Belief after normalization: 0.010616023966418949
+Num Collisions: 543, Recognized Area: 39.269908169872416, Total Area: 95.1289429667594
+belief too low moving on....
+
+Initial belief: 0.016666666666666666
+379 Step
+Prediction: 1.538, Correction: 0.41590652618224117, Prior: 0.016666666666666666, Posterior: 0.010661070621138115 Belief after normalization: 0.010661070621138115
+Num Collisions: 538, Recognized Area: 39.269908169872416, Total Area: 94.42003358385676
+belief too low moving on....
+
+Initial belief: 0.01694915254237288
+380 Step
+Prediction: 1.5270000000000001, Correction: 0.4190322905743739, Prior: 0.01694915254237288, Posterior: 0.010845123859441847 Belief after normalization: 0.010845123859441847
+Num Collisions: 527, Recognized Area: 39.269908169872416, Total Area: 93.71570891599919
+belief too low moving on....
+
+Initial belief: 0.01694915254237288
+381 Step
+Prediction: 1.5110000000000001, Correction: 0.42211582350615473, Prior: 0.01694915254237288, Posterior: 0.010810457785047455 Belief after normalization: 0.010810457785047455
+Num Collisions: 511, Recognized Area: 39.269908169872416, Total Area: 93.0311208039796
+belief too low moving on....
+
+Initial belief: 0.01694915254237288
+382 Step
+Prediction: 1.498, Correction: 0.4252256062570107, Prior: 0.01694915254237288, Posterior: 0.010796406070728848 Belief after normalization: 0.010796406070728848
+Num Collisions: 498, Recognized Area: 39.269908169872416, Total Area: 92.35076061279639
+belief too low moving on....
+
+Initial belief: 0.017241379310344827
+383 Step
+Prediction: 1.49, Correction: 0.4282915016914809, Prior: 0.017241379310344827, Posterior: 0.011002660991729422 Belief after normalization: 0.011002660991729422
+Num Collisions: 490, Recognized Area: 39.269908169872416, Total Area: 91.68967400656115
+belief too low moving on....
+
+Initial belief: 0.017241379310344827
+384 Step
+Prediction: 1.48, Correction: 0.4313838054433332, Prior: 0.017241379310344827, Posterior: 0.011007724690622984 Belief after normalization: 0.011007724690622984
+Num Collisions: 480, Recognized Area: 39.269908169872416, Total Area: 91.03241168155287
+belief too low moving on....
+
+Initial belief: 0.017241379310344827
+385 Step
+Prediction: 1.467, Correction: 0.43443088520188083, Prior: 0.017241379310344827, Posterior: 0.010988105320537228 Belief after normalization: 0.010988105320537228
+Num Collisions: 467, Recognized Area: 39.269908169872416, Total Area: 90.39391421635139
+belief too low moving on....
+
+Initial belief: 0.017543859649122806
+386 Step
+Prediction: 1.457, Correction: 0.4375048619839911, Prior: 0.017543859649122806, Posterior: 0.011183238314222368 Belief after normalization: 0.011183238314222368
+Num Collisions: 457, Recognized Area: 39.269908169872416, Total Area: 89.75879260356507
+belief too low moving on....
+
+Initial belief: 0.017543859649122806
+387 Step
+Prediction: 1.443, Correction: 0.4405326206636513, Prior: 0.017543859649122806, Posterior: 0.011152431081011382 Belief after normalization: 0.011152431081011382
+Num Collisions: 443, Recognized Area: 39.269908169872416, Total Area: 89.14188490902964
+belief too low moving on....
+
+Initial belief: 0.017857142857142856
+388 Step
+Prediction: 1.433, Correction: 0.44358811375380264, Prior: 0.017857142857142856, Posterior: 0.011351102982307128 Belief after normalization: 0.011351102982307128
+Num Collisions: 433, Recognized Area: 39.269908169872416, Total Area: 88.52786391762459
+belief too low moving on....
+
+Initial belief: 0.017857142857142856
+389 Step
+Prediction: 1.423, Correction: 0.4465967517500964, Prior: 0.017857142857142856, Posterior: 0.01134834245964977 Belief after normalization: 0.01134834245964977
+Num Collisions: 423, Recognized Area: 39.269908169872416, Total Area: 87.93146841302331
+belief too low moving on....
+
+Initial belief: 0.017857142857142856
+390 Step
+Prediction: 1.41, Correction: 0.4496343165743876, Prior: 0.017857142857142856, Posterior: 0.011321149756605116 Belief after normalization: 0.011321149756605116
+Num Collisions: 410, Recognized Area: 39.269908169872416, Total Area: 87.33743560557525
+belief too low moving on....
+
+Initial belief: 0.01818181818181818
+391 Step
+Prediction: 1.4020000000000001, Correction: 0.45262474858363927, Prior: 0.01818181818181818, Posterior: 0.011537816318441134 Belief after normalization: 0.011537816318441134
+Num Collisions: 402, Recognized Area: 39.269908169872416, Total Area: 86.760408689
+belief too low moving on....
+
+Initial belief: 0.01818181818181818
+392 Step
+Prediction: 1.393, Correction: 0.4556456503292755, Prior: 0.01818181818181818, Posterior: 0.011540261652885105 Belief after normalization: 0.011540261652885105
+Num Collisions: 393, Recognized Area: 39.269908169872416, Total Area: 86.18519268535482
+belief too low moving on....
+
+Initial belief: 0.01818181818181818
+393 Step
+Prediction: 1.384, Correction: 0.4586194940345214, Prior: 0.01818181818181818, Posterior: 0.01154053417715959 Belief after normalization: 0.01154053417715959
+Num Collisions: 384, Recognized Area: 39.269908169872416, Total Area: 85.62633878558262
+belief too low moving on....
+
+Initial belief: 0.018518518518518517
+394 Step
+Prediction: 1.377, Correction: 0.4616256909187543, Prior: 0.018518518518518517, Posterior: 0.011771455118428234 Belief after normalization: 0.011771455118428234
+Num Collisions: 377, Recognized Area: 39.269908169872416, Total Area: 85.06872330202239
+belief too low moving on....
+
+Initial belief: 0.018518518518518517
+395 Step
+Prediction: 1.37, Correction: 0.4645852436506384, Prior: 0.018518518518518517, Posterior: 0.011786699700025455 Belief after normalization: 0.011786699700025455
+Num Collisions: 370, Recognized Area: 39.269908169872416, Total Area: 84.52680903357067
+belief too low moving on....
+
+Initial belief: 0.018518518518518517
+396 Step
+Prediction: 1.366, Correction: 0.4675793558945278, Prior: 0.018518518518518517, Posterior: 0.011828025928739352 Belief after normalization: 0.011828025928739352
+Num Collisions: 366, Recognized Area: 39.269908169872416, Total Area: 83.98554742594443
+belief too low moving on....
+
+Initial belief: 0.018518518518518517
+397 Step
+Prediction: 1.3639999999999999, Correction: 0.47052755804269136, Prior: 0.018518518518518517, Posterior: 0.011885177577226498 Belief after normalization: 0.011885177577226498
+Num Collisions: 364, Recognized Area: 39.269908169872416, Total Area: 83.4593160350226
+belief too low moving on....
+
+Initial belief: 0.018867924528301886
+398 Step
+Prediction: 1.362, Correction: 0.47351282625801727, Prior: 0.018867924528301886, Posterior: 0.012168386214404142 Belief after normalization: 0.012168386214404142
+Num Collisions: 362, Recognized Area: 39.269908169872416, Total Area: 82.9331456134078
+belief too low moving on....
+
+Initial belief: 0.018867924528301886
+399 Step
+Prediction: 1.359, Correction: 0.476453216731783, Prior: 0.018867924528301886, Posterior: 0.012216979651669681 Belief after normalization: 0.012216979651669681
+Num Collisions: 359, Recognized Area: 39.269908169872416, Total Area: 82.42133076410568
+belief too low moving on....
+
+Initial belief: 0.018867924528301886
+400 Step
+Prediction: 1.357, Correction: 0.4793923307811629, Prior: 0.018867924528301886, Posterior: 0.012274252695661094 Belief after normalization: 0.012274252695661094
+Num Collisions: 357, Recognized Area: 39.269908169872416, Total Area: 81.91601251918792
+belief too low moving on....
+
+Initial belief: 0.019230769230769232
+401 Step
+Prediction: 1.355, Correction: 0.4822874961551473, Prior: 0.019230769230769232, Posterior: 0.012567299178658165 Belief after normalization: 0.012567299178658165
+Num Collisions: 355, Recognized Area: 39.269908169872416, Total Area: 81.4242717941824
+belief too low moving on....
+
+Initial belief: 0.019230769230769232
+402 Step
+Prediction: 1.3479999999999999, Correction: 0.4851818939842992, Prior: 0.019230769230769232, Posterior: 0.012577407559439138 Belief after normalization: 0.012577407559439138
+Num Collisions: 348, Recognized Area: 39.269908169872416, Total Area: 80.93852770842108
+belief too low moving on....
+
+Initial belief: 0.019230769230769232
+403 Step
+Prediction: 1.345, Correction: 0.4881205479581493, Prior: 0.019230769230769232, Posterior: 0.012625425711609822 Belief after normalization: 0.012625425711609822
+Num Collisions: 345, Recognized Area: 39.269908169872416, Total Area: 80.45124986879134
+belief too low moving on....
+
+Initial belief: 0.0196078431372549
+404 Step
+Prediction: 1.339, Correction: 0.4910176555267095, Prior: 0.0196078431372549, Posterior: 0.012891620406867923 Belief after normalization: 0.012891620406867923
+Num Collisions: 339, Recognized Area: 39.269908169872416, Total Area: 79.97657055273908
+belief too low moving on....
+
+Initial belief: 0.0196078431372549
+405 Step
+Prediction: 1.338, Correction: 0.4940049348539049, Prior: 0.0196078431372549, Posterior: 0.012960364761461271 Belief after normalization: 0.012960364761461271
+Num Collisions: 338, Recognized Area: 39.269908169872416, Total Area: 79.49294713318187
+belief too low moving on....
+
+Initial belief: 0.0196078431372549
+406 Step
+Prediction: 1.336, Correction: 0.49691034119037475, Prior: 0.0196078431372549, Posterior: 0.013017102271183151 Belief after normalization: 0.013017102271183151
+Num Collisions: 336, Recognized Area: 39.269908169872416, Total Area: 79.0281564191224
+belief too low moving on....
+
+Initial belief: 0.0196078431372549
+407 Step
+Prediction: 1.334, Correction: 0.4998669997047434, Prior: 0.0196078431372549, Posterior: 0.013074952502080935 Belief after normalization: 0.013074952502080935
+Num Collisions: 334, Recognized Area: 39.269908169872416, Total Area: 78.56071353593653
+belief too low moving on....
+
+Initial belief: 0.02
+408 Step
+Prediction: 1.332, Correction: 0.5027861181973364, Prior: 0.02, Posterior: 0.013394222188777043 Belief after normalization: 0.013394222188777043
+Num Collisions: 332, Recognized Area: 39.269908169872416, Total Area: 78.10459905032528
+belief too low moving on....
+
+Initial belief: 0.02
+409 Step
+Prediction: 1.33, Correction: 0.5057140680414576, Prior: 0.02, Posterior: 0.01345199420990277 Belief after normalization: 0.01345199420990277
+Num Collisions: 330, Recognized Area: 39.269908169872416, Total Area: 77.65239421153127
+belief too low moving on....
+
+Initial belief: 0.02
+410 Step
+Prediction: 1.327, Correction: 0.5086990188237847, Prior: 0.02, Posterior: 0.013500871959583246 Belief after normalization: 0.013500871959583246
+Num Collisions: 327, Recognized Area: 39.269908169872416, Total Area: 77.1967444731315
+belief too low moving on....
+
+Initial belief: 0.02
+411 Step
+Prediction: 1.326, Correction: 0.5094819804647912, Prior: 0.02, Posterior: 0.013511462121926263 Belief after normalization: 0.013511462121926263
+Num Collisions: 326, Recognized Area: 39.269908169872416, Total Area: 77.07811007181684
+belief too low moving on....
+
+Initial belief: 0.02040816326530612
+412 Step
+Prediction: 1.321, Correction: 0.5145859525360622, Prior: 0.02040816326530612, Posterior: 0.013872817210206901 Belief after normalization: 0.013872817210206901
+Num Collisions: 321, Recognized Area: 39.269908169872416, Total Area: 76.31360315285788
+belief too low moving on....
+
+Initial belief: 0.02040816326530612
+413 Step
+Prediction: 1.315, Correction: 0.5175689956130428, Prior: 0.02040816326530612, Posterior: 0.013889861821043901 Belief after normalization: 0.013889861821043901
+Num Collisions: 315, Recognized Area: 39.269908169872416, Total Area: 75.87376466273554
+belief too low moving on....
+
+Initial belief: 0.020833333333333332
+414 Step
+Prediction: 1.311, Correction: 0.520568301149155, Prior: 0.020833333333333332, Posterior: 0.014218021725136296 Belief after normalization: 0.014218021725136296
+Num Collisions: 311, Recognized Area: 39.269908169872416, Total Area: 75.43661049507637
+belief too low moving on....
+
+Initial belief: 0.020833333333333332
+415 Step
+Prediction: 1.306, Correction: 0.5236341746144798, Prior: 0.020833333333333332, Posterior: 0.014247213167635638 Belief after normalization: 0.014247213167635638
+Num Collisions: 306, Recognized Area: 39.269908169872416, Total Area: 74.99492980721602
+belief too low moving on....
+
+Initial belief: 0.020833333333333332
+416 Step
+Prediction: 1.301, Correction: 0.5267160144827071, Prior: 0.020833333333333332, Posterior: 0.014276198642541706 Belief after normalization: 0.014276198642541706
+Num Collisions: 301, Recognized Area: 39.269908169872416, Total Area: 74.55613098918167
+belief too low moving on....
+
+Initial belief: 0.020833333333333332
+417 Step
+Prediction: 1.296, Correction: 0.5297744193934415, Prior: 0.020833333333333332, Posterior: 0.01430390932362292 Belief after normalization: 0.01430390932362292
+Num Collisions: 296, Recognized Area: 39.269908169872416, Total Area: 74.12571602614184
+belief too low moving on....
+
+Initial belief: 0.02127659574468085
+418 Step
+Prediction: 1.29, Correction: 0.5329054210629991, Prior: 0.02127659574468085, Posterior: 0.014626553046197208 Belief after normalization: 0.014626553046197208
+Num Collisions: 290, Recognized Area: 39.269908169872416, Total Area: 73.69020208415182
+belief too low moving on....
+
+Initial belief: 0.02127659574468085
+419 Step
+Prediction: 1.286, Correction: 0.5360111133669043, Prior: 0.02127659574468085, Posterior: 0.014666176421060403 Belief after normalization: 0.014666176421060403
+Num Collisions: 286, Recognized Area: 39.269908169872416, Total Area: 73.26323501615873
+belief too low moving on....
+
+Initial belief: 0.02127659574468085
+420 Step
+Prediction: 1.2810000000000001, Correction: 0.5391932123621445, Prior: 0.02127659574468085, Posterior: 0.014695883085870365 Belief after normalization: 0.014695883085870365
+Num Collisions: 281, Recognized Area: 39.269908169872416, Total Area: 72.83086520662118
+belief too low moving on....
+
+Initial belief: 0.021739130434782608
+421 Step
+Prediction: 1.268, Correction: 0.542397624414026, Prior: 0.021739130434782608, Posterior: 0.01495130842949967 Belief after normalization: 0.01495130842949967
+Num Collisions: 268, Recognized Area: 39.269908169872416, Total Area: 72.40059027230674
+belief too low moving on....
+
+Initial belief: 0.021739130434782608
+422 Step
+Prediction: 1.2650000000000001, Correction: 0.54558527422727, Prior: 0.021739130434782608, Posterior: 0.015003595041249925 Belief after normalization: 0.015003595041249925
+Num Collisions: 265, Recognized Area: 39.269908169872416, Total Area: 71.97758081995826
+belief too low moving on....
+
+Initial belief: 0.021739130434782608
+423 Step
+Prediction: 1.259, Correction: 0.5488027707856437, Prior: 0.021739130434782608, Posterior: 0.015020493226502724 Belief after normalization: 0.015020493226502724
+Num Collisions: 259, Recognized Area: 39.269908169872416, Total Area: 71.55559384959959
+belief too low moving on....
+
+Initial belief: 0.021739130434782608
+424 Step
+Prediction: 1.252, Correction: 0.5521038815661009, Prior: 0.021739130434782608, Posterior: 0.015026827385233877 Belief after normalization: 0.015026827385233877
+Num Collisions: 252, Recognized Area: 39.269908169872416, Total Area: 71.12775236877376
+belief too low moving on....
+
+Initial belief: 0.022222222222222223
+425 Step
+Prediction: 1.2429999999999999, Correction: 0.5554311823461736, Prior: 0.022222222222222223, Posterior: 0.01534224354791764 Belief after normalization: 0.01534224354791764
+Num Collisions: 243, Recognized Area: 39.269908169872416, Total Area: 70.70166281265311
+belief too low moving on....
+
+Initial belief: 0.022222222222222223
+426 Step
+Prediction: 1.2349999999999999, Correction: 0.5587460855446765, Prior: 0.022222222222222223, Posterior: 0.015334475903281677 Belief after normalization: 0.015334475903281677
+Num Collisions: 235, Recognized Area: 39.269908169872416, Total Area: 70.2822072240405
+belief too low moving on....
+
+Initial belief: 0.022222222222222223
+427 Step
+Prediction: 1.225, Correction: 0.5621491071399142, Prior: 0.022222222222222223, Posterior: 0.015302947916586554 Belief after normalization: 0.015302947916586554
+Num Collisions: 225, Recognized Area: 39.269908169872416, Total Area: 69.85674738445945
+belief too low moving on....
+
+Initial belief: 0.022727272727272728
+428 Step
+Prediction: 1.219, Correction: 0.5655340949674744, Prior: 0.022727272727272728, Posterior: 0.01566786504012162 Belief after normalization: 0.01566786504012162
+Num Collisions: 219, Recognized Area: 39.269908169872416, Total Area: 69.43862186086402
+belief too low moving on....
+
+Initial belief: 0.022727272727272728
+429 Step
+Prediction: 1.21, Correction: 0.5690013388903244, Prior: 0.022727272727272728, Posterior: 0.015647536819483922 Belief after normalization: 0.015647536819483922
+Num Collisions: 210, Recognized Area: 39.269908169872416, Total Area: 69.0154934370756
+belief too low moving on....
+
+Initial belief: 0.022727272727272728
+430 Step
+Prediction: 1.203, Correction: 0.5724590290214263, Prior: 0.022727272727272728, Posterior: 0.01565155027074491 Belief after normalization: 0.01565155027074491
+Num Collisions: 203, Recognized Area: 39.269908169872416, Total Area: 68.59863532417549
+belief too low moving on....
+
+Initial belief: 0.023255813953488372
+431 Step
+Prediction: 1.195, Correction: 0.5760093117954099, Prior: 0.023255813953488372, Posterior: 0.01600770064175616 Belief after normalization: 0.01600770064175616
+Num Collisions: 195, Recognized Area: 39.269908169872416, Total Area: 68.17582175445891
+belief too low moving on....
+
+Initial belief: 0.023255813953488372
+432 Step
+Prediction: 1.187, Correction: 0.5795884745470192, Prior: 0.023255813953488372, Posterior: 0.015999337657844462 Belief after normalization: 0.015999337657844462
+Num Collisions: 187, Recognized Area: 39.269908169872416, Total Area: 67.75481206827662
+belief too low moving on....
+
+Initial belief: 0.023255813953488372
+433 Step
+Prediction: 1.179, Correction: 0.5831589091273476, Prior: 0.023255813953488372, Posterior: 0.01598940357816611 Belief after normalization: 0.01598940357816611
+Num Collisions: 179, Recognized Area: 39.269908169872416, Total Area: 67.33997810071497
+belief too low moving on....
+
+Initial belief: 0.023809523809523808
+434 Step
+Prediction: 1.167, Correction: 0.5867670159384123, Prior: 0.023809523809523808, Posterior: 0.016303740657145883 Belief after normalization: 0.016303740657145883
+Num Collisions: 167, Recognized Area: 39.269908169872416, Total Area: 66.92589580392199
+belief too low moving on....
+
+Initial belief: 0.023809523809523808
+435 Step
+Prediction: 1.157, Correction: 0.5904698682984014, Prior: 0.023809523809523808, Posterior: 0.016266038990982154 Belief after normalization: 0.016266038990982154
+Num Collisions: 157, Recognized Area: 39.269908169872416, Total Area: 66.50620171870797
+belief too low moving on....
+
+Initial belief: 0.023809523809523808
+436 Step
+Prediction: 1.149, Correction: 0.5941998781924137, Prior: 0.023809523809523808, Posterior: 0.016255610953406746 Belief after normalization: 0.016255610953406746
+Num Collisions: 149, Recognized Area: 39.269908169872416, Total Area: 66.08871797371194
+belief too low moving on....
+
+Initial belief: 0.023809523809523808
+437 Step
+Prediction: 1.137, Correction: 0.5979201419722072, Prior: 0.023809523809523808, Posterior: 0.016186552414819037 Belief after normalization: 0.016186552414819037
+Num Collisions: 137, Recognized Area: 39.269908169872416, Total Area: 65.6775134557982
+belief too low moving on....
+
+Initial belief: 0.024390243902439025
+438 Step
+Prediction: 1.129, Correction: 0.6016766031987141, Prior: 0.024390243902439025, Posterior: 0.016568119146618248 Belief after normalization: 0.016568119146618248
+Num Collisions: 129, Recognized Area: 39.269908169872416, Total Area: 65.26746754170006
+belief too low moving on....
+
+Initial belief: 0.024390243902439025
+439 Step
+Prediction: 1.125, Correction: 0.6055739504735761, Prior: 0.024390243902439025, Posterior: 0.016616358397140808 Belief after normalization: 0.016616358397140808
+Num Collisions: 125, Recognized Area: 39.269908169872416, Total Area: 64.84741977286544
+belief too low moving on....
+
+Initial belief: 0.024390243902439025
+440 Step
+Prediction: 1.114, Correction: 0.6094007742117696, Prior: 0.024390243902439025, Posterior: 0.016557864938339304 Belief after normalization: 0.016557864938339304
+Num Collisions: 114, Recognized Area: 39.269908169872416, Total Area: 64.4402006555803
+belief too low moving on....
+
+Initial belief: 0.025
+441 Step
+Prediction: 1.098, Correction: 0.6132609688259207, Prior: 0.025, Posterior: 0.016834013594271526 Belief after normalization: 0.016834013594271526
+Num Collisions: 98, Recognized Area: 39.269908169872416, Total Area: 64.0345793489093
+belief too low moving on....
+
+Initial belief: 0.025
+442 Step
+Prediction: 1.088, Correction: 0.6171998604661287, Prior: 0.025, Posterior: 0.0167878362046787 Belief after normalization: 0.0167878362046787
+Num Collisions: 88, Recognized Area: 39.269908169872416, Total Area: 63.625918742454914
+belief too low moving on....
+
+Initial belief: 0.025
+443 Step
+Prediction: 1.078, Correction: 0.6211228622490698, Prior: 0.025, Posterior: 0.016739261137612434 Belief after normalization: 0.016739261137612434
+Num Collisions: 78, Recognized Area: 39.269908169872416, Total Area: 63.22405848607327
+belief too low moving on....
+
+Initial belief: 0.02564102564102564
+444 Step
+Prediction: 1.072, Correction: 0.6251823867578311, Prior: 0.02564102564102564, Posterior: 0.017184500477035767 Belief after normalization: 0.017184500477035767
+Num Collisions: 72, Recognized Area: 39.269908169872416, Total Area: 62.81352290413117
+belief too low moving on....
+
+Initial belief: 0.02564102564102564
+445 Step
+Prediction: 1.061, Correction: 0.6291624440048478, Prior: 0.02564102564102564, Posterior: 0.017116444951003677 Belief after normalization: 0.017116444951003677
+Num Collisions: 61, Recognized Area: 39.269908169872416, Total Area: 62.416166991636004
+belief too low moving on....
+
+Initial belief: 0.02564102564102564
+446 Step
+Prediction: 1.051, Correction: 0.6331682077235606, Prior: 0.02564102564102564, Posterior: 0.01706307144403749 Belief after normalization: 0.01706307144403749
+Num Collisions: 51, Recognized Area: 39.269908169872416, Total Area: 62.02128864154459
+belief too low moving on....
+
+Initial belief: 0.02631578947368421
+447 Step
+Prediction: 1.04, Correction: 0.6372441170418657, Prior: 0.02631578947368421, Posterior: 0.017440365308514217 Belief after normalization: 0.017440365308514217
+Num Collisions: 40, Recognized Area: 39.269908169872416, Total Area: 61.62459114125091
+belief too low moving on....
+
+Initial belief: 0.02631578947368421
+448 Step
+Prediction: 1.028, Correction: 0.6413577010619298, Prior: 0.02631578947368421, Posterior: 0.017350413597149048 Belief after normalization: 0.017350413597149048
+Num Collisions: 28, Recognized Area: 39.269908169872416, Total Area: 61.22933911115615
+belief too low moving on....
+
+Initial belief: 0.02631578947368421
+449 Step
+Prediction: 1.021, Correction: 0.6454753131238202, Prior: 0.02631578947368421, Posterior: 0.01734290249209001 Belief after normalization: 0.01734290249209001
+Num Collisions: 21, Recognized Area: 39.269908169872416, Total Area: 60.83874529580862
+belief too low moving on....
+
+Initial belief: 0.02702702702702703
+450 Step
+Prediction: 1.013, Correction: 0.649564203760732, Prior: 0.02702702702702703, Posterior: 0.017784014551611393 Belief after normalization: 0.017784014551611393
+Num Collisions: 13, Recognized Area: 39.269908169872416, Total Area: 60.455776261244765
+belief too low moving on....
+
+Initial belief: 0.02702702702702703
+451 Step
+Prediction: 1.003, Correction: 0.6537144602515575, Prior: 0.02702702702702703, Posterior: 0.017720962260332762 Belief after normalization: 0.017720962260332762
+Num Collisions: 3, Recognized Area: 39.269908169872416, Total Area: 60.07195887140214
+belief too low moving on....
+
+Initial belief: 0.02702702702702703
+452 Step
+Prediction: 1.0, Correction: 0.6578316643403168, Prior: 0.02702702702702703, Posterior: 0.017779234171359914 Belief after normalization: 0.017779234171359914
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 59.69598348424418
+belief too low moving on....
+
+Initial belief: 0.027777777777777776
+453 Step
+Prediction: 1.0, Correction: 0.6620235830862502, Prior: 0.027777777777777776, Posterior: 0.01838954397461806 Belief after normalization: 0.01838954397461806
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 59.317989831725114
+belief too low moving on....
+
+Initial belief: 0.027777777777777776
+454 Step
+Prediction: 1.0, Correction: 0.6662060431311496, Prior: 0.027777777777777776, Posterior: 0.01850572342030971 Belief after normalization: 0.01850572342030971
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 58.945589843804115
+belief too low moving on....
+
+Initial belief: 0.027777777777777776
+455 Step
+Prediction: 1.0, Correction: 0.6703488282739909, Prior: 0.027777777777777776, Posterior: 0.018620800785388636 Belief after normalization: 0.018620800785388636
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 58.581303514745116
+belief too low moving on....
+
+Initial belief: 0.02857142857142857
+456 Step
+Prediction: 1.0, Correction: 0.6745408130958692, Prior: 0.02857142857142857, Posterior: 0.019272594659881976 Belief after normalization: 0.019272594659881976
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 58.21724558020357
+belief too low moving on....
+
+Initial belief: 0.02857142857142857
+457 Step
+Prediction: 1.0, Correction: 0.6787537037961747, Prior: 0.02857142857142857, Posterior: 0.01939296296560499 Belief after normalization: 0.01939296296560499
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 57.8559025906471
+belief too low moving on....
+
+Initial belief: 0.02857142857142857
+458 Step
+Prediction: 1.0, Correction: 0.6829461652060604, Prior: 0.02857142857142857, Posterior: 0.01951274757731601 Belief after normalization: 0.01951274757731601
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 57.50073749667192
+belief too low moving on....
+
+Initial belief: 0.029411764705882353
+459 Step
+Prediction: 1.0, Correction: 0.6870902326143389, Prior: 0.029411764705882353, Posterior: 0.02020853625336291 Belief after normalization: 0.02020853625336291
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 57.15393161747136
+belief too low moving on....
+
+Initial belief: 0.029411764705882353
+460 Step
+Prediction: 1.0, Correction: 0.6912737537335742, Prior: 0.029411764705882353, Posterior: 0.020331580992163947 Belief after normalization: 0.020331580992163947
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 56.80804161560507
+belief too low moving on....
+
+Initial belief: 0.029411764705882353
+461 Step
+Prediction: 1.0, Correction: 0.6955152986392041, Prior: 0.029411764705882353, Posterior: 0.02045633231291777 Belief after normalization: 0.02045633231291777
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 56.46160227777179
+belief too low moving on....
+
+Initial belief: 0.030303030303030304
+462 Step
+Prediction: 1.0, Correction: 0.699636655439937, Prior: 0.030303030303030304, Posterior: 0.021201110770907184 Belief after normalization: 0.021201110770907184
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 56.12900333985387
+belief too low moving on....
+
+Initial belief: 0.030303030303030304
+463 Step
+Prediction: 1.0, Correction: 0.7037905933933087, Prior: 0.030303030303030304, Posterior: 0.021326987678585114 Belief after normalization: 0.021326987678585114
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 55.7977167335152
+belief too low moving on....
+
+Initial belief: 0.030303030303030304
+464 Step
+Prediction: 1.0, Correction: 0.7078862453419451, Prior: 0.030303030303030304, Posterior: 0.021451098343695307 Belief after normalization: 0.021451098343695307
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 55.474885164498495
+belief too low moving on....
+
+Initial belief: 0.03125
+465 Step
+Prediction: 1.0, Correction: 0.7120766242675839, Prior: 0.03125, Posterior: 0.022252394508361997 Belief after normalization: 0.022252394508361997
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 55.14843042385223
+belief too low moving on....
+
+Initial belief: 0.03125
+466 Step
+Prediction: 1.0, Correction: 0.7161389621777097, Prior: 0.03125, Posterior: 0.022379342568053427 Belief after normalization: 0.022379342568053427
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 54.835597899123385
+belief too low moving on....
+
+Initial belief: 0.03125
+467 Step
+Prediction: 1.0, Correction: 0.7202254202488403, Prior: 0.03125, Posterior: 0.02250704438277626 Belief after normalization: 0.02250704438277626
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 54.52446840366247
+belief too low moving on....
+
+Initial belief: 0.03225806451612903
+468 Step
+Prediction: 1.0, Correction: 0.7243571641508341, Prior: 0.03225806451612903, Posterior: 0.02336636013389787 Belief after normalization: 0.02336636013389787
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 54.213460035159095
+belief too low moving on....
+
+Initial belief: 0.03225806451612903
+469 Step
+Prediction: 1.0, Correction: 0.7283559158887599, Prior: 0.03225806451612903, Posterior: 0.023495352125443868 Belief after normalization: 0.023495352125443868
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 53.91582235170589
+belief too low moving on....
+
+Initial belief: 0.03225806451612903
+470 Step
+Prediction: 1.0, Correction: 0.7323732507854671, Prior: 0.03225806451612903, Posterior: 0.023624943573724744 Belief after normalization: 0.023624943573724744
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 53.62007436475269
+belief too low moving on....
+
+Initial belief: 0.03333333333333333
+471 Step
+Prediction: 1.0, Correction: 0.7363886135888598, Prior: 0.03333333333333333, Posterior: 0.024546287119628658 Belief after normalization: 0.024546287119628658
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 53.327696063206076
+belief too low moving on....
+
+Initial belief: 0.03333333333333333
+472 Step
+Prediction: 1.0, Correction: 0.7403522864134543, Prior: 0.03333333333333333, Posterior: 0.024678409547115143 Belief after normalization: 0.024678409547115143
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 53.042192062525615
+belief too low moving on....
+
+Initial belief: 0.03333333333333333
+473 Step
+Prediction: 1.0, Correction: 0.7442869972549127, Prior: 0.03333333333333333, Posterior: 0.024809566575163755 Belief after normalization: 0.024809566575163755
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 52.76178183242233
+belief too low moving on....
+
+Initial belief: 0.03333333333333333
+474 Step
+Prediction: 1.0, Correction: 0.7482164086228033, Prior: 0.03333333333333333, Posterior: 0.02494054695409344 Belief after normalization: 0.02494054695409344
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 52.48469255326031
+belief too low moving on....
+
+Initial belief: 0.034482758620689655
+475 Step
+Prediction: 1.0, Correction: 0.7520896400088652, Prior: 0.034482758620689655, Posterior: 0.025934125517547077 Belief after normalization: 0.025934125517547077
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 52.21439849830869
+belief too low moving on....
+
+Initial belief: 0.034482758620689655
+476 Step
+Prediction: 1.0, Correction: 0.7559303720536502, Prior: 0.034482758620689655, Posterior: 0.026066564553574145 Belief after normalization: 0.026066564553574145
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 51.949107512623314
+belief too low moving on....
+
+Initial belief: 0.034482758620689655
+477 Step
+Prediction: 1.0, Correction: 0.7597630882503413, Prior: 0.034482758620689655, Posterior: 0.026198727181046252 Belief after normalization: 0.026198727181046252
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 51.68704399723748
+belief too low moving on....
+
+Initial belief: 0.03571428571428571
+478 Step
+Prediction: 1.0, Correction: 0.7635359128089649, Prior: 0.03571428571428571, Posterior: 0.027269139743177316 Belief after normalization: 0.027269139743177316
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 51.43164520631745
+belief too low moving on....
+
+Initial belief: 0.03571428571428571
+479 Step
+Prediction: 1.0, Correction: 0.7673399454064123, Prior: 0.03571428571428571, Posterior: 0.02740499805022901 Belief after normalization: 0.02740499805022901
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 51.176676523823595
+belief too low moving on....
+
+Initial belief: 0.03571428571428571
+480 Step
+Prediction: 1.0, Correction: 0.7710671401244208, Prior: 0.03571428571428571, Posterior: 0.02753811214730074 Belief after normalization: 0.02753811214730074
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 50.92929801616984
+belief too low moving on....
+
+Initial belief: 0.037037037037037035
+481 Step
+Prediction: 1.0, Correction: 0.7747977516157737, Prior: 0.037037037037037035, Posterior: 0.028696213022806432 Belief after normalization: 0.028696213022806432
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 50.684076054658675
+belief too low moving on....
+
+Initial belief: 0.037037037037037035
+482 Step
+Prediction: 1.0, Correction: 0.7784904401614948, Prior: 0.037037037037037035, Posterior: 0.028832979265240546 Belief after normalization: 0.028832979265240546
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 50.44366140414778
+belief too low moving on....
+
+Initial belief: 0.037037037037037035
+483 Step
+Prediction: 1.0, Correction: 0.7821049807829472, Prior: 0.037037037037037035, Posterior: 0.028966851140109155 Belief after normalization: 0.028966851140109155
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 50.21053328487976
+belief too low moving on....
+
+Initial belief: 0.037037037037037035
+484 Step
+Prediction: 1.0, Correction: 0.7857200790431647, Prior: 0.037037037037037035, Posterior: 0.029100743668265355 Belief after normalization: 0.029100743668265355
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 49.97951460995446
+belief too low moving on....
+
+Initial belief: 0.038461538461538464
+485 Step
+Prediction: 1.0, Correction: 0.7892954476789438, Prior: 0.038461538461538464, Posterior: 0.030357517218420917 Belief after normalization: 0.030357517218420917
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 49.753116257482795
+belief too low moving on....
+
+Initial belief: 0.038461538461538464
+486 Step
+Prediction: 1.0, Correction: 0.79279196857509, Prior: 0.038461538461538464, Posterior: 0.030491998791349617 Belief after normalization: 0.030491998791349617
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 49.533685665930065
+belief too low moving on....
+
+Initial belief: 0.038461538461538464
+487 Step
+Prediction: 1.0, Correction: 0.7962866723617221, Prior: 0.038461538461538464, Posterior: 0.030626410475450852 Belief after normalization: 0.030626410475450852
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 49.31629466232435
+belief too low moving on....
+
+Initial belief: 0.038461538461538464
+488 Step
+Prediction: 1.0, Correction: 0.799740357066758, Prior: 0.038461538461538464, Posterior: 0.030759244502567614 Belief after normalization: 0.030759244502567614
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 49.10332187549512
+belief too low moving on....
+
+Initial belief: 0.04
+489 Step
+Prediction: 1.0, Correction: 0.803115039719007, Prior: 0.04, Posterior: 0.03212460158876028 Belief after normalization: 0.03212460158876028
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 48.8969901293495
+belief too low moving on....
+
+Initial belief: 0.04
+490 Step
+Prediction: 1.0, Correction: 0.8064859528162526, Prior: 0.04, Posterior: 0.032259438112650106 Belief after normalization: 0.032259438112650106
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 48.69261272653506
+belief too low moving on....
+
+Initial belief: 0.04
+491 Step
+Prediction: 1.0, Correction: 0.8098150103251158, Prior: 0.04, Posterior: 0.03239260041300463 Belief after normalization: 0.03239260041300463
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 48.492442927313434
+belief too low moving on....
+
+Initial belief: 0.041666666666666664
+492 Step
+Prediction: 1.0, Correction: 0.813102021881173, Prior: 0.041666666666666664, Posterior: 0.033879250911715536 Belief after normalization: 0.033879250911715536
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 48.296409445666505
+belief too low moving on....
+
+Initial belief: 0.041666666666666664
+493 Step
+Prediction: 1.0, Correction: 0.8163104172890474, Prior: 0.041666666666666664, Posterior: 0.03401293405371031 Belief after normalization: 0.03401293405371031
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 48.10658707540092
+belief too low moving on....
+
+Initial belief: 0.041666666666666664
+494 Step
+Prediction: 1.0, Correction: 0.8195131423936921, Prior: 0.041666666666666664, Posterior: 0.0341463809330705 Belief after normalization: 0.0341463809330705
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 47.918582556431105
+belief too low moving on....
+
+Initial belief: 0.041666666666666664
+495 Step
+Prediction: 1.0, Correction: 0.8226734984169947, Prior: 0.041666666666666664, Posterior: 0.03427806243404144 Belief after normalization: 0.03427806243404144
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 47.734500072551725
+belief too low moving on....
+
+Initial belief: 0.043478260869565216
+496 Step
+Prediction: 1.0, Correction: 0.8257914489392766, Prior: 0.043478260869565216, Posterior: 0.035903976040838115 Belief after normalization: 0.035903976040838115
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 47.55426835711891
+belief too low moving on....
+
+Initial belief: 0.043478260869565216
+497 Step
+Prediction: 1.0, Correction: 0.8288318594545632, Prior: 0.043478260869565216, Posterior: 0.03603616780237231 Belief after normalization: 0.03603616780237231
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 47.37982465552798
+belief too low moving on....
+
+Initial belief: 0.043478260869565216
+498 Step
+Prediction: 1.0, Correction: 0.8318652438755365, Prior: 0.043478260869565216, Posterior: 0.03616805408154507 Belief after normalization: 0.03616805408154507
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 47.207054819263455
+belief too low moving on....
+
+Initial belief: 0.043478260869565216
+499 Step
+Prediction: 1.0, Correction: 0.8348563151150808, Prior: 0.043478260869565216, Posterior: 0.03629810065717743 Belief after normalization: 0.03629810065717743
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 47.03792432169511
+belief too low moving on....
+
+Initial belief: 0.045454545454545456
+500 Step
+Prediction: 1.0, Correction: 0.837805162109594, Prior: 0.045454545454545456, Posterior: 0.03808205282316336 Belief after normalization: 0.03808205282316336
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 46.87236358271028
+belief too low moving on....
+
+Initial belief: 0.045454545454545456
+501 Step
+Prediction: 1.0, Correction: 0.8406781078803853, Prior: 0.045454545454545456, Posterior: 0.038212641267290244 Belief after normalization: 0.038212641267290244
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 46.71218127576111
+belief too low moving on....
+
+Initial belief: 0.045454545454545456
+502 Step
+Prediction: 1.0, Correction: 0.8435431029580779, Prior: 0.045454545454545456, Posterior: 0.03834286831627627 Belief after normalization: 0.03834286831627627
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 46.55352883825788
+belief too low moving on....
+
+Initial belief: 0.045454545454545456
+503 Step
+Prediction: 1.0, Correction: 0.846366300220852, Prior: 0.045454545454545456, Posterior: 0.03847119546458418 Belief after normalization: 0.03847119546458418
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 46.39824170648721
+belief too low moving on....
+
+Initial belief: 0.045454545454545456
+504 Step
+Prediction: 1.0, Correction: 0.8491478872411832, Prior: 0.045454545454545456, Posterior: 0.0385976312382356 Belief after normalization: 0.0385976312382356
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 46.24625316734563
+belief too low moving on....
+
+Initial belief: 0.047619047619047616
+505 Step
+Prediction: 1.0, Correction: 0.8518556569189921, Prior: 0.047619047619047616, Posterior: 0.04056455509138057 Belief after normalization: 0.04056455509138057
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 46.099251499842794
+belief too low moving on....
+
+Initial belief: 0.047619047619047616
+506 Step
+Prediction: 1.0, Correction: 0.8545548947782072, Prior: 0.047619047619047616, Posterior: 0.040693090227533674 Belief after normalization: 0.040693090227533674
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 45.95364020478123
+belief too low moving on....
+
+Initial belief: 0.047619047619047616
+507 Step
+Prediction: 1.0, Correction: 0.8572132090931943, Prior: 0.047619047619047616, Posterior: 0.04081967662348544 Belief after normalization: 0.04081967662348544
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 45.81113281188727
+belief too low moving on....
+
+Initial belief: 0.047619047619047616
+508 Step
+Prediction: 1.0, Correction: 0.8598308661057741, Prior: 0.047619047619047616, Posterior: 0.04094432695741781 Belief after normalization: 0.04094432695741781
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 45.67166604256509
+belief too low moving on....
+
+Initial belief: 0.05
+509 Step
+Prediction: 1.0, Correction: 0.8623771418990108, Prior: 0.05, Posterior: 0.043118857094950544 Belief after normalization: 0.043118857094950544
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 45.536814766909885
+belief too low moving on....
+
+Initial belief: 0.05
+510 Step
+Prediction: 1.0, Correction: 0.8649145612813769, Prior: 0.05, Posterior: 0.043245728064068845 Belief after normalization: 0.043245728064068845
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 45.403222384987686
+belief too low moving on....
+
+Initial belief: 0.05
+511 Step
+Prediction: 1.0, Correction: 0.8674122117764104, Prior: 0.05, Posterior: 0.043370610588820524 Belief after normalization: 0.043370610588820524
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 45.27248710212403
+belief too low moving on....
+
+Initial belief: 0.05
+512 Step
+Prediction: 1.0, Correction: 0.8698704163290905, Prior: 0.05, Posterior: 0.04349352081645452 Belief after normalization: 0.04349352081645452
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 45.14454961647503
+belief too low moving on....
+
+Initial belief: 0.05
+513 Step
+Prediction: 1.0, Correction: 0.8722895085560434, Prior: 0.05, Posterior: 0.04361447542780217 Belief after normalization: 0.04361447542780217
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 45.01935169996302
+belief too low moving on....
+
+Initial belief: 0.05263157894736842
+514 Step
+Prediction: 1.0, Correction: 0.8746404908682854, Prior: 0.05263157894736842, Posterior: 0.04603371004569923 Belief after normalization: 0.04603371004569923
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 44.89834232449934
+belief too low moving on....
+
+Initial belief: 0.05263157894736842
+515 Step
+Prediction: 1.0, Correction: 0.8769826291045001, Prior: 0.05263157894736842, Posterior: 0.04615698047918421 Belief after normalization: 0.04615698047918421
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 44.778433308276014
+belief too low moving on....
+
+Initial belief: 0.05263157894736842
+516 Step
+Prediction: 1.0, Correction: 0.8792867253531087, Prior: 0.05263157894736842, Posterior: 0.04627824870279519 Belief after normalization: 0.04627824870279519
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 44.6610952236339
+belief too low moving on....
+
+Initial belief: 0.05263157894736842
+517 Step
+Prediction: 1.0, Correction: 0.8815531527267658, Prior: 0.05263157894736842, Posterior: 0.0463975343540403 Belief after normalization: 0.0463975343540403
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 44.54627386721397
+belief too low moving on....
+
+Initial belief: 0.05263157894736842
+518 Step
+Prediction: 1.0, Correction: 0.8837822934469877, Prior: 0.05263157894736842, Posterior: 0.04651485754984146 Belief after normalization: 0.04651485754984146
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 44.43391597800546
+belief too low moving on....
+
+Initial belief: 0.05555555555555555
+519 Step
+Prediction: 1.0, Correction: 0.8859468693257104, Prior: 0.05555555555555555, Posterior: 0.04921927051809502 Belief after normalization: 0.04921927051809502
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 44.3253535054089
+belief too low moving on....
+
+Initial belief: 0.05555555555555555
+520 Step
+Prediction: 1.0, Correction: 0.8881028318225187, Prior: 0.05555555555555555, Posterior: 0.049339046212362146 Belief after normalization: 0.049339046212362146
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 44.21774907449033
+belief too low moving on....
+
+Initial belief: 0.05555555555555555
+521 Step
+Prediction: 1.0, Correction: 0.890222695093959, Prior: 0.05555555555555555, Posterior: 0.04945681639410883 Belief after normalization: 0.04945681639410883
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 44.112454542318375
+belief too low moving on....
+
+Initial belief: 0.05555555555555555
+522 Step
+Prediction: 1.0, Correction: 0.8923068658164698, Prior: 0.05555555555555555, Posterior: 0.04957260365647054 Belief after normalization: 0.04957260365647054
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 44.0094206088396
+belief too low moving on....
+
+Initial belief: 0.05555555555555555
+523 Step
+Prediction: 1.0, Correction: 0.8943557549164388, Prior: 0.05555555555555555, Posterior: 0.04968643082869104 Belief after normalization: 0.04968643082869104
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 43.90859895964047
+belief too low moving on....
+
+Initial belief: 0.05555555555555555
+524 Step
+Prediction: 1.0, Correction: 0.8963437902001834, Prior: 0.05555555555555555, Posterior: 0.04979687723334352 Belief after normalization: 0.04979687723334352
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 43.81121239329626
+belief too low moving on....
+
+Initial belief: 0.058823529411764705
+525 Step
+Prediction: 1.0, Correction: 0.898323580055855, Prior: 0.058823529411764705, Posterior: 0.052842563532697354 Belief after normalization: 0.052842563532697354
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 43.71465810507917
+belief too low moving on....
+
+Initial belief: 0.058823529411764705
+526 Step
+Prediction: 1.0, Correction: 0.9002693458542106, Prior: 0.058823529411764705, Posterior: 0.05295702034436533 Belief after normalization: 0.05295702034436533
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 43.62017695116743
+belief too low moving on....
+
+Initial belief: 0.058823529411764705
+527 Step
+Prediction: 1.0, Correction: 0.9021815104864068, Prior: 0.058823529411764705, Posterior: 0.05306950061684746 Belief after normalization: 0.05306950061684746
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 43.52772442509959
+belief too low moving on....
+
+Initial belief: 0.058823529411764705
+528 Step
+Prediction: 1.0, Correction: 0.904060499765738, Prior: 0.058823529411764705, Posterior: 0.053180029397984586 Belief after normalization: 0.053180029397984586
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 43.437256887175266
+belief too low moving on....
+
+Initial belief: 0.058823529411764705
+529 Step
+Prediction: 1.0, Correction: 0.9058824260786525, Prior: 0.058823529411764705, Posterior: 0.05328720153403838 Belief after normalization: 0.05328720153403838
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 43.34989512917522
+belief too low moving on....
+
+Initial belief: 0.0625
+530 Step
+Prediction: 1.0, Correction: 0.907696555881747, Prior: 0.0625, Posterior: 0.05673103474260919 Belief after normalization: 0.05673103474260919
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 43.2632556721835
+belief too low moving on....
+
+Initial belief: 0.0625
+531 Step
+Prediction: 1.0, Correction: 0.9094787973112433, Prior: 0.0625, Posterior: 0.056842424831952704 Belief after normalization: 0.056842424831952704
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 43.17847572254442
+belief too low moving on....
+
+Initial belief: 0.0625
+532 Step
+Prediction: 1.0, Correction: 0.9112295795771009, Prior: 0.0625, Posterior: 0.05695184872356881 Belief after normalization: 0.05695184872356881
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 43.09551516984059
+belief too low moving on....
+
+Initial belief: 0.0625
+533 Step
+Prediction: 1.0, Correction: 0.9129493324159342, Prior: 0.0625, Posterior: 0.05705933327599589 Belief after normalization: 0.05705933327599589
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 43.01433472321253
+belief too low moving on....
+
+Initial belief: 0.0625
+534 Step
+Prediction: 1.0, Correction: 0.9146384852927928, Prior: 0.0625, Posterior: 0.05716490533079955 Belief after normalization: 0.05716490533079955
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 42.9348959193439
+belief too low moving on....
+
+Initial belief: 0.0625
+535 Step
+Prediction: 1.0, Correction: 0.9162750124096047, Prior: 0.0625, Posterior: 0.057267188275600296 Belief after normalization: 0.057267188275600296
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 42.858211386340294
+belief too low moving on....
+
+Initial belief: 0.06666666666666667
+536 Step
+Prediction: 1.0, Correction: 0.9179044508530627, Prior: 0.06666666666666667, Posterior: 0.06119363005687085 Belief after normalization: 0.06119363005687085
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 42.782130681877156
+belief too low moving on....
+
+Initial belief: 0.06666666666666667
+537 Step
+Prediction: 1.0, Correction: 0.9195045759042633, Prior: 0.06666666666666667, Posterior: 0.061300305060284214 Belief after normalization: 0.061300305060284214
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 42.70768106972543
+belief too low moving on....
+
+Initial belief: 0.06666666666666667
+538 Step
+Prediction: 1.0, Correction: 0.921075811554274, Prior: 0.06666666666666667, Posterior: 0.06140505410361827 Belief after normalization: 0.06140505410361827
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 42.63482731525238
+belief too low moving on....
+
+Initial belief: 0.06666666666666667
+539 Step
+Prediction: 1.0, Correction: 0.9226185806365482, Prior: 0.06666666666666667, Posterior: 0.06150790537576988 Belief after normalization: 0.06150790537576988
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 42.56353491469755
+belief too low moving on....
+
+Initial belief: 0.06666666666666667
+540 Step
+Prediction: 1.0, Correction: 0.9241333054581821, Prior: 0.06666666666666667, Posterior: 0.06160888703054547 Belief after normalization: 0.06160888703054547
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 42.49377004154453
+belief too low moving on....
+
+Initial belief: 0.06666666666666667
+541 Step
+Prediction: 1.0, Correction: 0.9255997652292373, Prior: 0.06666666666666667, Posterior: 0.061706651015282485 Belief after normalization: 0.061706651015282485
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 42.42644568967311
+belief too low moving on....
+
+Initial belief: 0.06666666666666667
+542 Step
+Prediction: 1.0, Correction: 0.9270598483395428, Prior: 0.06666666666666667, Posterior: 0.06180398988930285 Belief after normalization: 0.06180398988930285
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 42.359625692137094
+belief too low moving on....
+
+Initial belief: 0.07142857142857142
+543 Step
+Prediction: 1.0, Correction: 0.9284931400507714, Prior: 0.07142857142857142, Posterior: 0.0663209385750551 Belief after normalization: 0.0663209385750551
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 42.29423619406071
+belief too low moving on....
+
+Initial belief: 0.07142857142857142
+544 Step
+Prediction: 1.0, Correction: 0.9299000517795345, Prior: 0.07142857142857142, Posterior: 0.06642143226996675 Belief after normalization: 0.06642143226996675
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 42.23024624498325
+belief too low moving on....
+
+Initial belief: 0.07142857142857142
+545 Step
+Prediction: 1.0, Correction: 0.9312809939556814, Prior: 0.07142857142857142, Posterior: 0.06652007099683438 Belief after normalization: 0.06652007099683438
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 42.167625480115
+belief too low moving on....
+
+Initial belief: 0.07142857142857142
+546 Step
+Prediction: 1.0, Correction: 0.9326363710630068, Prior: 0.07142857142857142, Posterior: 0.06661688364735763 Belief after normalization: 0.06661688364735763
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 42.10634432486596
+belief too low moving on....
+
+Initial belief: 0.07142857142857142
+547 Step
+Prediction: 1.0, Correction: 0.9339477119628316, Prior: 0.07142857142857142, Posterior: 0.06671055085448796 Belief after normalization: 0.06671055085448796
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 42.047223486784716
+belief too low moving on....
+
+Initial belief: 0.07142857142857142
+548 Step
+Prediction: 1.0, Correction: 0.9352533444861129, Prior: 0.07142857142857142, Posterior: 0.06680381032043663 Belief after normalization: 0.06680381032043663
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 41.98852471513992
+belief too low moving on....
+
+Initial belief: 0.07142857142857142
+549 Step
+Prediction: 1.0, Correction: 0.9365346133219574, Prior: 0.07142857142857142, Posterior: 0.06689532952299695 Belief after normalization: 0.06689532952299695
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 41.93108040137369
+belief too low moving on....
+
+Initial belief: 0.07692307692307693
+550 Step
+Prediction: 1.0, Correction: 0.9377919100253389, Prior: 0.07692307692307693, Posterior: 0.07213783923271838 Belief after normalization: 0.07213783923271838
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 41.874863442585415
+belief too low moving on....
+
+Initial belief: 0.07692307692307693
+551 Step
+Prediction: 1.0, Correction: 0.9390256245923183, Prior: 0.07692307692307693, Posterior: 0.07223274035325526 Belief after normalization: 0.07223274035325526
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 41.819847234649856
+belief too low moving on....
+
+Initial belief: 0.07692307692307693
+552 Step
+Prediction: 1.0, Correction: 0.9402361411665849, Prior: 0.07692307692307693, Posterior: 0.07232585701281423 Belief after normalization: 0.07232585701281423
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 41.76600584737024
+belief too low moving on....
+
+Initial belief: 0.07692307692307693
+553 Step
+Prediction: 1.0, Correction: 0.9414238416303709, Prior: 0.07692307692307693, Posterior: 0.0724172185869516 Belief after normalization: 0.0724172185869516
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 41.7133138479521
+belief too low moving on....
+
+Initial belief: 0.07692307692307693
+554 Step
+Prediction: 1.0, Correction: 0.9425721000162416, Prior: 0.07692307692307693, Posterior: 0.07250554615509551 Belief after normalization: 0.07250554615509551
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 41.66249793431797
+belief too low moving on....
+
+Initial belief: 0.07692307692307693
+555 Step
+Prediction: 1.0, Correction: 0.9437154631266811, Prior: 0.07692307692307693, Posterior: 0.07259349716359086 Belief after normalization: 0.07259349716359086
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 41.612021530054086
+belief too low moving on....
+
+Initial belief: 0.07692307692307693
+556 Step
+Prediction: 1.0, Correction: 0.9448371321654467, Prior: 0.07692307692307693, Posterior: 0.07267977939734206 Belief after normalization: 0.07267977939734206
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 41.56262157041899
+belief too low moving on....
+
+Initial belief: 0.08333333333333333
+557 Step
+Prediction: 1.0, Correction: 0.9459374724105974, Prior: 0.08333333333333333, Posterior: 0.07882812270088312 Belief after normalization: 0.07882812270088312
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 41.51427479640722
+belief too low moving on....
+
+Initial belief: 0.08333333333333333
+558 Step
+Prediction: 1.0, Correction: 0.9470168448563134, Prior: 0.08333333333333333, Posterior: 0.07891807040469279 Belief after normalization: 0.07891807040469279
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 41.46695846347977
+belief too low moving on....
+
+Initial belief: 0.08333333333333333
+559 Step
+Prediction: 1.0, Correction: 0.9480756068146121, Prior: 0.08333333333333333, Posterior: 0.07900630056788434 Belief after normalization: 0.07900630056788434
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 41.42065030215602
+belief too low moving on....
+
+Initial belief: 0.08333333333333333
+560 Step
+Prediction: 1.0, Correction: 0.9491141101077247, Prior: 0.08333333333333333, Posterior: 0.07909284250897705 Belief after normalization: 0.07909284250897705
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 41.37532858447892
+belief too low moving on....
+
+Initial belief: 0.08333333333333333
+561 Step
+Prediction: 1.0, Correction: 0.9501174797095194, Prior: 0.08333333333333333, Posterior: 0.07917645664245995 Belief after normalization: 0.07917645664245995
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 41.331634254196075
+belief too low moving on....
+
+Initial belief: 0.08333333333333333
+562 Step
+Prediction: 1.0, Correction: 0.9511166605142856, Prior: 0.08333333333333333, Posterior: 0.07925972170952379 Belief after normalization: 0.07925972170952379
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 41.28821394910534
+belief too low moving on....
+
+Initial belief: 0.08333333333333333
+563 Step
+Prediction: 1.0, Correction: 0.952096617028267, Prior: 0.08333333333333333, Posterior: 0.07934138475235558 Belief after normalization: 0.07934138475235558
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 41.2457175748021
+belief too low moving on....
+
+Initial belief: 0.08333333333333333
+564 Step
+Prediction: 1.0, Correction: 0.9530576837618242, Prior: 0.08333333333333333, Posterior: 0.07942147364681867 Belief after normalization: 0.07942147364681867
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 41.20412524756082
+belief too low moving on....
+
+Initial belief: 0.09090909090909091
+565 Step
+Prediction: 1.0, Correction: 0.9540001916580186, Prior: 0.09090909090909091, Posterior: 0.08672729015072897 Belief after normalization: 0.08672729015072897
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 41.163417484877755
+belief too low moving on....
+
+Initial belief: 0.09090909090909091
+566 Step
+Prediction: 1.0, Correction: 0.954924469051182, Prior: 0.09090909090909091, Posterior: 0.08681131536828927 Belief after normalization: 0.08681131536828927
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 41.12357515447395
+belief too low moving on....
+
+Initial belief: 0.09090909090909091
+567 Step
+Prediction: 1.0, Correction: 0.9558308372707892, Prior: 0.09090909090909091, Posterior: 0.08689371247916265 Belief after normalization: 0.08689371247916265
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 41.084579654283694
+belief too low moving on....
+
+Initial belief: 0.09090909090909091
+568 Step
+Prediction: 1.0, Correction: 0.9567196146402426, Prior: 0.09090909090909091, Posterior: 0.08697451042184023 Belief after normalization: 0.08697451042184023
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 41.04641273048339
+belief too low moving on....
+
+Initial belief: 0.09090909090909091
+569 Step
+Prediction: 1.0, Correction: 0.9575777121365735, Prior: 0.09090909090909091, Posterior: 0.08705251928514304 Belief after normalization: 0.08705251928514304
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 41.00963052100735
+belief too low moving on....
+
+Initial belief: 0.09090909090909091
+570 Step
+Prediction: 1.0, Correction: 0.958432380093084, Prior: 0.09090909090909091, Posterior: 0.08713021637209854 Belief after normalization: 0.08713021637209854
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 40.973060787093274
+belief too low moving on....
+
+Initial belief: 0.09090909090909091
+571 Step
+Prediction: 1.0, Correction: 0.9592703848941115, Prior: 0.09090909090909091, Posterior: 0.08720639862673742 Belief after normalization: 0.08720639862673742
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 40.93726731093361
+belief too low moving on....
+
+Initial belief: 0.09090909090909091
+572 Step
+Prediction: 1.0, Correction: 0.9600920277702921, Prior: 0.09090909090909091, Posterior: 0.08728109343366293 Belief after normalization: 0.08728109343366293
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 40.90223336305838
+belief too low moving on....
+
+Initial belief: 0.09090909090909091
+573 Step
+Prediction: 1.0, Correction: 0.9608976037811008, Prior: 0.09090909090909091, Posterior: 0.08735432761646371 Belief after normalization: 0.08735432761646371
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 40.8679426562691
+belief too low moving on....
+
+Initial belief: 0.1
+574 Step
+Prediction: 1.0, Correction: 0.9616874049997485, Prior: 0.1, Posterior: 0.09616874049997486 Belief after normalization: 0.09616874049997486
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 40.8343792023383
+belief too low moving on....
+
+Initial belief: 0.1
+575 Step
+Prediction: 1.0, Correction: 0.962461718426729, Prior: 0.1, Posterior: 0.09624617184267291 Belief after normalization: 0.09624617184267291
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 40.80152739380043
+belief too low moving on....
+
+Initial belief: 0.1
+576 Step
+Prediction: 1.0, Correction: 0.9632208274676689, Prior: 0.1, Posterior: 0.0963220827467669 Belief after normalization: 0.0963220827467669
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 40.769371934278006
+belief too low moving on....
+
+Initial belief: 0.1
+577 Step
+Prediction: 1.0, Correction: 0.9639533034374842, Prior: 0.1, Posterior: 0.09639533034374842 Belief after normalization: 0.09639533034374842
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 40.738392648103215
+belief too low moving on....
+
+Initial belief: 0.1
+578 Step
+Prediction: 1.0, Correction: 0.9646829569144827, Prior: 0.1, Posterior: 0.09646829569144827 Belief after normalization: 0.09646829569144827
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 40.70757950930983
+belief too low moving on....
+
+Initial belief: 0.1
+579 Step
+Prediction: 1.0, Correction: 0.9653982301026841, Prior: 0.1, Posterior: 0.09653982301026842 Belief after normalization: 0.09653982301026842
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 40.677418857185486
+belief too low moving on....
+
+Initial belief: 0.1
+580 Step
+Prediction: 1.0, Correction: 0.9660993886400294, Prior: 0.1, Posterior: 0.09660993886400294 Belief after normalization: 0.09660993886400294
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 40.64789671914849
+belief too low moving on....
+
+Initial belief: 0.1
+581 Step
+Prediction: 1.0, Correction: 0.9667866944686196, Prior: 0.1, Posterior: 0.09667866944686197 Belief after normalization: 0.09667866944686197
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 40.61899940757517
+belief too low moving on....
+
+Initial belief: 0.1
+582 Step
+Prediction: 1.0, Correction: 0.9674604061669841, Prior: 0.1, Posterior: 0.09674604061669842 Belief after normalization: 0.09674604061669842
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 40.590713500573386
+belief too low moving on....
+
+Initial belief: 0.1
+583 Step
+Prediction: 1.0, Correction: 0.9681207760378672, Prior: 0.1, Posterior: 0.09681207760378673 Belief after normalization: 0.09681207760378673
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 40.56302595900122
+belief too low moving on....
+
+Initial belief: 0.1111111111111111
+584 Step
+Prediction: 1.0, Correction: 0.9687680545341536, Prior: 0.1111111111111111, Posterior: 0.10764089494823928 Belief after normalization: 0.10764089494823928
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 40.53592393563796
+[9.20371193e+01 8.14590225e+01 5.10641992e-10] Estimated Local Min
+5.000494981285126e-09 Force Magnitude
+181 Iterations
+True Success
+48 Obstacles in Range
+0.10764089494823928 Belief
+
+Initial belief: 0.1111111111111111
+585 Step
+Prediction: 1.0, Correction: 0.9694024872607003, Prior: 0.1111111111111111, Posterior: 0.10771138747341114 Belief after normalization: 0.10771138747341114
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 40.50939489627243
+[ 9.20371193e+01  8.14590225e+01 -3.37679753e-09] Estimated Local Min
+3.735624553632952e-09 Force Magnitude
+167 Iterations
+True Success
+48 Obstacles in Range
+0.10771138747341114 Belief
+
+Initial belief: 0.1111111111111111
+586 Step
+Prediction: 1.0, Correction: 0.9700142830071296, Prior: 0.1111111111111111, Posterior: 0.10777936477856995 Belief after normalization: 0.10777936477856995
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 40.483845297754016
+[9.20373575e+01 8.14591348e+01 3.98251145e-10] Estimated Local Min
+2.8788384743758255e-09 Force Magnitude
+186 Iterations
+True Success
+47 Obstacles in Range
+0.10777936477856995 Belief
+
+Initial belief: 0.1111111111111111
+587 Step
+Prediction: 1.0, Correction: 0.9706238501508849, Prior: 0.1111111111111111, Posterior: 0.10784709446120944 Belief after normalization: 0.10784709446120944
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 40.45842080201084
+[ 9.20373575e+01  8.14591348e+01 -3.73539813e-09] Estimated Local Min
+3.7455087362981525e-09 Force Magnitude
+165 Iterations
+True Success
+47 Obstacles in Range
+0.10784709446120944 Belief
+
+Initial belief: 0.1111111111111111
+588 Step
+Prediction: 1.0, Correction: 0.9712212842797714, Prior: 0.1111111111111111, Posterior: 0.1079134760310857 Belief after normalization: 0.1079134760310857
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 40.43353333117468
+[9.20373575e+01 8.14591348e+01 4.58117368e-09] Estimated Local Min
+5.065412734563868e-09 Force Magnitude
+181 Iterations
+True Success
+47 Obstacles in Range
+0.1079134760310857 Belief
+
+Initial belief: 0.1111111111111111
+589 Step
+Prediction: 1.0, Correction: 0.9718068152804544, Prior: 0.1111111111111111, Posterior: 0.1079785350311616 Belief after normalization: 0.1079785350311616
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 40.40917140361841
+[ 9.20373575e+01  8.14591348e+01 -2.45293858e-09] Estimated Local Min
+5.5834758599399165e-09 Force Magnitude
+156 Iterations
+True Success
+47 Obstacles in Range
+0.1079785350311616 Belief
+
+Initial belief: 0.1111111111111111
+590 Step
+Prediction: 1.0, Correction: 0.9723806694851197, Prior: 0.1111111111111111, Posterior: 0.10804229660945774 Belief after normalization: 0.10804229660945774
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 40.38532377516927
+[ 9.20373575e+01  8.14591348e+01 -1.21857571e-09] Estimated Local Min
+4.325930742449491e-09 Force Magnitude
+154 Iterations
+True Success
+47 Obstacles in Range
+0.10804229660945774 Belief
+
+Initial belief: 0.1111111111111111
+591 Step
+Prediction: 1.0, Correction: 0.9729430679830394, Prior: 0.1111111111111111, Posterior: 0.10810478533144882 Belief after normalization: 0.10810478533144882
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 40.361979505420535
+[ 9.20373575e+01  8.14591348e+01 -1.25825773e-09] Estimated Local Min
+4.089709806115346e-09 Force Magnitude
+175 Iterations
+True Success
+47 Obstacles in Range
+0.10810478533144882 Belief
+
+Initial belief: 0.1111111111111111
+592 Step
+Prediction: 1.0, Correction: 0.973494229995832, Prior: 0.1111111111111111, Posterior: 0.10816602555509244 Belief after normalization: 0.10816602555509244
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 40.33912781387574
+[ 9.20373575e+01  8.14591348e+01 -9.53996428e-11] Estimated Local Min
+2.7184988057758396e-09 Force Magnitude
+165 Iterations
+True Success
+47 Obstacles in Range
+0.10816602555509244 Belief
+
+Initial belief: 0.1111111111111111
+593 Step
+Prediction: 1.0, Correction: 0.9740343696679257, Prior: 0.1111111111111111, Posterior: 0.10822604107421396 Belief after normalization: 0.10822604107421396
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 40.31675820973399
+[9.20373575e+01 8.14591348e+01 1.10714736e-09] Estimated Local Min
+2.4815983847989963e-09 Force Magnitude
+143 Iterations
+True Success
+47 Obstacles in Range
+0.10822604107421396 Belief
+
+Initial belief: 0.1111111111111111
+594 Step
+Prediction: 1.0, Correction: 0.9745636986198027, Prior: 0.1111111111111111, Posterior: 0.1082848554022003 Belief after normalization: 0.1082848554022003
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 40.29486038263817
+[ 9.20373575e+01  8.14591348e+01 -7.54377633e-11] Estimated Local Min
+4.4348960424667525e-09 Force Magnitude
+164 Iterations
+True Success
+47 Obstacles in Range
+0.1082848554022003 Belief
+
+Initial belief: 0.125
+595 Step
+Prediction: 1.0, Correction: 0.9750824233457477, Prior: 0.125, Posterior: 0.12188530291821846 Belief after normalization: 0.12188530291821846
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 40.273424307175695
+[9.20373575e+01 8.14591348e+01 4.70784951e-09] Estimated Local Min
+4.7381869796445675e-09 Force Magnitude
+175 Iterations
+True Success
+47 Obstacles in Range
+0.12188530291821846 Belief
+
+Initial belief: 0.125
+596 Step
+Prediction: 1.0, Correction: 0.9755823290743204, Prior: 0.125, Posterior: 0.12194779113429005 Belief after normalization: 0.12194779113429005
+Num Collisions: 0, Recognized Area: 39.269908169872416, Total Area: 40.25278748861062
+[9.20375778e+01 8.14592399e+01 1.62397951e-09] Estimated Local Min
+4.045553092117267e-09 Force Magnitude
+153 Iterations
+True Success
+46 Obstacles in Range
+0.12194779113429005 Belief
+
+Goal Reached, step: 596

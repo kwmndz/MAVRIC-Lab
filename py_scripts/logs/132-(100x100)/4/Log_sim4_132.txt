@@ -1,0 +1,32 @@
+Initial belief: 0.05
+0 Step
+Prediction: 1.8479999999999999, Correction: 0.8722021070758073, Prior: 0.05, Posterior: 0.0805914746938046 Belief after normalization: 0.0805914746938046
+Num Collisions: 848, Recognized Area: 39.269908169872416, Total Area: 45.02386299149273
+belief too low moving on....
+
+Initial belief: 0.1
+1 Step
+Prediction: 1.956, Correction: 0.9664107300619603, Prior: 0.1, Posterior: 0.18902993880011945 Belief after normalization: 0.18902993880011945
+Num Collisions: 956, Recognized Area: 39.269908169872416, Total Area: 40.63480148585961
+[3.35951731e+00 2.25944062e+01 1.54983604e-09] Estimated Local Min
+89.58020121173722 Force Magnitude
+134 Iterations
+True Success
+130 Obstacles in Range
+0.18902993880011945 Belief
+
+Initial belief: 0.5
+2 Step
+Prediction: 2.0, Correction: 0.9995614105611854, Prior: 0.5, Posterior: 0.9995614105611854 Belief after normalization: 0.9995614105611854
+Num Collisions: 1000, Recognized Area: 39.269908169872416, Total Area: 39.28713909416035
+[3.35951733e+00 2.25944063e+01 6.94524313e-09] Estimated Local Min
+89.58020121173722 Force Magnitude
+164 Iterations
+True Success
+130 Obstacles in Range
+0.9995614105611854 Belief
+
+Local Min Predicted!, Current Step: 2
+11 Steps Away
+[3.35951733e+00 2.25944063e+01 6.94524313e-09] Estimated Local Min
+

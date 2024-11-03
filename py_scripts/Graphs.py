@@ -115,7 +115,7 @@ def plot_movement_2d(ugv_pos, goal_pos, obstacles, log_dir, sim_id):
     plt.close(fig)  # Close the figure to free up memory
     
 # Plots the movement of UGV (X, Y) in 2D with an interactive plot
-def plot_movement_interactive_2d(ugv_pos, goal_pos, obstacles, log_dir, sim_id):
+def plot_movement_interactive_2d(ugv_pos, goal_pos, obstacles, log_dir, sim_id , obs_container, et_local_min):
     # Create the plot
     fig = go.Figure()
 
@@ -137,6 +137,13 @@ def plot_movement_interactive_2d(ugv_pos, goal_pos, obstacles, log_dir, sim_id):
                              mode='markers',
                              name='Start',
                              marker=dict(size=10, color='green')))
+    
+    # Add the local minimum
+    fig.add_trace(go.Scatter(x=[et_local_min[0]], y=[et_local_min[1]],
+                                mode='markers',
+                                name='Local Minimum',
+                                marker=dict(size=10, color='black'))
+                )
 
     # Add obstacles
     obs_x = [obs[0] for obs in obstacles]
@@ -166,9 +173,45 @@ def plot_movement_interactive_2d(ugv_pos, goal_pos, obstacles, log_dir, sim_id):
                                  name='Scanner Trace',
                                  line=dict(color='orange', width=1, dash='dash'),
                                  opacity=0.5))
+        
+    # Draw a dot for each point in obs_container and shade the inside red
+    obs_container_x = obs_container[::2]
+    obs_container_y = obs_container[1::2]
+    width = 12.5
+    
+    obs_container_x_new = []
+    obs_container_y_new = []
+    
+    direction_vector = np.array([obs_container_x[0] - obs_container_x[1], obs_container_y[0] - obs_container_y[1]])
+    direction_vector = direction_vector / np.linalg.norm(direction_vector)  # Normalize the direction vector
+    tunnel_width = 12.5  # Define the width of the tunnel
+    perpendicular_vector = np.array([-direction_vector[1], direction_vector[0]])  # Perpendicular to the direction vector
+    
+    # Calculate the new points for the obstacle container
+    p1 = np.array([obs_container_x[0], obs_container_y[0]]) + perpendicular_vector * tunnel_width / 2
+    p2 = np.array([obs_container_x[0], obs_container_y[0]]) - perpendicular_vector * tunnel_width / 2
+    p3 = np.array([obs_container_x[1], obs_container_y[1]]) - perpendicular_vector * tunnel_width / 2
+    p4 = np.array([obs_container_x[1], obs_container_y[1]]) + perpendicular_vector * tunnel_width / 2
+                  
+    obs_container_x_new.extend([p1[0], p2[0], p3[0], p4[0]])
+    obs_container_y_new.extend([p1[1], p2[1], p3[1], p4[1]])
+    
+    # Add the dots
+    fig.add_trace(go.Scatter(x=obs_container_x_new, y=obs_container_y_new,
+                             mode='markers',
+                             name='Obstacle Container Points',
+                             marker=dict(size=5, color='purple')))
+    
+    # Shade the inside of the obstacle container
+    fig.add_trace(go.Scatter(x=obs_container_x_new + [obs_container_x_new[0]], 
+                             y=obs_container_y_new + [obs_container_y_new[0]],
+                             fill='toself',
+                             fillcolor='rgba(255, 0, 0, 0.2)',
+                             line=dict(color='purple'),
+                             name='Obstacle Container'))
 
     # Set plot layout for better readability
-    fig.update_layout(title='UGV Path with Scanner Trace',
+    fig.update_layout(title='UGV Path with Scanner Trace + Container',
                       xaxis_title='X',
                       yaxis_title='Y',
                       width=800,

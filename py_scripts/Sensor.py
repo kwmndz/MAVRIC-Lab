@@ -76,7 +76,7 @@ class Sensor:
             
     # Returns the number of points in group A
     # "Group A comprises points between the initial local minimum and the UGV, including the local minimum itself" (from research paper)
-    def get_group_a_points(self, pos_c: np.ndarray, local_min: np.ndarray, step_size = 0.1):
+    def get_group_a_points(self, pos_c: np.ndarray, local_min: np.ndarray, step_size = 0.05):
         distance = np.linalg.norm(local_min - pos_c)
         return int(np.ceil(distance / step_size)) # np.ceil automatically rounds up the number no matter the decimal value (e.g. 0.2 -> 1)
     

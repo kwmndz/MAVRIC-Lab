@@ -20,6 +20,7 @@ D_SAFE = 5 # Safe distance / Scanner Radius
 # Constants for testing simulation (keep low or potential field algorithm gives weird results)
 STEP_SIZE = 0.01
 OBSTACLE_HEIGHT = 10 # max height of obstacles in field graph
+MAX_VEL = 1.0 # max velocity of UGV
 
 
 """
@@ -102,7 +103,9 @@ def is_local_min(force_net, threshold=1e-3):
 
 # helper method to calculate the force difference 
 def force_difference(ugv_pos, goal_pos, obstacles):
-    F_att = att_force(ugv_pos, goal_pos)    
+    F_att = att_force(ugv_pos, goal_pos) 
+    if F_att[0] < 1e-6 and F_att[1] < 1e-6:
+        return 10   
     
     #F_rep =np.sum([rep_force(ugv_pos, obs) for obs in obstacles], axis=0) 
     F_rep = rep_force_optimized(ugv_pos, obstacles) if obstacles.size > 0 else np.zeros(len(ugv_pos))
@@ -151,12 +154,35 @@ def find_potential_local_min(ugv_pos, goal_pos, obstacles, guess_i = None, max_i
 """
 # Helper function to generate clustered obstacles
 # Clusters the points together so obstacles are more realistic and not just points
-def generate_obstacles(num_obstacles, step_size=0.001, length_range=(5, 20), area_size=(100, 100)):
+def generate_obstacles(num_obstacles, step_size=0.001, length_range=(5, 20), area_size=[100, 100, 0, 0]):
     obstacles = []
+    # Randomly decide the position of the starting point of the obstacle
+    # Calculate the direction vector from (area_size[2], area_size[3]) to (area_size[0], area_size[1])
+    direction_vector = np.array([area_size[0] - area_size[2], area_size[1] - area_size[3]])
+    direction_vector = direction_vector / np.linalg.norm(direction_vector)  # Normalize the direction vector
+    # Add a random width offset perpendicular to the tunnel direction
+    tunnel_width = 12.5  # Define the width of the tunnel
+    perpendicular_vector = np.array([-direction_vector[1], direction_vector[0]])  # Perpendicular to the direction vector
+    
+    
     for _ in range(num_obstacles):
-        # Randomly decide the position of the starting point of the obstacle
-        start_x = np.random.uniform(0, area_size[0])
-        start_y = np.random.uniform(0, area_size[1])
+        
+    
+        # Generate a random distance along the tunnel
+        distance_along_tunnel = np.random.uniform(0, np.linalg.norm([area_size[0] - area_size[2], area_size[1] - area_size[3]]))
+        # Calculate the starting point based on the distance along the tunnel
+        start_x = area_size[2] + distance_along_tunnel * direction_vector[0]
+        start_y = area_size[3] + distance_along_tunnel * direction_vector[1]
+        
+        width_offset = np.random.uniform(-tunnel_width / 2, tunnel_width / 2)
+        
+        start_x += width_offset * perpendicular_vector[0]
+        start_y += width_offset * perpendicular_vector[1]
+        
+        # Ensure the obstacle is within the tunnel boundaries
+        start_x = np.clip(start_x, area_size[2], area_size[0])
+        start_y = np.clip(start_y, area_size[3], area_size[1])
+        
         
         # Randomly decide the orientation and length of the obstacle
         angle = np.random.uniform(0, 2 * np.pi)  # Random angle in radians
@@ -214,6 +240,8 @@ def sim_movement_with_DBF(pos_i, goal_pos, obstacles, num_steps):
     first_check = True
     previus_num_obs = 0
     log_string = ""
+    estimated_local_min = None
+    prior_estimated_local_min = None
     
     for _ in range(num_steps):
         pos_c = ugv_pos[-1] # Always get last added position
@@ -240,18 +268,26 @@ def sim_movement_with_DBF(pos_i, goal_pos, obstacles, num_steps):
         else:
             F_rep = np.zeros(len(pos_c))
         
-        if abs(len(obstacles_in_range) - previus_num_obs) > 5:
-            first_check = True
-            #print(len(obstacles_in_range))
-            previus_num_obs = len(obstacles_in_range)
+        
         
         if sensor.check_for_parrallel_forces(pos_c, F_att, F_rep) and np.linalg.norm(F_rep) > 1e-8:
-            if first_check:
+            if prior_estimated_local_min is None:
                 estimated_local_min = find_potential_local_min(pos_c, goal_pos, obstacles_in_range)
+            else:
+                estimated_local_min = find_potential_local_min(pos_c, goal_pos, obstacles_in_range, guess_i=prior_estimated_local_min['local_min'])
+            #print("herer" , estimated_local_min, prior_estimated_local_min, first_check)
+            if not first_check and (estimated_local_min['local_min'][0] - prior_estimated_local_min['local_min'][0] > 0.01 or estimated_local_min['local_min'][0] - prior_estimated_local_min['local_min'][1] > 0.01):
+                first_check = True
+                #print(len(obstacles_in_range))
+                #previus_num_obs = len(obstacles_in_range)
+            elif not first_check:
+                estimated_local_min = prior_estimated_local_min
+            if first_check:
                 group_a_points = sensor.get_group_a_points(pos_c, estimated_local_min['local_min'], step_size = 0.1)
                 #print(dbf.initialize_belief(group_a_points))
                 log_string += f"Initial belief: {dbf.initialize_belief(group_a_points)}\n"
                 first_check = False
+                prior_estimated_local_min = estimated_local_min
                 
             sensorData, log_str1 = sensor.get_sensor_data(pos_c, estimated_local_min['local_min'], obstacles_in_range)
             #print(sensorData)
@@ -296,7 +332,10 @@ def sim_movement_with_DBF(pos_i, goal_pos, obstacles, num_steps):
         speeds.append(speed)
         
         # Update position
-        pos_n = pos_c + F_resultant * STEP_SIZE
+        vel = F_resultant * STEP_SIZE
+        if np.linalg.norm(vel) > MAX_VEL:
+            vel = vel / np.linalg.norm(vel) * MAX_VEL
+        pos_n = pos_c + vel
         ugv_pos.append(pos_n)
         
         if np.linalg.norm(pos_n - goal_pos) < 0.75:
@@ -309,7 +348,7 @@ def sim_movement_with_DBF(pos_i, goal_pos, obstacles, num_steps):
             log_string += f"Wasnt predicted :( (bad) \n)"
             break
         
-    return np.array(ugv_pos), np.array(speeds), log_string
+    return np.array(ugv_pos), np.array(speeds), log_string, estimated_local_min['local_min']
 
 # Helper function to run a single simulation so I can multi-thread it
 def run_single_simulation(sim_num, grid_size, run_index, predef_ugv_pos=None, predef_goal_pos=None, obstacle_csv_path=None):
@@ -332,7 +371,7 @@ def run_single_simulation(sim_num, grid_size, run_index, predef_ugv_pos=None, pr
     else:
         num_obstacles = np.random.randint(grid_size**2 // 100, grid_size**2 // 50)
         #obstacles = [np.array([np.random.uniform(0, grid_size), np.random.uniform(0, grid_size), 0]) for _ in range(num_obstacles)]
-        obstacles = generate_obstacles(20, step_size=0.05, length_range=(5, 10), area_size=(grid_size, grid_size))
+        obstacles = generate_obstacles(12, step_size=0.05, length_range=(5, 10), area_size=[goal_pos[0] - 2.5, goal_pos[1] - 2.5, pos_i[0] + 2.5, pos_i[1] + 2.5])
 
     
     log_dir = f'./logs/{run_index}-({grid_size}x{grid_size})/{sim_num}/'
@@ -361,7 +400,7 @@ def run_single_simulation(sim_num, grid_size, run_index, predef_ugv_pos=None, pr
     #sys.stdout = open(log_filename, 'w')
     
     # Run the simulation
-    ugv_pos, speeds, log_string = sim_movement_with_DBF(pos_i, goal_pos, obstacles, num_steps=10000)
+    ugv_pos, speeds, log_string, et_local_min = sim_movement_with_DBF(pos_i, goal_pos, obstacles, num_steps=10000)
     
     # Close log file and reset stdout
     # sys.stdout.close()
@@ -369,7 +408,7 @@ def run_single_simulation(sim_num, grid_size, run_index, predef_ugv_pos=None, pr
     
     # Plot and save plots to log directory
     #g.plot_movement_2d(ugv_pos, goal_pos, obstacles, log_dir, sim_id)
-    g.plot_movement_interactive_2d(ugv_pos, goal_pos, obstacles, log_dir, sim_id)
+    g.plot_movement_interactive_2d(ugv_pos, goal_pos, obstacles, log_dir, sim_id, [goal_pos[0] - 2.5, goal_pos[1] - 2.5, pos_i[0] + 2.5, pos_i[1] + 2.5], et_local_min)
     
     #plt.savefig(f'{log_dir}movement_{sim_id}.png')
     #plt.close()  # Close the plot after saving to avoid displaying
@@ -428,7 +467,7 @@ def run_multiple_simulations(n, grid_size, predef_ugv_pos=None, predef_goal_pos=
 
 # Testing the simulation
 if __name__ == '__main__':
-    run_multiple_simulations(1, 60, predef_ugv_pos=[2, np.random.uniform(30, 65), 0], predef_goal_pos=[87, np.random.uniform(10, 95), 0])
+    run_multiple_simulations(15, 100, predef_ugv_pos=[2, np.random.uniform(5, 30), 0], predef_goal_pos=[92, np.random.uniform(50, 98), 0])
 """
 if __name__ == '__main__':
     # testing constants
