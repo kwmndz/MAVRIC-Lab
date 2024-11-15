@@ -1,208 +1,450 @@
+#include "Sensor.hpp"
+#include "DynamicBayesianFiltering.hpp"
+#include "graphs.hpp"
+//g++ -O3 sim.cpp DynamicBayesianFiltering.cpp Sensor.cpp graphs.hpp -o test.exe
 #include <iostream>
 #include <vector>
-#define _USE_MATH_DEFINES
+#include <array>
 #include <cmath>
-#include <algorithm>
-#include <numeric>
-#include <Eigen/Dense>
-#include <random>
 #include <fstream>
-#include <filesystem>
+#include <sstream>
+#include <string>
 #include <thread>
 #include <future>
-#include "Sensor.hpp" // Assuming Sensor class is defined here
-#include "DynamicBayesianFiltering.hpp" // Assuming DBF class and related functions are defined here
+#include <chrono>
+#include <random>
+#include <algorithm>
+#include <numeric>
+#include <filesystem>
+#include <mutex>
 
 using namespace std;
-using namespace Eigen;
+using namespace plotting; 
 
-const double K_ATT = 1.0;  // Attractive constant
-const double K_REP = 0.5;  // Repulsive constant
-const double D_SAFE = 5.0; // Safe distance / Scanner Radius
+// Constants for Potential Field Algorithm
+const double K_ATT = 1.0;     // Attractive constant
+const double K_REP = 0.5;     // Repulsive constant
+const double D_SAFE = 5.0;    // Safe distance / Scanner Radius
+
+// Constants for testing simulation
 const double STEP_SIZE = 0.01;
-const double MAX_VEL = 1.0; // Max velocity of UGV
+const double OBSTACLE_HEIGHT = 10.0; // Max height of obstacles in field graph
+const double MAX_VEL = 1.0;          // Max velocity of UGV
 
-// Attractive force calculation
-Vector3d att_force(const Vector3d& ugv_pos, const Vector3d& goal_pos) {
-    return K_ATT * (goal_pos - ugv_pos);
+// Returns attractive force
+// F_att = K_ATT * (goal_pos - ugv_pos)
+array<double, 2> att_force(const array<double, 2>& ugv_pos, const array<double, 2>& goal_pos) {
+    return {K_ATT * (goal_pos[0] - ugv_pos[0]), K_ATT * (goal_pos[1] - ugv_pos[1])};
 }
 
-// Optimized repulsive force calculation
-Vector3d rep_force_optimized(const Vector3d& ugv_pos, const vector<Vector3d>& obstacles) {
-    Vector3d total_force = Vector3d::Zero();
-    for (const auto& obs : obstacles) {
-        Vector3d displacement = obs - ugv_pos;
-        double distance = displacement.norm();
-        if (distance < D_SAFE) {
-            Vector3d direction = -displacement / (distance + 1e-25);
-            total_force += K_REP * ((1.0 / (distance + 1e-25) - 1.0 / D_SAFE) * (1.0 / pow(distance + 1e-25, 2))) * direction;
-        }
+// Returns repulsive force
+array<double, 2> rep_force_optimized(const array<double, 2>& ugv_pos, const vector<array<double, 2>>& obstacles) {
+    array<double, 2> total_force = {0.0, 0.0};
+    const double epsilon = 1e-25;
+
+    for (const auto& obstacle : obstacles) {
+        array<double, 2> displacement_vector = {obstacle[0] - ugv_pos[0], obstacle[1] - ugv_pos[1]};
+        double distance = sqrt(displacement_vector[0] * displacement_vector[0] + displacement_vector[1] * displacement_vector[1]);
+        // Ignore obstacles beyond D_SAFE
+        if (distance >= D_SAFE || distance == 0.0) continue;
+
+        array<double, 2> direction = {-displacement_vector[0] / (distance + epsilon), -displacement_vector[1] / (distance + epsilon)};
+        double factor = K_REP * ((1 / (distance + epsilon) - 1 / D_SAFE) * (1 / pow(distance + epsilon, 2)));
+        total_force[0] += factor * direction[0];
+        total_force[1] += factor * direction[1];
     }
+
     return total_force;
 }
 
-// Check if UGV is at a local minimum
-bool is_local_min(const Vector3d& force_net, double threshold = 1e-3) {
-    return force_net.norm() < threshold;
+// Checks if the UGV is at a local minimum
+bool is_local_min(const array<double, 2>& force_net, double threshold = 1e-3) {
+    double force_mag = sqrt(force_net[0] * force_net[0] + force_net[1] * force_net[1]);
+    return force_mag < threshold;
 }
 
-// Calculate force difference
-double force_difference(const Vector3d& ugv_pos, const Vector3d& goal_pos, const vector<Vector3d>& obstacles) {
-    Vector3d F_att = att_force(ugv_pos, goal_pos);
-    if (F_att.norm() < 1e-6) {
+// Helper function to calculate the force difference
+double force_difference(const array<double, 2>& ugv_pos, const array<double, 2>& goal_pos, const vector<array<double, 2>>& obstacles) {
+    array<double, 2> F_att = att_force(ugv_pos, goal_pos);
+    if (abs(F_att[0]) < 1e-6 && abs(F_att[1]) < 1e-6) {
         return 10.0;
     }
-    Vector3d F_rep = rep_force_optimized(ugv_pos, obstacles);
-    return (F_att + F_rep).norm();
+    array<double, 2> F_rep = obstacles.empty() ? array<double, 2>{0.0, 0.0} : rep_force_optimized(ugv_pos, obstacles);
+    double net_force_x = F_att[0] + F_rep[0];
+    double net_force_y = F_att[1] + F_rep[1];
+    return sqrt(net_force_x * net_force_x + net_force_y * net_force_y);
 }
 
-// Find potential local minimum using Nelder-Mead method
-Vector3d find_potential_local_min(const Vector3d& ugv_pos, const Vector3d& goal_pos, const vector<Vector3d>& obstacles, Vector3d guess_i, int max_iter = 1000, double threshold = 1e-8) {
-    // Placeholder for optimization logic, here we use a simple approach
-    Vector3d local_min = guess_i;
-    double min_force_diff = force_difference(guess_i, goal_pos, obstacles);
-    for (int i = 0; i < max_iter; ++i) {
-        Vector3d new_guess = local_min + Vector3d::Random() * 0.1; // Random small perturbation
-        double new_force_diff = force_difference(new_guess, goal_pos, obstacles);
-        if (new_force_diff < min_force_diff) {
-            local_min = new_guess;
-            min_force_diff = new_force_diff;
+// Struct to hold results of local minimum search
+struct LocalMinResult {
+    array<double, 2> local_min;
+    array<double, 2> F_att;
+    array<double, 2> F_rep;
+    array<double, 2> F_net;
+    double force_mag;
+    bool success;
+    int iterations;
+};
+
+// Finds the potential local minimum using grid search
+LocalMinResult find_potential_local_min(const array<double, 2>& ugv_pos, const array<double, 2>& goal_pos,
+                                        const vector<array<double, 2>>& obstacles, const array<double, 2>& guess_i = {0.0, 0.0},
+                                        int max_iter = 1000, double threshold = 1e-8) {
+    array<double, 2> current_pos = ugv_pos;
+    if (guess_i != array<double, 2>{0.0, 0.0}) {
+        current_pos = guess_i;
+    } else {
+        array<double, 2> midpoint_obstacles = {0.0, 0.0};
+        for (const auto& obs : obstacles) {
+            midpoint_obstacles[0] += obs[0];
+            midpoint_obstacles[1] += obs[1];
         }
-        if (min_force_diff < threshold) break;
+        size_t num_obs = obstacles.size();
+        if (num_obs > 0) {
+            midpoint_obstacles[0] /= num_obs;
+            midpoint_obstacles[1] /= num_obs;
+        }
+        current_pos[0] = (ugv_pos[0] + midpoint_obstacles[0]) / 2.0;
+        current_pos[1] = (ugv_pos[1] + midpoint_obstacles[1]) / 2.0;
     }
-    return local_min;
+
+    double min_force_mag = force_difference(current_pos, goal_pos, obstacles);
+    array<double, 2> best_pos = current_pos;
+
+    // Simple grid search around the current position
+    double search_radius = 1.0;  // Define the search radius
+    double step_size = 0.1;  // Define the step size for the grid search
+
+    for (double dx = -search_radius; dx <= search_radius; dx += step_size) {
+        for (double dy = -search_radius; dy <= search_radius; dy += step_size) {
+            array<double, 2> test_pos = {current_pos[0] + dx, current_pos[1] + dy};
+            double force_mag = force_difference(test_pos, goal_pos, obstacles);
+            if (force_mag < min_force_mag) {
+                min_force_mag = force_mag;
+                best_pos = test_pos;
+            }
+        }
+    }
+
+    // Compute forces at the local min
+    array<double, 2> F_att = att_force(best_pos, goal_pos);
+    array<double, 2> F_rep = obstacles.empty() ? array<double, 2>{0.0, 0.0} : rep_force_optimized(best_pos, obstacles);
+    array<double, 2> F_net = {F_att[0] + F_rep[0], F_att[1] + F_rep[1]};
+    double force_mag = sqrt(F_net[0] * F_net[0] + F_net[1] * F_net[1]);
+
+    return {best_pos, F_att, F_rep, F_net, force_mag, true, 0};
 }
 
-// Generate clustered obstacles
-vector<Vector3d> generate_obstacles(int num_obstacles, double step_size = 0.001, pair<int, int> length_range = {5, 20}, array<double, 4> area_size = {100, 100, 0, 0}) {
-    vector<Vector3d> obstacles;
+// Generates clustered obstacles
+vector<array<double, 2>> generate_obstacles(int num_obstacles, double step_size = 0.001, pair<double, double> length_range = {5.0, 20.0},
+                                            array<double, 4> area_size = {100.0, 100.0, 0.0, 0.0}) {
+    vector<array<double, 2>> obstacles;
     random_device rd;
     mt19937 gen(rd());
-    uniform_real_distribution<> dis(0, 1);
+    uniform_real_distribution<> dis_area_x(area_size[2], area_size[0]);
+    uniform_real_distribution<> dis_area_y(area_size[3], area_size[1]);
+    uniform_real_distribution<> dis_angle(0.0, 2 * M_PI);
+    uniform_real_distribution<> dis_length(length_range.first, length_range.second);
 
-    Vector2d direction_vector = Vector2d(area_size[0] - area_size[2], area_size[1] - area_size[3]).normalized();
+    // Direction vector and perpendicular vector for tunnel
+    array<double, 2> direction_vector = {area_size[0] - area_size[2], area_size[1] - area_size[3]};
+    double norm = sqrt(direction_vector[0] * direction_vector[0] + direction_vector[1] * direction_vector[1]);
+    direction_vector[0] /= norm;
+    direction_vector[1] /= norm;
+    array<double, 2> perpendicular_vector = {-direction_vector[1], direction_vector[0]};
+
     double tunnel_width = 12.5;
-    Vector2d perpendicular_vector(-direction_vector.y(), direction_vector.x());
 
     for (int i = 0; i < num_obstacles; ++i) {
-        double distance_along_tunnel = dis(gen) * sqrt(pow(area_size[0] - area_size[2], 2) + pow(area_size[1] - area_size[3], 2));
-        double start_x = area_size[2] + distance_along_tunnel * direction_vector.x();
-        double start_y = area_size[3] + distance_along_tunnel * direction_vector.y();
-        double width_offset = (dis(gen) - 0.5) * tunnel_width;
+        uniform_real_distribution<> dis_distance(0.0, norm);
+        double distance_along_tunnel = dis_distance(gen);
+        double start_x = area_size[2] + distance_along_tunnel * direction_vector[0];
+        double start_y = area_size[3] + distance_along_tunnel * direction_vector[1];
 
-        start_x += width_offset * perpendicular_vector.x();
-        start_y += width_offset * perpendicular_vector.y();
+        uniform_real_distribution<> dis_width_offset(-tunnel_width / 2, tunnel_width / 2);
+        double width_offset = dis_width_offset(gen);
+        start_x += width_offset * perpendicular_vector[0];
+        start_y += width_offset * perpendicular_vector[1];
 
-        start_x = clamp(start_x, area_size[2], area_size[0]);
-        start_y = clamp(start_y, area_size[3], area_size[1]);
+        // Ensure obstacle is within boundaries
+        start_x = max(min(start_x, area_size[0]), area_size[2]);
+        start_y = max(min(start_y, area_size[1]), area_size[3]);
 
-        double angle = dis(gen) * 2 * M_PI;
-        double length = dis(gen) * (length_range.second - length_range.first) + length_range.first;
+        double angle = dis_angle(gen);
+        double length = dis_length(gen);
+
         int num_points = static_cast<int>(length / step_size) + 1;
-
         for (int j = 0; j < num_points; ++j) {
             double offset = step_size * j;
             double x = start_x + offset * cos(angle);
             double y = start_y + offset * sin(angle);
-            obstacles.emplace_back(Vector3d(x, y, 0));
+            obstacles.push_back({x, y});
         }
     }
+
     return obstacles;
 }
 
-// Simulate movement with Dynamic Bayesian Filtering
-vector<Vector3d> sim_movement_with_DBF(const Vector3d& pos_i, const Vector3d& goal_pos, const vector<Vector3d>& obstacles, int num_steps) {
-    vector<Vector3d> ugv_pos = { pos_i };
+// Simulation of movement using Potential Field Algorithm with DBF
+tuple<vector<array<double, 2>>, vector<double>, string, array<double, 2>>
+sim_movement_with_DBF(const array<double, 2>& pos_i, const array<double, 2>& goal_pos,
+                      const vector<array<double, 2>>& obstacles, int num_steps) {
+
+    vector<array<double, 2>> ugv_pos = {pos_i};
+    vector<double> speeds;
     Sensor sensor(D_SAFE, 180, 1000);
     DBF dbf;
-    Vector3d estimated_local_min, prior_estimated_local_min;
-    
+    bool first_check = true;
+    int previous_num_obs = 0;
+    string log_string;
+    LocalMinResult estimated_local_min;
+    LocalMinResult prior_estimated_local_min;
+    array<double, 2> empty_array = {0.0, 0.0};
+    array<double, 2> et_local_min = {0.0, 0.0};
+
     for (int step = 0; step < num_steps; ++step) {
-        Vector3d pos_c = ugv_pos.back();
-        vector<Vector3d> obstacles_in_range = sensor.get_obstacles_in_recognized_area(pos_c, obstacles);
-        
-        Vector3d F_att = att_force(pos_c, goal_pos);
-        Vector3d F_rep = rep_force_optimized(pos_c, obstacles_in_range);
-        Vector3d F_resultant = F_att + F_rep;
-        
-        if (sensor.check_for_parallel_forces(pos_c, F_att, F_rep) && F_rep.norm() > 1e-8) {
-            estimated_local_min = find_potential_local_min(pos_c, goal_pos, obstacles_in_range, prior_estimated_local_min, 1000, 1e-8);
-            prior_estimated_local_min = estimated_local_min;
+        array<double, 2> pos_c = ugv_pos.back();
+
+        // Convert obstacles to 3D
+        vector<array<double, 3>> obstacles_3d;
+        for (const auto& obs : obstacles) {
+            obstacles_3d.push_back({obs[0], obs[1], 0.0});
         }
 
-        Vector3d vel = F_resultant * STEP_SIZE;
-        if (vel.norm() > MAX_VEL) {
-            vel = vel.normalized() * MAX_VEL;
+        // Get obstacles in range
+        vector<array<double, 3>> obstacles_in_range = sensor.get_obstacles_in_recognized_area({pos_c[0], pos_c[1], 0.0}, obstacles_3d);
+
+        // Potential Field Algorithm
+        array<double, 2> F_att = att_force(pos_c, goal_pos);
+        array<double, 2> F_resultant = F_att;
+
+        if (!obstacles_in_range.empty()) {
+            vector<array<double, 2>> obstacles_in_range_2d;
+            for (const auto& obs : obstacles_in_range) {
+                obstacles_in_range_2d.push_back({obs[0], obs[1]});
+            }
+            array<double, 2> F_rep = rep_force_optimized(pos_c, obstacles_in_range_2d);
+            F_resultant[0] += F_rep[0];
+            F_resultant[1] += F_rep[1];
         }
-        Vector3d pos_n = pos_c + vel;
+
+        // Check for parallel forces
+        if (sensor.check_for_parallel_forces({F_att[0], F_att[1], 0.0}, {F_resultant[0], F_resultant[1], 0.0})) {
+            vector<array<double, 2>> obstacles_in_range_2d;
+            for (const auto& obs : obstacles_in_range) {
+                obstacles_in_range_2d.push_back({obs[0], obs[1]});
+            }
+            if (first_check || prior_estimated_local_min.local_min == empty_array) {
+                estimated_local_min = find_potential_local_min(pos_c, goal_pos, obstacles_in_range_2d);
+            } else {
+                estimated_local_min = find_potential_local_min(pos_c, goal_pos, obstacles_in_range_2d, prior_estimated_local_min.local_min);
+            }
+
+            if (!first_check && (abs(estimated_local_min.local_min[0] - prior_estimated_local_min.local_min[0]) > 0.01 ||
+                                 abs(estimated_local_min.local_min[1] - prior_estimated_local_min.local_min[1]) > 0.01)) {
+                first_check = true;
+            } else if (!first_check) {
+                estimated_local_min = prior_estimated_local_min;
+            }
+            if (first_check) {
+                int group_a_points = sensor.get_group_a_points({pos_c[0], pos_c[1], 0.0}, {estimated_local_min.local_min[0], estimated_local_min.local_min[1], 0.0}, 0.1);
+                log_string += "Initial belief: " + to_string(dbf.initialize_belief(group_a_points)) + "\n";
+                first_check = false;
+                prior_estimated_local_min = estimated_local_min;
+            }
+
+            string log_str;
+            SensorData sensorData = sensor.get_sensor_data({pos_c[0], pos_c[1], 0.0}, {estimated_local_min.local_min[0], estimated_local_min.local_min[1], 0.0}, obstacles_in_range, log_str);
+            auto [belief, reached_threshold, dbf_log] = dbf.update_belief(sensorData);
+
+            if (belief > 0.1) {
+                log_string += to_string(step) + " Step\n";
+                log_string += dbf_log;
+                log_string += log_str + "; ";
+                log_string += to_string(estimated_local_min.local_min[0]) + ", " + to_string(estimated_local_min.local_min[1]) + " Estimated Local Min\n";
+                log_string += to_string(estimated_local_min.force_mag) + " Force Magnitude\n";
+                log_string += to_string(estimated_local_min.iterations) + " Iterations\n";
+                log_string += to_string(estimated_local_min.success) + " Success\n";
+                log_string += to_string(obstacles_in_range.size()) + " Obstacles in Range\n";
+                log_string += to_string(belief) + " Belief\n";
+            } else {
+                log_string += to_string(step) + " Step\n";
+                log_string += dbf_log;
+                log_string += log_str + ";\n";
+                log_string += to_string(estimated_local_min.local_min[0]) + ", " + to_string(estimated_local_min.local_min[1]) + " Estimated Local Min\n";
+                log_string += to_string(estimated_local_min.force_mag) + " Force Magnitude\n";
+                log_string += to_string(estimated_local_min.success) + " Success\n";
+                log_string += "UGV_POS: (" + to_string(pos_c[0]) + ", " + to_string(pos_c[1]) + ")\n";
+                log_string += " Belief too low, moving on...\n\n";
+            }
+
+            if (reached_threshold) {
+                log_string += "Local Min Predicted!, Current Step: " + to_string(step) + "\n";
+                vector<double> pos_c_vec = {pos_c[0], pos_c[1]};
+                vector<double> local_min_vec = {estimated_local_min.local_min[0], estimated_local_min.local_min[1]};
+                int steps_away = steps_to_local_min(pos_c_vec, local_min_vec, STEP_SIZE);
+                log_string += to_string(steps_away) + " Steps Away\n";
+                log_string += to_string(estimated_local_min.local_min[0]) + ", " + to_string(estimated_local_min.local_min[1]) + " Estimated Local Min\n";
+                break;
+            }
+        } else {
+            first_check = true;
+        }
+
+        // Update speed and position
+        double speed = sqrt(F_resultant[0] * F_resultant[0] + F_resultant[1] * F_resultant[1]);
+        speeds.push_back(speed);
+        array<double, 2> vel = {F_resultant[0] * STEP_SIZE, F_resultant[1] * STEP_SIZE};
+        double vel_norm = sqrt(vel[0] * vel[0] + vel[1] * vel[1]);
+        if (vel_norm > MAX_VEL) {
+            vel[0] = vel[0] / vel_norm * MAX_VEL;
+            vel[1] = vel[1] / vel_norm * MAX_VEL;
+        }
+        array<double, 2> pos_n = {pos_c[0] + vel[0], pos_c[1] + vel[1]};
         ugv_pos.push_back(pos_n);
-        
-        if ((pos_n - goal_pos).norm() < 0.75 || is_local_min(F_resultant)) {
+
+        // Check if goal is reached
+        if (sqrt((pos_n[0] - goal_pos[0]) * (pos_n[0] - goal_pos[0]) + (pos_n[1] - goal_pos[1]) * (pos_n[1] - goal_pos[1])) < 0.75) {
+            log_string += "Goal Reached, step: " + to_string(step) + "\n";
+            break;
+        }
+
+        // Check if local minimum is found
+        if (is_local_min(F_resultant)) {
+            log_string += "Local Min Found, step: " + to_string(step) + "\n";
+            log_string += "UGV Position: (" + to_string(pos_n[0]) + ", " + to_string(pos_n[1]) + ")\n";
+            log_string += "Wasn't predicted :( (bad)\n";
             break;
         }
     }
-    return ugv_pos;
+
+    return make_tuple(ugv_pos, speeds, log_string, estimated_local_min.local_min);
 }
 
-// Run a single simulation
-void run_single_simulation(int sim_num, double grid_size, int run_index, const Vector3d& predef_ugv_pos, const Vector3d& predef_goal_pos, const string& obstacle_csv_path) {
-    string log_dir = "./logs/" + to_string(run_index) + "-(" + to_string(grid_size) + "x" + to_string(grid_size) + ")/" + to_string(sim_num) + "/";
-    filesystem::create_directories(log_dir);
+// Helper function to generate a random double between min and max
+double getRandomDouble(double min, double max) {
+    random_device rd;
+    mt19937 gen(rd());
+    uniform_real_distribution<> dis(min, max);
+    return dis(gen);
+}
 
-    Vector3d pos_i = predef_ugv_pos;
-    Vector3d goal_pos = predef_goal_pos;
+// Runs a single simulation
+void run_single_simulation(int sim_num, int grid_size, int run_index,
+                           const array<double, 2>& predef_ugv_pos = {0.0, 0.0},
+                           const array<double, 2>& predef_goal_pos = {0.0, 0.0},
+                           const string& obstacle_csv_path = "") {
 
-    vector<Vector3d> obstacles;
+    string log_dir = "./logs/";
+    string sim_id = "sim" + to_string(sim_num) + "_" + to_string(run_index);
+    array<double, 2> pos_i = predef_ugv_pos != array<double, 2>{0.0, 0.0} ? predef_ugv_pos :
+        array<double, 2>{getRandomDouble(0.0, grid_size), getRandomDouble(0.0, grid_size)};
+    array<double, 2> goal_pos = predef_goal_pos != array<double, 2>{0.0, 0.0} ? predef_goal_pos :
+        array<double, 2>{getRandomDouble(0.0, grid_size), getRandomDouble(0.0, grid_size)};
+
+    vector<array<double, 2>> obstacles;
     if (!obstacle_csv_path.empty()) {
-        ifstream file(obstacle_csv_path);
+        ifstream infile(obstacle_csv_path);
         string line;
-        while (getline(file, line)) {
-            istringstream ss(line);
-            double x, y;
-            char comma;
-            ss >> x >> comma >> y;
-            obstacles.push_back(Vector3d(x, y, 0));
+        while (getline(infile, line)) {
+            stringstream ss(line);
+            string x_str, y_str;
+            getline(ss, x_str, ',');
+            getline(ss, y_str, ',');
+            obstacles.push_back({stod(x_str), stod(y_str)});
         }
     } else {
-        obstacles = generate_obstacles(12, 0.05, {5, 10}, {goal_pos[0] - 2.5, goal_pos[1] - 2.5, pos_i[0] + 2.5, pos_i[1] + 2.5});
+        int num_obstacles = rand() % (grid_size * grid_size / 50 - grid_size * grid_size / 100 + 1) + grid_size * grid_size / 100;
+        obstacles = generate_obstacles(12, 0.05, {5.0, 10.0}, {goal_pos[0] - 2.5, goal_pos[1] - 2.5, pos_i[0] + 2.5, pos_i[1] + 2.5});
     }
 
-    ofstream obstacle_file(log_dir + "obstacles.csv");
+    string sim_dir = "./logs/" + to_string(run_index) + "-(" + to_string(grid_size) + "x" + to_string(grid_size) + ")/" + to_string(sim_num) + "/";
+    filesystem::create_directories(sim_dir);
+    string log_filename = sim_dir + "Log_" + sim_id + ".txt";
+    string obstacle_csv_filename = sim_dir + "obstacles_" + sim_id + ".csv";
+    string ugv_goal_csv_filename = sim_dir + "ugv_goal_" + sim_id + ".csv";
+
+    // Save obstacle positions to CSV
+    ofstream obstacle_file(obstacle_csv_filename);
     for (const auto& obs : obstacles) {
-        obstacle_file << obs[0] << "," << obs[1] << endl;
+        obstacle_file << obs[0] << "," << obs[1] << "\n";
     }
+    obstacle_file.close();
 
-    ofstream ugv_goal_file(log_dir + "ugv_goal.csv");
-    ugv_goal_file << "ugv_start_x,ugv_start_y,ugv_start_z,goal_x,goal_y,goal_z,grid_size" << endl;
-    ugv_goal_file << pos_i[0] << "," << pos_i[1] << "," << pos_i[2] << "," << goal_pos[0] << "," << goal_pos[1] << "," << goal_pos[2] << "," << grid_size << endl;
+    // Save UGV start and goal positions to CSV
+    ofstream ugv_goal_file(ugv_goal_csv_filename);
+    ugv_goal_file << "ugv_start_x,ugv_start_y,ugv_start_z,goal_x,goal_y,goal_z,grid_size\n";
+    ugv_goal_file << pos_i[0] << "," << pos_i[1] << ",0.0," << goal_pos[0] << "," << goal_pos[1] << ",0.0," << grid_size << "\n";
+    ugv_goal_file.close();
 
-    vector<Vector3d> ugv_pos = sim_movement_with_DBF(pos_i, goal_pos, obstacles, 10000);
+    cout << "\nSimulation " << sim_num << " started.\n";
 
-    ofstream log_file(log_dir + "Log.txt");
+    // Run the simulation
+    auto [ugv_pos, speeds, log_string, et_local_min] = sim_movement_with_DBF(pos_i, goal_pos, obstacles, 10000);
+
+    // Save log
+    ofstream log_file(log_filename);
+    log_file << log_string;
+    log_file.close();
+
+    Point start = {pos_i[0], pos_i[1]};
+    Point goal = {goal_pos[0], goal_pos[1]};
+    Point local_min = {et_local_min[0], et_local_min[1]};
+    std::vector<Point> obs;
+    for (const auto& obs_pos : obstacles) {
+        obs.push_back({obs_pos[0], obs_pos[1]});
+    }
+    std::vector<Point> ugvPos;
     for (const auto& pos : ugv_pos) {
-        log_file << pos[0] << "," << pos[1] << "," << pos[2] << endl;
+        ugvPos.push_back({pos[0], pos[1]});
     }
+    std::vector<double> obsContainer = {goal_pos[0] - 2.5, goal_pos[1] - 2.5, pos_i[0] + 2.5, pos_i[1] + 2.5};
+    SVGPlotter::plotMovementInteractive2D(ugvPos, goal, obs, sim_dir, sim_id, obsContainer, local_min);     
+
+    cout << "\nSimulation " << sim_num << " completed.\n";
 }
 
-// Run multiple simulations
-void run_multiple_simulations(int n, double grid_size, const Vector3d& predef_ugv_pos, const Vector3d& predef_goal_pos, const string& obstacle_csv_path) {
-    vector<future<void>> futures;
-    int run_index = 0;
+// Runs multiple simulations
+void run_multiple_simulations(int n, int grid_size,
+                              const array<double, 2>& predef_ugv_pos = {0.0, 0.0},
+                              const array<double, 2>& predef_goal_pos = {0.0, 0.0},
+                              const string& obstacle_csv_path = "") {
 
-    for (int i = 0; i < n; ++i) {
-        futures.push_back(async(run_single_simulation, i, grid_size, run_index, predef_ugv_pos, predef_goal_pos, obstacle_csv_path));
+    auto time_start = chrono::high_resolution_clock::now();
+    string log_dir = "./logs/";
+    filesystem::create_directories(log_dir);
+
+    vector<int> file_nums;
+    for (const auto& entry : filesystem::directory_iterator(log_dir)) {
+        string filename = entry.path().filename().string();
+        size_t pos = filename.find('-');
+        if (pos != string::npos && all_of(filename.begin(), filename.begin() + pos, ::isdigit)) {
+            file_nums.push_back(stoi(filename.substr(0, pos)));
+        }
+    }
+    int run_index = file_nums.empty() ? 0 : *max_element(file_nums.begin(), file_nums.end()) + 1;
+
+    vector<future<void>> futures;
+    for (int sim_num = 0; sim_num < n; ++sim_num) {
+        futures.push_back(async(launch::async, run_single_simulation, sim_num, grid_size, run_index,
+                                predef_ugv_pos, predef_goal_pos, obstacle_csv_path));
     }
 
     for (auto& f : futures) {
         f.get();
     }
 
-    cout << "All simulations completed." << endl;
+    string sim_dir = "./logs/" + to_string(run_index) + "-(" + to_string(grid_size) + "x" + to_string(grid_size) + ")/";
+    cout << "\n\nAll " << n << " simulations completed. Results saved to " << sim_dir << endl;
+    auto time_end = chrono::high_resolution_clock::now();
+    auto duration = chrono::duration_cast<chrono::seconds>(time_end - time_start).count();
+    int minutes = duration / 60;
+    int seconds = duration % 60;
+    cout << "Time taken: " << minutes << " min, " << seconds << " seconds\n";
 }
 
 int main() {
-    Vector3d predef_ugv_pos(2, 3, 0);
-    Vector3d predef_goal_pos(8, 5, 0);
-    run_multiple_simulations(15, 100, predef_ugv_pos, predef_goal_pos, "");
+    // run a sim with 15 simulations, 100x100 grid, random UGV start and goal positions, and random obstacles:
+    run_multiple_simulations(15, 100, {2.0, getRandomDouble(5.0, 30.0)}, {92.0, getRandomDouble(50.0, 98.0)});
     return 0;
 }
