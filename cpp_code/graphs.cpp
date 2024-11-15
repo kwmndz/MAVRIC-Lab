@@ -2,11 +2,12 @@
 #include <string>
 #include <fstream>
 #include <cmath>
+#define _USE_MATH_DEFINES
+#include <math.h>
 #include <sstream>
 #include <iomanip>
 #include <iostream>
 #include <filesystem>  // for std::filesystem::create_directory
-#include <cmath>      // for std::sin, std::cos
 
 struct Point {
     double x;
@@ -123,9 +124,9 @@ public:
         svg_file << "<circle cx=\"" << start.x << "\" cy=\"" << start.y 
                 << "\" r=\"5\" class=\"point\" fill=\"green\"/>\n"
                 << "<circle cx=\"" << goal.x << "\" cy=\"" << goal.y 
-                << "\" r=\"5\" class=\"point\" fill=\"black\"/>\n"
+                << "\" r=\"5\" class=\"point\" fill=\"blue\"/>\n"
                 << "<circle cx=\"" << localMin.x << "\" cy=\"" << localMin.y 
-                << "\" r=\"5\" class=\"point\" fill=\"black\"/>\n";
+                << "\" r=\"5\" class=\"point\" fill=\"blue\"/>\n";
 
         // Add legend
         svg_file << "<g transform=\"translate(650,50)\" font-family=\"Arial\" font-size=\"12\">\n"

@@ -1,11 +1,13 @@
 #include "Sensor.hpp"
 #include "DynamicBayesianFiltering.hpp"
 #include "graphs.hpp"
-//g++ -O3 sim.cpp DynamicBayesianFiltering.cpp Sensor.cpp graphs.hpp -o test.exe
+//g++ -O3 sim.cpp DynamicBayesianFiltering.cpp Sensor.cpp graphs.hpp -o sim.exe
 #include <iostream>
 #include <vector>
 #include <array>
 #include <cmath>
+#define _USE_MATH_DEFINES
+#include <math.h>
 #include <fstream>
 #include <sstream>
 #include <string>
@@ -66,9 +68,6 @@ bool is_local_min(const array<double, 2>& force_net, double threshold = 1e-3) {
 // Helper function to calculate the force difference
 double force_difference(const array<double, 2>& ugv_pos, const array<double, 2>& goal_pos, const vector<array<double, 2>>& obstacles) {
     array<double, 2> F_att = att_force(ugv_pos, goal_pos);
-    if (abs(F_att[0]) < 1e-6 && abs(F_att[1]) < 1e-6) {
-        return 10.0;
-    }
     array<double, 2> F_rep = obstacles.empty() ? array<double, 2>{0.0, 0.0} : rep_force_optimized(ugv_pos, obstacles);
     double net_force_x = F_att[0] + F_rep[0];
     double net_force_y = F_att[1] + F_rep[1];
@@ -86,53 +85,37 @@ struct LocalMinResult {
     int iterations;
 };
 
-// Finds the potential local minimum using grid search
+// Finds the closest potential local minimum within D_SAFE radius
 LocalMinResult find_potential_local_min(const array<double, 2>& ugv_pos, const array<double, 2>& goal_pos,
-                                        const vector<array<double, 2>>& obstacles, const array<double, 2>& guess_i = {0.0, 0.0},
-                                        int max_iter = 1000, double threshold = 1e-8) {
+                                      const vector<array<double, 2>>& obstacles, const array<double, 2>& guess_i = {0.0, 0.0},
+                                      int max_iter = 1000, double threshold = 1e-3) {
+    
+    // Initialize search at UGV position
     array<double, 2> current_pos = ugv_pos;
-    if (guess_i != array<double, 2>{0.0, 0.0}) {
-        current_pos = guess_i;
-    } else {
-        array<double, 2> midpoint_obstacles = {0.0, 0.0};
-        for (const auto& obs : obstacles) {
-            midpoint_obstacles[0] += obs[0];
-            midpoint_obstacles[1] += obs[1];
+    double diff = 0.0;
+    int iter = 0;
+
+    do {
+        array<double, 2> grad = {0.01, 0.01};
+        for (int i = 0; i < 2; i++) {
+            array<double, 2> perturbed_pos = current_pos;
+            perturbed_pos[i] += 0.0001;
+            double delta = force_difference(perturbed_pos, goal_pos, obstacles) - force_difference(current_pos, goal_pos, obstacles);
+            grad[i] = delta / 0.0001;
         }
-        size_t num_obs = obstacles.size();
-        if (num_obs > 0) {
-            midpoint_obstacles[0] /= num_obs;
-            midpoint_obstacles[1] /= num_obs;
-        }
-        current_pos[0] = (ugv_pos[0] + midpoint_obstacles[0]) / 2.0;
-        current_pos[1] = (ugv_pos[1] + midpoint_obstacles[1]) / 2.0;
-    }
+        current_pos[0] -= grad[0] * STEP_SIZE;
+        current_pos[1] -= grad[1] * STEP_SIZE;
+        diff = force_difference(current_pos, goal_pos, obstacles);
+        iter++;
+    } while (diff > threshold);
 
-    double min_force_mag = force_difference(current_pos, goal_pos, obstacles);
-    array<double, 2> best_pos = current_pos;
-
-    // Simple grid search around the current position
-    double search_radius = 1.0;  // Define the search radius
-    double step_size = 0.1;  // Define the step size for the grid search
-
-    for (double dx = -search_radius; dx <= search_radius; dx += step_size) {
-        for (double dy = -search_radius; dy <= search_radius; dy += step_size) {
-            array<double, 2> test_pos = {current_pos[0] + dx, current_pos[1] + dy};
-            double force_mag = force_difference(test_pos, goal_pos, obstacles);
-            if (force_mag < min_force_mag) {
-                min_force_mag = force_mag;
-                best_pos = test_pos;
-            }
-        }
-    }
-
-    // Compute forces at the local min
-    array<double, 2> F_att = att_force(best_pos, goal_pos);
-    array<double, 2> F_rep = obstacles.empty() ? array<double, 2>{0.0, 0.0} : rep_force_optimized(best_pos, obstacles);
-    array<double, 2> F_net = {F_att[0] + F_rep[0], F_att[1] + F_rep[1]};
-    double force_mag = sqrt(F_net[0] * F_net[0] + F_net[1] * F_net[1]);
-
-    return {best_pos, F_att, F_rep, F_net, force_mag, true, 0};
+    
+    // Compute final forces at best position
+    array<double, 2> final_F_att = att_force(current_pos, goal_pos);
+    array<double, 2> final_F_rep = rep_force_optimized(current_pos, obstacles);
+    array<double, 2> final_F_net = {final_F_att[0] + final_F_rep[0], final_F_att[1] + final_F_rep[1]};
+    
+    return {current_pos, final_F_att, final_F_rep, final_F_net, diff, true, iter};
 }
 
 // Generates clustered obstacles
@@ -249,6 +232,7 @@ sim_movement_with_DBF(const array<double, 2>& pos_i, const array<double, 2>& goa
             if (first_check) {
                 int group_a_points = sensor.get_group_a_points({pos_c[0], pos_c[1], 0.0}, {estimated_local_min.local_min[0], estimated_local_min.local_min[1], 0.0}, 0.1);
                 log_string += "Initial belief: " + to_string(dbf.initialize_belief(group_a_points)) + "\n";
+                log_string += "Group A Points: " + to_string(group_a_points) + "\n";
                 first_check = false;
                 prior_estimated_local_min = estimated_local_min;
             }
@@ -258,7 +242,7 @@ sim_movement_with_DBF(const array<double, 2>& pos_i, const array<double, 2>& goa
             auto [belief, reached_threshold, dbf_log] = dbf.update_belief(sensorData);
 
             if (belief > 0.1) {
-                log_string += to_string(step) + " Step\n";
+                log_string += to_string(step) + "th Step\n";
                 log_string += dbf_log;
                 log_string += log_str + "; ";
                 log_string += to_string(estimated_local_min.local_min[0]) + ", " + to_string(estimated_local_min.local_min[1]) + " Estimated Local Min\n";

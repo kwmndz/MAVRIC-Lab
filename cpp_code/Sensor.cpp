@@ -75,10 +75,20 @@ int Sensor::get_group_a_points(const std::array<double, 3>& pos_c, const std::ar
 
 // Check if forces are parallel
 bool Sensor::check_for_parallel_forces(const std::array<double, 3>& F_att, const std::array<double, 3>& F_rep) {
-    std::array<double, 3> cross_product = { F_att[1] * F_rep[2] - F_att[2] * F_rep[1],
-                                            F_att[2] * F_rep[0] - F_att[0] * F_rep[2],
-                                            F_att[0] * F_rep[1] - F_att[1] * F_rep[0] };
-    return std::all_of(cross_product.begin(), cross_product.end(), [](double val) { return std::abs(val) < 1e-5; });
+    // Normalize the vectors first
+    double att_mag = std::sqrt(F_att[0]*F_att[0] + F_att[1]*F_att[1] + F_att[2]*F_att[2]);
+    double rep_mag = std::sqrt(F_rep[0]*F_rep[0] + F_rep[1]*F_rep[1] + F_rep[2]*F_rep[2]);
+    
+    // Avoid division by zero
+    if (att_mag < 1e-10 || rep_mag < 1e-10) {
+        return false;
+    }
+
+    // Calculate dot product of normalized vectors
+    double dot_product = (F_att[0]*F_rep[0] + F_att[1]*F_rep[1] + F_att[2]*F_rep[2]) / (att_mag * rep_mag);
+    
+    // Check if vectors are parallel (dot product close to 1 or -1)
+    return std::abs(std::abs(dot_product) - 1.0) < 1e-5;
 }
 
 // Get sensor data and log it
