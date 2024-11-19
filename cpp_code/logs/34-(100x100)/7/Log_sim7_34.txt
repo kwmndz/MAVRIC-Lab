@@ -1,0 +1,4107 @@
+Initial belief: 0.200000
+Group A Points: 5
+0th Step
+Prediction: 1, Correction: 0.5, Prior: 0.2, Posterior: 0.1 Belief after normalization: 0.1Num Collisions: 0, Recognized Area: 39.2699, Total Area: 78.5398; 6.421115, 29.899296 Estimated Local Min
+96.789522 Force Magnitude
+1000 Iterations
+1 Success
+0 Obstacles in Range
+0.100000 Belief
+1 Step
+Prediction: 1, Correction: 0.5101, Prior: 0.1, Posterior: 0.05101 Belief after normalization: 0.05101Num Collisions: 0, Recognized Area: 39.2699, Total Area: 76.9847;
+6.421115, 29.899296 Estimated Local Min
+96.789522 Force Magnitude
+1 Success
+UGV_POS: (2.088418, 27.610687)
+ Belief too low, moving on...
+
+2 Step
+Prediction: 1, Correction: 0.5204, Prior: 0.05101, Posterior: 0.0265456 Belief after normalization: 0.0265456Num Collisions: 0, Recognized Area: 39.2699, Total Area: 75.4611;
+6.421115, 29.899296 Estimated Local Min
+96.789522 Force Magnitude
+1 Success
+UGV_POS: (2.176835, 27.657402)
+ Belief too low, moving on...
+
+3 Step
+Prediction: 1, Correction: 0.530898, Prior: 0.0265456, Posterior: 0.014093 Belief after normalization: 0.014093Num Collisions: 0, Recognized Area: 39.2699, Total Area: 73.9688;
+6.421115, 29.899296 Estimated Local Min
+96.789522 Force Magnitude
+1 Success
+UGV_POS: (2.265253, 27.704117)
+ Belief too low, moving on...
+
+4 Step
+Prediction: 1, Correction: 0.541594, Prior: 0.014093, Posterior: 0.00763269 Belief after normalization: 0.00763269Num Collisions: 0, Recognized Area: 39.2699, Total Area: 72.508;
+6.421115, 29.899296 Estimated Local Min
+96.789522 Force Magnitude
+1 Success
+UGV_POS: (2.353671, 27.750832)
+ Belief too low, moving on...
+
+5 Step
+Prediction: 1, Correction: 0.552486, Prior: 0.00763269, Posterior: 0.00421696 Belief after normalization: 0.00421696Num Collisions: 0, Recognized Area: 39.2699, Total Area: 71.0785;
+6.421115, 29.899296 Estimated Local Min
+96.789522 Force Magnitude
+1 Success
+UGV_POS: (2.442089, 27.797547)
+ Belief too low, moving on...
+
+6 Step
+Prediction: 1, Correction: 0.563571, Prior: 0.00421696, Posterior: 0.00237655 Belief after normalization: 0.00237655Num Collisions: 0, Recognized Area: 39.2699, Total Area: 69.6805;
+6.421115, 29.899296 Estimated Local Min
+96.789522 Force Magnitude
+1 Success
+UGV_POS: (2.530506, 27.844262)
+ Belief too low, moving on...
+
+7 Step
+Prediction: 1, Correction: 0.574845, Prior: 0.00237655, Posterior: 0.00136615 Belief after normalization: 0.00136615Num Collisions: 0, Recognized Area: 39.2699, Total Area: 68.3139;
+6.421115, 29.899296 Estimated Local Min
+96.789522 Force Magnitude
+1 Success
+UGV_POS: (2.618924, 27.890977)
+ Belief too low, moving on...
+
+8 Step
+Prediction: 1, Correction: 0.586304, Prior: 0.00136615, Posterior: 0.000800979 Belief after normalization: 0.000800979Num Collisions: 0, Recognized Area: 39.2699, Total Area: 66.9788;
+6.421115, 29.899296 Estimated Local Min
+96.789522 Force Magnitude
+1 Success
+UGV_POS: (2.707342, 27.937692)
+ Belief too low, moving on...
+
+9 Step
+Prediction: 1, Correction: 0.597943, Prior: 0.000800979, Posterior: 0.00047894 Belief after normalization: 0.00047894Num Collisions: 0, Recognized Area: 39.2699, Total Area: 65.675;
+6.421115, 29.899296 Estimated Local Min
+96.789522 Force Magnitude
+1 Success
+UGV_POS: (2.795760, 27.984408)
+ Belief too low, moving on...
+
+10 Step
+Prediction: 1.065, Correction: 0.609756, Prior: 0.00047894, Posterior: 0.000311019 Belief after normalization: 0.000311019Num Collisions: 65, Recognized Area: 39.2699, Total Area: 64.4026;
+6.421115, 29.899296 Estimated Local Min
+96.789522 Force Magnitude
+1 Success
+UGV_POS: (2.884177, 28.031123)
+ Belief too low, moving on...
+
+11 Step
+Prediction: 1.065, Correction: 0.621736, Prior: 0.000311019, Posterior: 0.000205941 Belief after normalization: 0.000205941Num Collisions: 65, Recognized Area: 39.2699, Total Area: 63.1617;
+6.421115, 29.899296 Estimated Local Min
+96.789522 Force Magnitude
+1 Success
+UGV_POS: (2.972595, 28.077838)
+ Belief too low, moving on...
+
+12 Step
+Prediction: 1.065, Correction: 0.633874, Prior: 0.000205941, Posterior: 0.000139026 Belief after normalization: 0.000139026Num Collisions: 65, Recognized Area: 39.2699, Total Area: 61.9522;
+6.421115, 29.899296 Estimated Local Min
+96.789522 Force Magnitude
+1 Success
+UGV_POS: (3.061013, 28.124553)
+ Belief too low, moving on...
+
+13 Step
+Prediction: 1.065, Correction: 0.646162, Prior: 0.000139026, Posterior: 9.56722e-05 Belief after normalization: 9.56722e-05Num Collisions: 65, Recognized Area: 39.2699, Total Area: 60.7741;
+6.421115, 29.899296 Estimated Local Min
+96.789522 Force Magnitude
+1 Success
+UGV_POS: (3.149431, 28.171268)
+ Belief too low, moving on...
+
+14 Step
+Prediction: 1.067, Correction: 0.658588, Prior: 9.56722e-05, Posterior: 6.72302e-05 Belief after normalization: 6.72302e-05Num Collisions: 67, Recognized Area: 39.2699, Total Area: 59.6274;
+6.421115, 29.899296 Estimated Local Min
+96.789522 Force Magnitude
+1 Success
+UGV_POS: (3.237848, 28.217983)
+ Belief too low, moving on...
+
+15 Step
+Prediction: 1.069, Correction: 0.671141, Prior: 6.72302e-05, Posterior: 4.82343e-05 Belief after normalization: 4.82343e-05Num Collisions: 69, Recognized Area: 39.2699, Total Area: 58.5122;
+6.421115, 29.899296 Estimated Local Min
+96.789522 Force Magnitude
+1 Success
+UGV_POS: (3.326266, 28.264699)
+ Belief too low, moving on...
+
+16 Step
+Prediction: 1.073, Correction: 0.683807, Prior: 4.82343e-05, Posterior: 3.53907e-05 Belief after normalization: 3.53907e-05Num Collisions: 73, Recognized Area: 39.2699, Total Area: 57.4283;
+6.421115, 29.899296 Estimated Local Min
+96.789522 Force Magnitude
+1 Success
+UGV_POS: (3.414684, 28.311414)
+ Belief too low, moving on...
+
+17 Step
+Prediction: 1.074, Correction: 0.696573, Prior: 3.53907e-05, Posterior: 2.64765e-05 Belief after normalization: 2.64765e-05Num Collisions: 74, Recognized Area: 39.2699, Total Area: 56.3759;
+6.421115, 29.899296 Estimated Local Min
+96.789522 Force Magnitude
+1 Success
+UGV_POS: (3.503101, 28.358129)
+ Belief too low, moving on...
+
+18 Step
+Prediction: 1.078, Correction: 0.709421, Prior: 2.64765e-05, Posterior: 2.0248e-05 Belief after normalization: 2.0248e-05Num Collisions: 78, Recognized Area: 39.2699, Total Area: 55.3549;
+6.421115, 29.899296 Estimated Local Min
+96.789522 Force Magnitude
+1 Success
+UGV_POS: (3.591519, 28.404845)
+ Belief too low, moving on...
+
+19 Step
+Prediction: 1.08, Correction: 0.722335, Prior: 2.0248e-05, Posterior: 1.57959e-05 Belief after normalization: 1.57959e-05Num Collisions: 80, Recognized Area: 39.2699, Total Area: 54.3653;
+6.421115, 29.899296 Estimated Local Min
+96.789522 Force Magnitude
+1 Success
+UGV_POS: (3.679936, 28.451561)
+ Belief too low, moving on...
+
+20 Step
+Prediction: 1.081, Correction: 0.735294, Prior: 1.57959e-05, Posterior: 1.25554e-05 Belief after normalization: 1.25554e-05Num Collisions: 81, Recognized Area: 39.2699, Total Area: 53.4071;
+6.421115, 29.899296 Estimated Local Min
+96.789522 Force Magnitude
+1 Success
+UGV_POS: (3.768353, 28.498277)
+ Belief too low, moving on...
+
+21 Step
+Prediction: 1.081, Correction: 0.748279, Prior: 1.25554e-05, Posterior: 1.0156e-05 Belief after normalization: 1.0156e-05Num Collisions: 81, Recognized Area: 39.2699, Total Area: 52.4803;
+6.421115, 29.899296 Estimated Local Min
+96.789522 Force Magnitude
+1 Success
+UGV_POS: (3.856770, 28.544993)
+ Belief too low, moving on...
+
+22 Step
+Prediction: 1.082, Correction: 0.761267, Prior: 1.0156e-05, Posterior: 8.36537e-06 Belief after normalization: 8.36537e-06Num Collisions: 82, Recognized Area: 39.2699, Total Area: 51.585;
+6.421115, 29.899296 Estimated Local Min
+96.789522 Force Magnitude
+1 Success
+UGV_POS: (3.945187, 28.591710)
+ Belief too low, moving on...
+
+23 Step
+Prediction: 1.083, Correction: 0.774234, Prior: 8.36537e-06, Posterior: 7.01432e-06 Belief after normalization: 7.01432e-06Num Collisions: 83, Recognized Area: 39.2699, Total Area: 50.721;
+6.421115, 29.899296 Estimated Local Min
+96.789522 Force Magnitude
+1 Success
+UGV_POS: (4.033604, 28.638427)
+ Belief too low, moving on...
+
+24 Step
+Prediction: 1.086, Correction: 0.787154, Prior: 7.01432e-06, Posterior: 5.99618e-06 Belief after normalization: 5.99618e-06Num Collisions: 86, Recognized Area: 39.2699, Total Area: 49.8885;
+6.421115, 29.899296 Estimated Local Min
+96.789522 Force Magnitude
+1 Success
+UGV_POS: (4.122021, 28.685145)
+ Belief too low, moving on...
+
+25 Step
+Prediction: 1.093, Correction: 0.8, Prior: 5.99618e-06, Posterior: 5.24306e-06 Belief after normalization: 5.24306e-06Num Collisions: 93, Recognized Area: 39.2699, Total Area: 49.0874;
+6.421115, 29.899296 Estimated Local Min
+96.789522 Force Magnitude
+1 Success
+UGV_POS: (4.210437, 28.731863)
+ Belief too low, moving on...
+
+26 Step
+Prediction: 1.096, Correction: 0.812744, Prior: 5.24306e-06, Posterior: 4.67035e-06 Belief after normalization: 4.67035e-06Num Collisions: 96, Recognized Area: 39.2699, Total Area: 48.3177;
+6.421115, 29.899296 Estimated Local Min
+96.789522 Force Magnitude
+1 Success
+UGV_POS: (4.298852, 28.778582)
+ Belief too low, moving on...
+
+27 Step
+Prediction: 1.096, Correction: 0.825355, Prior: 4.67035e-06, Posterior: 4.22475e-06 Belief after normalization: 4.22475e-06Num Collisions: 96, Recognized Area: 39.2699, Total Area: 47.5794;
+6.421115, 29.899296 Estimated Local Min
+96.789522 Force Magnitude
+1 Success
+UGV_POS: (4.387268, 28.825301)
+ Belief too low, moving on...
+
+28 Step
+Prediction: 1.101, Correction: 0.837802, Prior: 4.22475e-06, Posterior: 3.89699e-06 Belief after normalization: 3.89699e-06Num Collisions: 101, Recognized Area: 39.2699, Total Area: 46.8726;
+6.421115, 29.899296 Estimated Local Min
+96.789522 Force Magnitude
+1 Success
+UGV_POS: (4.475682, 28.872022)
+ Belief too low, moving on...
+
+29 Step
+Prediction: 1.106, Correction: 0.850051, Prior: 3.89699e-06, Posterior: 3.66378e-06 Belief after normalization: 3.66378e-06Num Collisions: 106, Recognized Area: 39.2699, Total Area: 46.1971;
+6.421115, 29.899296 Estimated Local Min
+96.789522 Force Magnitude
+1 Success
+UGV_POS: (4.564096, 28.918745)
+ Belief too low, moving on...
+
+30 Step
+Prediction: 1.109, Correction: 0.862069, Prior: 3.66378e-06, Posterior: 3.5027e-06 Belief after normalization: 3.5027e-06Num Collisions: 109, Recognized Area: 39.2699, Total Area: 45.5531;
+6.421115, 29.899296 Estimated Local Min
+96.789522 Force Magnitude
+1 Success
+UGV_POS: (4.652510, 28.965468)
+ Belief too low, moving on...
+
+31 Step
+Prediction: 1.111, Correction: 0.87382, Prior: 3.5027e-06, Posterior: 3.40047e-06 Belief after normalization: 3.40047e-06Num Collisions: 111, Recognized Area: 39.2699, Total Area: 44.9405;
+6.421115, 29.899296 Estimated Local Min
+96.789522 Force Magnitude
+1 Success
+UGV_POS: (4.740922, 29.012194)
+ Belief too low, moving on...
+
+32 Step
+Prediction: 1.116, Correction: 0.885269, Prior: 3.40047e-06, Posterior: 3.35953e-06 Belief after normalization: 3.35953e-06Num Collisions: 116, Recognized Area: 39.2699, Total Area: 44.3593;
+6.421115, 29.899296 Estimated Local Min
+96.789522 Force Magnitude
+1 Success
+UGV_POS: (4.829333, 29.058922)
+ Belief too low, moving on...
+
+33 Step
+Prediction: 1.117, Correction: 0.896379, Prior: 3.35953e-06, Posterior: 3.36374e-06 Belief after normalization: 3.36374e-06Num Collisions: 117, Recognized Area: 39.2699, Total Area: 43.8095;
+6.421115, 29.899296 Estimated Local Min
+96.789522 Force Magnitude
+1 Success
+UGV_POS: (4.917742, 29.105652)
+ Belief too low, moving on...
+
+34 Step
+Prediction: 1.125, Correction: 0.907112, Prior: 3.36374e-06, Posterior: 3.4327e-06 Belief after normalization: 3.4327e-06Num Collisions: 125, Recognized Area: 39.2699, Total Area: 43.2911;
+6.421115, 29.899296 Estimated Local Min
+96.789522 Force Magnitude
+1 Success
+UGV_POS: (5.006150, 29.152386)
+ Belief too low, moving on...
+
+35 Step
+Prediction: 1.134, Correction: 0.917431, Prior: 3.4327e-06, Posterior: 3.57127e-06 Belief after normalization: 3.57127e-06Num Collisions: 134, Recognized Area: 39.2699, Total Area: 42.8042;
+6.421115, 29.899296 Estimated Local Min
+96.789522 Force Magnitude
+1 Success
+UGV_POS: (5.094556, 29.199124)
+ Belief too low, moving on...
+
+36 Step
+Prediction: 1.141, Correction: 0.9273, Prior: 3.57127e-06, Posterior: 3.77858e-06 Belief after normalization: 3.77858e-06Num Collisions: 141, Recognized Area: 39.2699, Total Area: 42.3487;
+6.421115, 29.899296 Estimated Local Min
+96.789522 Force Magnitude
+1 Success
+UGV_POS: (5.182959, 29.245867)
+ Belief too low, moving on...
+
+37 Step
+Prediction: 1.144, Correction: 0.93668, Prior: 3.77858e-06, Posterior: 4.04898e-06 Belief after normalization: 4.04898e-06Num Collisions: 144, Recognized Area: 39.2699, Total Area: 41.9246;
+6.421115, 29.899296 Estimated Local Min
+96.789522 Force Magnitude
+1 Success
+UGV_POS: (5.271359, 29.292616)
+ Belief too low, moving on...
+
+38 Step
+Prediction: 1.147, Correction: 0.945537, Prior: 4.04898e-06, Posterior: 4.39125e-06 Belief after normalization: 4.39125e-06Num Collisions: 147, Recognized Area: 39.2699, Total Area: 41.5319;
+6.421115, 29.899296 Estimated Local Min
+96.789522 Force Magnitude
+1 Success
+UGV_POS: (5.359755, 29.339372)
+ Belief too low, moving on...
+
+39 Step
+Prediction: 1.152, Correction: 0.953834, Prior: 4.39125e-06, Posterior: 4.82518e-06 Belief after normalization: 4.82518e-06Num Collisions: 152, Recognized Area: 39.2699, Total Area: 41.1706;
+6.421115, 29.899296 Estimated Local Min
+96.789522 Force Magnitude
+1 Success
+UGV_POS: (5.448146, 29.386137)
+ Belief too low, moving on...
+
+40 Step
+Prediction: 1.162, Correction: 0.961538, Prior: 4.82518e-06, Posterior: 5.39121e-06 Belief after normalization: 5.39121e-06Num Collisions: 162, Recognized Area: 39.2699, Total Area: 40.8407;
+6.421115, 29.899296 Estimated Local Min
+96.789522 Force Magnitude
+1 Success
+UGV_POS: (5.536531, 29.432914)
+ Belief too low, moving on...
+
+41 Step
+Prediction: 1.168, Correction: 0.968617, Prior: 5.39121e-06, Posterior: 6.09932e-06 Belief after normalization: 6.09932e-06Num Collisions: 168, Recognized Area: 39.2699, Total Area: 40.5423;
+6.421115, 29.899296 Estimated Local Min
+96.789522 Force Magnitude
+1 Success
+UGV_POS: (5.624909, 29.479705)
+ Belief too low, moving on...
+
+Initial belief: 0.200000
+Group A Points: 5
+42th Step
+Prediction: 1.181, Correction: 0.530898, Prior: 0.2, Posterior: 0.125398 Belief after normalization: 0.125398Num Collisions: 181, Recognized Area: 39.2699, Total Area: 73.9688; 10.391584, 29.977558 Estimated Local Min
+13.170749 Force Magnitude
+0 Iterations
+1 Success
+69 Obstacles in Range
+0.125398 Belief
+43 Step
+Prediction: 1.204, Correction: 0.540762, Prior: 0.125398, Posterior: 0.081644 Belief after normalization: 0.081644Num Collisions: 204, Recognized Area: 39.2699, Total Area: 72.6196;
+10.391584, 29.977558 Estimated Local Min
+13.170749 Force Magnitude
+1 Success
+UGV_POS: (5.801633, 29.573346)
+ Belief too low, moving on...
+
+44 Step
+Prediction: 1.228, Correction: 0.550755, Prior: 0.081644, Posterior: 0.0552181 Belief after normalization: 0.0552181Num Collisions: 228, Recognized Area: 39.2699, Total Area: 71.3019;
+10.391584, 29.977558 Estimated Local Min
+13.170749 Force Magnitude
+1 Success
+UGV_POS: (5.889973, 29.620208)
+ Belief too low, moving on...
+
+Initial belief: 0.500000
+Group A Points: 2
+45th Step
+Prediction: 1.247, Correction: 0.945537, Prior: 0.5, Posterior: 0.589542 Belief after normalization: 0.589542Num Collisions: 247, Recognized Area: 39.2699, Total Area: 41.5319; 7.152692, 29.913652 Estimated Local Min
+7.990487 Force Magnitude
+0 Iterations
+1 Success
+82 Obstacles in Range
+0.589542 Belief
+46th Step
+Prediction: 1.267, Correction: 0.95349, Prior: 0.589542, Posterior: 0.712209 Belief after normalization: 0.712209Num Collisions: 267, Recognized Area: 39.2699, Total Area: 41.1854; 7.152692, 29.913652 Estimated Local Min
+7.990487 Force Magnitude
+0 Iterations
+1 Success
+87 Obstacles in Range
+0.712209 Belief
+Initial belief: 0.250000
+Group A Points: 4
+109th Step
+Prediction: 2, Correction: 0.677461, Prior: 0.25, Posterior: 0.33873 Belief after normalization: 0.33873Num Collisions: 1000, Recognized Area: 39.2699, Total Area: 57.9663; 11.301426, 36.206442 Estimated Local Min
+16.591867 Force Magnitude
+0 Iterations
+1 Success
+540 Obstacles in Range
+0.338730 Belief
+110th Step
+Prediction: 2, Correction: 0.682919, Prior: 0.33873, Posterior: 0.462651 Belief after normalization: 0.462651Num Collisions: 1000, Recognized Area: 39.2699, Total Area: 57.503; 11.301426, 36.206442 Estimated Local Min
+16.591867 Force Magnitude
+0 Iterations
+1 Success
+542 Obstacles in Range
+0.462651 Belief
+Initial belief: 0.250000
+Group A Points: 4
+117th Step
+Prediction: 2, Correction: 0.709421, Prior: 0.25, Posterior: 0.354711 Belief after normalization: 0.354711Num Collisions: 1000, Recognized Area: 39.2699, Total Area: 55.3549; 11.301270, 36.235433 Estimated Local Min
+9.989339 Force Magnitude
+0 Iterations
+1 Success
+542 Obstacles in Range
+0.354711 Belief
+118th Step
+Prediction: 2, Correction: 0.71225, Prior: 0.354711, Posterior: 0.505285 Belief after normalization: 0.505285Num Collisions: 1000, Recognized Area: 39.2699, Total Area: 55.135; 11.301270, 36.235433 Estimated Local Min
+9.989339 Force Magnitude
+0 Iterations
+1 Success
+540 Obstacles in Range
+0.505285 Belief
+Initial belief: 0.333333
+Group A Points: 3
+151th Step
+Prediction: 2, Correction: 0.793588, Prior: 0.333333, Posterior: 0.529059 Belief after normalization: 0.529059Num Collisions: 1000, Recognized Area: 39.2699, Total Area: 49.484; 16.550611, 35.319751 Estimated Local Min
+1.380246 Force Magnitude
+0 Iterations
+1 Success
+385 Obstacles in Range
+0.529059 Belief
+Initial belief: 0.250000
+Group A Points: 4
+164th Step
+Prediction: 1.801, Correction: 0.715871, Prior: 0.25, Posterior: 0.322321 Belief after normalization: 0.322321Num Collisions: 801, Recognized Area: 39.2699, Total Area: 54.8561; 15.939737, 36.936946 Estimated Local Min
+3.231467 Force Magnitude
+0 Iterations
+1 Success
+358 Obstacles in Range
+0.322321 Belief
+Initial belief: 0.200000
+Group A Points: 5
+199th Step
+Prediction: 1.359, Correction: 0.5, Prior: 0.2, Posterior: 0.1359 Belief after normalization: 0.1359Num Collisions: 359, Recognized Area: 39.2699, Total Area: 78.5398; 23.872825, 37.800482 Estimated Local Min
+77.676832 Force Magnitude
+1000 Iterations
+1 Success
+161 Obstacles in Range
+0.135900 Belief
+200 Step
+Prediction: 1.353, Correction: 0.5101, Prior: 0.1359, Posterior: 0.0937934 Belief after normalization: 0.0937934Num Collisions: 353, Recognized Area: 39.2699, Total Area: 76.9847;
+23.872825, 37.800482 Estimated Local Min
+77.676832 Force Magnitude
+1 Success
+UGV_POS: (19.575195, 35.446680)
+ Belief too low, moving on...
+
+201 Step
+Prediction: 1.347, Correction: 0.5204, Prior: 0.0937934, Posterior: 0.0657472 Belief after normalization: 0.0657472Num Collisions: 347, Recognized Area: 39.2699, Total Area: 75.4611;
+23.872825, 37.800482 Estimated Local Min
+77.676832 Force Magnitude
+1 Success
+UGV_POS: (19.663082, 35.494387)
+ Belief too low, moving on...
+
+202 Step
+Prediction: 1.339, Correction: 0.530898, Prior: 0.0657472, Posterior: 0.0467378 Belief after normalization: 0.0467378Num Collisions: 339, Recognized Area: 39.2699, Total Area: 73.9688;
+23.872825, 37.800482 Estimated Local Min
+77.676832 Force Magnitude
+1 Success
+UGV_POS: (19.750948, 35.542131)
+ Belief too low, moving on...
+
+203 Step
+Prediction: 1.335, Correction: 0.541594, Prior: 0.0467378, Posterior: 0.0337928 Belief after normalization: 0.0337928Num Collisions: 335, Recognized Area: 39.2699, Total Area: 72.508;
+23.872825, 37.800482 Estimated Local Min
+77.676832 Force Magnitude
+1 Success
+UGV_POS: (19.838796, 35.589909)
+ Belief too low, moving on...
+
+204 Step
+Prediction: 1.33, Correction: 0.552486, Prior: 0.0337928, Posterior: 0.0248311 Belief after normalization: 0.0248311Num Collisions: 330, Recognized Area: 39.2699, Total Area: 71.0786;
+23.872825, 37.800482 Estimated Local Min
+77.676832 Force Magnitude
+1 Success
+UGV_POS: (19.926629, 35.637715)
+ Belief too low, moving on...
+
+205 Step
+Prediction: 1.325, Correction: 0.56357, Prior: 0.0248311, Posterior: 0.0185422 Belief after normalization: 0.0185422Num Collisions: 325, Recognized Area: 39.2699, Total Area: 69.6806;
+23.872825, 37.800482 Estimated Local Min
+77.676832 Force Magnitude
+1 Success
+UGV_POS: (20.014447, 35.685548)
+ Belief too low, moving on...
+
+206 Step
+Prediction: 1.279, Correction: 0.574844, Prior: 0.0185422, Posterior: 0.0136327 Belief after normalization: 0.0136327Num Collisions: 279, Recognized Area: 39.2699, Total Area: 68.314;
+23.872825, 37.800482 Estimated Local Min
+77.676832 Force Magnitude
+1 Success
+UGV_POS: (20.102252, 35.733404)
+ Belief too low, moving on...
+
+207 Step
+Prediction: 1.274, Correction: 0.586303, Prior: 0.0136327, Posterior: 0.0101829 Belief after normalization: 0.0101829Num Collisions: 274, Recognized Area: 39.2699, Total Area: 66.9788;
+23.872825, 37.800482 Estimated Local Min
+77.676832 Force Magnitude
+1 Success
+UGV_POS: (20.190046, 35.781281)
+ Belief too low, moving on...
+
+208 Step
+Prediction: 1.268, Correction: 0.597943, Prior: 0.0101829, Posterior: 0.00772062 Belief after normalization: 0.00772062Num Collisions: 268, Recognized Area: 39.2699, Total Area: 65.675;
+23.872825, 37.800482 Estimated Local Min
+77.676832 Force Magnitude
+1 Success
+UGV_POS: (20.277830, 35.829177)
+ Belief too low, moving on...
+
+209 Step
+Prediction: 1.265, Correction: 0.609756, Prior: 0.00772062, Posterior: 0.00595523 Belief after normalization: 0.00595523Num Collisions: 265, Recognized Area: 39.2699, Total Area: 64.4027;
+23.872825, 37.800482 Estimated Local Min
+77.676832 Force Magnitude
+1 Success
+UGV_POS: (20.365604, 35.877090)
+ Belief too low, moving on...
+
+210 Step
+Prediction: 1.259, Correction: 0.621735, Prior: 0.00595523, Posterior: 0.00466154 Belief after normalization: 0.00466154Num Collisions: 259, Recognized Area: 39.2699, Total Area: 63.1618;
+23.872825, 37.800482 Estimated Local Min
+77.676832 Force Magnitude
+1 Success
+UGV_POS: (20.453371, 35.925018)
+ Belief too low, moving on...
+
+211 Step
+Prediction: 1.254, Correction: 0.633874, Prior: 0.00466154, Posterior: 0.00370536 Belief after normalization: 0.00370536Num Collisions: 254, Recognized Area: 39.2699, Total Area: 61.9523;
+23.872825, 37.800482 Estimated Local Min
+77.676832 Force Magnitude
+1 Success
+UGV_POS: (20.541129, 35.972960)
+ Belief too low, moving on...
+
+212 Step
+Prediction: 1.251, Correction: 0.646161, Prior: 0.00370536, Posterior: 0.00299522 Belief after normalization: 0.00299522Num Collisions: 251, Recognized Area: 39.2699, Total Area: 60.7742;
+23.872825, 37.800482 Estimated Local Min
+77.676832 Force Magnitude
+1 Success
+UGV_POS: (20.628881, 36.020914)
+ Belief too low, moving on...
+
+213 Step
+Prediction: 1.248, Correction: 0.658587, Prior: 0.00299522, Posterior: 0.00246182 Belief after normalization: 0.00246182Num Collisions: 248, Recognized Area: 39.2699, Total Area: 59.6275;
+23.872825, 37.800482 Estimated Local Min
+77.676832 Force Magnitude
+1 Success
+UGV_POS: (20.716627, 36.068880)
+ Belief too low, moving on...
+
+214 Step
+Prediction: 1.246, Correction: 0.67114, Prior: 0.00246182, Posterior: 0.00205867 Belief after normalization: 0.00205867Num Collisions: 246, Recognized Area: 39.2699, Total Area: 58.5122;
+23.872825, 37.800482 Estimated Local Min
+77.676832 Force Magnitude
+1 Success
+UGV_POS: (20.804367, 36.116855)
+ Belief too low, moving on...
+
+215 Step
+Prediction: 1.241, Correction: 0.683807, Prior: 0.00205867, Posterior: 0.001747 Belief after normalization: 0.001747Num Collisions: 241, Recognized Area: 39.2699, Total Area: 57.4284;
+23.872825, 37.800482 Estimated Local Min
+77.676832 Force Magnitude
+1 Success
+UGV_POS: (20.892102, 36.164840)
+ Belief too low, moving on...
+
+216 Step
+Prediction: 1.237, Correction: 0.696572, Prior: 0.001747, Posterior: 0.00150532 Belief after normalization: 0.00150532Num Collisions: 237, Recognized Area: 39.2699, Total Area: 56.3759;
+23.872825, 37.800482 Estimated Local Min
+77.676832 Force Magnitude
+1 Success
+UGV_POS: (20.979833, 36.212832)
+ Belief too low, moving on...
+
+217 Step
+Prediction: 1.233, Correction: 0.70942, Prior: 0.00150532, Posterior: 0.00131673 Belief after normalization: 0.00131673Num Collisions: 233, Recognized Area: 39.2699, Total Area: 55.3549;
+23.872825, 37.800482 Estimated Local Min
+77.676832 Force Magnitude
+1 Success
+UGV_POS: (21.067560, 36.260832)
+ Belief too low, moving on...
+
+218 Step
+Prediction: 1.227, Correction: 0.722334, Prior: 0.00131673, Posterior: 0.00116702 Belief after normalization: 0.00116702Num Collisions: 227, Recognized Area: 39.2699, Total Area: 54.3653;
+23.872825, 37.800482 Estimated Local Min
+77.676832 Force Magnitude
+1 Success
+UGV_POS: (21.155284, 36.308838)
+ Belief too low, moving on...
+
+219 Step
+Prediction: 1.221, Correction: 0.735293, Prior: 0.00116702, Posterior: 0.00104774 Belief after normalization: 0.00104774Num Collisions: 221, Recognized Area: 39.2699, Total Area: 53.4071;
+23.872825, 37.800482 Estimated Local Min
+77.676832 Force Magnitude
+1 Success
+UGV_POS: (21.243004, 36.356850)
+ Belief too low, moving on...
+
+220 Step
+Prediction: 1.217, Correction: 0.748278, Prior: 0.00104774, Posterior: 0.000954131 Belief after normalization: 0.000954131Num Collisions: 217, Recognized Area: 39.2699, Total Area: 52.4804;
+23.872825, 37.800482 Estimated Local Min
+77.676832 Force Magnitude
+1 Success
+UGV_POS: (21.330721, 36.404867)
+ Belief too low, moving on...
+
+221 Step
+Prediction: 1.215, Correction: 0.761266, Prior: 0.000954131, Posterior: 0.000882512 Belief after normalization: 0.000882512Num Collisions: 215, Recognized Area: 39.2699, Total Area: 51.585;
+23.872825, 37.800482 Estimated Local Min
+77.676832 Force Magnitude
+1 Success
+UGV_POS: (21.418437, 36.452889)
+ Belief too low, moving on...
+
+Initial belief: 0.200000
+Group A Points: 5
+222th Step
+Prediction: 1.212, Correction: 0.5, Prior: 0.2, Posterior: 0.1212 Belief after normalization: 0.1212Num Collisions: 212, Recognized Area: 39.2699, Total Area: 78.5398; 25.891587, 38.902567 Estimated Local Min
+75.376836 Force Magnitude
+1000 Iterations
+1 Success
+58 Obstacles in Range
+0.121200 Belief
+223 Step
+Prediction: 1.201, Correction: 0.5101, Prior: 0.1212, Posterior: 0.0742508 Belief after normalization: 0.0742508Num Collisions: 201, Recognized Area: 39.2699, Total Area: 76.9847;
+25.891587, 38.902567 Estimated Local Min
+75.376836 Force Magnitude
+1 Success
+UGV_POS: (21.593861, 36.548942)
+ Belief too low, moving on...
+
+224 Step
+Prediction: 1.185, Correction: 0.5204, Prior: 0.0742508, Posterior: 0.0457885 Belief after normalization: 0.0457885Num Collisions: 185, Recognized Area: 39.2699, Total Area: 75.4611;
+25.891587, 38.902567 Estimated Local Min
+75.376836 Force Magnitude
+1 Success
+UGV_POS: (21.681571, 36.596973)
+ Belief too low, moving on...
+
+225 Step
+Prediction: 1.167, Correction: 0.530898, Prior: 0.0457885, Posterior: 0.0283686 Belief after normalization: 0.0283686Num Collisions: 167, Recognized Area: 39.2699, Total Area: 73.9688;
+25.891587, 38.902567 Estimated Local Min
+75.376836 Force Magnitude
+1 Success
+UGV_POS: (21.769279, 36.645006)
+ Belief too low, moving on...
+
+226 Step
+Prediction: 1.083, Correction: 0.541594, Prior: 0.0283686, Posterior: 0.0166395 Belief after normalization: 0.0166395Num Collisions: 83, Recognized Area: 39.2699, Total Area: 72.508;
+25.891587, 38.902567 Estimated Local Min
+75.376836 Force Magnitude
+1 Success
+UGV_POS: (21.856987, 36.693042)
+ Belief too low, moving on...
+
+227 Step
+Prediction: 1.08, Correction: 0.552486, Prior: 0.0166395, Posterior: 0.00992856 Belief after normalization: 0.00992856Num Collisions: 80, Recognized Area: 39.2699, Total Area: 71.0785;
+25.891587, 38.902567 Estimated Local Min
+75.376836 Force Magnitude
+1 Success
+UGV_POS: (21.944694, 36.741078)
+ Belief too low, moving on...
+
+228 Step
+Prediction: 1.076, Correction: 0.563571, Prior: 0.00992856, Posterior: 0.0060207 Belief after normalization: 0.0060207Num Collisions: 76, Recognized Area: 39.2699, Total Area: 69.6805;
+25.891587, 38.902567 Estimated Local Min
+75.376836 Force Magnitude
+1 Success
+UGV_POS: (22.032400, 36.789115)
+ Belief too low, moving on...
+
+229 Step
+Prediction: 1.074, Correction: 0.574845, Prior: 0.0060207, Posterior: 0.00371708 Belief after normalization: 0.00371708Num Collisions: 74, Recognized Area: 39.2699, Total Area: 68.3139;
+25.891587, 38.902567 Estimated Local Min
+75.376836 Force Magnitude
+1 Success
+UGV_POS: (22.120106, 36.837154)
+ Belief too low, moving on...
+
+230 Step
+Prediction: 1.074, Correction: 0.586304, Prior: 0.00371708, Posterior: 0.00234061 Belief after normalization: 0.00234061Num Collisions: 74, Recognized Area: 39.2699, Total Area: 66.9788;
+25.891587, 38.902567 Estimated Local Min
+75.376836 Force Magnitude
+1 Success
+UGV_POS: (22.207812, 36.885193)
+ Belief too low, moving on...
+
+231 Step
+Prediction: 1.071, Correction: 0.597943, Prior: 0.00234061, Posterior: 0.00149892 Belief after normalization: 0.00149892Num Collisions: 71, Recognized Area: 39.2699, Total Area: 65.675;
+25.891587, 38.902567 Estimated Local Min
+75.376836 Force Magnitude
+1 Success
+UGV_POS: (22.295517, 36.933232)
+ Belief too low, moving on...
+
+232 Step
+Prediction: 1.068, Correction: 0.609756, Prior: 0.00149892, Posterior: 0.000976126 Belief after normalization: 0.000976126Num Collisions: 68, Recognized Area: 39.2699, Total Area: 64.4026;
+25.891587, 38.902567 Estimated Local Min
+75.376836 Force Magnitude
+1 Success
+UGV_POS: (22.383222, 36.981273)
+ Belief too low, moving on...
+
+233 Step
+Prediction: 1.065, Correction: 0.621736, Prior: 0.000976126, Posterior: 0.00064634 Belief after normalization: 0.00064634Num Collisions: 65, Recognized Area: 39.2699, Total Area: 63.1617;
+25.891587, 38.902567 Estimated Local Min
+75.376836 Force Magnitude
+1 Success
+UGV_POS: (22.470926, 37.029313)
+ Belief too low, moving on...
+
+234 Step
+Prediction: 1.064, Correction: 0.633874, Prior: 0.00064634, Posterior: 0.000435919 Belief after normalization: 0.000435919Num Collisions: 64, Recognized Area: 39.2699, Total Area: 61.9522;
+25.891587, 38.902567 Estimated Local Min
+75.376836 Force Magnitude
+1 Success
+UGV_POS: (22.558631, 37.077355)
+ Belief too low, moving on...
+
+235 Step
+Prediction: 1.062, Correction: 0.646162, Prior: 0.000435919, Posterior: 0.000299138 Belief after normalization: 0.000299138Num Collisions: 62, Recognized Area: 39.2699, Total Area: 60.7741;
+25.891587, 38.902567 Estimated Local Min
+75.376836 Force Magnitude
+1 Success
+UGV_POS: (22.646335, 37.125396)
+ Belief too low, moving on...
+
+236 Step
+Prediction: 1, Correction: 0.658588, Prior: 0.000299138, Posterior: 0.000197009 Belief after normalization: 0.000197009Num Collisions: 0, Recognized Area: 39.2699, Total Area: 59.6274;
+25.891587, 38.902567 Estimated Local Min
+75.376836 Force Magnitude
+1 Success
+UGV_POS: (22.734039, 37.173437)
+ Belief too low, moving on...
+
+237 Step
+Prediction: 1, Correction: 0.671141, Prior: 0.000197009, Posterior: 0.000132221 Belief after normalization: 0.000132221Num Collisions: 0, Recognized Area: 39.2699, Total Area: 58.5122;
+25.891587, 38.902567 Estimated Local Min
+75.376836 Force Magnitude
+1 Success
+UGV_POS: (22.821743, 37.221479)
+ Belief too low, moving on...
+
+238 Step
+Prediction: 1, Correction: 0.683807, Prior: 0.000132221, Posterior: 9.04135e-05 Belief after normalization: 9.04135e-05Num Collisions: 0, Recognized Area: 39.2699, Total Area: 57.4283;
+25.891587, 38.902567 Estimated Local Min
+75.376836 Force Magnitude
+1 Success
+UGV_POS: (22.909447, 37.269520)
+ Belief too low, moving on...
+
+239 Step
+Prediction: 1, Correction: 0.696573, Prior: 9.04135e-05, Posterior: 6.29796e-05 Belief after normalization: 6.29796e-05Num Collisions: 0, Recognized Area: 39.2699, Total Area: 56.3759;
+25.891587, 38.902567 Estimated Local Min
+75.376836 Force Magnitude
+1 Success
+UGV_POS: (22.997151, 37.317562)
+ Belief too low, moving on...
+
+240 Step
+Prediction: 1, Correction: 0.709421, Prior: 6.29796e-05, Posterior: 4.4679e-05 Belief after normalization: 4.4679e-05Num Collisions: 0, Recognized Area: 39.2699, Total Area: 55.3549;
+25.891587, 38.902567 Estimated Local Min
+75.376836 Force Magnitude
+1 Success
+UGV_POS: (23.084856, 37.365603)
+ Belief too low, moving on...
+
+241 Step
+Prediction: 1, Correction: 0.722335, Prior: 4.4679e-05, Posterior: 3.22732e-05 Belief after normalization: 3.22732e-05Num Collisions: 0, Recognized Area: 39.2699, Total Area: 54.3653;
+25.891587, 38.902567 Estimated Local Min
+75.376836 Force Magnitude
+1 Success
+UGV_POS: (23.172560, 37.413645)
+ Belief too low, moving on...
+
+242 Step
+Prediction: 1, Correction: 0.735294, Prior: 3.22732e-05, Posterior: 2.37303e-05 Belief after normalization: 2.37303e-05Num Collisions: 0, Recognized Area: 39.2699, Total Area: 53.4071;
+25.891587, 38.902567 Estimated Local Min
+75.376836 Force Magnitude
+1 Success
+UGV_POS: (23.260264, 37.461686)
+ Belief too low, moving on...
+
+243 Step
+Prediction: 1, Correction: 0.748279, Prior: 2.37303e-05, Posterior: 1.77569e-05 Belief after normalization: 1.77569e-05Num Collisions: 0, Recognized Area: 39.2699, Total Area: 52.4803;
+25.891587, 38.902567 Estimated Local Min
+75.376836 Force Magnitude
+1 Success
+UGV_POS: (23.347968, 37.509727)
+ Belief too low, moving on...
+
+244 Step
+Prediction: 1, Correction: 0.761267, Prior: 1.77569e-05, Posterior: 1.35177e-05 Belief after normalization: 1.35177e-05Num Collisions: 0, Recognized Area: 39.2699, Total Area: 51.585;
+25.891587, 38.902567 Estimated Local Min
+75.376836 Force Magnitude
+1 Success
+UGV_POS: (23.435672, 37.557769)
+ Belief too low, moving on...
+
+Initial belief: 0.200000
+Group A Points: 5
+245th Step
+Prediction: 1, Correction: 0.5, Prior: 0.2, Posterior: 0.1 Belief after normalization: 0.1Num Collisions: 0, Recognized Area: 39.2699, Total Area: 78.5398; 27.908811, 40.007469 Estimated Local Min
+73.076836 Force Magnitude
+1000 Iterations
+1 Success
+0 Obstacles in Range
+0.100000 Belief
+246 Step
+Prediction: 1, Correction: 0.5101, Prior: 0.1, Posterior: 0.05101 Belief after normalization: 0.05101Num Collisions: 0, Recognized Area: 39.2699, Total Area: 76.9847;
+27.908811, 40.007469 Estimated Local Min
+73.076836 Force Magnitude
+1 Success
+UGV_POS: (23.611080, 37.653852)
+ Belief too low, moving on...
+
+247 Step
+Prediction: 1, Correction: 0.5204, Prior: 0.05101, Posterior: 0.0265456 Belief after normalization: 0.0265456Num Collisions: 0, Recognized Area: 39.2699, Total Area: 75.4611;
+27.908811, 40.007469 Estimated Local Min
+73.076836 Force Magnitude
+1 Success
+UGV_POS: (23.698785, 37.701893)
+ Belief too low, moving on...
+
+248 Step
+Prediction: 1, Correction: 0.530898, Prior: 0.0265456, Posterior: 0.014093 Belief after normalization: 0.014093Num Collisions: 0, Recognized Area: 39.2699, Total Area: 73.9688;
+27.908811, 40.007469 Estimated Local Min
+73.076836 Force Magnitude
+1 Success
+UGV_POS: (23.786489, 37.749935)
+ Belief too low, moving on...
+
+249 Step
+Prediction: 1, Correction: 0.541594, Prior: 0.014093, Posterior: 0.00763269 Belief after normalization: 0.00763269Num Collisions: 0, Recognized Area: 39.2699, Total Area: 72.508;
+27.908811, 40.007469 Estimated Local Min
+73.076836 Force Magnitude
+1 Success
+UGV_POS: (23.874193, 37.797976)
+ Belief too low, moving on...
+
+250 Step
+Prediction: 1, Correction: 0.552486, Prior: 0.00763269, Posterior: 0.00421696 Belief after normalization: 0.00421696Num Collisions: 0, Recognized Area: 39.2699, Total Area: 71.0785;
+27.908811, 40.007469 Estimated Local Min
+73.076836 Force Magnitude
+1 Success
+UGV_POS: (23.961897, 37.846018)
+ Belief too low, moving on...
+
+251 Step
+Prediction: 1, Correction: 0.563571, Prior: 0.00421696, Posterior: 0.00237655 Belief after normalization: 0.00237655Num Collisions: 0, Recognized Area: 39.2699, Total Area: 69.6805;
+27.908811, 40.007469 Estimated Local Min
+73.076836 Force Magnitude
+1 Success
+UGV_POS: (24.049601, 37.894059)
+ Belief too low, moving on...
+
+252 Step
+Prediction: 1, Correction: 0.574845, Prior: 0.00237655, Posterior: 0.00136615 Belief after normalization: 0.00136615Num Collisions: 0, Recognized Area: 39.2699, Total Area: 68.3139;
+27.908811, 40.007469 Estimated Local Min
+73.076836 Force Magnitude
+1 Success
+UGV_POS: (24.137305, 37.942101)
+ Belief too low, moving on...
+
+253 Step
+Prediction: 1, Correction: 0.586304, Prior: 0.00136615, Posterior: 0.000800979 Belief after normalization: 0.000800979Num Collisions: 0, Recognized Area: 39.2699, Total Area: 66.9788;
+27.908811, 40.007469 Estimated Local Min
+73.076836 Force Magnitude
+1 Success
+UGV_POS: (24.225010, 37.990142)
+ Belief too low, moving on...
+
+254 Step
+Prediction: 1, Correction: 0.597943, Prior: 0.000800979, Posterior: 0.00047894 Belief after normalization: 0.00047894Num Collisions: 0, Recognized Area: 39.2699, Total Area: 65.675;
+27.908811, 40.007469 Estimated Local Min
+73.076836 Force Magnitude
+1 Success
+UGV_POS: (24.312714, 38.038184)
+ Belief too low, moving on...
+
+255 Step
+Prediction: 1, Correction: 0.609756, Prior: 0.00047894, Posterior: 0.000292037 Belief after normalization: 0.000292037Num Collisions: 0, Recognized Area: 39.2699, Total Area: 64.4026;
+27.908811, 40.007469 Estimated Local Min
+73.076836 Force Magnitude
+1 Success
+UGV_POS: (24.400418, 38.086225)
+ Belief too low, moving on...
+
+256 Step
+Prediction: 1, Correction: 0.621736, Prior: 0.000292037, Posterior: 0.00018157 Belief after normalization: 0.00018157Num Collisions: 0, Recognized Area: 39.2699, Total Area: 63.1617;
+27.908811, 40.007469 Estimated Local Min
+73.076836 Force Magnitude
+1 Success
+UGV_POS: (24.488122, 38.134267)
+ Belief too low, moving on...
+
+257 Step
+Prediction: 1, Correction: 0.633874, Prior: 0.00018157, Posterior: 0.000115092 Belief after normalization: 0.000115092Num Collisions: 0, Recognized Area: 39.2699, Total Area: 61.9522;
+27.908811, 40.007469 Estimated Local Min
+73.076836 Force Magnitude
+1 Success
+UGV_POS: (24.575826, 38.182308)
+ Belief too low, moving on...
+
+258 Step
+Prediction: 1, Correction: 0.646162, Prior: 0.000115092, Posterior: 7.43682e-05 Belief after normalization: 7.43682e-05Num Collisions: 0, Recognized Area: 39.2699, Total Area: 60.7741;
+27.908811, 40.007469 Estimated Local Min
+73.076836 Force Magnitude
+1 Success
+UGV_POS: (24.663530, 38.230349)
+ Belief too low, moving on...
+
+259 Step
+Prediction: 1, Correction: 0.658588, Prior: 7.43682e-05, Posterior: 4.8978e-05 Belief after normalization: 4.8978e-05Num Collisions: 0, Recognized Area: 39.2699, Total Area: 59.6274;
+27.908811, 40.007469 Estimated Local Min
+73.076836 Force Magnitude
+1 Success
+UGV_POS: (24.751234, 38.278391)
+ Belief too low, moving on...
+
+260 Step
+Prediction: 1, Correction: 0.671141, Prior: 4.8978e-05, Posterior: 3.28712e-05 Belief after normalization: 3.28712e-05Num Collisions: 0, Recognized Area: 39.2699, Total Area: 58.5122;
+27.908811, 40.007469 Estimated Local Min
+73.076836 Force Magnitude
+1 Success
+UGV_POS: (24.838939, 38.326432)
+ Belief too low, moving on...
+
+261 Step
+Prediction: 1, Correction: 0.683807, Prior: 3.28712e-05, Posterior: 2.24775e-05 Belief after normalization: 2.24775e-05Num Collisions: 0, Recognized Area: 39.2699, Total Area: 57.4283;
+27.908811, 40.007469 Estimated Local Min
+73.076836 Force Magnitude
+1 Success
+UGV_POS: (24.926643, 38.374474)
+ Belief too low, moving on...
+
+262 Step
+Prediction: 1, Correction: 0.696573, Prior: 2.24775e-05, Posterior: 1.56572e-05 Belief after normalization: 1.56572e-05Num Collisions: 0, Recognized Area: 39.2699, Total Area: 56.3759;
+27.908811, 40.007469 Estimated Local Min
+73.076836 Force Magnitude
+1 Success
+UGV_POS: (25.014347, 38.422515)
+ Belief too low, moving on...
+
+263 Step
+Prediction: 1, Correction: 0.709421, Prior: 1.56572e-05, Posterior: 1.11076e-05 Belief after normalization: 1.11076e-05Num Collisions: 0, Recognized Area: 39.2699, Total Area: 55.3549;
+27.908811, 40.007469 Estimated Local Min
+73.076836 Force Magnitude
+1 Success
+UGV_POS: (25.102051, 38.470557)
+ Belief too low, moving on...
+
+264 Step
+Prediction: 1, Correction: 0.722335, Prior: 1.11076e-05, Posterior: 8.02339e-06 Belief after normalization: 8.02339e-06Num Collisions: 0, Recognized Area: 39.2699, Total Area: 54.3653;
+27.908811, 40.007469 Estimated Local Min
+73.076836 Force Magnitude
+1 Success
+UGV_POS: (25.189755, 38.518598)
+ Belief too low, moving on...
+
+265 Step
+Prediction: 1, Correction: 0.735294, Prior: 8.02339e-06, Posterior: 5.89955e-06 Belief after normalization: 5.89955e-06Num Collisions: 0, Recognized Area: 39.2699, Total Area: 53.4071;
+27.908811, 40.007469 Estimated Local Min
+73.076836 Force Magnitude
+1 Success
+UGV_POS: (25.277459, 38.566640)
+ Belief too low, moving on...
+
+266 Step
+Prediction: 1, Correction: 0.748279, Prior: 5.89955e-06, Posterior: 4.41451e-06 Belief after normalization: 4.41451e-06Num Collisions: 0, Recognized Area: 39.2699, Total Area: 52.4803;
+27.908811, 40.007469 Estimated Local Min
+73.076836 Force Magnitude
+1 Success
+UGV_POS: (25.365163, 38.614681)
+ Belief too low, moving on...
+
+Initial belief: 0.200000
+Group A Points: 5
+267th Step
+Prediction: 1.065, Correction: 0.515225, Prior: 0.2, Posterior: 0.109743 Belief after normalization: 0.109743Num Collisions: 65, Recognized Area: 39.2699, Total Area: 76.219; 29.839253, 36.593394 Estimated Local Min
+18.187060 Force Magnitude
+0 Iterations
+1 Success
+1 Obstacles in Range
+0.109743 Belief
+268 Step
+Prediction: 1.067, Correction: 0.521247, Prior: 0.109743, Posterior: 0.0610358 Belief after normalization: 0.0610358Num Collisions: 67, Recognized Area: 39.2699, Total Area: 75.3384;
+29.839253, 36.593394 Estimated Local Min
+18.187060 Force Magnitude
+1 Success
+UGV_POS: (25.540572, 38.710764)
+ Belief too low, moving on...
+
+269 Step
+Prediction: 1.068, Correction: 0.527189, Prior: 0.0610358, Posterior: 0.0343654 Belief after normalization: 0.0343654Num Collisions: 68, Recognized Area: 39.2699, Total Area: 74.4893;
+29.839253, 36.593394 Estimated Local Min
+18.187060 Force Magnitude
+1 Success
+UGV_POS: (25.628276, 38.758806)
+ Belief too low, moving on...
+
+270 Step
+Prediction: 1.07, Correction: 0.53304, Prior: 0.0343654, Posterior: 0.0196004 Belief after normalization: 0.0196004Num Collisions: 70, Recognized Area: 39.2699, Total Area: 73.6715;
+29.839253, 36.593394 Estimated Local Min
+18.187060 Force Magnitude
+1 Success
+UGV_POS: (25.715980, 38.806848)
+ Belief too low, moving on...
+
+271 Step
+Prediction: 1.071, Correction: 0.538791, Prior: 0.0196004, Posterior: 0.0113103 Belief after normalization: 0.0113103Num Collisions: 71, Recognized Area: 39.2699, Total Area: 72.8852;
+29.839253, 36.593394 Estimated Local Min
+18.187060 Force Magnitude
+1 Success
+UGV_POS: (25.803684, 38.854890)
+ Belief too low, moving on...
+
+272 Step
+Prediction: 1.074, Correction: 0.54443, Prior: 0.0113103, Posterior: 0.00661335 Belief after normalization: 0.00661335Num Collisions: 74, Recognized Area: 39.2699, Total Area: 72.1304;
+29.839253, 36.593394 Estimated Local Min
+18.187060 Force Magnitude
+1 Success
+UGV_POS: (25.891387, 38.902932)
+ Belief too low, moving on...
+
+273 Step
+Prediction: 1.076, Correction: 0.549946, Prior: 0.00661335, Posterior: 0.00391339 Belief after normalization: 0.00391339Num Collisions: 76, Recognized Area: 39.2699, Total Area: 71.4069;
+29.839253, 36.593394 Estimated Local Min
+18.187060 Force Magnitude
+1 Success
+UGV_POS: (25.979090, 38.950975)
+ Belief too low, moving on...
+
+274 Step
+Prediction: 1.077, Correction: 0.555327, Prior: 0.00391339, Posterior: 0.00234055 Belief after normalization: 0.00234055Num Collisions: 77, Recognized Area: 39.2699, Total Area: 70.7149;
+29.839253, 36.593394 Estimated Local Min
+18.187060 Force Magnitude
+1 Success
+UGV_POS: (26.066793, 38.999019)
+ Belief too low, moving on...
+
+275 Step
+Prediction: 1.082, Correction: 0.560564, Prior: 0.00234055, Posterior: 0.00141962 Belief after normalization: 0.00141962Num Collisions: 82, Recognized Area: 39.2699, Total Area: 70.0543;
+29.839253, 36.593394 Estimated Local Min
+18.187060 Force Magnitude
+1 Success
+UGV_POS: (26.154496, 39.047063)
+ Belief too low, moving on...
+
+276 Step
+Prediction: 1.085, Correction: 0.565644, Prior: 0.00141962, Posterior: 0.000871253 Belief after normalization: 0.000871253Num Collisions: 85, Recognized Area: 39.2699, Total Area: 69.4251;
+29.839253, 36.593394 Estimated Local Min
+18.187060 Force Magnitude
+1 Success
+UGV_POS: (26.242198, 39.095108)
+ Belief too low, moving on...
+
+277 Step
+Prediction: 1.088, Correction: 0.570557, Prior: 0.000871253, Posterior: 0.000540844 Belief after normalization: 0.000540844Num Collisions: 88, Recognized Area: 39.2699, Total Area: 68.8273;
+29.839253, 36.593394 Estimated Local Min
+18.187060 Force Magnitude
+1 Success
+UGV_POS: (26.329900, 39.143155)
+ Belief too low, moving on...
+
+278 Step
+Prediction: 1.092, Correction: 0.57529, Prior: 0.000540844, Posterior: 0.000339767 Belief after normalization: 0.000339767Num Collisions: 92, Recognized Area: 39.2699, Total Area: 68.261;
+29.839253, 36.593394 Estimated Local Min
+18.187060 Force Magnitude
+1 Success
+UGV_POS: (26.417601, 39.191202)
+ Belief too low, moving on...
+
+279 Step
+Prediction: 1.094, Correction: 0.579834, Prior: 0.000339767, Posterior: 0.000215527 Belief after normalization: 0.000215527Num Collisions: 94, Recognized Area: 39.2699, Total Area: 67.7261;
+29.839253, 36.593394 Estimated Local Min
+18.187060 Force Magnitude
+1 Success
+UGV_POS: (26.505301, 39.239251)
+ Belief too low, moving on...
+
+280 Step
+Prediction: 1.1, Correction: 0.584176, Prior: 0.000215527, Posterior: 0.000138497 Belief after normalization: 0.000138497Num Collisions: 100, Recognized Area: 39.2699, Total Area: 67.2227;
+29.839253, 36.593394 Estimated Local Min
+18.187060 Force Magnitude
+1 Success
+UGV_POS: (26.593000, 39.287301)
+ Belief too low, moving on...
+
+281 Step
+Prediction: 1.103, Correction: 0.588307, Prior: 0.000138497, Posterior: 8.98709e-05 Belief after normalization: 8.98709e-05Num Collisions: 103, Recognized Area: 39.2699, Total Area: 66.7507;
+29.839253, 36.593394 Estimated Local Min
+18.187060 Force Magnitude
+1 Success
+UGV_POS: (26.680699, 39.335352)
+ Belief too low, moving on...
+
+282 Step
+Prediction: 1.106, Correction: 0.592216, Prior: 8.98709e-05, Posterior: 5.88646e-05 Belief after normalization: 5.88646e-05Num Collisions: 106, Recognized Area: 39.2699, Total Area: 66.3101;
+29.839253, 36.593394 Estimated Local Min
+18.187060 Force Magnitude
+1 Success
+UGV_POS: (26.768396, 39.383406)
+ Belief too low, moving on...
+
+283 Step
+Prediction: 1.112, Correction: 0.595893, Prior: 5.88646e-05, Posterior: 3.90056e-05 Belief after normalization: 3.90056e-05Num Collisions: 112, Recognized Area: 39.2699, Total Area: 65.901;
+29.839253, 36.593394 Estimated Local Min
+18.187060 Force Magnitude
+1 Success
+UGV_POS: (26.856093, 39.431461)
+ Belief too low, moving on...
+
+284 Step
+Prediction: 1.115, Correction: 0.599327, Prior: 3.90056e-05, Posterior: 2.60655e-05 Belief after normalization: 2.60655e-05Num Collisions: 115, Recognized Area: 39.2699, Total Area: 65.5233;
+29.839253, 36.593394 Estimated Local Min
+18.187060 Force Magnitude
+1 Success
+UGV_POS: (26.943789, 39.479518)
+ Belief too low, moving on...
+
+285 Step
+Prediction: 1.117, Correction: 0.602511, Prior: 2.60655e-05, Posterior: 1.75422e-05 Belief after normalization: 1.75422e-05Num Collisions: 117, Recognized Area: 39.2699, Total Area: 65.1771;
+29.839253, 36.593394 Estimated Local Min
+18.187060 Force Magnitude
+1 Success
+UGV_POS: (27.031483, 39.527577)
+ Belief too low, moving on...
+
+286 Step
+Prediction: 1.12, Correction: 0.605435, Prior: 1.75422e-05, Posterior: 1.18952e-05 Belief after normalization: 1.18952e-05Num Collisions: 120, Recognized Area: 39.2699, Total Area: 64.8623;
+29.839253, 36.593394 Estimated Local Min
+18.187060 Force Magnitude
+1 Success
+UGV_POS: (27.119176, 39.575639)
+ Belief too low, moving on...
+
+287 Step
+Prediction: 1.124, Correction: 0.608092, Prior: 1.18952e-05, Posterior: 8.13028e-06 Belief after normalization: 8.13028e-06Num Collisions: 124, Recognized Area: 39.2699, Total Area: 64.5789;
+29.839253, 36.593394 Estimated Local Min
+18.187060 Force Magnitude
+1 Success
+UGV_POS: (27.206868, 39.623703)
+ Belief too low, moving on...
+
+288 Step
+Prediction: 1.128, Correction: 0.610473, Prior: 8.13028e-06, Posterior: 5.59862e-06 Belief after normalization: 5.59862e-06Num Collisions: 128, Recognized Area: 39.2699, Total Area: 64.3271;
+29.839253, 36.593394 Estimated Local Min
+18.187060 Force Magnitude
+1 Success
+UGV_POS: (27.294558, 39.671770)
+ Belief too low, moving on...
+
+289 Step
+Prediction: 1.133, Correction: 0.612572, Prior: 5.59862e-06, Posterior: 3.88569e-06 Belief after normalization: 3.88569e-06Num Collisions: 133, Recognized Area: 39.2699, Total Area: 64.1066;
+29.839253, 36.593394 Estimated Local Min
+18.187060 Force Magnitude
+1 Success
+UGV_POS: (27.382247, 39.719839)
+ Belief too low, moving on...
+
+290 Step
+Prediction: 1.137, Correction: 0.614383, Prior: 3.88569e-06, Posterior: 2.71436e-06 Belief after normalization: 2.71436e-06Num Collisions: 137, Recognized Area: 39.2699, Total Area: 63.9176;
+29.839253, 36.593394 Estimated Local Min
+18.187060 Force Magnitude
+1 Success
+UGV_POS: (27.469934, 39.767911)
+ Belief too low, moving on...
+
+291 Step
+Prediction: 1.14, Correction: 0.615901, Prior: 2.71436e-06, Posterior: 1.90582e-06 Belief after normalization: 1.90582e-06Num Collisions: 140, Recognized Area: 39.2699, Total Area: 63.7601;
+29.839253, 36.593394 Estimated Local Min
+18.187060 Force Magnitude
+1 Success
+UGV_POS: (27.557620, 39.815986)
+ Belief too low, moving on...
+
+292 Step
+Prediction: 1.143, Correction: 0.617121, Prior: 1.90582e-06, Posterior: 1.34431e-06 Belief after normalization: 1.34431e-06Num Collisions: 143, Recognized Area: 39.2699, Total Area: 63.6341;
+29.839253, 36.593394 Estimated Local Min
+18.187060 Force Magnitude
+1 Success
+UGV_POS: (27.645304, 39.864064)
+ Belief too low, moving on...
+
+293 Step
+Prediction: 1.146, Correction: 0.61804, Prior: 1.34431e-06, Posterior: 9.5214e-07 Belief after normalization: 9.5214e-07Num Collisions: 146, Recognized Area: 39.2699, Total Area: 63.5394;
+29.839253, 36.593394 Estimated Local Min
+18.187060 Force Magnitude
+1 Success
+UGV_POS: (27.732987, 39.912145)
+ Belief too low, moving on...
+
+294 Step
+Prediction: 1.148, Correction: 0.618655, Prior: 9.5214e-07, Posterior: 6.76224e-07 Belief after normalization: 6.76224e-07Num Collisions: 148, Recognized Area: 39.2699, Total Area: 63.4763;
+29.839253, 36.593394 Estimated Local Min
+18.187060 Force Magnitude
+1 Success
+UGV_POS: (27.820668, 39.960229)
+ Belief too low, moving on...
+
+295 Step
+Prediction: 1.154, Correction: 0.618964, Prior: 6.76224e-07, Posterior: 4.83016e-07 Belief after normalization: 4.83016e-07Num Collisions: 154, Recognized Area: 39.2699, Total Area: 63.4446;
+29.839253, 36.593394 Estimated Local Min
+18.187060 Force Magnitude
+1 Success
+UGV_POS: (27.908347, 40.008316)
+ Belief too low, moving on...
+
+296 Step
+Prediction: 1.158, Correction: 0.618966, Prior: 4.83016e-07, Posterior: 3.46208e-07 Belief after normalization: 3.46208e-07Num Collisions: 158, Recognized Area: 39.2699, Total Area: 63.4444;
+29.839253, 36.593394 Estimated Local Min
+18.187060 Force Magnitude
+1 Success
+UGV_POS: (27.996025, 40.056406)
+ Belief too low, moving on...
+
+297 Step
+Prediction: 1.161, Correction: 0.618661, Prior: 3.46208e-07, Posterior: 2.48669e-07 Belief after normalization: 2.48669e-07Num Collisions: 161, Recognized Area: 39.2699, Total Area: 63.4756;
+29.839253, 36.593394 Estimated Local Min
+18.187060 Force Magnitude
+1 Success
+UGV_POS: (28.083701, 40.104499)
+ Belief too low, moving on...
+
+298 Step
+Prediction: 1.164, Correction: 0.618051, Prior: 2.48669e-07, Posterior: 1.78896e-07 Belief after normalization: 1.78896e-07Num Collisions: 164, Recognized Area: 39.2699, Total Area: 63.5383;
+29.839253, 36.593394 Estimated Local Min
+18.187060 Force Magnitude
+1 Success
+UGV_POS: (28.171375, 40.152595)
+ Belief too low, moving on...
+
+299 Step
+Prediction: 1.167, Correction: 0.617137, Prior: 1.78896e-07, Posterior: 1.2884e-07 Belief after normalization: 1.2884e-07Num Collisions: 167, Recognized Area: 39.2699, Total Area: 63.6324;
+29.839253, 36.593394 Estimated Local Min
+18.187060 Force Magnitude
+1 Success
+UGV_POS: (28.259047, 40.200693)
+ Belief too low, moving on...
+
+300 Step
+Prediction: 1.168, Correction: 0.615921, Prior: 1.2884e-07, Posterior: 9.26873e-08 Belief after normalization: 9.26873e-08Num Collisions: 168, Recognized Area: 39.2699, Total Area: 63.758;
+29.839253, 36.593394 Estimated Local Min
+18.187060 Force Magnitude
+1 Success
+UGV_POS: (28.346719, 40.248795)
+ Belief too low, moving on...
+
+301 Step
+Prediction: 1.174, Correction: 0.614408, Prior: 9.26873e-08, Posterior: 6.68567e-08 Belief after normalization: 6.68567e-08Num Collisions: 174, Recognized Area: 39.2699, Total Area: 63.9151;
+29.839253, 36.593394 Estimated Local Min
+18.187060 Force Magnitude
+1 Success
+UGV_POS: (28.434388, 40.296900)
+ Belief too low, moving on...
+
+Initial belief: 0.166667
+Group A Points: 6
+302 Step
+Prediction: 1.177, Correction: 0.5, Prior: 0.166667, Posterior: 0.0980833 Belief after normalization: 0.0980833Num Collisions: 177, Recognized Area: 39.2699, Total Area: 78.5398;
+32.906099, 42.749206 Estimated Local Min
+67.376856 Force Magnitude
+1 Success
+UGV_POS: (28.522056, 40.345007)
+ Belief too low, moving on...
+
+303 Step
+Prediction: 1.18, Correction: 0.5101, Prior: 0.0980833, Posterior: 0.0590381 Belief after normalization: 0.0590381Num Collisions: 180, Recognized Area: 39.2699, Total Area: 76.9847;
+32.906099, 42.749206 Estimated Local Min
+67.376856 Force Magnitude
+1 Success
+UGV_POS: (28.609723, 40.393116)
+ Belief too low, moving on...
+
+304 Step
+Prediction: 1.183, Correction: 0.5204, Prior: 0.0590381, Posterior: 0.0363458 Belief after normalization: 0.0363458Num Collisions: 183, Recognized Area: 39.2699, Total Area: 75.4611;
+32.906099, 42.749206 Estimated Local Min
+67.376856 Force Magnitude
+1 Success
+UGV_POS: (28.697389, 40.441228)
+ Belief too low, moving on...
+
+305 Step
+Prediction: 1.188, Correction: 0.530898, Prior: 0.0363458, Posterior: 0.0229236 Belief after normalization: 0.0229236Num Collisions: 188, Recognized Area: 39.2699, Total Area: 73.9688;
+32.906099, 42.749206 Estimated Local Min
+67.376856 Force Magnitude
+1 Success
+UGV_POS: (28.785053, 40.489342)
+ Belief too low, moving on...
+
+306 Step
+Prediction: 1.189, Correction: 0.541594, Prior: 0.0229236, Posterior: 0.0147618 Belief after normalization: 0.0147618Num Collisions: 189, Recognized Area: 39.2699, Total Area: 72.508;
+32.906099, 42.749206 Estimated Local Min
+67.376856 Force Magnitude
+1 Success
+UGV_POS: (28.872716, 40.537458)
+ Belief too low, moving on...
+
+307 Step
+Prediction: 1.191, Correction: 0.552486, Prior: 0.0147618, Posterior: 0.0097134 Belief after normalization: 0.0097134Num Collisions: 191, Recognized Area: 39.2699, Total Area: 71.0785;
+32.906099, 42.749206 Estimated Local Min
+67.376856 Force Magnitude
+1 Success
+UGV_POS: (28.960379, 40.585576)
+ Belief too low, moving on...
+
+308 Step
+Prediction: 1.194, Correction: 0.563571, Prior: 0.0097134, Posterior: 0.00653618 Belief after normalization: 0.00653618Num Collisions: 194, Recognized Area: 39.2699, Total Area: 69.6805;
+32.906099, 42.749206 Estimated Local Min
+67.376856 Force Magnitude
+1 Success
+UGV_POS: (29.048040, 40.633695)
+ Belief too low, moving on...
+
+309 Step
+Prediction: 1.198, Correction: 0.574845, Prior: 0.00653618, Posterior: 0.00450123 Belief after normalization: 0.00450123Num Collisions: 198, Recognized Area: 39.2699, Total Area: 68.3139;
+32.906099, 42.749206 Estimated Local Min
+67.376856 Force Magnitude
+1 Success
+UGV_POS: (29.135701, 40.681815)
+ Belief too low, moving on...
+
+310 Step
+Prediction: 1.2, Correction: 0.586304, Prior: 0.00450123, Posterior: 0.00316691 Belief after normalization: 0.00316691Num Collisions: 200, Recognized Area: 39.2699, Total Area: 66.9788;
+32.906099, 42.749206 Estimated Local Min
+67.376856 Force Magnitude
+1 Success
+UGV_POS: (29.223361, 40.729937)
+ Belief too low, moving on...
+
+311 Step
+Prediction: 1.201, Correction: 0.597943, Prior: 0.00316691, Posterior: 0.00227425 Belief after normalization: 0.00227425Num Collisions: 201, Recognized Area: 39.2699, Total Area: 65.675;
+32.906099, 42.749206 Estimated Local Min
+67.376856 Force Magnitude
+1 Success
+UGV_POS: (29.311021, 40.778060)
+ Belief too low, moving on...
+
+312 Step
+Prediction: 1.205, Correction: 0.609756, Prior: 0.00227425, Posterior: 0.00167102 Belief after normalization: 0.00167102Num Collisions: 205, Recognized Area: 39.2699, Total Area: 64.4027;
+32.906099, 42.749206 Estimated Local Min
+67.376856 Force Magnitude
+1 Success
+UGV_POS: (29.398680, 40.826183)
+ Belief too low, moving on...
+
+313 Step
+Prediction: 1.208, Correction: 0.621736, Prior: 0.00167102, Posterior: 0.00125503 Belief after normalization: 0.00125503Num Collisions: 208, Recognized Area: 39.2699, Total Area: 63.1617;
+32.906099, 42.749206 Estimated Local Min
+67.376856 Force Magnitude
+1 Success
+UGV_POS: (29.486339, 40.874307)
+ Belief too low, moving on...
+
+314 Step
+Prediction: 1.209, Correction: 0.633874, Prior: 0.00125503, Posterior: 0.000961798 Belief after normalization: 0.000961798Num Collisions: 209, Recognized Area: 39.2699, Total Area: 61.9522;
+32.906099, 42.749206 Estimated Local Min
+67.376856 Force Magnitude
+1 Success
+UGV_POS: (29.573998, 40.922431)
+ Belief too low, moving on...
+
+315 Step
+Prediction: 1.21, Correction: 0.646162, Prior: 0.000961798, Posterior: 0.000751987 Belief after normalization: 0.000751987Num Collisions: 210, Recognized Area: 39.2699, Total Area: 60.7741;
+32.906099, 42.749206 Estimated Local Min
+67.376856 Force Magnitude
+1 Success
+UGV_POS: (29.661657, 40.970555)
+ Belief too low, moving on...
+
+316 Step
+Prediction: 1.211, Correction: 0.658588, Prior: 0.000751987, Posterior: 0.000599747 Belief after normalization: 0.000599747Num Collisions: 211, Recognized Area: 39.2699, Total Area: 59.6274;
+32.906099, 42.749206 Estimated Local Min
+67.376856 Force Magnitude
+1 Success
+UGV_POS: (29.749316, 41.018679)
+ Belief too low, moving on...
+
+317 Step
+Prediction: 1.214, Correction: 0.671141, Prior: 0.000599747, Posterior: 0.000488653 Belief after normalization: 0.000488653Num Collisions: 214, Recognized Area: 39.2699, Total Area: 58.5122;
+32.906099, 42.749206 Estimated Local Min
+67.376856 Force Magnitude
+1 Success
+UGV_POS: (29.836975, 41.066802)
+ Belief too low, moving on...
+
+318 Step
+Prediction: 1.214, Correction: 0.683807, Prior: 0.000488653, Posterior: 0.000405652 Belief after normalization: 0.000405652Num Collisions: 214, Recognized Area: 39.2699, Total Area: 57.4283;
+32.906099, 42.749206 Estimated Local Min
+67.376856 Force Magnitude
+1 Success
+UGV_POS: (29.924635, 41.114925)
+ Belief too low, moving on...
+
+319 Step
+Prediction: 1.217, Correction: 0.696573, Prior: 0.000405652, Posterior: 0.000343883 Belief after normalization: 0.000343883Num Collisions: 217, Recognized Area: 39.2699, Total Area: 56.3759;
+32.906099, 42.749206 Estimated Local Min
+67.376856 Force Magnitude
+1 Success
+UGV_POS: (30.012295, 41.163047)
+ Belief too low, moving on...
+
+320 Step
+Prediction: 1.22, Correction: 0.709421, Prior: 0.000343883, Posterior: 0.000297628 Belief after normalization: 0.000297628Num Collisions: 220, Recognized Area: 39.2699, Total Area: 55.3549;
+32.906099, 42.749206 Estimated Local Min
+67.376856 Force Magnitude
+1 Success
+UGV_POS: (30.099955, 41.211168)
+ Belief too low, moving on...
+
+321 Step
+Prediction: 1.219, Correction: 0.722335, Prior: 0.000297628, Posterior: 0.000262069 Belief after normalization: 0.000262069Num Collisions: 219, Recognized Area: 39.2699, Total Area: 54.3653;
+32.906099, 42.749206 Estimated Local Min
+67.376856 Force Magnitude
+1 Success
+UGV_POS: (30.187617, 41.259287)
+ Belief too low, moving on...
+
+322 Step
+Prediction: 1.223, Correction: 0.735294, Prior: 0.000262069, Posterior: 0.00023567 Belief after normalization: 0.00023567Num Collisions: 223, Recognized Area: 39.2699, Total Area: 53.4071;
+32.906099, 42.749206 Estimated Local Min
+67.376856 Force Magnitude
+1 Success
+UGV_POS: (30.275278, 41.307406)
+ Belief too low, moving on...
+
+323 Step
+Prediction: 1.226, Correction: 0.748279, Prior: 0.00023567, Posterior: 0.000216201 Belief after normalization: 0.000216201Num Collisions: 226, Recognized Area: 39.2699, Total Area: 52.4803;
+32.906099, 42.749206 Estimated Local Min
+67.376856 Force Magnitude
+1 Success
+UGV_POS: (30.362941, 41.355523)
+ Belief too low, moving on...
+
+324 Step
+Prediction: 1.229, Correction: 0.761267, Prior: 0.000216201, Posterior: 0.000202277 Belief after normalization: 0.000202277Num Collisions: 229, Recognized Area: 39.2699, Total Area: 51.585;
+32.906099, 42.749206 Estimated Local Min
+67.376856 Force Magnitude
+1 Success
+UGV_POS: (30.450605, 41.403638)
+ Belief too low, moving on...
+
+Initial belief: 0.166667
+Group A Points: 6
+325th Step
+Prediction: 1.232, Correction: 0.5, Prior: 0.166667, Posterior: 0.102667 Belief after normalization: 0.102667Num Collisions: 232, Recognized Area: 39.2699, Total Area: 78.5398; 34.923803, 43.853230 Estimated Local Min
+65.076837 Force Magnitude
+1000 Iterations
+1 Success
+98 Obstacles in Range
+0.102667 Belief
+326 Step
+Prediction: 1.233, Correction: 0.5101, Prior: 0.102667, Posterior: 0.0645725 Belief after normalization: 0.0645725Num Collisions: 233, Recognized Area: 39.2699, Total Area: 76.9847;
+34.923803, 43.853230 Estimated Local Min
+65.076837 Force Magnitude
+1 Success
+UGV_POS: (30.625935, 41.499864)
+ Belief too low, moving on...
+
+327 Step
+Prediction: 1.235, Correction: 0.5204, Prior: 0.0645725, Posterior: 0.0415004 Belief after normalization: 0.0415004Num Collisions: 235, Recognized Area: 39.2699, Total Area: 75.4611;
+34.923803, 43.853230 Estimated Local Min
+65.076837 Force Magnitude
+1 Success
+UGV_POS: (30.713602, 41.547974)
+ Belief too low, moving on...
+
+328 Step
+Prediction: 1.236, Correction: 0.530898, Prior: 0.0415004, Posterior: 0.0272321 Belief after normalization: 0.0272321Num Collisions: 236, Recognized Area: 39.2699, Total Area: 73.9688;
+34.923803, 43.853230 Estimated Local Min
+65.076837 Force Magnitude
+1 Success
+UGV_POS: (30.801269, 41.596081)
+ Belief too low, moving on...
+
+329 Step
+Prediction: 1.237, Correction: 0.541594, Prior: 0.0272321, Posterior: 0.0182442 Belief after normalization: 0.0182442Num Collisions: 237, Recognized Area: 39.2699, Total Area: 72.508;
+34.923803, 43.853230 Estimated Local Min
+65.076837 Force Magnitude
+1 Success
+UGV_POS: (30.888938, 41.644187)
+ Belief too low, moving on...
+
+330 Step
+Prediction: 1.234, Correction: 0.552486, Prior: 0.0182442, Posterior: 0.0124383 Belief after normalization: 0.0124383Num Collisions: 234, Recognized Area: 39.2699, Total Area: 71.0785;
+34.923803, 43.853230 Estimated Local Min
+65.076837 Force Magnitude
+1 Success
+UGV_POS: (30.976609, 41.692290)
+ Belief too low, moving on...
+
+331 Step
+Prediction: 1.234, Correction: 0.563571, Prior: 0.0124383, Posterior: 0.00865019 Belief after normalization: 0.00865019Num Collisions: 234, Recognized Area: 39.2699, Total Area: 69.6805;
+34.923803, 43.853230 Estimated Local Min
+65.076837 Force Magnitude
+1 Success
+UGV_POS: (31.064280, 41.740392)
+ Belief too low, moving on...
+
+332 Step
+Prediction: 1.23, Correction: 0.574845, Prior: 0.00865019, Posterior: 0.0061162 Belief after normalization: 0.0061162Num Collisions: 230, Recognized Area: 39.2699, Total Area: 68.3139;
+34.923803, 43.853230 Estimated Local Min
+65.076837 Force Magnitude
+1 Success
+UGV_POS: (31.151953, 41.788491)
+ Belief too low, moving on...
+
+333 Step
+Prediction: 1.23, Correction: 0.586304, Prior: 0.0061162, Posterior: 0.00441072 Belief after normalization: 0.00441072Num Collisions: 230, Recognized Area: 39.2699, Total Area: 66.9788;
+34.923803, 43.853230 Estimated Local Min
+65.076837 Force Magnitude
+1 Success
+UGV_POS: (31.239626, 41.836587)
+ Belief too low, moving on...
+
+334 Step
+Prediction: 1.227, Correction: 0.597943, Prior: 0.00441072, Posterior: 0.00323604 Belief after normalization: 0.00323604Num Collisions: 227, Recognized Area: 39.2699, Total Area: 65.675;
+34.923803, 43.853230 Estimated Local Min
+65.076837 Force Magnitude
+1 Success
+UGV_POS: (31.327301, 41.884682)
+ Belief too low, moving on...
+
+335 Step
+Prediction: 1.227, Correction: 0.609756, Prior: 0.00323604, Posterior: 0.00242111 Belief after normalization: 0.00242111Num Collisions: 227, Recognized Area: 39.2699, Total Area: 64.4027;
+34.923803, 43.853230 Estimated Local Min
+65.076837 Force Magnitude
+1 Success
+UGV_POS: (31.414977, 41.932775)
+ Belief too low, moving on...
+
+336 Step
+Prediction: 1.225, Correction: 0.621736, Prior: 0.00242111, Posterior: 0.00184398 Belief after normalization: 0.00184398Num Collisions: 225, Recognized Area: 39.2699, Total Area: 63.1617;
+34.923803, 43.853230 Estimated Local Min
+65.076837 Force Magnitude
+1 Success
+UGV_POS: (31.502655, 41.980865)
+ Belief too low, moving on...
+
+337 Step
+Prediction: 1.223, Correction: 0.633874, Prior: 0.00184398, Posterior: 0.00142951 Belief after normalization: 0.00142951Num Collisions: 223, Recognized Area: 39.2699, Total Area: 61.9522;
+34.923803, 43.853230 Estimated Local Min
+65.076837 Force Magnitude
+1 Success
+UGV_POS: (31.590333, 42.028954)
+ Belief too low, moving on...
+
+338 Step
+Prediction: 1.221, Correction: 0.646162, Prior: 0.00142951, Posterior: 0.00112783 Belief after normalization: 0.00112783Num Collisions: 221, Recognized Area: 39.2699, Total Area: 60.7741;
+34.923803, 43.853230 Estimated Local Min
+65.076837 Force Magnitude
+1 Success
+UGV_POS: (31.678012, 42.077041)
+ Belief too low, moving on...
+
+339 Step
+Prediction: 1.22, Correction: 0.658588, Prior: 0.00112783, Posterior: 0.000906184 Belief after normalization: 0.000906184Num Collisions: 220, Recognized Area: 39.2699, Total Area: 59.6274;
+34.923803, 43.853230 Estimated Local Min
+65.076837 Force Magnitude
+1 Success
+UGV_POS: (31.765693, 42.125126)
+ Belief too low, moving on...
+
+340 Step
+Prediction: 1.217, Correction: 0.671141, Prior: 0.000906184, Posterior: 0.000740151 Belief after normalization: 0.000740151Num Collisions: 217, Recognized Area: 39.2699, Total Area: 58.5122;
+34.923803, 43.853230 Estimated Local Min
+65.076837 Force Magnitude
+1 Success
+UGV_POS: (31.853374, 42.173209)
+ Belief too low, moving on...
+
+341 Step
+Prediction: 1.217, Correction: 0.683807, Prior: 0.000740151, Posterior: 0.000615949 Belief after normalization: 0.000615949Num Collisions: 217, Recognized Area: 39.2699, Total Area: 57.4283;
+34.923803, 43.853230 Estimated Local Min
+65.076837 Force Magnitude
+1 Success
+UGV_POS: (31.941056, 42.221290)
+ Belief too low, moving on...
+
+342 Step
+Prediction: 1.214, Correction: 0.696573, Prior: 0.000615949, Posterior: 0.000520871 Belief after normalization: 0.000520871Num Collisions: 214, Recognized Area: 39.2699, Total Area: 56.3759;
+34.923803, 43.853230 Estimated Local Min
+65.076837 Force Magnitude
+1 Success
+UGV_POS: (32.028740, 42.269369)
+ Belief too low, moving on...
+
+343 Step
+Prediction: 1.213, Correction: 0.709421, Prior: 0.000520871, Posterior: 0.000448224 Belief after normalization: 0.000448224Num Collisions: 213, Recognized Area: 39.2699, Total Area: 55.3549;
+34.923803, 43.853230 Estimated Local Min
+65.076837 Force Magnitude
+1 Success
+UGV_POS: (32.116424, 42.317447)
+ Belief too low, moving on...
+
+344 Step
+Prediction: 1.21, Correction: 0.722334, Prior: 0.000448224, Posterior: 0.000391759 Belief after normalization: 0.000391759Num Collisions: 210, Recognized Area: 39.2699, Total Area: 54.3653;
+34.923803, 43.853230 Estimated Local Min
+65.076837 Force Magnitude
+1 Success
+UGV_POS: (32.204110, 42.365522)
+ Belief too low, moving on...
+
+345 Step
+Prediction: 1.208, Correction: 0.735294, Prior: 0.000391759, Posterior: 0.000347974 Belief after normalization: 0.000347974Num Collisions: 208, Recognized Area: 39.2699, Total Area: 53.4071;
+34.923803, 43.853230 Estimated Local Min
+65.076837 Force Magnitude
+1 Success
+UGV_POS: (32.291796, 42.413597)
+ Belief too low, moving on...
+
+346 Step
+Prediction: 1.206, Correction: 0.748279, Prior: 0.000347974, Posterior: 0.00031402 Belief after normalization: 0.00031402Num Collisions: 206, Recognized Area: 39.2699, Total Area: 52.4803;
+34.923803, 43.853230 Estimated Local Min
+65.076837 Force Magnitude
+1 Success
+UGV_POS: (32.379483, 42.461669)
+ Belief too low, moving on...
+
+347 Step
+Prediction: 1.203, Correction: 0.761267, Prior: 0.00031402, Posterior: 0.000287581 Belief after normalization: 0.000287581Num Collisions: 203, Recognized Area: 39.2699, Total Area: 51.585;
+34.923803, 43.853230 Estimated Local Min
+65.076837 Force Magnitude
+1 Success
+UGV_POS: (32.467171, 42.509740)
+ Belief too low, moving on...
+
+Initial belief: 0.166667
+Group A Points: 6
+348th Step
+Prediction: 1.201, Correction: 0.5, Prior: 0.166667, Posterior: 0.100083 Belief after normalization: 0.100083Num Collisions: 201, Recognized Area: 39.2699, Total Area: 78.5398; 36.940440, 44.959202 Estimated Local Min
+62.776838 Force Magnitude
+1000 Iterations
+1 Success
+83 Obstacles in Range
+0.100083 Belief
+349 Step
+Prediction: 1.199, Correction: 0.5101, Prior: 0.100083, Posterior: 0.061212 Belief after normalization: 0.061212Num Collisions: 199, Recognized Area: 39.2699, Total Area: 76.9847;
+36.940440, 44.959202 Estimated Local Min
+62.776838 Force Magnitude
+1 Success
+UGV_POS: (32.642550, 42.605877)
+ Belief too low, moving on...
+
+350 Step
+Prediction: 1.197, Correction: 0.5204, Prior: 0.061212, Posterior: 0.0381301 Belief after normalization: 0.0381301Num Collisions: 197, Recognized Area: 39.2699, Total Area: 75.4611;
+36.940440, 44.959202 Estimated Local Min
+62.776838 Force Magnitude
+1 Success
+UGV_POS: (32.730240, 42.653943)
+ Belief too low, moving on...
+
+351 Step
+Prediction: 1.195, Correction: 0.530898, Prior: 0.0381301, Posterior: 0.0241906 Belief after normalization: 0.0241906Num Collisions: 195, Recognized Area: 39.2699, Total Area: 73.9688;
+36.940440, 44.959202 Estimated Local Min
+62.776838 Force Magnitude
+1 Success
+UGV_POS: (32.817932, 42.702008)
+ Belief too low, moving on...
+
+352 Step
+Prediction: 1.19, Correction: 0.541594, Prior: 0.0241906, Posterior: 0.0155908 Belief after normalization: 0.0155908Num Collisions: 190, Recognized Area: 39.2699, Total Area: 72.508;
+36.940440, 44.959202 Estimated Local Min
+62.776838 Force Magnitude
+1 Success
+UGV_POS: (32.905624, 42.750071)
+ Belief too low, moving on...
+
+353 Step
+Prediction: 1.188, Correction: 0.552486, Prior: 0.0155908, Posterior: 0.0102331 Belief after normalization: 0.0102331Num Collisions: 188, Recognized Area: 39.2699, Total Area: 71.0785;
+36.940440, 44.959202 Estimated Local Min
+62.776838 Force Magnitude
+1 Success
+UGV_POS: (32.993317, 42.798132)
+ Belief too low, moving on...
+
+354 Step
+Prediction: 1.183, Correction: 0.563571, Prior: 0.0102331, Posterior: 0.00682243 Belief after normalization: 0.00682243Num Collisions: 183, Recognized Area: 39.2699, Total Area: 69.6805;
+36.940440, 44.959202 Estimated Local Min
+62.776838 Force Magnitude
+1 Success
+UGV_POS: (33.081011, 42.846193)
+ Belief too low, moving on...
+
+355 Step
+Prediction: 1.178, Correction: 0.574845, Prior: 0.00682243, Posterior: 0.00461992 Belief after normalization: 0.00461992Num Collisions: 178, Recognized Area: 39.2699, Total Area: 68.3139;
+36.940440, 44.959202 Estimated Local Min
+62.776838 Force Magnitude
+1 Success
+UGV_POS: (33.168706, 42.894252)
+ Belief too low, moving on...
+
+356 Step
+Prediction: 1.174, Correction: 0.586304, Prior: 0.00461992, Posterior: 0.00317999 Belief after normalization: 0.00317999Num Collisions: 174, Recognized Area: 39.2699, Total Area: 66.9788;
+36.940440, 44.959202 Estimated Local Min
+62.776838 Force Magnitude
+1 Success
+UGV_POS: (33.256401, 42.942309)
+ Belief too low, moving on...
+
+357 Step
+Prediction: 1.169, Correction: 0.597943, Prior: 0.00317999, Posterior: 0.0022228 Belief after normalization: 0.0022228Num Collisions: 169, Recognized Area: 39.2699, Total Area: 65.675;
+36.940440, 44.959202 Estimated Local Min
+62.776838 Force Magnitude
+1 Success
+UGV_POS: (33.344097, 42.990365)
+ Belief too low, moving on...
+
+358 Step
+Prediction: 1.164, Correction: 0.609756, Prior: 0.0022228, Posterior: 0.00157764 Belief after normalization: 0.00157764Num Collisions: 164, Recognized Area: 39.2699, Total Area: 64.4027;
+36.940440, 44.959202 Estimated Local Min
+62.776838 Force Magnitude
+1 Success
+UGV_POS: (33.431794, 43.038419)
+ Belief too low, moving on...
+
+359 Step
+Prediction: 1.159, Correction: 0.621736, Prior: 0.00157764, Posterior: 0.00113684 Belief after normalization: 0.00113684Num Collisions: 159, Recognized Area: 39.2699, Total Area: 63.1617;
+36.940440, 44.959202 Estimated Local Min
+62.776838 Force Magnitude
+1 Success
+UGV_POS: (33.519492, 43.086473)
+ Belief too low, moving on...
+
+360 Step
+Prediction: 1.154, Correction: 0.633874, Prior: 0.00113684, Posterior: 0.000831586 Belief after normalization: 0.000831586Num Collisions: 154, Recognized Area: 39.2699, Total Area: 61.9522;
+36.940440, 44.959202 Estimated Local Min
+62.776838 Force Magnitude
+1 Success
+UGV_POS: (33.607190, 43.134524)
+ Belief too low, moving on...
+
+361 Step
+Prediction: 1.15, Correction: 0.646162, Prior: 0.000831586, Posterior: 0.00061794 Belief after normalization: 0.00061794Num Collisions: 150, Recognized Area: 39.2699, Total Area: 60.7741;
+36.940440, 44.959202 Estimated Local Min
+62.776838 Force Magnitude
+1 Success
+UGV_POS: (33.694890, 43.182575)
+ Belief too low, moving on...
+
+362 Step
+Prediction: 1.146, Correction: 0.658588, Prior: 0.00061794, Posterior: 0.000466385 Belief after normalization: 0.000466385Num Collisions: 146, Recognized Area: 39.2699, Total Area: 59.6274;
+36.940440, 44.959202 Estimated Local Min
+62.776838 Force Magnitude
+1 Success
+UGV_POS: (33.782590, 43.230624)
+ Belief too low, moving on...
+
+363 Step
+Prediction: 1.143, Correction: 0.671141, Prior: 0.000466385, Posterior: 0.000357771 Belief after normalization: 0.000357771Num Collisions: 143, Recognized Area: 39.2699, Total Area: 58.5122;
+36.940440, 44.959202 Estimated Local Min
+62.776838 Force Magnitude
+1 Success
+UGV_POS: (33.870290, 43.278671)
+ Belief too low, moving on...
+
+364 Step
+Prediction: 1.138, Correction: 0.683807, Prior: 0.000357771, Posterior: 0.000278408 Belief after normalization: 0.000278408Num Collisions: 138, Recognized Area: 39.2699, Total Area: 57.4283;
+36.940440, 44.959202 Estimated Local Min
+62.776838 Force Magnitude
+1 Success
+UGV_POS: (33.957992, 43.326718)
+ Belief too low, moving on...
+
+365 Step
+Prediction: 1.133, Correction: 0.696573, Prior: 0.000278408, Posterior: 0.000219724 Belief after normalization: 0.000219724Num Collisions: 133, Recognized Area: 39.2699, Total Area: 56.3759;
+36.940440, 44.959202 Estimated Local Min
+62.776838 Force Magnitude
+1 Success
+UGV_POS: (34.045694, 43.374763)
+ Belief too low, moving on...
+
+366 Step
+Prediction: 1.128, Correction: 0.709421, Prior: 0.000219724, Posterior: 0.000175829 Belief after normalization: 0.000175829Num Collisions: 128, Recognized Area: 39.2699, Total Area: 55.3549;
+36.940440, 44.959202 Estimated Local Min
+62.776838 Force Magnitude
+1 Success
+UGV_POS: (34.133397, 43.422807)
+ Belief too low, moving on...
+
+367 Step
+Prediction: 1.125, Correction: 0.722335, Prior: 0.000175829, Posterior: 0.000142883 Belief after normalization: 0.000142883Num Collisions: 125, Recognized Area: 39.2699, Total Area: 54.3653;
+36.940440, 44.959202 Estimated Local Min
+62.776838 Force Magnitude
+1 Success
+UGV_POS: (34.221100, 43.470850)
+ Belief too low, moving on...
+
+368 Step
+Prediction: 1.119, Correction: 0.735294, Prior: 0.000142883, Posterior: 0.000117564 Belief after normalization: 0.000117564Num Collisions: 119, Recognized Area: 39.2699, Total Area: 53.4071;
+36.940440, 44.959202 Estimated Local Min
+62.776838 Force Magnitude
+1 Success
+UGV_POS: (34.308804, 43.518892)
+ Belief too low, moving on...
+
+369 Step
+Prediction: 1.114, Correction: 0.748279, Prior: 0.000117564, Posterior: 9.79989e-05 Belief after normalization: 9.79989e-05Num Collisions: 114, Recognized Area: 39.2699, Total Area: 52.4803;
+36.940440, 44.959202 Estimated Local Min
+62.776838 Force Magnitude
+1 Success
+UGV_POS: (34.396509, 43.566932)
+ Belief too low, moving on...
+
+370 Step
+Prediction: 1.109, Correction: 0.761267, Prior: 9.79989e-05, Posterior: 8.27351e-05 Belief after normalization: 8.27351e-05Num Collisions: 109, Recognized Area: 39.2699, Total Area: 51.585;
+36.940440, 44.959202 Estimated Local Min
+62.776838 Force Magnitude
+1 Success
+UGV_POS: (34.484214, 43.614972)
+ Belief too low, moving on...
+
+Initial belief: 0.166667
+Group A Points: 6
+371 Step
+Prediction: 1.104, Correction: 0.5, Prior: 0.166667, Posterior: 0.092 Belief after normalization: 0.092Num Collisions: 104, Recognized Area: 39.2699, Total Area: 78.5398;
+38.957514, 46.064378 Estimated Local Min
+60.476838 Force Magnitude
+1 Success
+UGV_POS: (34.571919, 43.663011)
+ Belief too low, moving on...
+
+372 Step
+Prediction: 1.1, Correction: 0.5101, Prior: 0.092, Posterior: 0.0516221 Belief after normalization: 0.0516221Num Collisions: 100, Recognized Area: 39.2699, Total Area: 76.9847;
+38.957514, 46.064378 Estimated Local Min
+60.476838 Force Magnitude
+1 Success
+UGV_POS: (34.659625, 43.711050)
+ Belief too low, moving on...
+
+373 Step
+Prediction: 1.095, Correction: 0.5204, Prior: 0.0516221, Posterior: 0.0294162 Belief after normalization: 0.0294162Num Collisions: 95, Recognized Area: 39.2699, Total Area: 75.4611;
+38.957514, 46.064378 Estimated Local Min
+60.476838 Force Magnitude
+1 Success
+UGV_POS: (34.747331, 43.759087)
+ Belief too low, moving on...
+
+374 Step
+Prediction: 1.089, Correction: 0.530898, Prior: 0.0294162, Posterior: 0.0170069 Belief after normalization: 0.0170069Num Collisions: 89, Recognized Area: 39.2699, Total Area: 73.9688;
+38.957514, 46.064378 Estimated Local Min
+60.476838 Force Magnitude
+1 Success
+UGV_POS: (34.835038, 43.807124)
+ Belief too low, moving on...
+
+375 Step
+Prediction: 1.082, Correction: 0.541594, Prior: 0.0170069, Posterior: 0.00996615 Belief after normalization: 0.00996615Num Collisions: 82, Recognized Area: 39.2699, Total Area: 72.508;
+38.957514, 46.064378 Estimated Local Min
+60.476838 Force Magnitude
+1 Success
+UGV_POS: (34.922745, 43.855161)
+ Belief too low, moving on...
+
+376 Step
+Prediction: 1.076, Correction: 0.552486, Prior: 0.00996615, Posterior: 0.00592463 Belief after normalization: 0.00592463Num Collisions: 76, Recognized Area: 39.2699, Total Area: 71.0785;
+38.957514, 46.064378 Estimated Local Min
+60.476838 Force Magnitude
+1 Success
+UGV_POS: (35.010452, 43.903197)
+ Belief too low, moving on...
+
+377 Step
+Prediction: 1.071, Correction: 0.563571, Prior: 0.00592463, Posterior: 0.00357601 Belief after normalization: 0.00357601Num Collisions: 71, Recognized Area: 39.2699, Total Area: 69.6805;
+38.957514, 46.064378 Estimated Local Min
+60.476838 Force Magnitude
+1 Success
+UGV_POS: (35.098159, 43.951232)
+ Belief too low, moving on...
+
+378 Step
+Prediction: 1.064, Correction: 0.574845, Prior: 0.00357601, Posterior: 0.00218722 Belief after normalization: 0.00218722Num Collisions: 64, Recognized Area: 39.2699, Total Area: 68.3139;
+38.957514, 46.064378 Estimated Local Min
+60.476838 Force Magnitude
+1 Success
+UGV_POS: (35.185867, 43.999268)
+ Belief too low, moving on...
+
+379 Step
+Prediction: 1, Correction: 0.586304, Prior: 0.00218722, Posterior: 0.00128237 Belief after normalization: 0.00128237Num Collisions: 0, Recognized Area: 39.2699, Total Area: 66.9788;
+38.957514, 46.064378 Estimated Local Min
+60.476838 Force Magnitude
+1 Success
+UGV_POS: (35.273574, 44.047303)
+ Belief too low, moving on...
+
+380 Step
+Prediction: 1, Correction: 0.597943, Prior: 0.00128237, Posterior: 0.000766786 Belief after normalization: 0.000766786Num Collisions: 0, Recognized Area: 39.2699, Total Area: 65.675;
+38.957514, 46.064378 Estimated Local Min
+60.476838 Force Magnitude
+1 Success
+UGV_POS: (35.361282, 44.095339)
+ Belief too low, moving on...
+
+381 Step
+Prediction: 1, Correction: 0.609756, Prior: 0.000766786, Posterior: 0.000467552 Belief after normalization: 0.000467552Num Collisions: 0, Recognized Area: 39.2699, Total Area: 64.4026;
+38.957514, 46.064378 Estimated Local Min
+60.476838 Force Magnitude
+1 Success
+UGV_POS: (35.448989, 44.143374)
+ Belief too low, moving on...
+
+382 Step
+Prediction: 1, Correction: 0.621736, Prior: 0.000467552, Posterior: 0.000290694 Belief after normalization: 0.000290694Num Collisions: 0, Recognized Area: 39.2699, Total Area: 63.1617;
+38.957514, 46.064378 Estimated Local Min
+60.476838 Force Magnitude
+1 Success
+UGV_POS: (35.536697, 44.191409)
+ Belief too low, moving on...
+
+383 Step
+Prediction: 1, Correction: 0.633874, Prior: 0.000290694, Posterior: 0.000184264 Belief after normalization: 0.000184264Num Collisions: 0, Recognized Area: 39.2699, Total Area: 61.9522;
+38.957514, 46.064378 Estimated Local Min
+60.476838 Force Magnitude
+1 Success
+UGV_POS: (35.624404, 44.239445)
+ Belief too low, moving on...
+
+384 Step
+Prediction: 1, Correction: 0.646162, Prior: 0.000184264, Posterior: 0.000119064 Belief after normalization: 0.000119064Num Collisions: 0, Recognized Area: 39.2699, Total Area: 60.7741;
+38.957514, 46.064378 Estimated Local Min
+60.476838 Force Magnitude
+1 Success
+UGV_POS: (35.712112, 44.287480)
+ Belief too low, moving on...
+
+385 Step
+Prediction: 1, Correction: 0.658588, Prior: 0.000119064, Posterior: 7.84141e-05 Belief after normalization: 7.84141e-05Num Collisions: 0, Recognized Area: 39.2699, Total Area: 59.6274;
+38.957514, 46.064378 Estimated Local Min
+60.476838 Force Magnitude
+1 Success
+UGV_POS: (35.799819, 44.335515)
+ Belief too low, moving on...
+
+386 Step
+Prediction: 1, Correction: 0.671141, Prior: 7.84141e-05, Posterior: 5.26269e-05 Belief after normalization: 5.26269e-05Num Collisions: 0, Recognized Area: 39.2699, Total Area: 58.5122;
+38.957514, 46.064378 Estimated Local Min
+60.476838 Force Magnitude
+1 Success
+UGV_POS: (35.887527, 44.383551)
+ Belief too low, moving on...
+
+387 Step
+Prediction: 1, Correction: 0.683807, Prior: 5.26269e-05, Posterior: 3.59867e-05 Belief after normalization: 3.59867e-05Num Collisions: 0, Recognized Area: 39.2699, Total Area: 57.4283;
+38.957514, 46.064378 Estimated Local Min
+60.476838 Force Magnitude
+1 Success
+UGV_POS: (35.975234, 44.431586)
+ Belief too low, moving on...
+
+388 Step
+Prediction: 1, Correction: 0.696573, Prior: 3.59867e-05, Posterior: 2.50674e-05 Belief after normalization: 2.50674e-05Num Collisions: 0, Recognized Area: 39.2699, Total Area: 56.3759;
+38.957514, 46.064378 Estimated Local Min
+60.476838 Force Magnitude
+1 Success
+UGV_POS: (36.062942, 44.479622)
+ Belief too low, moving on...
+
+389 Step
+Prediction: 1, Correction: 0.709421, Prior: 2.50674e-05, Posterior: 1.77833e-05 Belief after normalization: 1.77833e-05Num Collisions: 0, Recognized Area: 39.2699, Total Area: 55.3549;
+38.957514, 46.064378 Estimated Local Min
+60.476838 Force Magnitude
+1 Success
+UGV_POS: (36.150649, 44.527657)
+ Belief too low, moving on...
+
+390 Step
+Prediction: 1, Correction: 0.722335, Prior: 1.77833e-05, Posterior: 1.28455e-05 Belief after normalization: 1.28455e-05Num Collisions: 0, Recognized Area: 39.2699, Total Area: 54.3653;
+38.957514, 46.064378 Estimated Local Min
+60.476838 Force Magnitude
+1 Success
+UGV_POS: (36.238357, 44.575692)
+ Belief too low, moving on...
+
+391 Step
+Prediction: 1, Correction: 0.735294, Prior: 1.28455e-05, Posterior: 9.44522e-06 Belief after normalization: 9.44522e-06Num Collisions: 0, Recognized Area: 39.2699, Total Area: 53.4071;
+38.957514, 46.064378 Estimated Local Min
+60.476838 Force Magnitude
+1 Success
+UGV_POS: (36.326064, 44.623728)
+ Belief too low, moving on...
+
+392 Step
+Prediction: 1, Correction: 0.748279, Prior: 9.44522e-06, Posterior: 7.06766e-06 Belief after normalization: 7.06766e-06Num Collisions: 0, Recognized Area: 39.2699, Total Area: 52.4803;
+38.957514, 46.064378 Estimated Local Min
+60.476838 Force Magnitude
+1 Success
+UGV_POS: (36.413771, 44.671763)
+ Belief too low, moving on...
+
+393 Step
+Prediction: 1, Correction: 0.761267, Prior: 7.06766e-06, Posterior: 5.38037e-06 Belief after normalization: 5.38037e-06Num Collisions: 0, Recognized Area: 39.2699, Total Area: 51.585;
+38.957514, 46.064378 Estimated Local Min
+60.476838 Force Magnitude
+1 Success
+UGV_POS: (36.501479, 44.719798)
+ Belief too low, moving on...
+
+Initial belief: 0.166667
+Group A Points: 6
+394 Step
+Prediction: 1, Correction: 0.5, Prior: 0.166667, Posterior: 0.0833333 Belief after normalization: 0.0833333Num Collisions: 0, Recognized Area: 39.2699, Total Area: 78.5398;
+40.974780, 47.169202 Estimated Local Min
+58.176838 Force Magnitude
+1 Success
+UGV_POS: (36.589186, 44.767834)
+ Belief too low, moving on...
+
+395 Step
+Prediction: 1, Correction: 0.5101, Prior: 0.0833333, Posterior: 0.0425083 Belief after normalization: 0.0425083Num Collisions: 0, Recognized Area: 39.2699, Total Area: 76.9847;
+40.974780, 47.169202 Estimated Local Min
+58.176838 Force Magnitude
+1 Success
+UGV_POS: (36.676894, 44.815869)
+ Belief too low, moving on...
+
+396 Step
+Prediction: 1, Correction: 0.5204, Prior: 0.0425083, Posterior: 0.0221213 Belief after normalization: 0.0221213Num Collisions: 0, Recognized Area: 39.2699, Total Area: 75.4611;
+40.974780, 47.169202 Estimated Local Min
+58.176838 Force Magnitude
+1 Success
+UGV_POS: (36.764601, 44.863905)
+ Belief too low, moving on...
+
+397 Step
+Prediction: 1, Correction: 0.530898, Prior: 0.0221213, Posterior: 0.0117442 Belief after normalization: 0.0117442Num Collisions: 0, Recognized Area: 39.2699, Total Area: 73.9688;
+40.974780, 47.169202 Estimated Local Min
+58.176838 Force Magnitude
+1 Success
+UGV_POS: (36.852309, 44.911940)
+ Belief too low, moving on...
+
+398 Step
+Prediction: 1, Correction: 0.541594, Prior: 0.0117442, Posterior: 0.00636058 Belief after normalization: 0.00636058Num Collisions: 0, Recognized Area: 39.2699, Total Area: 72.508;
+40.974780, 47.169202 Estimated Local Min
+58.176838 Force Magnitude
+1 Success
+UGV_POS: (36.940016, 44.959975)
+ Belief too low, moving on...
+
+399 Step
+Prediction: 1, Correction: 0.552486, Prior: 0.00636058, Posterior: 0.00351413 Belief after normalization: 0.00351413Num Collisions: 0, Recognized Area: 39.2699, Total Area: 71.0785;
+40.974780, 47.169202 Estimated Local Min
+58.176838 Force Magnitude
+1 Success
+UGV_POS: (37.027724, 45.008011)
+ Belief too low, moving on...
+
+400 Step
+Prediction: 1, Correction: 0.563571, Prior: 0.00351413, Posterior: 0.00198046 Belief after normalization: 0.00198046Num Collisions: 0, Recognized Area: 39.2699, Total Area: 69.6805;
+40.974780, 47.169202 Estimated Local Min
+58.176838 Force Magnitude
+1 Success
+UGV_POS: (37.115431, 45.056046)
+ Belief too low, moving on...
+
+401 Step
+Prediction: 1, Correction: 0.574845, Prior: 0.00198046, Posterior: 0.00113846 Belief after normalization: 0.00113846Num Collisions: 0, Recognized Area: 39.2699, Total Area: 68.3139;
+40.974780, 47.169202 Estimated Local Min
+58.176838 Force Magnitude
+1 Success
+UGV_POS: (37.203139, 45.104081)
+ Belief too low, moving on...
+
+402 Step
+Prediction: 1, Correction: 0.586304, Prior: 0.00113846, Posterior: 0.000667483 Belief after normalization: 0.000667483Num Collisions: 0, Recognized Area: 39.2699, Total Area: 66.9788;
+40.974780, 47.169202 Estimated Local Min
+58.176838 Force Magnitude
+1 Success
+UGV_POS: (37.290846, 45.152117)
+ Belief too low, moving on...
+
+403 Step
+Prediction: 1, Correction: 0.597943, Prior: 0.000667483, Posterior: 0.000399117 Belief after normalization: 0.000399117Num Collisions: 0, Recognized Area: 39.2699, Total Area: 65.675;
+40.974780, 47.169202 Estimated Local Min
+58.176838 Force Magnitude
+1 Success
+UGV_POS: (37.378554, 45.200152)
+ Belief too low, moving on...
+
+404 Step
+Prediction: 1, Correction: 0.609756, Prior: 0.000399117, Posterior: 0.000243364 Belief after normalization: 0.000243364Num Collisions: 0, Recognized Area: 39.2699, Total Area: 64.4026;
+40.974780, 47.169202 Estimated Local Min
+58.176838 Force Magnitude
+1 Success
+UGV_POS: (37.466261, 45.248188)
+ Belief too low, moving on...
+
+405 Step
+Prediction: 1, Correction: 0.621736, Prior: 0.000243364, Posterior: 0.000151308 Belief after normalization: 0.000151308Num Collisions: 0, Recognized Area: 39.2699, Total Area: 63.1617;
+40.974780, 47.169202 Estimated Local Min
+58.176838 Force Magnitude
+1 Success
+UGV_POS: (37.553969, 45.296223)
+ Belief too low, moving on...
+
+406 Step
+Prediction: 1, Correction: 0.633874, Prior: 0.000151308, Posterior: 9.59102e-05 Belief after normalization: 9.59102e-05Num Collisions: 0, Recognized Area: 39.2699, Total Area: 61.9522;
+40.974780, 47.169202 Estimated Local Min
+58.176838 Force Magnitude
+1 Success
+UGV_POS: (37.641676, 45.344258)
+ Belief too low, moving on...
+
+407 Step
+Prediction: 1, Correction: 0.646162, Prior: 9.59102e-05, Posterior: 6.19735e-05 Belief after normalization: 6.19735e-05Num Collisions: 0, Recognized Area: 39.2699, Total Area: 60.7741;
+40.974780, 47.169202 Estimated Local Min
+58.176838 Force Magnitude
+1 Success
+UGV_POS: (37.729384, 45.392294)
+ Belief too low, moving on...
+
+408 Step
+Prediction: 1, Correction: 0.658588, Prior: 6.19735e-05, Posterior: 4.0815e-05 Belief after normalization: 4.0815e-05Num Collisions: 0, Recognized Area: 39.2699, Total Area: 59.6274;
+40.974780, 47.169202 Estimated Local Min
+58.176838 Force Magnitude
+1 Success
+UGV_POS: (37.817091, 45.440329)
+ Belief too low, moving on...
+
+409 Step
+Prediction: 1, Correction: 0.671141, Prior: 4.0815e-05, Posterior: 2.73926e-05 Belief after normalization: 2.73926e-05Num Collisions: 0, Recognized Area: 39.2699, Total Area: 58.5122;
+40.974780, 47.169202 Estimated Local Min
+58.176838 Force Magnitude
+1 Success
+UGV_POS: (37.904799, 45.488365)
+ Belief too low, moving on...
+
+410 Step
+Prediction: 1, Correction: 0.683807, Prior: 2.73926e-05, Posterior: 1.87313e-05 Belief after normalization: 1.87313e-05Num Collisions: 0, Recognized Area: 39.2699, Total Area: 57.4283;
+40.974780, 47.169202 Estimated Local Min
+58.176838 Force Magnitude
+1 Success
+UGV_POS: (37.992506, 45.536400)
+ Belief too low, moving on...
+
+411 Step
+Prediction: 1, Correction: 0.696573, Prior: 1.87313e-05, Posterior: 1.30477e-05 Belief after normalization: 1.30477e-05Num Collisions: 0, Recognized Area: 39.2699, Total Area: 56.3759;
+40.974780, 47.169202 Estimated Local Min
+58.176838 Force Magnitude
+1 Success
+UGV_POS: (38.080214, 45.584435)
+ Belief too low, moving on...
+
+412 Step
+Prediction: 1, Correction: 0.709421, Prior: 1.30477e-05, Posterior: 9.25632e-06 Belief after normalization: 9.25632e-06Num Collisions: 0, Recognized Area: 39.2699, Total Area: 55.3549;
+40.974780, 47.169202 Estimated Local Min
+58.176838 Force Magnitude
+1 Success
+UGV_POS: (38.167921, 45.632471)
+ Belief too low, moving on...
+
+413 Step
+Prediction: 1, Correction: 0.722335, Prior: 9.25632e-06, Posterior: 6.68616e-06 Belief after normalization: 6.68616e-06Num Collisions: 0, Recognized Area: 39.2699, Total Area: 54.3653;
+40.974780, 47.169202 Estimated Local Min
+58.176838 Force Magnitude
+1 Success
+UGV_POS: (38.255629, 45.680506)
+ Belief too low, moving on...
+
+414 Step
+Prediction: 1, Correction: 0.735294, Prior: 6.68616e-06, Posterior: 4.91629e-06 Belief after normalization: 4.91629e-06Num Collisions: 0, Recognized Area: 39.2699, Total Area: 53.4071;
+40.974780, 47.169202 Estimated Local Min
+58.176838 Force Magnitude
+1 Success
+UGV_POS: (38.343336, 45.728541)
+ Belief too low, moving on...
+
+415 Step
+Prediction: 1, Correction: 0.748279, Prior: 4.91629e-06, Posterior: 3.67876e-06 Belief after normalization: 3.67876e-06Num Collisions: 0, Recognized Area: 39.2699, Total Area: 52.4803;
+40.974780, 47.169202 Estimated Local Min
+58.176838 Force Magnitude
+1 Success
+UGV_POS: (38.431044, 45.776577)
+ Belief too low, moving on...
+
+416 Step
+Prediction: 1, Correction: 0.761267, Prior: 3.67876e-06, Posterior: 2.80052e-06 Belief after normalization: 2.80052e-06Num Collisions: 0, Recognized Area: 39.2699, Total Area: 51.585;
+40.974780, 47.169202 Estimated Local Min
+58.176838 Force Magnitude
+1 Success
+UGV_POS: (38.518751, 45.824612)
+ Belief too low, moving on...
+
+Initial belief: 0.166667
+Group A Points: 6
+417 Step
+Prediction: 1, Correction: 0.5, Prior: 0.166667, Posterior: 0.0833333 Belief after normalization: 0.0833333Num Collisions: 0, Recognized Area: 39.2699, Total Area: 78.5398;
+42.992050, 48.274019 Estimated Local Min
+55.876838 Force Magnitude
+1 Success
+UGV_POS: (38.606459, 45.872648)
+ Belief too low, moving on...
+
+418 Step
+Prediction: 1, Correction: 0.5101, Prior: 0.0833333, Posterior: 0.0425083 Belief after normalization: 0.0425083Num Collisions: 0, Recognized Area: 39.2699, Total Area: 76.9847;
+42.992050, 48.274019 Estimated Local Min
+55.876838 Force Magnitude
+1 Success
+UGV_POS: (38.694166, 45.920683)
+ Belief too low, moving on...
+
+419 Step
+Prediction: 1, Correction: 0.5204, Prior: 0.0425083, Posterior: 0.0221213 Belief after normalization: 0.0221213Num Collisions: 0, Recognized Area: 39.2699, Total Area: 75.4611;
+42.992050, 48.274019 Estimated Local Min
+55.876838 Force Magnitude
+1 Success
+UGV_POS: (38.781873, 45.968718)
+ Belief too low, moving on...
+
+420 Step
+Prediction: 1, Correction: 0.530898, Prior: 0.0221213, Posterior: 0.0117442 Belief after normalization: 0.0117442Num Collisions: 0, Recognized Area: 39.2699, Total Area: 73.9688;
+42.992050, 48.274019 Estimated Local Min
+55.876838 Force Magnitude
+1 Success
+UGV_POS: (38.869581, 46.016754)
+ Belief too low, moving on...
+
+421 Step
+Prediction: 1, Correction: 0.541594, Prior: 0.0117442, Posterior: 0.00636058 Belief after normalization: 0.00636058Num Collisions: 0, Recognized Area: 39.2699, Total Area: 72.508;
+42.992050, 48.274019 Estimated Local Min
+55.876838 Force Magnitude
+1 Success
+UGV_POS: (38.957288, 46.064789)
+ Belief too low, moving on...
+
+422 Step
+Prediction: 1, Correction: 0.552486, Prior: 0.00636058, Posterior: 0.00351413 Belief after normalization: 0.00351413Num Collisions: 0, Recognized Area: 39.2699, Total Area: 71.0785;
+42.992050, 48.274019 Estimated Local Min
+55.876838 Force Magnitude
+1 Success
+UGV_POS: (39.044996, 46.112824)
+ Belief too low, moving on...
+
+423 Step
+Prediction: 1, Correction: 0.563571, Prior: 0.00351413, Posterior: 0.00198046 Belief after normalization: 0.00198046Num Collisions: 0, Recognized Area: 39.2699, Total Area: 69.6805;
+42.992050, 48.274019 Estimated Local Min
+55.876838 Force Magnitude
+1 Success
+UGV_POS: (39.132703, 46.160860)
+ Belief too low, moving on...
+
+424 Step
+Prediction: 1, Correction: 0.574845, Prior: 0.00198046, Posterior: 0.00113846 Belief after normalization: 0.00113846Num Collisions: 0, Recognized Area: 39.2699, Total Area: 68.3139;
+42.992050, 48.274019 Estimated Local Min
+55.876838 Force Magnitude
+1 Success
+UGV_POS: (39.220411, 46.208895)
+ Belief too low, moving on...
+
+425 Step
+Prediction: 1, Correction: 0.586304, Prior: 0.00113846, Posterior: 0.000667483 Belief after normalization: 0.000667483Num Collisions: 0, Recognized Area: 39.2699, Total Area: 66.9788;
+42.992050, 48.274019 Estimated Local Min
+55.876838 Force Magnitude
+1 Success
+UGV_POS: (39.308118, 46.256931)
+ Belief too low, moving on...
+
+426 Step
+Prediction: 1, Correction: 0.597943, Prior: 0.000667483, Posterior: 0.000399117 Belief after normalization: 0.000399117Num Collisions: 0, Recognized Area: 39.2699, Total Area: 65.675;
+42.992050, 48.274019 Estimated Local Min
+55.876838 Force Magnitude
+1 Success
+UGV_POS: (39.395826, 46.304966)
+ Belief too low, moving on...
+
+427 Step
+Prediction: 1, Correction: 0.609756, Prior: 0.000399117, Posterior: 0.000243364 Belief after normalization: 0.000243364Num Collisions: 0, Recognized Area: 39.2699, Total Area: 64.4026;
+42.992050, 48.274019 Estimated Local Min
+55.876838 Force Magnitude
+1 Success
+UGV_POS: (39.483533, 46.353001)
+ Belief too low, moving on...
+
+428 Step
+Prediction: 1, Correction: 0.621736, Prior: 0.000243364, Posterior: 0.000151308 Belief after normalization: 0.000151308Num Collisions: 0, Recognized Area: 39.2699, Total Area: 63.1617;
+42.992050, 48.274019 Estimated Local Min
+55.876838 Force Magnitude
+1 Success
+UGV_POS: (39.571241, 46.401037)
+ Belief too low, moving on...
+
+429 Step
+Prediction: 1, Correction: 0.633874, Prior: 0.000151308, Posterior: 9.59102e-05 Belief after normalization: 9.59102e-05Num Collisions: 0, Recognized Area: 39.2699, Total Area: 61.9522;
+42.992050, 48.274019 Estimated Local Min
+55.876838 Force Magnitude
+1 Success
+UGV_POS: (39.658948, 46.449072)
+ Belief too low, moving on...
+
+430 Step
+Prediction: 1, Correction: 0.646162, Prior: 9.59102e-05, Posterior: 6.19735e-05 Belief after normalization: 6.19735e-05Num Collisions: 0, Recognized Area: 39.2699, Total Area: 60.7741;
+42.992050, 48.274019 Estimated Local Min
+55.876838 Force Magnitude
+1 Success
+UGV_POS: (39.746656, 46.497107)
+ Belief too low, moving on...
+
+431 Step
+Prediction: 1, Correction: 0.658588, Prior: 6.19735e-05, Posterior: 4.0815e-05 Belief after normalization: 4.0815e-05Num Collisions: 0, Recognized Area: 39.2699, Total Area: 59.6274;
+42.992050, 48.274019 Estimated Local Min
+55.876838 Force Magnitude
+1 Success
+UGV_POS: (39.834363, 46.545143)
+ Belief too low, moving on...
+
+432 Step
+Prediction: 1, Correction: 0.671141, Prior: 4.0815e-05, Posterior: 2.73926e-05 Belief after normalization: 2.73926e-05Num Collisions: 0, Recognized Area: 39.2699, Total Area: 58.5122;
+42.992050, 48.274019 Estimated Local Min
+55.876838 Force Magnitude
+1 Success
+UGV_POS: (39.922071, 46.593178)
+ Belief too low, moving on...
+
+433 Step
+Prediction: 1, Correction: 0.683807, Prior: 2.73926e-05, Posterior: 1.87313e-05 Belief after normalization: 1.87313e-05Num Collisions: 0, Recognized Area: 39.2699, Total Area: 57.4283;
+42.992050, 48.274019 Estimated Local Min
+55.876838 Force Magnitude
+1 Success
+UGV_POS: (40.009778, 46.641214)
+ Belief too low, moving on...
+
+434 Step
+Prediction: 1, Correction: 0.696573, Prior: 1.87313e-05, Posterior: 1.30477e-05 Belief after normalization: 1.30477e-05Num Collisions: 0, Recognized Area: 39.2699, Total Area: 56.3759;
+42.992050, 48.274019 Estimated Local Min
+55.876838 Force Magnitude
+1 Success
+UGV_POS: (40.097486, 46.689249)
+ Belief too low, moving on...
+
+435 Step
+Prediction: 1, Correction: 0.709421, Prior: 1.30477e-05, Posterior: 9.25632e-06 Belief after normalization: 9.25632e-06Num Collisions: 0, Recognized Area: 39.2699, Total Area: 55.3549;
+42.992050, 48.274019 Estimated Local Min
+55.876838 Force Magnitude
+1 Success
+UGV_POS: (40.185193, 46.737284)
+ Belief too low, moving on...
+
+436 Step
+Prediction: 1, Correction: 0.722335, Prior: 9.25632e-06, Posterior: 6.68616e-06 Belief after normalization: 6.68616e-06Num Collisions: 0, Recognized Area: 39.2699, Total Area: 54.3653;
+42.992050, 48.274019 Estimated Local Min
+55.876838 Force Magnitude
+1 Success
+UGV_POS: (40.272901, 46.785320)
+ Belief too low, moving on...
+
+437 Step
+Prediction: 1, Correction: 0.735294, Prior: 6.68616e-06, Posterior: 4.91629e-06 Belief after normalization: 4.91629e-06Num Collisions: 0, Recognized Area: 39.2699, Total Area: 53.4071;
+42.992050, 48.274019 Estimated Local Min
+55.876838 Force Magnitude
+1 Success
+UGV_POS: (40.360608, 46.833355)
+ Belief too low, moving on...
+
+438 Step
+Prediction: 1, Correction: 0.748279, Prior: 4.91629e-06, Posterior: 3.67876e-06 Belief after normalization: 3.67876e-06Num Collisions: 0, Recognized Area: 39.2699, Total Area: 52.4803;
+42.992050, 48.274019 Estimated Local Min
+55.876838 Force Magnitude
+1 Success
+UGV_POS: (40.448316, 46.881390)
+ Belief too low, moving on...
+
+439 Step
+Prediction: 1, Correction: 0.761267, Prior: 3.67876e-06, Posterior: 2.80052e-06 Belief after normalization: 2.80052e-06Num Collisions: 0, Recognized Area: 39.2699, Total Area: 51.585;
+42.992050, 48.274019 Estimated Local Min
+55.876838 Force Magnitude
+1 Success
+UGV_POS: (40.536023, 46.929426)
+ Belief too low, moving on...
+
+Initial belief: 0.166667
+Group A Points: 6
+440 Step
+Prediction: 1, Correction: 0.5, Prior: 0.166667, Posterior: 0.0833333 Belief after normalization: 0.0833333Num Collisions: 0, Recognized Area: 39.2699, Total Area: 78.5398;
+45.009321, 49.378835 Estimated Local Min
+53.576838 Force Magnitude
+1 Success
+UGV_POS: (40.623731, 46.977461)
+ Belief too low, moving on...
+
+441 Step
+Prediction: 1, Correction: 0.5101, Prior: 0.0833333, Posterior: 0.0425083 Belief after normalization: 0.0425083Num Collisions: 0, Recognized Area: 39.2699, Total Area: 76.9847;
+45.009321, 49.378835 Estimated Local Min
+53.576838 Force Magnitude
+1 Success
+UGV_POS: (40.711438, 47.025497)
+ Belief too low, moving on...
+
+442 Step
+Prediction: 1, Correction: 0.5204, Prior: 0.0425083, Posterior: 0.0221213 Belief after normalization: 0.0221213Num Collisions: 0, Recognized Area: 39.2699, Total Area: 75.4611;
+45.009321, 49.378835 Estimated Local Min
+53.576838 Force Magnitude
+1 Success
+UGV_POS: (40.799146, 47.073532)
+ Belief too low, moving on...
+
+443 Step
+Prediction: 1, Correction: 0.530898, Prior: 0.0221213, Posterior: 0.0117442 Belief after normalization: 0.0117442Num Collisions: 0, Recognized Area: 39.2699, Total Area: 73.9688;
+45.009321, 49.378835 Estimated Local Min
+53.576838 Force Magnitude
+1 Success
+UGV_POS: (40.886853, 47.121567)
+ Belief too low, moving on...
+
+444 Step
+Prediction: 1, Correction: 0.541594, Prior: 0.0117442, Posterior: 0.00636058 Belief after normalization: 0.00636058Num Collisions: 0, Recognized Area: 39.2699, Total Area: 72.508;
+45.009321, 49.378835 Estimated Local Min
+53.576838 Force Magnitude
+1 Success
+UGV_POS: (40.974561, 47.169603)
+ Belief too low, moving on...
+
+445 Step
+Prediction: 1, Correction: 0.552486, Prior: 0.00636058, Posterior: 0.00351413 Belief after normalization: 0.00351413Num Collisions: 0, Recognized Area: 39.2699, Total Area: 71.0785;
+45.009321, 49.378835 Estimated Local Min
+53.576838 Force Magnitude
+1 Success
+UGV_POS: (41.062268, 47.217638)
+ Belief too low, moving on...
+
+446 Step
+Prediction: 1, Correction: 0.563571, Prior: 0.00351413, Posterior: 0.00198046 Belief after normalization: 0.00198046Num Collisions: 0, Recognized Area: 39.2699, Total Area: 69.6805;
+45.009321, 49.378835 Estimated Local Min
+53.576838 Force Magnitude
+1 Success
+UGV_POS: (41.149975, 47.265674)
+ Belief too low, moving on...
+
+447 Step
+Prediction: 1, Correction: 0.574845, Prior: 0.00198046, Posterior: 0.00113846 Belief after normalization: 0.00113846Num Collisions: 0, Recognized Area: 39.2699, Total Area: 68.3139;
+45.009321, 49.378835 Estimated Local Min
+53.576838 Force Magnitude
+1 Success
+UGV_POS: (41.237683, 47.313709)
+ Belief too low, moving on...
+
+448 Step
+Prediction: 1, Correction: 0.586304, Prior: 0.00113846, Posterior: 0.000667483 Belief after normalization: 0.000667483Num Collisions: 0, Recognized Area: 39.2699, Total Area: 66.9788;
+45.009321, 49.378835 Estimated Local Min
+53.576838 Force Magnitude
+1 Success
+UGV_POS: (41.325390, 47.361744)
+ Belief too low, moving on...
+
+449 Step
+Prediction: 1, Correction: 0.597943, Prior: 0.000667483, Posterior: 0.000399117 Belief after normalization: 0.000399117Num Collisions: 0, Recognized Area: 39.2699, Total Area: 65.675;
+45.009321, 49.378835 Estimated Local Min
+53.576838 Force Magnitude
+1 Success
+UGV_POS: (41.413098, 47.409780)
+ Belief too low, moving on...
+
+450 Step
+Prediction: 1, Correction: 0.609756, Prior: 0.000399117, Posterior: 0.000243364 Belief after normalization: 0.000243364Num Collisions: 0, Recognized Area: 39.2699, Total Area: 64.4026;
+45.009321, 49.378835 Estimated Local Min
+53.576838 Force Magnitude
+1 Success
+UGV_POS: (41.500805, 47.457815)
+ Belief too low, moving on...
+
+451 Step
+Prediction: 1, Correction: 0.621736, Prior: 0.000243364, Posterior: 0.000151308 Belief after normalization: 0.000151308Num Collisions: 0, Recognized Area: 39.2699, Total Area: 63.1617;
+45.009321, 49.378835 Estimated Local Min
+53.576838 Force Magnitude
+1 Success
+UGV_POS: (41.588513, 47.505850)
+ Belief too low, moving on...
+
+452 Step
+Prediction: 1, Correction: 0.633874, Prior: 0.000151308, Posterior: 9.59102e-05 Belief after normalization: 9.59102e-05Num Collisions: 0, Recognized Area: 39.2699, Total Area: 61.9522;
+45.009321, 49.378835 Estimated Local Min
+53.576838 Force Magnitude
+1 Success
+UGV_POS: (41.676220, 47.553886)
+ Belief too low, moving on...
+
+453 Step
+Prediction: 1, Correction: 0.646162, Prior: 9.59102e-05, Posterior: 6.19735e-05 Belief after normalization: 6.19735e-05Num Collisions: 0, Recognized Area: 39.2699, Total Area: 60.7741;
+45.009321, 49.378835 Estimated Local Min
+53.576838 Force Magnitude
+1 Success
+UGV_POS: (41.763928, 47.601921)
+ Belief too low, moving on...
+
+454 Step
+Prediction: 1, Correction: 0.658588, Prior: 6.19735e-05, Posterior: 4.0815e-05 Belief after normalization: 4.0815e-05Num Collisions: 0, Recognized Area: 39.2699, Total Area: 59.6274;
+45.009321, 49.378835 Estimated Local Min
+53.576838 Force Magnitude
+1 Success
+UGV_POS: (41.851635, 47.649957)
+ Belief too low, moving on...
+
+455 Step
+Prediction: 1, Correction: 0.671141, Prior: 4.0815e-05, Posterior: 2.73926e-05 Belief after normalization: 2.73926e-05Num Collisions: 0, Recognized Area: 39.2699, Total Area: 58.5122;
+45.009321, 49.378835 Estimated Local Min
+53.576838 Force Magnitude
+1 Success
+UGV_POS: (41.939343, 47.697992)
+ Belief too low, moving on...
+
+456 Step
+Prediction: 1, Correction: 0.683807, Prior: 2.73926e-05, Posterior: 1.87313e-05 Belief after normalization: 1.87313e-05Num Collisions: 0, Recognized Area: 39.2699, Total Area: 57.4283;
+45.009321, 49.378835 Estimated Local Min
+53.576838 Force Magnitude
+1 Success
+UGV_POS: (42.027050, 47.746027)
+ Belief too low, moving on...
+
+457 Step
+Prediction: 1, Correction: 0.696573, Prior: 1.87313e-05, Posterior: 1.30477e-05 Belief after normalization: 1.30477e-05Num Collisions: 0, Recognized Area: 39.2699, Total Area: 56.3759;
+45.009321, 49.378835 Estimated Local Min
+53.576838 Force Magnitude
+1 Success
+UGV_POS: (42.114758, 47.794063)
+ Belief too low, moving on...
+
+458 Step
+Prediction: 1, Correction: 0.709421, Prior: 1.30477e-05, Posterior: 9.25632e-06 Belief after normalization: 9.25632e-06Num Collisions: 0, Recognized Area: 39.2699, Total Area: 55.3549;
+45.009321, 49.378835 Estimated Local Min
+53.576838 Force Magnitude
+1 Success
+UGV_POS: (42.202465, 47.842098)
+ Belief too low, moving on...
+
+459 Step
+Prediction: 1, Correction: 0.722335, Prior: 9.25632e-06, Posterior: 6.68616e-06 Belief after normalization: 6.68616e-06Num Collisions: 0, Recognized Area: 39.2699, Total Area: 54.3653;
+45.009321, 49.378835 Estimated Local Min
+53.576838 Force Magnitude
+1 Success
+UGV_POS: (42.290173, 47.890133)
+ Belief too low, moving on...
+
+460 Step
+Prediction: 1, Correction: 0.735294, Prior: 6.68616e-06, Posterior: 4.91629e-06 Belief after normalization: 4.91629e-06Num Collisions: 0, Recognized Area: 39.2699, Total Area: 53.4071;
+45.009321, 49.378835 Estimated Local Min
+53.576838 Force Magnitude
+1 Success
+UGV_POS: (42.377880, 47.938169)
+ Belief too low, moving on...
+
+461 Step
+Prediction: 1, Correction: 0.748279, Prior: 4.91629e-06, Posterior: 3.67876e-06 Belief after normalization: 3.67876e-06Num Collisions: 0, Recognized Area: 39.2699, Total Area: 52.4803;
+45.009321, 49.378835 Estimated Local Min
+53.576838 Force Magnitude
+1 Success
+UGV_POS: (42.465588, 47.986204)
+ Belief too low, moving on...
+
+462 Step
+Prediction: 1, Correction: 0.761267, Prior: 3.67876e-06, Posterior: 2.80052e-06 Belief after normalization: 2.80052e-06Num Collisions: 0, Recognized Area: 39.2699, Total Area: 51.585;
+45.009321, 49.378835 Estimated Local Min
+53.576838 Force Magnitude
+1 Success
+UGV_POS: (42.553295, 48.034240)
+ Belief too low, moving on...
+
+Initial belief: 0.200000
+Group A Points: 5
+463th Step
+Prediction: 1, Correction: 0.5, Prior: 0.2, Posterior: 0.1 Belief after normalization: 0.1Num Collisions: 0, Recognized Area: 39.2699, Total Area: 78.5398; 47.026591, 50.483652 Estimated Local Min
+51.276838 Force Magnitude
+1000 Iterations
+1 Success
+0 Obstacles in Range
+0.100000 Belief
+464 Step
+Prediction: 1, Correction: 0.5101, Prior: 0.1, Posterior: 0.05101 Belief after normalization: 0.05101Num Collisions: 0, Recognized Area: 39.2699, Total Area: 76.9847;
+47.026591, 50.483652 Estimated Local Min
+51.276838 Force Magnitude
+1 Success
+UGV_POS: (42.728710, 48.130310)
+ Belief too low, moving on...
+
+465 Step
+Prediction: 1, Correction: 0.5204, Prior: 0.05101, Posterior: 0.0265456 Belief after normalization: 0.0265456Num Collisions: 0, Recognized Area: 39.2699, Total Area: 75.4611;
+47.026591, 50.483652 Estimated Local Min
+51.276838 Force Magnitude
+1 Success
+UGV_POS: (42.816418, 48.178346)
+ Belief too low, moving on...
+
+466 Step
+Prediction: 1, Correction: 0.530898, Prior: 0.0265456, Posterior: 0.014093 Belief after normalization: 0.014093Num Collisions: 0, Recognized Area: 39.2699, Total Area: 73.9688;
+47.026591, 50.483652 Estimated Local Min
+51.276838 Force Magnitude
+1 Success
+UGV_POS: (42.904125, 48.226381)
+ Belief too low, moving on...
+
+467 Step
+Prediction: 1, Correction: 0.541594, Prior: 0.014093, Posterior: 0.00763269 Belief after normalization: 0.00763269Num Collisions: 0, Recognized Area: 39.2699, Total Area: 72.508;
+47.026591, 50.483652 Estimated Local Min
+51.276838 Force Magnitude
+1 Success
+UGV_POS: (42.991833, 48.274416)
+ Belief too low, moving on...
+
+468 Step
+Prediction: 1, Correction: 0.552486, Prior: 0.00763269, Posterior: 0.00421696 Belief after normalization: 0.00421696Num Collisions: 0, Recognized Area: 39.2699, Total Area: 71.0785;
+47.026591, 50.483652 Estimated Local Min
+51.276838 Force Magnitude
+1 Success
+UGV_POS: (43.079540, 48.322452)
+ Belief too low, moving on...
+
+469 Step
+Prediction: 1, Correction: 0.563571, Prior: 0.00421696, Posterior: 0.00237655 Belief after normalization: 0.00237655Num Collisions: 0, Recognized Area: 39.2699, Total Area: 69.6805;
+47.026591, 50.483652 Estimated Local Min
+51.276838 Force Magnitude
+1 Success
+UGV_POS: (43.167248, 48.370487)
+ Belief too low, moving on...
+
+470 Step
+Prediction: 1, Correction: 0.574845, Prior: 0.00237655, Posterior: 0.00136615 Belief after normalization: 0.00136615Num Collisions: 0, Recognized Area: 39.2699, Total Area: 68.3139;
+47.026591, 50.483652 Estimated Local Min
+51.276838 Force Magnitude
+1 Success
+UGV_POS: (43.254955, 48.418523)
+ Belief too low, moving on...
+
+471 Step
+Prediction: 1, Correction: 0.586304, Prior: 0.00136615, Posterior: 0.000800979 Belief after normalization: 0.000800979Num Collisions: 0, Recognized Area: 39.2699, Total Area: 66.9788;
+47.026591, 50.483652 Estimated Local Min
+51.276838 Force Magnitude
+1 Success
+UGV_POS: (43.342663, 48.466558)
+ Belief too low, moving on...
+
+472 Step
+Prediction: 1, Correction: 0.597943, Prior: 0.000800979, Posterior: 0.00047894 Belief after normalization: 0.00047894Num Collisions: 0, Recognized Area: 39.2699, Total Area: 65.675;
+47.026591, 50.483652 Estimated Local Min
+51.276838 Force Magnitude
+1 Success
+UGV_POS: (43.430370, 48.514593)
+ Belief too low, moving on...
+
+473 Step
+Prediction: 1, Correction: 0.609756, Prior: 0.00047894, Posterior: 0.000292037 Belief after normalization: 0.000292037Num Collisions: 0, Recognized Area: 39.2699, Total Area: 64.4026;
+47.026591, 50.483652 Estimated Local Min
+51.276838 Force Magnitude
+1 Success
+UGV_POS: (43.518078, 48.562629)
+ Belief too low, moving on...
+
+474 Step
+Prediction: 1, Correction: 0.621736, Prior: 0.000292037, Posterior: 0.00018157 Belief after normalization: 0.00018157Num Collisions: 0, Recognized Area: 39.2699, Total Area: 63.1617;
+47.026591, 50.483652 Estimated Local Min
+51.276838 Force Magnitude
+1 Success
+UGV_POS: (43.605785, 48.610664)
+ Belief too low, moving on...
+
+475 Step
+Prediction: 1, Correction: 0.633874, Prior: 0.00018157, Posterior: 0.000115092 Belief after normalization: 0.000115092Num Collisions: 0, Recognized Area: 39.2699, Total Area: 61.9522;
+47.026591, 50.483652 Estimated Local Min
+51.276838 Force Magnitude
+1 Success
+UGV_POS: (43.693492, 48.658699)
+ Belief too low, moving on...
+
+476 Step
+Prediction: 1, Correction: 0.646162, Prior: 0.000115092, Posterior: 7.43682e-05 Belief after normalization: 7.43682e-05Num Collisions: 0, Recognized Area: 39.2699, Total Area: 60.7741;
+47.026591, 50.483652 Estimated Local Min
+51.276838 Force Magnitude
+1 Success
+UGV_POS: (43.781200, 48.706735)
+ Belief too low, moving on...
+
+477 Step
+Prediction: 1, Correction: 0.658588, Prior: 7.43682e-05, Posterior: 4.8978e-05 Belief after normalization: 4.8978e-05Num Collisions: 0, Recognized Area: 39.2699, Total Area: 59.6274;
+47.026591, 50.483652 Estimated Local Min
+51.276838 Force Magnitude
+1 Success
+UGV_POS: (43.868907, 48.754770)
+ Belief too low, moving on...
+
+478 Step
+Prediction: 1, Correction: 0.671141, Prior: 4.8978e-05, Posterior: 3.28712e-05 Belief after normalization: 3.28712e-05Num Collisions: 0, Recognized Area: 39.2699, Total Area: 58.5122;
+47.026591, 50.483652 Estimated Local Min
+51.276838 Force Magnitude
+1 Success
+UGV_POS: (43.956615, 48.802806)
+ Belief too low, moving on...
+
+479 Step
+Prediction: 1, Correction: 0.683807, Prior: 3.28712e-05, Posterior: 2.24775e-05 Belief after normalization: 2.24775e-05Num Collisions: 0, Recognized Area: 39.2699, Total Area: 57.4283;
+47.026591, 50.483652 Estimated Local Min
+51.276838 Force Magnitude
+1 Success
+UGV_POS: (44.044322, 48.850841)
+ Belief too low, moving on...
+
+480 Step
+Prediction: 1, Correction: 0.696573, Prior: 2.24775e-05, Posterior: 1.56572e-05 Belief after normalization: 1.56572e-05Num Collisions: 0, Recognized Area: 39.2699, Total Area: 56.3759;
+47.026591, 50.483652 Estimated Local Min
+51.276838 Force Magnitude
+1 Success
+UGV_POS: (44.132030, 48.898876)
+ Belief too low, moving on...
+
+481 Step
+Prediction: 1, Correction: 0.709421, Prior: 1.56572e-05, Posterior: 1.11076e-05 Belief after normalization: 1.11076e-05Num Collisions: 0, Recognized Area: 39.2699, Total Area: 55.3549;
+47.026591, 50.483652 Estimated Local Min
+51.276838 Force Magnitude
+1 Success
+UGV_POS: (44.219737, 48.946912)
+ Belief too low, moving on...
+
+482 Step
+Prediction: 1, Correction: 0.722335, Prior: 1.11076e-05, Posterior: 8.02339e-06 Belief after normalization: 8.02339e-06Num Collisions: 0, Recognized Area: 39.2699, Total Area: 54.3653;
+47.026591, 50.483652 Estimated Local Min
+51.276838 Force Magnitude
+1 Success
+UGV_POS: (44.307445, 48.994947)
+ Belief too low, moving on...
+
+483 Step
+Prediction: 1, Correction: 0.735294, Prior: 8.02339e-06, Posterior: 5.89955e-06 Belief after normalization: 5.89955e-06Num Collisions: 0, Recognized Area: 39.2699, Total Area: 53.4071;
+47.026591, 50.483652 Estimated Local Min
+51.276838 Force Magnitude
+1 Success
+UGV_POS: (44.395152, 49.042983)
+ Belief too low, moving on...
+
+484 Step
+Prediction: 1, Correction: 0.748279, Prior: 5.89955e-06, Posterior: 4.41451e-06 Belief after normalization: 4.41451e-06Num Collisions: 0, Recognized Area: 39.2699, Total Area: 52.4803;
+47.026591, 50.483652 Estimated Local Min
+51.276838 Force Magnitude
+1 Success
+UGV_POS: (44.482860, 49.091018)
+ Belief too low, moving on...
+
+485 Step
+Prediction: 1, Correction: 0.761267, Prior: 4.41451e-06, Posterior: 3.36062e-06 Belief after normalization: 3.36062e-06Num Collisions: 0, Recognized Area: 39.2699, Total Area: 51.585;
+47.026591, 50.483652 Estimated Local Min
+51.276838 Force Magnitude
+1 Success
+UGV_POS: (44.570567, 49.139053)
+ Belief too low, moving on...
+
+Initial belief: 0.200000
+Group A Points: 5
+486th Step
+Prediction: 1, Correction: 0.5, Prior: 0.2, Posterior: 0.1 Belief after normalization: 0.1Num Collisions: 0, Recognized Area: 39.2699, Total Area: 78.5398; 49.043861, 51.588469 Estimated Local Min
+48.976838 Force Magnitude
+1000 Iterations
+1 Success
+0 Obstacles in Range
+0.100000 Belief
+487 Step
+Prediction: 1, Correction: 0.5101, Prior: 0.1, Posterior: 0.05101 Belief after normalization: 0.05101Num Collisions: 0, Recognized Area: 39.2699, Total Area: 76.9847;
+49.043861, 51.588469 Estimated Local Min
+48.976838 Force Magnitude
+1 Success
+UGV_POS: (44.745982, 49.235124)
+ Belief too low, moving on...
+
+488 Step
+Prediction: 1, Correction: 0.5204, Prior: 0.05101, Posterior: 0.0265456 Belief after normalization: 0.0265456Num Collisions: 0, Recognized Area: 39.2699, Total Area: 75.4611;
+49.043861, 51.588469 Estimated Local Min
+48.976838 Force Magnitude
+1 Success
+UGV_POS: (44.833690, 49.283159)
+ Belief too low, moving on...
+
+489 Step
+Prediction: 1, Correction: 0.530898, Prior: 0.0265456, Posterior: 0.014093 Belief after normalization: 0.014093Num Collisions: 0, Recognized Area: 39.2699, Total Area: 73.9688;
+49.043861, 51.588469 Estimated Local Min
+48.976838 Force Magnitude
+1 Success
+UGV_POS: (44.921397, 49.331195)
+ Belief too low, moving on...
+
+490 Step
+Prediction: 1, Correction: 0.541594, Prior: 0.014093, Posterior: 0.00763269 Belief after normalization: 0.00763269Num Collisions: 0, Recognized Area: 39.2699, Total Area: 72.508;
+49.043861, 51.588469 Estimated Local Min
+48.976838 Force Magnitude
+1 Success
+UGV_POS: (45.009105, 49.379230)
+ Belief too low, moving on...
+
+491 Step
+Prediction: 1, Correction: 0.552486, Prior: 0.00763269, Posterior: 0.00421696 Belief after normalization: 0.00421696Num Collisions: 0, Recognized Area: 39.2699, Total Area: 71.0785;
+49.043861, 51.588469 Estimated Local Min
+48.976838 Force Magnitude
+1 Success
+UGV_POS: (45.096812, 49.427266)
+ Belief too low, moving on...
+
+492 Step
+Prediction: 1, Correction: 0.563571, Prior: 0.00421696, Posterior: 0.00237655 Belief after normalization: 0.00237655Num Collisions: 0, Recognized Area: 39.2699, Total Area: 69.6805;
+49.043861, 51.588469 Estimated Local Min
+48.976838 Force Magnitude
+1 Success
+UGV_POS: (45.184520, 49.475301)
+ Belief too low, moving on...
+
+493 Step
+Prediction: 1, Correction: 0.574845, Prior: 0.00237655, Posterior: 0.00136615 Belief after normalization: 0.00136615Num Collisions: 0, Recognized Area: 39.2699, Total Area: 68.3139;
+49.043861, 51.588469 Estimated Local Min
+48.976838 Force Magnitude
+1 Success
+UGV_POS: (45.272227, 49.523336)
+ Belief too low, moving on...
+
+494 Step
+Prediction: 1, Correction: 0.586304, Prior: 0.00136615, Posterior: 0.000800979 Belief after normalization: 0.000800979Num Collisions: 0, Recognized Area: 39.2699, Total Area: 66.9788;
+49.043861, 51.588469 Estimated Local Min
+48.976838 Force Magnitude
+1 Success
+UGV_POS: (45.359935, 49.571372)
+ Belief too low, moving on...
+
+495 Step
+Prediction: 1, Correction: 0.597943, Prior: 0.000800979, Posterior: 0.00047894 Belief after normalization: 0.00047894Num Collisions: 0, Recognized Area: 39.2699, Total Area: 65.675;
+49.043861, 51.588469 Estimated Local Min
+48.976838 Force Magnitude
+1 Success
+UGV_POS: (45.447642, 49.619407)
+ Belief too low, moving on...
+
+496 Step
+Prediction: 1, Correction: 0.609756, Prior: 0.00047894, Posterior: 0.000292037 Belief after normalization: 0.000292037Num Collisions: 0, Recognized Area: 39.2699, Total Area: 64.4026;
+49.043861, 51.588469 Estimated Local Min
+48.976838 Force Magnitude
+1 Success
+UGV_POS: (45.535350, 49.667442)
+ Belief too low, moving on...
+
+497 Step
+Prediction: 1, Correction: 0.621736, Prior: 0.000292037, Posterior: 0.00018157 Belief after normalization: 0.00018157Num Collisions: 0, Recognized Area: 39.2699, Total Area: 63.1617;
+49.043861, 51.588469 Estimated Local Min
+48.976838 Force Magnitude
+1 Success
+UGV_POS: (45.623057, 49.715478)
+ Belief too low, moving on...
+
+498 Step
+Prediction: 1, Correction: 0.633874, Prior: 0.00018157, Posterior: 0.000115092 Belief after normalization: 0.000115092Num Collisions: 0, Recognized Area: 39.2699, Total Area: 61.9522;
+49.043861, 51.588469 Estimated Local Min
+48.976838 Force Magnitude
+1 Success
+UGV_POS: (45.710765, 49.763513)
+ Belief too low, moving on...
+
+499 Step
+Prediction: 1, Correction: 0.646162, Prior: 0.000115092, Posterior: 7.43682e-05 Belief after normalization: 7.43682e-05Num Collisions: 0, Recognized Area: 39.2699, Total Area: 60.7741;
+49.043861, 51.588469 Estimated Local Min
+48.976838 Force Magnitude
+1 Success
+UGV_POS: (45.798472, 49.811549)
+ Belief too low, moving on...
+
+500 Step
+Prediction: 1, Correction: 0.658588, Prior: 7.43682e-05, Posterior: 4.8978e-05 Belief after normalization: 4.8978e-05Num Collisions: 0, Recognized Area: 39.2699, Total Area: 59.6274;
+49.043861, 51.588469 Estimated Local Min
+48.976838 Force Magnitude
+1 Success
+UGV_POS: (45.886180, 49.859584)
+ Belief too low, moving on...
+
+501 Step
+Prediction: 1, Correction: 0.671141, Prior: 4.8978e-05, Posterior: 3.28712e-05 Belief after normalization: 3.28712e-05Num Collisions: 0, Recognized Area: 39.2699, Total Area: 58.5122;
+49.043861, 51.588469 Estimated Local Min
+48.976838 Force Magnitude
+1 Success
+UGV_POS: (45.973887, 49.907619)
+ Belief too low, moving on...
+
+502 Step
+Prediction: 1, Correction: 0.683807, Prior: 3.28712e-05, Posterior: 2.24775e-05 Belief after normalization: 2.24775e-05Num Collisions: 0, Recognized Area: 39.2699, Total Area: 57.4283;
+49.043861, 51.588469 Estimated Local Min
+48.976838 Force Magnitude
+1 Success
+UGV_POS: (46.061594, 49.955655)
+ Belief too low, moving on...
+
+503 Step
+Prediction: 1, Correction: 0.696573, Prior: 2.24775e-05, Posterior: 1.56572e-05 Belief after normalization: 1.56572e-05Num Collisions: 0, Recognized Area: 39.2699, Total Area: 56.3759;
+49.043861, 51.588469 Estimated Local Min
+48.976838 Force Magnitude
+1 Success
+UGV_POS: (46.149302, 50.003690)
+ Belief too low, moving on...
+
+504 Step
+Prediction: 1, Correction: 0.709421, Prior: 1.56572e-05, Posterior: 1.11076e-05 Belief after normalization: 1.11076e-05Num Collisions: 0, Recognized Area: 39.2699, Total Area: 55.3549;
+49.043861, 51.588469 Estimated Local Min
+48.976838 Force Magnitude
+1 Success
+UGV_POS: (46.237009, 50.051725)
+ Belief too low, moving on...
+
+505 Step
+Prediction: 1, Correction: 0.722335, Prior: 1.11076e-05, Posterior: 8.02339e-06 Belief after normalization: 8.02339e-06Num Collisions: 0, Recognized Area: 39.2699, Total Area: 54.3653;
+49.043861, 51.588469 Estimated Local Min
+48.976838 Force Magnitude
+1 Success
+UGV_POS: (46.324717, 50.099761)
+ Belief too low, moving on...
+
+506 Step
+Prediction: 1, Correction: 0.735294, Prior: 8.02339e-06, Posterior: 5.89955e-06 Belief after normalization: 5.89955e-06Num Collisions: 0, Recognized Area: 39.2699, Total Area: 53.4071;
+49.043861, 51.588469 Estimated Local Min
+48.976838 Force Magnitude
+1 Success
+UGV_POS: (46.412424, 50.147796)
+ Belief too low, moving on...
+
+507 Step
+Prediction: 1, Correction: 0.748279, Prior: 5.89955e-06, Posterior: 4.41451e-06 Belief after normalization: 4.41451e-06Num Collisions: 0, Recognized Area: 39.2699, Total Area: 52.4803;
+49.043861, 51.588469 Estimated Local Min
+48.976838 Force Magnitude
+1 Success
+UGV_POS: (46.500132, 50.195832)
+ Belief too low, moving on...
+
+508 Step
+Prediction: 1, Correction: 0.761267, Prior: 4.41451e-06, Posterior: 3.36062e-06 Belief after normalization: 3.36062e-06Num Collisions: 0, Recognized Area: 39.2699, Total Area: 51.585;
+49.043861, 51.588469 Estimated Local Min
+48.976838 Force Magnitude
+1 Success
+UGV_POS: (46.587839, 50.243867)
+ Belief too low, moving on...
+
+Initial belief: 0.166667
+Group A Points: 6
+509 Step
+Prediction: 1, Correction: 0.5, Prior: 0.166667, Posterior: 0.0833333 Belief after normalization: 0.0833333Num Collisions: 0, Recognized Area: 39.2699, Total Area: 78.5398;
+51.061131, 52.693287 Estimated Local Min
+46.676838 Force Magnitude
+1 Success
+UGV_POS: (46.675547, 50.291902)
+ Belief too low, moving on...
+
+510 Step
+Prediction: 1, Correction: 0.5101, Prior: 0.0833333, Posterior: 0.0425083 Belief after normalization: 0.0425083Num Collisions: 0, Recognized Area: 39.2699, Total Area: 76.9847;
+51.061131, 52.693287 Estimated Local Min
+46.676838 Force Magnitude
+1 Success
+UGV_POS: (46.763254, 50.339938)
+ Belief too low, moving on...
+
+511 Step
+Prediction: 1, Correction: 0.5204, Prior: 0.0425083, Posterior: 0.0221213 Belief after normalization: 0.0221213Num Collisions: 0, Recognized Area: 39.2699, Total Area: 75.4611;
+51.061131, 52.693287 Estimated Local Min
+46.676838 Force Magnitude
+1 Success
+UGV_POS: (46.850962, 50.387973)
+ Belief too low, moving on...
+
+512 Step
+Prediction: 1, Correction: 0.530898, Prior: 0.0221213, Posterior: 0.0117442 Belief after normalization: 0.0117442Num Collisions: 0, Recognized Area: 39.2699, Total Area: 73.9688;
+51.061131, 52.693287 Estimated Local Min
+46.676838 Force Magnitude
+1 Success
+UGV_POS: (46.938669, 50.436009)
+ Belief too low, moving on...
+
+513 Step
+Prediction: 1, Correction: 0.541594, Prior: 0.0117442, Posterior: 0.00636058 Belief after normalization: 0.00636058Num Collisions: 0, Recognized Area: 39.2699, Total Area: 72.508;
+51.061131, 52.693287 Estimated Local Min
+46.676838 Force Magnitude
+1 Success
+UGV_POS: (47.026377, 50.484044)
+ Belief too low, moving on...
+
+514 Step
+Prediction: 1, Correction: 0.552486, Prior: 0.00636058, Posterior: 0.00351413 Belief after normalization: 0.00351413Num Collisions: 0, Recognized Area: 39.2699, Total Area: 71.0785;
+51.061131, 52.693287 Estimated Local Min
+46.676838 Force Magnitude
+1 Success
+UGV_POS: (47.114084, 50.532079)
+ Belief too low, moving on...
+
+515 Step
+Prediction: 1, Correction: 0.563571, Prior: 0.00351413, Posterior: 0.00198046 Belief after normalization: 0.00198046Num Collisions: 0, Recognized Area: 39.2699, Total Area: 69.6805;
+51.061131, 52.693287 Estimated Local Min
+46.676838 Force Magnitude
+1 Success
+UGV_POS: (47.201792, 50.580115)
+ Belief too low, moving on...
+
+516 Step
+Prediction: 1, Correction: 0.574845, Prior: 0.00198046, Posterior: 0.00113846 Belief after normalization: 0.00113846Num Collisions: 0, Recognized Area: 39.2699, Total Area: 68.3139;
+51.061131, 52.693287 Estimated Local Min
+46.676838 Force Magnitude
+1 Success
+UGV_POS: (47.289499, 50.628150)
+ Belief too low, moving on...
+
+517 Step
+Prediction: 1, Correction: 0.586304, Prior: 0.00113846, Posterior: 0.000667483 Belief after normalization: 0.000667483Num Collisions: 0, Recognized Area: 39.2699, Total Area: 66.9788;
+51.061131, 52.693287 Estimated Local Min
+46.676838 Force Magnitude
+1 Success
+UGV_POS: (47.377207, 50.676185)
+ Belief too low, moving on...
+
+518 Step
+Prediction: 1, Correction: 0.597943, Prior: 0.000667483, Posterior: 0.000399117 Belief after normalization: 0.000399117Num Collisions: 0, Recognized Area: 39.2699, Total Area: 65.675;
+51.061131, 52.693287 Estimated Local Min
+46.676838 Force Magnitude
+1 Success
+UGV_POS: (47.464914, 50.724221)
+ Belief too low, moving on...
+
+519 Step
+Prediction: 1, Correction: 0.609756, Prior: 0.000399117, Posterior: 0.000243364 Belief after normalization: 0.000243364Num Collisions: 0, Recognized Area: 39.2699, Total Area: 64.4026;
+51.061131, 52.693287 Estimated Local Min
+46.676838 Force Magnitude
+1 Success
+UGV_POS: (47.552622, 50.772256)
+ Belief too low, moving on...
+
+520 Step
+Prediction: 1, Correction: 0.621736, Prior: 0.000243364, Posterior: 0.000151308 Belief after normalization: 0.000151308Num Collisions: 0, Recognized Area: 39.2699, Total Area: 63.1617;
+51.061131, 52.693287 Estimated Local Min
+46.676838 Force Magnitude
+1 Success
+UGV_POS: (47.640329, 50.820292)
+ Belief too low, moving on...
+
+521 Step
+Prediction: 1, Correction: 0.633874, Prior: 0.000151308, Posterior: 9.59102e-05 Belief after normalization: 9.59102e-05Num Collisions: 0, Recognized Area: 39.2699, Total Area: 61.9522;
+51.061131, 52.693287 Estimated Local Min
+46.676838 Force Magnitude
+1 Success
+UGV_POS: (47.728037, 50.868327)
+ Belief too low, moving on...
+
+522 Step
+Prediction: 1, Correction: 0.646162, Prior: 9.59102e-05, Posterior: 6.19735e-05 Belief after normalization: 6.19735e-05Num Collisions: 0, Recognized Area: 39.2699, Total Area: 60.7741;
+51.061131, 52.693287 Estimated Local Min
+46.676838 Force Magnitude
+1 Success
+UGV_POS: (47.815744, 50.916362)
+ Belief too low, moving on...
+
+523 Step
+Prediction: 1, Correction: 0.658588, Prior: 6.19735e-05, Posterior: 4.0815e-05 Belief after normalization: 4.0815e-05Num Collisions: 0, Recognized Area: 39.2699, Total Area: 59.6274;
+51.061131, 52.693287 Estimated Local Min
+46.676838 Force Magnitude
+1 Success
+UGV_POS: (47.903452, 50.964398)
+ Belief too low, moving on...
+
+524 Step
+Prediction: 1, Correction: 0.671141, Prior: 4.0815e-05, Posterior: 2.73926e-05 Belief after normalization: 2.73926e-05Num Collisions: 0, Recognized Area: 39.2699, Total Area: 58.5122;
+51.061131, 52.693287 Estimated Local Min
+46.676838 Force Magnitude
+1 Success
+UGV_POS: (47.991159, 51.012433)
+ Belief too low, moving on...
+
+525 Step
+Prediction: 1, Correction: 0.683807, Prior: 2.73926e-05, Posterior: 1.87313e-05 Belief after normalization: 1.87313e-05Num Collisions: 0, Recognized Area: 39.2699, Total Area: 57.4283;
+51.061131, 52.693287 Estimated Local Min
+46.676838 Force Magnitude
+1 Success
+UGV_POS: (48.078867, 51.060468)
+ Belief too low, moving on...
+
+526 Step
+Prediction: 1, Correction: 0.696573, Prior: 1.87313e-05, Posterior: 1.30477e-05 Belief after normalization: 1.30477e-05Num Collisions: 0, Recognized Area: 39.2699, Total Area: 56.3759;
+51.061131, 52.693287 Estimated Local Min
+46.676838 Force Magnitude
+1 Success
+UGV_POS: (48.166574, 51.108504)
+ Belief too low, moving on...
+
+527 Step
+Prediction: 1, Correction: 0.709421, Prior: 1.30477e-05, Posterior: 9.25632e-06 Belief after normalization: 9.25632e-06Num Collisions: 0, Recognized Area: 39.2699, Total Area: 55.3549;
+51.061131, 52.693287 Estimated Local Min
+46.676838 Force Magnitude
+1 Success
+UGV_POS: (48.254282, 51.156539)
+ Belief too low, moving on...
+
+528 Step
+Prediction: 1, Correction: 0.722335, Prior: 9.25632e-06, Posterior: 6.68616e-06 Belief after normalization: 6.68616e-06Num Collisions: 0, Recognized Area: 39.2699, Total Area: 54.3653;
+51.061131, 52.693287 Estimated Local Min
+46.676838 Force Magnitude
+1 Success
+UGV_POS: (48.341989, 51.204575)
+ Belief too low, moving on...
+
+529 Step
+Prediction: 1, Correction: 0.735294, Prior: 6.68616e-06, Posterior: 4.91629e-06 Belief after normalization: 4.91629e-06Num Collisions: 0, Recognized Area: 39.2699, Total Area: 53.4071;
+51.061131, 52.693287 Estimated Local Min
+46.676838 Force Magnitude
+1 Success
+UGV_POS: (48.429697, 51.252610)
+ Belief too low, moving on...
+
+530 Step
+Prediction: 1, Correction: 0.748279, Prior: 4.91629e-06, Posterior: 3.67876e-06 Belief after normalization: 3.67876e-06Num Collisions: 0, Recognized Area: 39.2699, Total Area: 52.4803;
+51.061131, 52.693287 Estimated Local Min
+46.676838 Force Magnitude
+1 Success
+UGV_POS: (48.517404, 51.300645)
+ Belief too low, moving on...
+
+531 Step
+Prediction: 1, Correction: 0.761267, Prior: 3.67876e-06, Posterior: 2.80052e-06 Belief after normalization: 2.80052e-06Num Collisions: 0, Recognized Area: 39.2699, Total Area: 51.585;
+51.061131, 52.693287 Estimated Local Min
+46.676838 Force Magnitude
+1 Success
+UGV_POS: (48.605111, 51.348681)
+ Belief too low, moving on...
+
+Initial belief: 0.166667
+Group A Points: 6
+532 Step
+Prediction: 1, Correction: 0.5, Prior: 0.166667, Posterior: 0.0833333 Belief after normalization: 0.0833333Num Collisions: 0, Recognized Area: 39.2699, Total Area: 78.5398;
+53.078401, 53.798105 Estimated Local Min
+44.376838 Force Magnitude
+1 Success
+UGV_POS: (48.692819, 51.396716)
+ Belief too low, moving on...
+
+533 Step
+Prediction: 1, Correction: 0.5101, Prior: 0.0833333, Posterior: 0.0425083 Belief after normalization: 0.0425083Num Collisions: 0, Recognized Area: 39.2699, Total Area: 76.9847;
+53.078401, 53.798105 Estimated Local Min
+44.376838 Force Magnitude
+1 Success
+UGV_POS: (48.780526, 51.444751)
+ Belief too low, moving on...
+
+534 Step
+Prediction: 1, Correction: 0.5204, Prior: 0.0425083, Posterior: 0.0221213 Belief after normalization: 0.0221213Num Collisions: 0, Recognized Area: 39.2699, Total Area: 75.4611;
+53.078401, 53.798105 Estimated Local Min
+44.376838 Force Magnitude
+1 Success
+UGV_POS: (48.868234, 51.492787)
+ Belief too low, moving on...
+
+535 Step
+Prediction: 1, Correction: 0.530898, Prior: 0.0221213, Posterior: 0.0117442 Belief after normalization: 0.0117442Num Collisions: 0, Recognized Area: 39.2699, Total Area: 73.9688;
+53.078401, 53.798105 Estimated Local Min
+44.376838 Force Magnitude
+1 Success
+UGV_POS: (48.955941, 51.540822)
+ Belief too low, moving on...
+
+536 Step
+Prediction: 1, Correction: 0.541594, Prior: 0.0117442, Posterior: 0.00636058 Belief after normalization: 0.00636058Num Collisions: 0, Recognized Area: 39.2699, Total Area: 72.508;
+53.078401, 53.798105 Estimated Local Min
+44.376838 Force Magnitude
+1 Success
+UGV_POS: (49.043649, 51.588858)
+ Belief too low, moving on...
+
+537 Step
+Prediction: 1, Correction: 0.552486, Prior: 0.00636058, Posterior: 0.00351413 Belief after normalization: 0.00351413Num Collisions: 0, Recognized Area: 39.2699, Total Area: 71.0785;
+53.078401, 53.798105 Estimated Local Min
+44.376838 Force Magnitude
+1 Success
+UGV_POS: (49.131356, 51.636893)
+ Belief too low, moving on...
+
+538 Step
+Prediction: 1, Correction: 0.563571, Prior: 0.00351413, Posterior: 0.00198046 Belief after normalization: 0.00198046Num Collisions: 0, Recognized Area: 39.2699, Total Area: 69.6805;
+53.078401, 53.798105 Estimated Local Min
+44.376838 Force Magnitude
+1 Success
+UGV_POS: (49.219064, 51.684928)
+ Belief too low, moving on...
+
+539 Step
+Prediction: 1, Correction: 0.574845, Prior: 0.00198046, Posterior: 0.00113846 Belief after normalization: 0.00113846Num Collisions: 0, Recognized Area: 39.2699, Total Area: 68.3139;
+53.078401, 53.798105 Estimated Local Min
+44.376838 Force Magnitude
+1 Success
+UGV_POS: (49.306771, 51.732964)
+ Belief too low, moving on...
+
+540 Step
+Prediction: 1, Correction: 0.586304, Prior: 0.00113846, Posterior: 0.000667483 Belief after normalization: 0.000667483Num Collisions: 0, Recognized Area: 39.2699, Total Area: 66.9788;
+53.078401, 53.798105 Estimated Local Min
+44.376838 Force Magnitude
+1 Success
+UGV_POS: (49.394479, 51.780999)
+ Belief too low, moving on...
+
+541 Step
+Prediction: 1, Correction: 0.597943, Prior: 0.000667483, Posterior: 0.000399117 Belief after normalization: 0.000399117Num Collisions: 0, Recognized Area: 39.2699, Total Area: 65.675;
+53.078401, 53.798105 Estimated Local Min
+44.376838 Force Magnitude
+1 Success
+UGV_POS: (49.482186, 51.829034)
+ Belief too low, moving on...
+
+542 Step
+Prediction: 1, Correction: 0.609756, Prior: 0.000399117, Posterior: 0.000243364 Belief after normalization: 0.000243364Num Collisions: 0, Recognized Area: 39.2699, Total Area: 64.4026;
+53.078401, 53.798105 Estimated Local Min
+44.376838 Force Magnitude
+1 Success
+UGV_POS: (49.569894, 51.877070)
+ Belief too low, moving on...
+
+543 Step
+Prediction: 1, Correction: 0.621736, Prior: 0.000243364, Posterior: 0.000151308 Belief after normalization: 0.000151308Num Collisions: 0, Recognized Area: 39.2699, Total Area: 63.1617;
+53.078401, 53.798105 Estimated Local Min
+44.376838 Force Magnitude
+1 Success
+UGV_POS: (49.657601, 51.925105)
+ Belief too low, moving on...
+
+544 Step
+Prediction: 1, Correction: 0.633874, Prior: 0.000151308, Posterior: 9.59102e-05 Belief after normalization: 9.59102e-05Num Collisions: 0, Recognized Area: 39.2699, Total Area: 61.9522;
+53.078401, 53.798105 Estimated Local Min
+44.376838 Force Magnitude
+1 Success
+UGV_POS: (49.745309, 51.973141)
+ Belief too low, moving on...
+
+545 Step
+Prediction: 1, Correction: 0.646162, Prior: 9.59102e-05, Posterior: 6.19735e-05 Belief after normalization: 6.19735e-05Num Collisions: 0, Recognized Area: 39.2699, Total Area: 60.7741;
+53.078401, 53.798105 Estimated Local Min
+44.376838 Force Magnitude
+1 Success
+UGV_POS: (49.833016, 52.021176)
+ Belief too low, moving on...
+
+546 Step
+Prediction: 1, Correction: 0.658588, Prior: 6.19735e-05, Posterior: 4.0815e-05 Belief after normalization: 4.0815e-05Num Collisions: 0, Recognized Area: 39.2699, Total Area: 59.6274;
+53.078401, 53.798105 Estimated Local Min
+44.376838 Force Magnitude
+1 Success
+UGV_POS: (49.920724, 52.069211)
+ Belief too low, moving on...
+
+547 Step
+Prediction: 1, Correction: 0.671141, Prior: 4.0815e-05, Posterior: 2.73926e-05 Belief after normalization: 2.73926e-05Num Collisions: 0, Recognized Area: 39.2699, Total Area: 58.5122;
+53.078401, 53.798105 Estimated Local Min
+44.376838 Force Magnitude
+1 Success
+UGV_POS: (50.008431, 52.117247)
+ Belief too low, moving on...
+
+548 Step
+Prediction: 1, Correction: 0.683807, Prior: 2.73926e-05, Posterior: 1.87313e-05 Belief after normalization: 1.87313e-05Num Collisions: 0, Recognized Area: 39.2699, Total Area: 57.4283;
+53.078401, 53.798105 Estimated Local Min
+44.376838 Force Magnitude
+1 Success
+UGV_POS: (50.096139, 52.165282)
+ Belief too low, moving on...
+
+549 Step
+Prediction: 1, Correction: 0.696573, Prior: 1.87313e-05, Posterior: 1.30477e-05 Belief after normalization: 1.30477e-05Num Collisions: 0, Recognized Area: 39.2699, Total Area: 56.3759;
+53.078401, 53.798105 Estimated Local Min
+44.376838 Force Magnitude
+1 Success
+UGV_POS: (50.183846, 52.213318)
+ Belief too low, moving on...
+
+550 Step
+Prediction: 1, Correction: 0.709421, Prior: 1.30477e-05, Posterior: 9.25632e-06 Belief after normalization: 9.25632e-06Num Collisions: 0, Recognized Area: 39.2699, Total Area: 55.3549;
+53.078401, 53.798105 Estimated Local Min
+44.376838 Force Magnitude
+1 Success
+UGV_POS: (50.271554, 52.261353)
+ Belief too low, moving on...
+
+551 Step
+Prediction: 1, Correction: 0.722335, Prior: 9.25632e-06, Posterior: 6.68616e-06 Belief after normalization: 6.68616e-06Num Collisions: 0, Recognized Area: 39.2699, Total Area: 54.3653;
+53.078401, 53.798105 Estimated Local Min
+44.376838 Force Magnitude
+1 Success
+UGV_POS: (50.359261, 52.309388)
+ Belief too low, moving on...
+
+552 Step
+Prediction: 1, Correction: 0.735294, Prior: 6.68616e-06, Posterior: 4.91629e-06 Belief after normalization: 4.91629e-06Num Collisions: 0, Recognized Area: 39.2699, Total Area: 53.4071;
+53.078401, 53.798105 Estimated Local Min
+44.376838 Force Magnitude
+1 Success
+UGV_POS: (50.446969, 52.357424)
+ Belief too low, moving on...
+
+553 Step
+Prediction: 1, Correction: 0.748279, Prior: 4.91629e-06, Posterior: 3.67876e-06 Belief after normalization: 3.67876e-06Num Collisions: 0, Recognized Area: 39.2699, Total Area: 52.4803;
+53.078401, 53.798105 Estimated Local Min
+44.376838 Force Magnitude
+1 Success
+UGV_POS: (50.534676, 52.405459)
+ Belief too low, moving on...
+
+554 Step
+Prediction: 1, Correction: 0.761267, Prior: 3.67876e-06, Posterior: 2.80052e-06 Belief after normalization: 2.80052e-06Num Collisions: 0, Recognized Area: 39.2699, Total Area: 51.585;
+53.078401, 53.798105 Estimated Local Min
+44.376838 Force Magnitude
+1 Success
+UGV_POS: (50.622384, 52.453494)
+ Belief too low, moving on...
+
+Initial belief: 0.200000
+Group A Points: 5
+555th Step
+Prediction: 1, Correction: 0.5, Prior: 0.2, Posterior: 0.1 Belief after normalization: 0.1Num Collisions: 0, Recognized Area: 39.2699, Total Area: 78.5398; 55.095671, 54.902923 Estimated Local Min
+42.076838 Force Magnitude
+1000 Iterations
+1 Success
+0 Obstacles in Range
+0.100000 Belief
+556 Step
+Prediction: 1, Correction: 0.5101, Prior: 0.1, Posterior: 0.05101 Belief after normalization: 0.05101Num Collisions: 0, Recognized Area: 39.2699, Total Area: 76.9847;
+55.095671, 54.902923 Estimated Local Min
+42.076838 Force Magnitude
+1 Success
+UGV_POS: (50.797799, 52.549565)
+ Belief too low, moving on...
+
+557 Step
+Prediction: 1, Correction: 0.5204, Prior: 0.05101, Posterior: 0.0265456 Belief after normalization: 0.0265456Num Collisions: 0, Recognized Area: 39.2699, Total Area: 75.4611;
+55.095671, 54.902923 Estimated Local Min
+42.076838 Force Magnitude
+1 Success
+UGV_POS: (50.885506, 52.597601)
+ Belief too low, moving on...
+
+558 Step
+Prediction: 1, Correction: 0.530898, Prior: 0.0265456, Posterior: 0.014093 Belief after normalization: 0.014093Num Collisions: 0, Recognized Area: 39.2699, Total Area: 73.9688;
+55.095671, 54.902923 Estimated Local Min
+42.076838 Force Magnitude
+1 Success
+UGV_POS: (50.973213, 52.645636)
+ Belief too low, moving on...
+
+559 Step
+Prediction: 1, Correction: 0.541594, Prior: 0.014093, Posterior: 0.00763269 Belief after normalization: 0.00763269Num Collisions: 0, Recognized Area: 39.2699, Total Area: 72.508;
+55.095671, 54.902923 Estimated Local Min
+42.076838 Force Magnitude
+1 Success
+UGV_POS: (51.060921, 52.693671)
+ Belief too low, moving on...
+
+560 Step
+Prediction: 1, Correction: 0.552486, Prior: 0.00763269, Posterior: 0.00421696 Belief after normalization: 0.00421696Num Collisions: 0, Recognized Area: 39.2699, Total Area: 71.0785;
+55.095671, 54.902923 Estimated Local Min
+42.076838 Force Magnitude
+1 Success
+UGV_POS: (51.148628, 52.741707)
+ Belief too low, moving on...
+
+561 Step
+Prediction: 1, Correction: 0.563571, Prior: 0.00421696, Posterior: 0.00237655 Belief after normalization: 0.00237655Num Collisions: 0, Recognized Area: 39.2699, Total Area: 69.6805;
+55.095671, 54.902923 Estimated Local Min
+42.076838 Force Magnitude
+1 Success
+UGV_POS: (51.236336, 52.789742)
+ Belief too low, moving on...
+
+562 Step
+Prediction: 1, Correction: 0.574845, Prior: 0.00237655, Posterior: 0.00136615 Belief after normalization: 0.00136615Num Collisions: 0, Recognized Area: 39.2699, Total Area: 68.3139;
+55.095671, 54.902923 Estimated Local Min
+42.076838 Force Magnitude
+1 Success
+UGV_POS: (51.324043, 52.837777)
+ Belief too low, moving on...
+
+563 Step
+Prediction: 1, Correction: 0.586304, Prior: 0.00136615, Posterior: 0.000800979 Belief after normalization: 0.000800979Num Collisions: 0, Recognized Area: 39.2699, Total Area: 66.9788;
+55.095671, 54.902923 Estimated Local Min
+42.076838 Force Magnitude
+1 Success
+UGV_POS: (51.411751, 52.885813)
+ Belief too low, moving on...
+
+564 Step
+Prediction: 1, Correction: 0.597943, Prior: 0.000800979, Posterior: 0.00047894 Belief after normalization: 0.00047894Num Collisions: 0, Recognized Area: 39.2699, Total Area: 65.675;
+55.095671, 54.902923 Estimated Local Min
+42.076838 Force Magnitude
+1 Success
+UGV_POS: (51.499458, 52.933848)
+ Belief too low, moving on...
+
+565 Step
+Prediction: 1, Correction: 0.609756, Prior: 0.00047894, Posterior: 0.000292037 Belief after normalization: 0.000292037Num Collisions: 0, Recognized Area: 39.2699, Total Area: 64.4026;
+55.095671, 54.902923 Estimated Local Min
+42.076838 Force Magnitude
+1 Success
+UGV_POS: (51.587166, 52.981884)
+ Belief too low, moving on...
+
+566 Step
+Prediction: 1, Correction: 0.621736, Prior: 0.000292037, Posterior: 0.00018157 Belief after normalization: 0.00018157Num Collisions: 0, Recognized Area: 39.2699, Total Area: 63.1617;
+55.095671, 54.902923 Estimated Local Min
+42.076838 Force Magnitude
+1 Success
+UGV_POS: (51.674873, 53.029919)
+ Belief too low, moving on...
+
+567 Step
+Prediction: 1, Correction: 0.633874, Prior: 0.00018157, Posterior: 0.000115092 Belief after normalization: 0.000115092Num Collisions: 0, Recognized Area: 39.2699, Total Area: 61.9522;
+55.095671, 54.902923 Estimated Local Min
+42.076838 Force Magnitude
+1 Success
+UGV_POS: (51.762581, 53.077954)
+ Belief too low, moving on...
+
+568 Step
+Prediction: 1, Correction: 0.646162, Prior: 0.000115092, Posterior: 7.43682e-05 Belief after normalization: 7.43682e-05Num Collisions: 0, Recognized Area: 39.2699, Total Area: 60.7741;
+55.095671, 54.902923 Estimated Local Min
+42.076838 Force Magnitude
+1 Success
+UGV_POS: (51.850288, 53.125990)
+ Belief too low, moving on...
+
+569 Step
+Prediction: 1, Correction: 0.658588, Prior: 7.43682e-05, Posterior: 4.8978e-05 Belief after normalization: 4.8978e-05Num Collisions: 0, Recognized Area: 39.2699, Total Area: 59.6274;
+55.095671, 54.902923 Estimated Local Min
+42.076838 Force Magnitude
+1 Success
+UGV_POS: (51.937996, 53.174025)
+ Belief too low, moving on...
+
+570 Step
+Prediction: 1, Correction: 0.671141, Prior: 4.8978e-05, Posterior: 3.28712e-05 Belief after normalization: 3.28712e-05Num Collisions: 0, Recognized Area: 39.2699, Total Area: 58.5122;
+55.095671, 54.902923 Estimated Local Min
+42.076838 Force Magnitude
+1 Success
+UGV_POS: (52.025703, 53.222060)
+ Belief too low, moving on...
+
+571 Step
+Prediction: 1, Correction: 0.683807, Prior: 3.28712e-05, Posterior: 2.24775e-05 Belief after normalization: 2.24775e-05Num Collisions: 0, Recognized Area: 39.2699, Total Area: 57.4283;
+55.095671, 54.902923 Estimated Local Min
+42.076838 Force Magnitude
+1 Success
+UGV_POS: (52.113411, 53.270096)
+ Belief too low, moving on...
+
+572 Step
+Prediction: 1, Correction: 0.696573, Prior: 2.24775e-05, Posterior: 1.56572e-05 Belief after normalization: 1.56572e-05Num Collisions: 0, Recognized Area: 39.2699, Total Area: 56.3759;
+55.095671, 54.902923 Estimated Local Min
+42.076838 Force Magnitude
+1 Success
+UGV_POS: (52.201118, 53.318131)
+ Belief too low, moving on...
+
+573 Step
+Prediction: 1, Correction: 0.709421, Prior: 1.56572e-05, Posterior: 1.11076e-05 Belief after normalization: 1.11076e-05Num Collisions: 0, Recognized Area: 39.2699, Total Area: 55.3549;
+55.095671, 54.902923 Estimated Local Min
+42.076838 Force Magnitude
+1 Success
+UGV_POS: (52.288826, 53.366167)
+ Belief too low, moving on...
+
+574 Step
+Prediction: 1, Correction: 0.722335, Prior: 1.11076e-05, Posterior: 8.02339e-06 Belief after normalization: 8.02339e-06Num Collisions: 0, Recognized Area: 39.2699, Total Area: 54.3653;
+55.095671, 54.902923 Estimated Local Min
+42.076838 Force Magnitude
+1 Success
+UGV_POS: (52.376533, 53.414202)
+ Belief too low, moving on...
+
+575 Step
+Prediction: 1, Correction: 0.735294, Prior: 8.02339e-06, Posterior: 5.89955e-06 Belief after normalization: 5.89955e-06Num Collisions: 0, Recognized Area: 39.2699, Total Area: 53.4071;
+55.095671, 54.902923 Estimated Local Min
+42.076838 Force Magnitude
+1 Success
+UGV_POS: (52.464241, 53.462237)
+ Belief too low, moving on...
+
+576 Step
+Prediction: 1, Correction: 0.748279, Prior: 5.89955e-06, Posterior: 4.41451e-06 Belief after normalization: 4.41451e-06Num Collisions: 0, Recognized Area: 39.2699, Total Area: 52.4803;
+55.095671, 54.902923 Estimated Local Min
+42.076838 Force Magnitude
+1 Success
+UGV_POS: (52.551948, 53.510273)
+ Belief too low, moving on...
+
+577 Step
+Prediction: 1, Correction: 0.761267, Prior: 4.41451e-06, Posterior: 3.36062e-06 Belief after normalization: 3.36062e-06Num Collisions: 0, Recognized Area: 39.2699, Total Area: 51.585;
+55.095671, 54.902923 Estimated Local Min
+42.076838 Force Magnitude
+1 Success
+UGV_POS: (52.639656, 53.558308)
+ Belief too low, moving on...
+
+Initial belief: 0.200000
+Group A Points: 5
+578 Step
+Prediction: 1, Correction: 0.5, Prior: 0.2, Posterior: 0.1 Belief after normalization: 0.1Num Collisions: 0, Recognized Area: 39.2699, Total Area: 78.5398;
+57.112940, 56.007742 Estimated Local Min
+39.776838 Force Magnitude
+1 Success
+UGV_POS: (52.727363, 53.606343)
+ Belief too low, moving on...
+
+579 Step
+Prediction: 1, Correction: 0.5101, Prior: 0.1, Posterior: 0.05101 Belief after normalization: 0.05101Num Collisions: 0, Recognized Area: 39.2699, Total Area: 76.9847;
+57.112940, 56.007742 Estimated Local Min
+39.776838 Force Magnitude
+1 Success
+UGV_POS: (52.815071, 53.654379)
+ Belief too low, moving on...
+
+580 Step
+Prediction: 1, Correction: 0.5204, Prior: 0.05101, Posterior: 0.0265456 Belief after normalization: 0.0265456Num Collisions: 0, Recognized Area: 39.2699, Total Area: 75.4611;
+57.112940, 56.007742 Estimated Local Min
+39.776838 Force Magnitude
+1 Success
+UGV_POS: (52.902778, 53.702414)
+ Belief too low, moving on...
+
+Initial belief: 0.200000
+Group A Points: 5
+581th Step
+Prediction: 1.064, Correction: 0.5204, Prior: 0.2, Posterior: 0.110741 Belief after normalization: 0.110741Num Collisions: 64, Recognized Area: 39.2699, Total Area: 75.4611; 57.785660, 53.965634 Estimated Local Min
+7.058421 Force Magnitude
+0 Iterations
+1 Success
+1 Obstacles in Range
+0.110741 Belief
+582 Step
+Prediction: 1.07, Correction: 0.529794, Prior: 0.110741, Posterior: 0.0627768 Belief after normalization: 0.0627768Num Collisions: 70, Recognized Area: 39.2699, Total Area: 74.123;
+57.785660, 53.965634 Estimated Local Min
+7.058421 Force Magnitude
+1 Success
+UGV_POS: (53.078193, 53.798485)
+ Belief too low, moving on...
+
+583 Step
+Prediction: 1.076, Correction: 0.5393, Prior: 0.0627768, Posterior: 0.0364286 Belief after normalization: 0.0364286Num Collisions: 76, Recognized Area: 39.2699, Total Area: 72.8164;
+57.785660, 53.965634 Estimated Local Min
+7.058421 Force Magnitude
+1 Success
+UGV_POS: (53.165900, 53.846521)
+ Belief too low, moving on...
+
+584 Step
+Prediction: 1.081, Correction: 0.548913, Prior: 0.0364286, Posterior: 0.0216158 Belief after normalization: 0.0216158Num Collisions: 81, Recognized Area: 39.2699, Total Area: 71.5412;
+57.785660, 53.965634 Estimated Local Min
+7.058421 Force Magnitude
+1 Success
+UGV_POS: (53.253607, 53.894557)
+ Belief too low, moving on...
+
+585 Step
+Prediction: 1.088, Correction: 0.558625, Prior: 0.0216158, Posterior: 0.0131377 Belief after normalization: 0.0131377Num Collisions: 88, Recognized Area: 39.2699, Total Area: 70.2974;
+57.785660, 53.965634 Estimated Local Min
+7.058421 Force Magnitude
+1 Success
+UGV_POS: (53.341314, 53.942594)
+ Belief too low, moving on...
+
+586 Step
+Prediction: 1.093, Correction: 0.568428, Prior: 0.0131377, Posterior: 0.00816237 Belief after normalization: 0.00816237Num Collisions: 93, Recognized Area: 39.2699, Total Area: 69.0851;
+57.785660, 53.965634 Estimated Local Min
+7.058421 Force Magnitude
+1 Success
+UGV_POS: (53.429020, 53.990632)
+ Belief too low, moving on...
+
+587 Step
+Prediction: 1.101, Correction: 0.578314, Prior: 0.00816237, Posterior: 0.00519717 Belief after normalization: 0.00519717Num Collisions: 101, Recognized Area: 39.2699, Total Area: 67.9042;
+57.785660, 53.965634 Estimated Local Min
+7.058421 Force Magnitude
+1 Success
+UGV_POS: (53.516725, 54.038671)
+ Belief too low, moving on...
+
+588 Step
+Prediction: 1.107, Correction: 0.588272, Prior: 0.00519717, Posterior: 0.00338449 Belief after normalization: 0.00338449Num Collisions: 107, Recognized Area: 39.2699, Total Area: 66.7547;
+57.785660, 53.965634 Estimated Local Min
+7.058421 Force Magnitude
+1 Success
+UGV_POS: (53.604430, 54.086712)
+ Belief too low, moving on...
+
+589 Step
+Prediction: 1.113, Correction: 0.598293, Prior: 0.00338449, Posterior: 0.00225373 Belief after normalization: 0.00225373Num Collisions: 113, Recognized Area: 39.2699, Total Area: 65.6366;
+57.785660, 53.965634 Estimated Local Min
+7.058421 Force Magnitude
+1 Success
+UGV_POS: (53.692133, 54.134756)
+ Belief too low, moving on...
+
+590 Step
+Prediction: 1.121, Correction: 0.608364, Prior: 0.00225373, Posterior: 0.00153699 Belief after normalization: 0.00153699Num Collisions: 121, Recognized Area: 39.2699, Total Area: 64.55;
+57.785660, 53.965634 Estimated Local Min
+7.058421 Force Magnitude
+1 Success
+UGV_POS: (53.779834, 54.182803)
+ Belief too low, moving on...
+
+591 Step
+Prediction: 1.126, Correction: 0.618474, Prior: 0.00153699, Posterior: 0.00107036 Belief after normalization: 0.00107036Num Collisions: 126, Recognized Area: 39.2699, Total Area: 63.4948;
+57.785660, 53.965634 Estimated Local Min
+7.058421 Force Magnitude
+1 Success
+UGV_POS: (53.867534, 54.230852)
+ Belief too low, moving on...
+
+592 Step
+Prediction: 1.133, Correction: 0.628609, Prior: 0.00107036, Posterior: 0.000762328 Belief after normalization: 0.000762328Num Collisions: 133, Recognized Area: 39.2699, Total Area: 62.4711;
+57.785660, 53.965634 Estimated Local Min
+7.058421 Force Magnitude
+1 Success
+UGV_POS: (53.955231, 54.278906)
+ Belief too low, moving on...
+
+593 Step
+Prediction: 1.139, Correction: 0.638755, Prior: 0.000762328, Posterior: 0.000554626 Belief after normalization: 0.000554626Num Collisions: 139, Recognized Area: 39.2699, Total Area: 61.4788;
+57.785660, 53.965634 Estimated Local Min
+7.058421 Force Magnitude
+1 Success
+UGV_POS: (54.042926, 54.326965)
+ Belief too low, moving on...
+
+594 Step
+Prediction: 1.146, Correction: 0.648897, Prior: 0.000554626, Posterior: 0.00041244 Belief after normalization: 0.00041244Num Collisions: 146, Recognized Area: 39.2699, Total Area: 60.518;
+57.785660, 53.965634 Estimated Local Min
+7.058421 Force Magnitude
+1 Success
+UGV_POS: (54.130618, 54.375029)
+ Belief too low, moving on...
+
+595 Step
+Prediction: 1.15, Correction: 0.659017, Prior: 0.00041244, Posterior: 0.000312575 Belief after normalization: 0.000312575Num Collisions: 150, Recognized Area: 39.2699, Total Area: 59.5886;
+57.785660, 53.965634 Estimated Local Min
+7.058421 Force Magnitude
+1 Success
+UGV_POS: (54.218306, 54.423099)
+ Belief too low, moving on...
+
+596 Step
+Prediction: 1.158, Correction: 0.669099, Prior: 0.000312575, Posterior: 0.000242189 Belief after normalization: 0.000242189Num Collisions: 158, Recognized Area: 39.2699, Total Area: 58.6907;
+57.785660, 53.965634 Estimated Local Min
+7.058421 Force Magnitude
+1 Success
+UGV_POS: (54.305990, 54.471177)
+ Belief too low, moving on...
+
+597 Step
+Prediction: 1.16, Correction: 0.679124, Prior: 0.000242189, Posterior: 0.000190792 Belief after normalization: 0.000190792Num Collisions: 160, Recognized Area: 39.2699, Total Area: 57.8243;
+57.785660, 53.965634 Estimated Local Min
+7.058421 Force Magnitude
+1 Success
+UGV_POS: (54.393670, 54.519263)
+ Belief too low, moving on...
+
+598 Step
+Prediction: 1.169, Correction: 0.689074, Prior: 0.000190792, Posterior: 0.000153689 Belief after normalization: 0.000153689Num Collisions: 169, Recognized Area: 39.2699, Total Area: 56.9894;
+57.785660, 53.965634 Estimated Local Min
+7.058421 Force Magnitude
+1 Success
+UGV_POS: (54.481344, 54.567360)
+ Belief too low, moving on...
+
+599 Step
+Prediction: 1.176, Correction: 0.698927, Prior: 0.000153689, Posterior: 0.000126322 Belief after normalization: 0.000126322Num Collisions: 176, Recognized Area: 39.2699, Total Area: 56.186;
+57.785660, 53.965634 Estimated Local Min
+7.058421 Force Magnitude
+1 Success
+UGV_POS: (54.569011, 54.615468)
+ Belief too low, moving on...
+
+600 Step
+Prediction: 1.183, Correction: 0.708663, Prior: 0.000126322, Posterior: 0.000105902 Belief after normalization: 0.000105902Num Collisions: 183, Recognized Area: 39.2699, Total Area: 55.4141;
+57.785660, 53.965634 Estimated Local Min
+7.058421 Force Magnitude
+1 Success
+UGV_POS: (54.656671, 54.663590)
+ Belief too low, moving on...
+
+601 Step
+Prediction: 1.187, Correction: 0.718259, Prior: 0.000105902, Posterior: 9.02894e-05 Belief after normalization: 9.02894e-05Num Collisions: 187, Recognized Area: 39.2699, Total Area: 54.6737;
+57.785660, 53.965634 Estimated Local Min
+7.058421 Force Magnitude
+1 Success
+UGV_POS: (54.744323, 54.711728)
+ Belief too low, moving on...
+
+602 Step
+Prediction: 1.195, Correction: 0.727693, Prior: 9.02894e-05, Posterior: 7.8515e-05 Belief after normalization: 7.8515e-05Num Collisions: 195, Recognized Area: 39.2699, Total Area: 53.9649;
+57.785660, 53.965634 Estimated Local Min
+7.058421 Force Magnitude
+1 Success
+UGV_POS: (54.831964, 54.759883)
+ Belief too low, moving on...
+
+603 Step
+Prediction: 1.204, Correction: 0.736941, Prior: 7.8515e-05, Posterior: 6.96646e-05 Belief after normalization: 6.96646e-05Num Collisions: 204, Recognized Area: 39.2699, Total Area: 53.2877;
+57.785660, 53.965634 Estimated Local Min
+7.058421 Force Magnitude
+1 Success
+UGV_POS: (54.919594, 54.808060)
+ Belief too low, moving on...
+
+604 Step
+Prediction: 1.213, Correction: 0.745979, Prior: 6.96646e-05, Posterior: 6.30376e-05 Belief after normalization: 6.30376e-05Num Collisions: 213, Recognized Area: 39.2699, Total Area: 52.6421;
+57.785660, 53.965634 Estimated Local Min
+7.058421 Force Magnitude
+1 Success
+UGV_POS: (55.007210, 54.856261)
+ Belief too low, moving on...
+
+605 Step
+Prediction: 1.223, Correction: 0.754783, Prior: 6.30376e-05, Posterior: 5.81899e-05 Belief after normalization: 5.81899e-05Num Collisions: 223, Recognized Area: 39.2699, Total Area: 52.0281;
+57.785660, 53.965634 Estimated Local Min
+7.058421 Force Magnitude
+1 Success
+UGV_POS: (55.094811, 54.904490)
+ Belief too low, moving on...
+
+606 Step
+Prediction: 1.229, Correction: 0.763326, Prior: 5.81899e-05, Posterior: 5.45896e-05 Belief after normalization: 5.45896e-05Num Collisions: 229, Recognized Area: 39.2699, Total Area: 51.4458;
+57.785660, 53.965634 Estimated Local Min
+7.058421 Force Magnitude
+1 Success
+UGV_POS: (55.182394, 54.952752)
+ Belief too low, moving on...
+
+607 Step
+Prediction: 1.235, Correction: 0.771585, Prior: 5.45896e-05, Posterior: 5.20188e-05 Belief after normalization: 5.20188e-05Num Collisions: 235, Recognized Area: 39.2699, Total Area: 50.8951;
+57.785660, 53.965634 Estimated Local Min
+7.058421 Force Magnitude
+1 Success
+UGV_POS: (55.269956, 55.001052)
+ Belief too low, moving on...
+
+608 Step
+Prediction: 1.242, Correction: 0.779532, Prior: 5.20188e-05, Posterior: 5.03635e-05 Belief after normalization: 5.03635e-05Num Collisions: 242, Recognized Area: 39.2699, Total Area: 50.3763;
+57.785660, 53.965634 Estimated Local Min
+7.058421 Force Magnitude
+1 Success
+UGV_POS: (55.357494, 55.049396)
+ Belief too low, moving on...
+
+Initial belief: 0.166667
+Group A Points: 6
+711 Step
+Prediction: 1.139, Correction: 0.5, Prior: 0.166667, Posterior: 0.0949167 Belief after normalization: 0.0949167Num Collisions: 139, Recognized Area: 39.2699, Total Area: 78.5398;
+66.702131, 64.164754 Estimated Local Min
+27.566131 Force Magnitude
+1 Success
+UGV_POS: (62.113374, 62.178977)
+ Belief too low, moving on...
+
+712 Step
+Prediction: 1.134, Correction: 0.5101, Prior: 0.0949167, Posterior: 0.0549049 Belief after normalization: 0.0549049Num Collisions: 134, Recognized Area: 39.2699, Total Area: 76.9847;
+66.702131, 64.164754 Estimated Local Min
+27.566131 Force Magnitude
+1 Success
+UGV_POS: (62.204986, 62.219066)
+ Belief too low, moving on...
+
+713 Step
+Prediction: 1.13, Correction: 0.5204, Prior: 0.0549049, Posterior: 0.0322869 Belief after normalization: 0.0322869Num Collisions: 130, Recognized Area: 39.2699, Total Area: 75.4611;
+66.702131, 64.164754 Estimated Local Min
+27.566131 Force Magnitude
+1 Success
+UGV_POS: (62.296625, 62.259095)
+ Belief too low, moving on...
+
+714 Step
+Prediction: 1.126, Correction: 0.530898, Prior: 0.0322869, Posterior: 0.0193008 Belief after normalization: 0.0193008Num Collisions: 126, Recognized Area: 39.2699, Total Area: 73.9688;
+66.702131, 64.164754 Estimated Local Min
+27.566131 Force Magnitude
+1 Success
+UGV_POS: (62.388285, 62.299075)
+ Belief too low, moving on...
+
+715 Step
+Prediction: 1.123, Correction: 0.541594, Prior: 0.0193008, Posterior: 0.011739 Belief after normalization: 0.011739Num Collisions: 123, Recognized Area: 39.2699, Total Area: 72.508;
+66.702131, 64.164754 Estimated Local Min
+27.566131 Force Magnitude
+1 Success
+UGV_POS: (62.479964, 62.339013)
+ Belief too low, moving on...
+
+716 Step
+Prediction: 1.121, Correction: 0.552486, Prior: 0.011739, Posterior: 0.00727036 Belief after normalization: 0.00727036Num Collisions: 121, Recognized Area: 39.2699, Total Area: 71.0786;
+66.702131, 64.164754 Estimated Local Min
+27.566131 Force Magnitude
+1 Success
+UGV_POS: (62.571658, 62.378915)
+ Belief too low, moving on...
+
+717 Step
+Prediction: 1.118, Correction: 0.56357, Prior: 0.00727036, Posterior: 0.00458085 Belief after normalization: 0.00458085Num Collisions: 118, Recognized Area: 39.2699, Total Area: 69.6806;
+66.702131, 64.164754 Estimated Local Min
+27.566131 Force Magnitude
+1 Success
+UGV_POS: (62.663365, 62.418787)
+ Belief too low, moving on...
+
+718 Step
+Prediction: 1.117, Correction: 0.574844, Prior: 0.00458085, Posterior: 0.00294137 Belief after normalization: 0.00294137Num Collisions: 117, Recognized Area: 39.2699, Total Area: 68.314;
+66.702131, 64.164754 Estimated Local Min
+27.566131 Force Magnitude
+1 Success
+UGV_POS: (62.755084, 62.458634)
+ Belief too low, moving on...
+
+719 Step
+Prediction: 1.113, Correction: 0.586304, Prior: 0.00294137, Posterior: 0.00191941 Belief after normalization: 0.00191941Num Collisions: 113, Recognized Area: 39.2699, Total Area: 66.9788;
+66.702131, 64.164754 Estimated Local Min
+27.566131 Force Magnitude
+1 Success
+UGV_POS: (62.846811, 62.498459)
+ Belief too low, moving on...
+
+720 Step
+Prediction: 1.108, Correction: 0.597943, Prior: 0.00191941, Posterior: 0.00127165 Belief after normalization: 0.00127165Num Collisions: 108, Recognized Area: 39.2699, Total Area: 65.675;
+66.702131, 64.164754 Estimated Local Min
+27.566131 Force Magnitude
+1 Success
+UGV_POS: (62.938547, 62.538266)
+ Belief too low, moving on...
+
+721 Step
+Prediction: 1.106, Correction: 0.609756, Prior: 0.00127165, Posterior: 0.000857586 Belief after normalization: 0.000857586Num Collisions: 106, Recognized Area: 39.2699, Total Area: 64.4027;
+66.702131, 64.164754 Estimated Local Min
+27.566131 Force Magnitude
+1 Success
+UGV_POS: (63.030289, 62.578057)
+ Belief too low, moving on...
+
+722 Step
+Prediction: 1.104, Correction: 0.621735, Prior: 0.000857586, Posterior: 0.000588644 Belief after normalization: 0.000588644Num Collisions: 104, Recognized Area: 39.2699, Total Area: 63.1618;
+66.702131, 64.164754 Estimated Local Min
+27.566131 Force Magnitude
+1 Success
+UGV_POS: (63.122037, 62.617836)
+ Belief too low, moving on...
+
+723 Step
+Prediction: 1.104, Correction: 0.633874, Prior: 0.000588644, Posterior: 0.000411931 Belief after normalization: 0.000411931Num Collisions: 104, Recognized Area: 39.2699, Total Area: 61.9522;
+66.702131, 64.164754 Estimated Local Min
+27.566131 Force Magnitude
+1 Success
+UGV_POS: (63.213790, 62.657603)
+ Belief too low, moving on...
+
+724 Step
+Prediction: 1.099, Correction: 0.646161, Prior: 0.000411931, Posterior: 0.000292525 Belief after normalization: 0.000292525Num Collisions: 99, Recognized Area: 39.2699, Total Area: 60.7742;
+66.702131, 64.164754 Estimated Local Min
+27.566131 Force Magnitude
+1 Success
+UGV_POS: (63.305547, 62.697361)
+ Belief too low, moving on...
+
+Initial belief: 0.200000
+Group A Points: 5
+725th Step
+Prediction: 1.166, Correction: 0.5204, Prior: 0.2, Posterior: 0.121357 Belief after normalization: 0.121357Num Collisions: 166, Recognized Area: 39.2699, Total Area: 75.4611; 67.468691, 60.194705 Estimated Local Min
+3.347270 Force Magnitude
+0 Iterations
+1 Success
+34 Obstacles in Range
+0.121357 Belief
+726 Step
+Prediction: 1.171, Correction: 0.526262, Prior: 0.121357, Posterior: 0.0747867 Belief after normalization: 0.0747867Num Collisions: 171, Recognized Area: 39.2699, Total Area: 74.6205;
+67.468691, 60.194705 Estimated Local Min
+3.347270 Force Magnitude
+1 Success
+UGV_POS: (63.489070, 62.776854)
+ Belief too low, moving on...
+
+727 Step
+Prediction: 1.174, Correction: 0.532031, Prior: 0.0747867, Posterior: 0.0467121 Belief after normalization: 0.0467121Num Collisions: 174, Recognized Area: 39.2699, Total Area: 73.8113;
+67.468691, 60.194705 Estimated Local Min
+3.347270 Force Magnitude
+1 Success
+UGV_POS: (63.580835, 62.816593)
+ Belief too low, moving on...
+
+728 Step
+Prediction: 1.177, Correction: 0.537698, Prior: 0.0467121, Posterior: 0.0295627 Belief after normalization: 0.0295627Num Collisions: 177, Recognized Area: 39.2699, Total Area: 73.0334;
+67.468691, 60.194705 Estimated Local Min
+3.347270 Force Magnitude
+1 Success
+UGV_POS: (63.672602, 62.856328)
+ Belief too low, moving on...
+
+729 Step
+Prediction: 1.179, Correction: 0.54325, Prior: 0.0295627, Posterior: 0.0189347 Belief after normalization: 0.0189347Num Collisions: 179, Recognized Area: 39.2699, Total Area: 72.287;
+67.468691, 60.194705 Estimated Local Min
+3.347270 Force Magnitude
+1 Success
+UGV_POS: (63.764369, 62.896061)
+ Belief too low, moving on...
+
+730 Step
+Prediction: 1.184, Correction: 0.548677, Prior: 0.0189347, Posterior: 0.0123006 Belief after normalization: 0.0123006Num Collisions: 184, Recognized Area: 39.2699, Total Area: 71.5719;
+67.468691, 60.194705 Estimated Local Min
+3.347270 Force Magnitude
+1 Success
+UGV_POS: (63.856137, 62.935793)
+ Belief too low, moving on...
+
+731 Step
+Prediction: 1.186, Correction: 0.553969, Prior: 0.0123006, Posterior: 0.00808158 Belief after normalization: 0.00808158Num Collisions: 186, Recognized Area: 39.2699, Total Area: 70.8883;
+67.468691, 60.194705 Estimated Local Min
+3.347270 Force Magnitude
+1 Success
+UGV_POS: (63.947905, 62.975525)
+ Belief too low, moving on...
+
+732 Step
+Prediction: 1.189, Correction: 0.559113, Prior: 0.00808158, Posterior: 0.00537252 Belief after normalization: 0.00537252Num Collisions: 189, Recognized Area: 39.2699, Total Area: 70.2361;
+67.468691, 60.194705 Estimated Local Min
+3.347270 Force Magnitude
+1 Success
+UGV_POS: (64.039672, 63.015259)
+ Belief too low, moving on...
+
+733 Step
+Prediction: 1.19, Correction: 0.564098, Prior: 0.00537252, Posterior: 0.00360645 Belief after normalization: 0.00360645Num Collisions: 190, Recognized Area: 39.2699, Total Area: 69.6154;
+67.468691, 60.194705 Estimated Local Min
+3.347270 Force Magnitude
+1 Success
+UGV_POS: (64.131438, 63.054996)
+ Belief too low, moving on...
+
+734 Step
+Prediction: 1.192, Correction: 0.568914, Prior: 0.00360645, Posterior: 0.00244569 Belief after normalization: 0.00244569Num Collisions: 192, Recognized Area: 39.2699, Total Area: 69.0261;
+67.468691, 60.194705 Estimated Local Min
+3.347270 Force Magnitude
+1 Success
+UGV_POS: (64.223203, 63.094736)
+ Belief too low, moving on...
+
+735 Step
+Prediction: 1.197, Correction: 0.573549, Prior: 0.00244569, Posterior: 0.00167906 Belief after normalization: 0.00167906Num Collisions: 197, Recognized Area: 39.2699, Total Area: 68.4683;
+67.468691, 60.194705 Estimated Local Min
+3.347270 Force Magnitude
+1 Success
+UGV_POS: (64.314965, 63.134481)
+ Belief too low, moving on...
+
+736 Step
+Prediction: 1.204, Correction: 0.577992, Prior: 0.00167906, Posterior: 0.00116846 Belief after normalization: 0.00116846Num Collisions: 204, Recognized Area: 39.2699, Total Area: 67.942;
+67.468691, 60.194705 Estimated Local Min
+3.347270 Force Magnitude
+1 Success
+UGV_POS: (64.406725, 63.174233)
+ Belief too low, moving on...
+
+737 Step
+Prediction: 1.208, Correction: 0.582232, Prior: 0.00116846, Posterior: 0.000821822 Belief after normalization: 0.000821822Num Collisions: 208, Recognized Area: 39.2699, Total Area: 67.4472;
+67.468691, 60.194705 Estimated Local Min
+3.347270 Force Magnitude
+1 Success
+UGV_POS: (64.498481, 63.213991)
+ Belief too low, moving on...
+
+738 Step
+Prediction: 1.209, Correction: 0.586258, Prior: 0.000821822, Posterior: 0.000582496 Belief after normalization: 0.000582496Num Collisions: 209, Recognized Area: 39.2699, Total Area: 66.984;
+67.468691, 60.194705 Estimated Local Min
+3.347270 Force Magnitude
+1 Success
+UGV_POS: (64.590234, 63.253758)
+ Belief too low, moving on...
+
+739 Step
+Prediction: 1.153, Correction: 0.590061, Prior: 0.000582496, Posterior: 0.000396296 Belief after normalization: 0.000396296Num Collisions: 153, Recognized Area: 39.2699, Total Area: 66.5523;
+67.468691, 60.194705 Estimated Local Min
+3.347270 Force Magnitude
+1 Success
+UGV_POS: (64.681983, 63.293535)
+ Belief too low, moving on...
+
+740 Step
+Prediction: 1.159, Correction: 0.59363, Prior: 0.000396296, Posterior: 0.000272658 Belief after normalization: 0.000272658Num Collisions: 159, Recognized Area: 39.2699, Total Area: 66.1521;
+67.468691, 60.194705 Estimated Local Min
+3.347270 Force Magnitude
+1 Success
+UGV_POS: (64.773727, 63.333323)
+ Belief too low, moving on...
+
+741 Step
+Prediction: 1.166, Correction: 0.596956, Prior: 0.000272658, Posterior: 0.000189784 Belief after normalization: 0.000189784Num Collisions: 166, Recognized Area: 39.2699, Total Area: 65.7836;
+67.468691, 60.194705 Estimated Local Min
+3.347270 Force Magnitude
+1 Success
+UGV_POS: (64.865465, 63.373122)
+ Belief too low, moving on...
+
+742 Step
+Prediction: 1.171, Correction: 0.60003, Prior: 0.000189784, Posterior: 0.000133349 Belief after normalization: 0.000133349Num Collisions: 171, Recognized Area: 39.2699, Total Area: 65.4466;
+67.468691, 60.194705 Estimated Local Min
+3.347270 Force Magnitude
+1 Success
+UGV_POS: (64.957198, 63.412935)
+ Belief too low, moving on...
+
+743 Step
+Prediction: 1.18, Correction: 0.602842, Prior: 0.000133349, Posterior: 9.48582e-05 Belief after normalization: 9.48582e-05Num Collisions: 180, Recognized Area: 39.2699, Total Area: 65.1413;
+67.468691, 60.194705 Estimated Local Min
+3.347270 Force Magnitude
+1 Success
+UGV_POS: (65.048925, 63.452763)
+ Belief too low, moving on...
+
+744 Step
+Prediction: 1.187, Correction: 0.605386, Prior: 9.48582e-05, Posterior: 6.81645e-05 Belief after normalization: 6.81645e-05Num Collisions: 187, Recognized Area: 39.2699, Total Area: 64.8675;
+67.468691, 60.194705 Estimated Local Min
+3.347270 Force Magnitude
+1 Success
+UGV_POS: (65.140644, 63.492606)
+ Belief too low, moving on...
+
+745 Step
+Prediction: 1.192, Correction: 0.607654, Prior: 6.81645e-05, Posterior: 4.93731e-05 Belief after normalization: 4.93731e-05Num Collisions: 192, Recognized Area: 39.2699, Total Area: 64.6255;
+67.468691, 60.194705 Estimated Local Min
+3.347270 Force Magnitude
+1 Success
+UGV_POS: (65.232356, 63.532467)
+ Belief too low, moving on...
+
+746 Step
+Prediction: 1.197, Correction: 0.609639, Prior: 4.93731e-05, Posterior: 3.60294e-05 Belief after normalization: 3.60294e-05Num Collisions: 197, Recognized Area: 39.2699, Total Area: 64.4151;
+67.468691, 60.194705 Estimated Local Min
+3.347270 Force Magnitude
+1 Success
+UGV_POS: (65.324060, 63.572347)
+ Belief too low, moving on...
+
+747 Step
+Prediction: 1.203, Correction: 0.611335, Prior: 3.60294e-05, Posterior: 2.64973e-05 Belief after normalization: 2.64973e-05Num Collisions: 203, Recognized Area: 39.2699, Total Area: 64.2364;
+67.468691, 60.194705 Estimated Local Min
+3.347270 Force Magnitude
+1 Success
+UGV_POS: (65.415756, 63.612247)
+ Belief too low, moving on...
+
+748 Step
+Prediction: 1.21, Correction: 0.612737, Prior: 2.64973e-05, Posterior: 1.96454e-05 Belief after normalization: 1.96454e-05Num Collisions: 210, Recognized Area: 39.2699, Total Area: 64.0894;
+67.468691, 60.194705 Estimated Local Min
+3.347270 Force Magnitude
+1 Success
+UGV_POS: (65.507441, 63.652168)
+ Belief too low, moving on...
+
+749 Step
+Prediction: 1.216, Correction: 0.613841, Prior: 1.96454e-05, Posterior: 1.46639e-05 Belief after normalization: 1.46639e-05Num Collisions: 216, Recognized Area: 39.2699, Total Area: 63.9741;
+67.468691, 60.194705 Estimated Local Min
+3.347270 Force Magnitude
+1 Success
+UGV_POS: (65.599117, 63.692114)
+ Belief too low, moving on...
+
+750 Step
+Prediction: 1.221, Correction: 0.614643, Prior: 1.46639e-05, Posterior: 1.1005e-05 Belief after normalization: 1.1005e-05Num Collisions: 221, Recognized Area: 39.2699, Total Area: 63.8906;
+67.468691, 60.194705 Estimated Local Min
+3.347270 Force Magnitude
+1 Success
+UGV_POS: (65.690781, 63.732084)
+ Belief too low, moving on...
+
+751 Step
+Prediction: 1.228, Correction: 0.615141, Prior: 1.1005e-05, Posterior: 8.31309e-06 Belief after normalization: 8.31309e-06Num Collisions: 228, Recognized Area: 39.2699, Total Area: 63.8389;
+67.468691, 60.194705 Estimated Local Min
+3.347270 Force Magnitude
+1 Success
+UGV_POS: (65.782434, 63.772080)
+ Belief too low, moving on...
+
+752 Step
+Prediction: 1.233, Correction: 0.615333, Prior: 8.31309e-06, Posterior: 6.30719e-06 Belief after normalization: 6.30719e-06Num Collisions: 233, Recognized Area: 39.2699, Total Area: 63.8189;
+67.468691, 60.194705 Estimated Local Min
+3.347270 Force Magnitude
+1 Success
+UGV_POS: (65.874075, 63.812106)
+ Belief too low, moving on...
+
+753 Step
+Prediction: 1.238, Correction: 0.615219, Prior: 6.30719e-06, Posterior: 4.80381e-06 Belief after normalization: 4.80381e-06Num Collisions: 238, Recognized Area: 39.2699, Total Area: 63.8308;
+67.468691, 60.194705 Estimated Local Min
+3.347270 Force Magnitude
+1 Success
+UGV_POS: (65.965702, 63.852161)
+ Belief too low, moving on...
+
+Initial belief: 0.333333
+Group A Points: 3
+790th Step
+Prediction: 1.68, Correction: 0.787154, Prior: 0.333333, Posterior: 0.440806 Belief after normalization: 0.440806Num Collisions: 680, Recognized Area: 39.2699, Total Area: 49.8885; 71.932779, 65.627243 Estimated Local Min
+1.590996 Force Magnitude
+0 Iterations
+1 Success
+272 Obstacles in Range
+0.440806 Belief
+791th Step
+Prediction: 1.687, Correction: 0.799384, Prior: 0.440806, Posterior: 0.594454 Belief after normalization: 0.594454Num Collisions: 687, Recognized Area: 39.2699, Total Area: 49.1252; 71.932779, 65.627243 Estimated Local Min
+1.590996 Force Magnitude
+0 Iterations
+1 Success
+272 Obstacles in Range
+0.594454 Belief
+792th Step
+Prediction: 1.693, Correction: 0.811487, Prior: 0.594454, Posterior: 0.816689 Belief after normalization: 0.816689Num Collisions: 693, Recognized Area: 39.2699, Total Area: 48.3925; 71.932779, 65.627243 Estimated Local Min
+1.590996 Force Magnitude
+0 Iterations
+1 Success
+273 Obstacles in Range
+0.816689 Belief
+Local Min Found, step: 841
+UGV Position: (71.911465, 65.647657)
+Wasn't predicted :( (bad)

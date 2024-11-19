@@ -31,7 +31,7 @@ const double D_SAFE = 5.0;    // Safe distance / Scanner Radius
 // Constants for testing simulation
 const double STEP_SIZE = 0.01;
 const double OBSTACLE_HEIGHT = 10.0; // Max height of obstacles in field graph
-const double MAX_VEL = 1.0;          // Max velocity of UGV
+const double MAX_VEL = 0.1;          // Max velocity of UGV
 
 // Returns attractive force
 // F_att = K_ATT * (goal_pos - ugv_pos)
@@ -91,17 +91,25 @@ LocalMinResult find_potential_local_min(const array<double, 2>& ugv_pos, const a
                                       int max_iter = 1000, double threshold = 1e-3) {
     // Grid search within D_SAFE radius to find good starting point
     array<double, 2> best_pos = ugv_pos;
+    // array<double, 2> temp = {0.0, 0.0};
+    // array<double, 2> best_pos = (guess_i == temp) ? ugv_pos : guess_i;
     double min_force = calc_net_force_mag(ugv_pos, goal_pos, obstacles);
     
     // Search in a grid pattern within D_SAFE radius
+    // Calculate direction vector from UGV to goal
+    double goal_dir_x = goal_pos[0] - ugv_pos[0];
+    double goal_dir_y = goal_pos[1] - ugv_pos[1];
+    double goal_angle = atan2(goal_dir_y, goal_dir_x);
+
     double search_step = D_SAFE / 100.0;
-    for(double x = ugv_pos[0] - D_SAFE; x <= ugv_pos[0] + D_SAFE; x += search_step) {
-        for(double y = ugv_pos[1] - D_SAFE; y <= ugv_pos[1] + D_SAFE; y += search_step) {
-            array<double, 2> test_pos = {x, y};
-            // Check if point is within D_SAFE radius
-            double dist_to_ugv = sqrt(pow(x - ugv_pos[0], 2) + pow(y - ugv_pos[1], 2));
-            if(dist_to_ugv > D_SAFE) continue;
+    for(double r = 0; r <= D_SAFE; r += search_step) {
+        // Search in an arc centered on goal direction
+        for(double theta = goal_angle - M_PI/2; theta <= goal_angle + M_PI/2; theta += search_step/r) {
+            // Convert polar to cartesian coordinates
+            double x = ugv_pos[0] + r * cos(theta);
+            double y = ugv_pos[1] + r * sin(theta);
             
+            array<double, 2> test_pos = {x, y};
             double force = calc_net_force_mag(test_pos, goal_pos, obstacles);
             if(force < min_force) {
                 min_force = force;
@@ -111,45 +119,45 @@ LocalMinResult find_potential_local_min(const array<double, 2>& ugv_pos, const a
     }
 
     // Gradient descent from best grid point
-    // array<double, 2> current_pos = best_pos;
-    // double current_force = min_force;
-    // int iter = 0;
-    
-    // while(current_force > threshold && iter < max_iter) {
-    //     array<double, 2> grad = {0.0, 0.0};
-    //     // Calculate gradient
-    //     for(int i = 0; i < 2; i++) {
-    //         array<double, 2> perturbed_pos = current_pos;
-    //         perturbed_pos[i] += 0.0001;
-    //         double perturbed_force = calc_net_force_mag(perturbed_pos, goal_pos, obstacles);
-    //         grad[i] = (perturbed_force - current_force) / 0.0001;
-    //     }
-        
-    //     // Update position (staying within D_SAFE radius)
-    //     array<double, 2> new_pos = {
-    //         current_pos[0] - grad[0] * STEP_SIZE,
-    //         current_pos[1] - grad[1] * STEP_SIZE
-    //     };
-        
-    //     // Ensure new position is within D_SAFE radius
-    //     double dist_to_ugv = sqrt(pow(new_pos[0] - ugv_pos[0], 2) + pow(new_pos[1] - ugv_pos[1], 2));
-    //     if(dist_to_ugv > D_SAFE) {
-    //         // Project back onto D_SAFE circle
-    //         double angle = atan2(new_pos[1] - ugv_pos[1], new_pos[0] - ugv_pos[0]);
-    //         new_pos[0] = ugv_pos[0] + D_SAFE * cos(angle);
-    //         new_pos[1] = ugv_pos[1] + D_SAFE * sin(angle);
-    //     }
-        
-    //     double new_force = calc_net_force_mag(new_pos, goal_pos, obstacles);
-    //     if(new_force >= current_force) break; // Stop if force increases
-        
-    //     current_pos = new_pos;
-    //     current_force = new_force;
-    //     iter++;
-    // }
     array<double, 2> current_pos = best_pos;
     double current_force = min_force;
     int iter = 0;
+    
+    while(current_force > threshold && iter < max_iter) {
+        array<double, 2> grad = {0.0, 0.0};
+        // Calculate gradient
+        for(int i = 0; i < 2; i++) {
+            array<double, 2> perturbed_pos = current_pos;
+            perturbed_pos[i] += 0.0001;
+            double perturbed_force = calc_net_force_mag(perturbed_pos, goal_pos, obstacles);
+            grad[i] = (perturbed_force - current_force) / 0.0001;
+        }
+        
+        // Update position (staying within D_SAFE radius)
+        array<double, 2> new_pos = {
+            current_pos[0] - grad[0] * STEP_SIZE,
+            current_pos[1] - grad[1] * STEP_SIZE
+        };
+        
+        // Ensure new position is within D_SAFE radius
+        double dist_to_ugv = sqrt(pow(new_pos[0] - ugv_pos[0], 2) + pow(new_pos[1] - ugv_pos[1], 2));
+        if(dist_to_ugv > D_SAFE) {
+            // Project back onto D_SAFE circle
+            double angle = atan2(new_pos[1] - ugv_pos[1], new_pos[0] - ugv_pos[0]);
+            new_pos[0] = ugv_pos[0] + D_SAFE * cos(angle);
+            new_pos[1] = ugv_pos[1] + D_SAFE * sin(angle);
+        }
+        
+        double new_force = calc_net_force_mag(new_pos, goal_pos, obstacles);
+        if(new_force >= current_force) break; // Stop if force increases
+        
+        current_pos = new_pos;
+        current_force = new_force;
+        iter++;
+    }
+    // array<double, 2> current_pos = best_pos;
+    // double current_force = min_force;
+    // int iter = 0;
 
     // Compute final forces
     array<double, 2> final_F_att = att_force(current_pos, goal_pos);
@@ -271,7 +279,7 @@ sim_movement_with_DBF(const array<double, 2>& pos_i, const array<double, 2>& goa
                 estimated_local_min = prior_estimated_local_min;
             }
             if (first_check) {
-                int group_a_points = sensor.get_group_a_points({pos_c[0], pos_c[1], 0.0}, {estimated_local_min.local_min[0], estimated_local_min.local_min[1], 0.0}, 0.1);
+                int group_a_points = sensor.get_group_a_points({pos_c[0], pos_c[1], 0.0}, {estimated_local_min.local_min[0], estimated_local_min.local_min[1], 0.0}, 1.0);
                 log_string += "Initial belief: " + to_string(dbf.initialize_belief(group_a_points)) + "\n";
                 log_string += "Group A Points: " + to_string(group_a_points) + "\n";
                 first_check = false;
