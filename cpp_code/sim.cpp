@@ -65,10 +65,10 @@ bool is_local_min(const array<double, 2>& force_net, double threshold = 1e-3) {
     return force_mag < threshold;
 }
 
-// Helper function to calculate the force difference
-double force_difference(const array<double, 2>& ugv_pos, const array<double, 2>& goal_pos, const vector<array<double, 2>>& obstacles) {
-    array<double, 2> F_att = att_force(ugv_pos, goal_pos);
-    array<double, 2> F_rep = obstacles.empty() ? array<double, 2>{0.0, 0.0} : rep_force_optimized(ugv_pos, obstacles);
+// Helper function to calculate the net force magnitude at a point
+double calc_net_force_mag(const array<double, 2>& pos, const array<double, 2>& goal_pos, const vector<array<double, 2>>& obstacles) {
+    array<double, 2> F_att = att_force(pos, goal_pos);
+    array<double, 2> F_rep = rep_force_optimized(pos, obstacles);
     double net_force_x = F_att[0] + F_rep[0];
     double net_force_y = F_att[1] + F_rep[1];
     return sqrt(net_force_x * net_force_x + net_force_y * net_force_y);
@@ -78,7 +78,7 @@ double force_difference(const array<double, 2>& ugv_pos, const array<double, 2>&
 struct LocalMinResult {
     array<double, 2> local_min;
     array<double, 2> F_att;
-    array<double, 2> F_rep;
+    array<double, 2> F_rep; 
     array<double, 2> F_net;
     double force_mag;
     bool success;
@@ -89,33 +89,74 @@ struct LocalMinResult {
 LocalMinResult find_potential_local_min(const array<double, 2>& ugv_pos, const array<double, 2>& goal_pos,
                                       const vector<array<double, 2>>& obstacles, const array<double, 2>& guess_i = {0.0, 0.0},
                                       int max_iter = 1000, double threshold = 1e-3) {
+    // Grid search within D_SAFE radius to find good starting point
+    array<double, 2> best_pos = ugv_pos;
+    double min_force = calc_net_force_mag(ugv_pos, goal_pos, obstacles);
     
-    // Initialize search at UGV position
-    array<double, 2> current_pos = ugv_pos;
-    double diff = 0.0;
+    // Search in a grid pattern within D_SAFE radius
+    double search_step = D_SAFE / 100.0;
+    for(double x = ugv_pos[0] - D_SAFE; x <= ugv_pos[0] + D_SAFE; x += search_step) {
+        for(double y = ugv_pos[1] - D_SAFE; y <= ugv_pos[1] + D_SAFE; y += search_step) {
+            array<double, 2> test_pos = {x, y};
+            // Check if point is within D_SAFE radius
+            double dist_to_ugv = sqrt(pow(x - ugv_pos[0], 2) + pow(y - ugv_pos[1], 2));
+            if(dist_to_ugv > D_SAFE) continue;
+            
+            double force = calc_net_force_mag(test_pos, goal_pos, obstacles);
+            if(force < min_force) {
+                min_force = force;
+                best_pos = test_pos;
+            }
+        }
+    }
+
+    // Gradient descent from best grid point
+    // array<double, 2> current_pos = best_pos;
+    // double current_force = min_force;
+    // int iter = 0;
+    
+    // while(current_force > threshold && iter < max_iter) {
+    //     array<double, 2> grad = {0.0, 0.0};
+    //     // Calculate gradient
+    //     for(int i = 0; i < 2; i++) {
+    //         array<double, 2> perturbed_pos = current_pos;
+    //         perturbed_pos[i] += 0.0001;
+    //         double perturbed_force = calc_net_force_mag(perturbed_pos, goal_pos, obstacles);
+    //         grad[i] = (perturbed_force - current_force) / 0.0001;
+    //     }
+        
+    //     // Update position (staying within D_SAFE radius)
+    //     array<double, 2> new_pos = {
+    //         current_pos[0] - grad[0] * STEP_SIZE,
+    //         current_pos[1] - grad[1] * STEP_SIZE
+    //     };
+        
+    //     // Ensure new position is within D_SAFE radius
+    //     double dist_to_ugv = sqrt(pow(new_pos[0] - ugv_pos[0], 2) + pow(new_pos[1] - ugv_pos[1], 2));
+    //     if(dist_to_ugv > D_SAFE) {
+    //         // Project back onto D_SAFE circle
+    //         double angle = atan2(new_pos[1] - ugv_pos[1], new_pos[0] - ugv_pos[0]);
+    //         new_pos[0] = ugv_pos[0] + D_SAFE * cos(angle);
+    //         new_pos[1] = ugv_pos[1] + D_SAFE * sin(angle);
+    //     }
+        
+    //     double new_force = calc_net_force_mag(new_pos, goal_pos, obstacles);
+    //     if(new_force >= current_force) break; // Stop if force increases
+        
+    //     current_pos = new_pos;
+    //     current_force = new_force;
+    //     iter++;
+    // }
+    array<double, 2> current_pos = best_pos;
+    double current_force = min_force;
     int iter = 0;
 
-    do {
-        array<double, 2> grad = {0.01, 0.01};
-        for (int i = 0; i < 2; i++) {
-            array<double, 2> perturbed_pos = current_pos;
-            perturbed_pos[i] += 0.0001;
-            double delta = force_difference(perturbed_pos, goal_pos, obstacles) - force_difference(current_pos, goal_pos, obstacles);
-            grad[i] = delta / 0.0001;
-        }
-        current_pos[0] -= grad[0] * STEP_SIZE;
-        current_pos[1] -= grad[1] * STEP_SIZE;
-        diff = force_difference(current_pos, goal_pos, obstacles);
-        iter++;
-    } while (diff > threshold);
-
-    
-    // Compute final forces at best position
+    // Compute final forces
     array<double, 2> final_F_att = att_force(current_pos, goal_pos);
     array<double, 2> final_F_rep = rep_force_optimized(current_pos, obstacles);
     array<double, 2> final_F_net = {final_F_att[0] + final_F_rep[0], final_F_att[1] + final_F_rep[1]};
     
-    return {current_pos, final_F_att, final_F_rep, final_F_net, diff, true, iter};
+    return {current_pos, final_F_att, final_F_rep, final_F_net, current_force, true, iter};
 }
 
 // Generates clustered obstacles
@@ -223,8 +264,8 @@ sim_movement_with_DBF(const array<double, 2>& pos_i, const array<double, 2>& goa
                 estimated_local_min = find_potential_local_min(pos_c, goal_pos, obstacles_in_range_2d, prior_estimated_local_min.local_min);
             }
 
-            if (!first_check && (abs(estimated_local_min.local_min[0] - prior_estimated_local_min.local_min[0]) > 0.01 ||
-                                 abs(estimated_local_min.local_min[1] - prior_estimated_local_min.local_min[1]) > 0.01)) {
+            if (!first_check && (abs(estimated_local_min.local_min[0] - prior_estimated_local_min.local_min[0]) > 2.00 ||
+                                 abs(estimated_local_min.local_min[1] - prior_estimated_local_min.local_min[1]) > 2.00)) {
                 first_check = true;
             } else if (!first_check) {
                 estimated_local_min = prior_estimated_local_min;
